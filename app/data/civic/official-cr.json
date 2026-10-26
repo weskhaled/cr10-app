@@ -1,0 +1,1060 @@
+{
+  "source": "https://formation-civique.interieur.gouv.fr/examen-civique/liste-officielle-des-questions-de-connaissance-cr/",
+  "licence": "Licence Ouverte / Etalab 2.0",
+  "importedAt": "2026-10-26",
+  "count": 209,
+  "counts": {
+    "valeurs": 40,
+    "institutions": 50,
+    "droits": 38,
+    "histoire": 49,
+    "vie": 32
+  },
+  "questions": [
+    {
+      "id": "cr-vale-87dadaed",
+      "theme": "valeurs",
+      "q": "Parmi les propositions suivantes, laquelle constitue une participation citoyenne ?"
+    },
+    {
+      "id": "cr-vale-69597a18",
+      "theme": "valeurs",
+      "q": "Que garantit la liberté d’expression ?"
+    },
+    {
+      "id": "cr-vale-b0e1bf73",
+      "theme": "valeurs",
+      "q": "À quoi sert un titre de séjour ?"
+    },
+    {
+      "id": "cr-vale-5b2f5145",
+      "theme": "valeurs",
+      "q": "La liberté de circulation permet à toute personne de :"
+    },
+    {
+      "id": "cr-vale-e2d9de89",
+      "theme": "valeurs",
+      "q": "Sur quel site internet peut-on retrouver le symbole de la République française ?"
+    },
+    {
+      "id": "cr-vale-73547a35",
+      "theme": "valeurs",
+      "q": "Complétez ces paroles de la Marseillaise : \"Aux armes […] ! Formez vos bataillons\""
+    },
+    {
+      "id": "cr-vale-901268f7",
+      "theme": "valeurs",
+      "q": "Complétez les paroles de la Marseillaise : \"Allons enfants de la patrie […]\""
+    },
+    {
+      "id": "cr-vale-35d21230",
+      "theme": "valeurs",
+      "q": "En application de la liberté individuelle, quelle proposition est correcte ? Une personne peut :"
+    },
+    {
+      "id": "cr-vale-9eb9b5b0",
+      "theme": "valeurs",
+      "q": "Concernant la pratique de la religion, quelle proposition est correcte ?"
+    },
+    {
+      "id": "cr-vale-332825e2",
+      "theme": "valeurs",
+      "q": "En tant que parent, peut-on refuser que son enfant participe aux cours de sport à l'école car ils sont mixtes ?"
+    },
+    {
+      "id": "cr-vale-834f5629",
+      "theme": "valeurs",
+      "q": "Quelle est la devise de la France ?"
+    },
+    {
+      "id": "cr-vale-dfcbe2b1",
+      "theme": "valeurs",
+      "q": "La répudiation de sa femme est :"
+    },
+    {
+      "id": "cr-vale-fd31497e",
+      "theme": "valeurs",
+      "q": "Les impôts permettent de financer les dépenses publiques. Quelle proposition est correcte ?"
+    },
+    {
+      "id": "cr-vale-f7dae6ee",
+      "theme": "valeurs",
+      "q": "Peut-on brûler publiquement un drapeau français ?"
+    },
+    {
+      "id": "cr-vale-b9ab4b19",
+      "theme": "valeurs",
+      "q": "Que fait l’État pour lutter contre les discriminations ?"
+    },
+    {
+      "id": "cr-vale-00aca238",
+      "theme": "valeurs",
+      "q": "Que représente Marianne ?"
+    },
+    {
+      "id": "cr-vale-28c4894b",
+      "theme": "valeurs",
+      "q": "Qu'est-ce que la liberté d'association ?"
+    },
+    {
+      "id": "cr-vale-fb9f7e2f",
+      "theme": "valeurs",
+      "q": "Qu'est-ce que la liberté ?"
+    },
+    {
+      "id": "cr-vale-219a4fb8",
+      "theme": "valeurs",
+      "q": "Qu'est-ce que la Marseillaise ?"
+    },
+    {
+      "id": "cr-vale-badb8144",
+      "theme": "valeurs",
+      "q": "Sur quel document peut-on voir Marianne ?"
+    },
+    {
+      "id": "cr-vale-2529a4f6",
+      "theme": "valeurs",
+      "q": "Un employeur refuse d’embaucher des femmes dans son entreprise. Que dit la loi ?"
+    },
+    {
+      "id": "cr-vale-8bbca030",
+      "theme": "valeurs",
+      "q": "Une des valeurs de la devise républicaine est l'égalité. Qu'est-ce que cela signifie ?"
+    },
+    {
+      "id": "cr-vale-aece05ab",
+      "theme": "valeurs",
+      "q": "Quelle est la place de la langue française dans la République ?"
+    },
+    {
+      "id": "cr-vale-9326d596",
+      "theme": "valeurs",
+      "q": "Quels sont des symboles officiels de la République française ?"
+    },
+    {
+      "id": "cr-vale-0e16ce80",
+      "theme": "valeurs",
+      "q": "A-t-on le droit d'insulter publiquement quelqu’un parce qu’il est différent (handicap, apparence physique, sexe…) ?"
+    },
+    {
+      "id": "cr-vale-b4bc7137",
+      "theme": "valeurs",
+      "q": "Le régime de la France est :"
+    },
+    {
+      "id": "cr-vale-c216e523",
+      "theme": "valeurs",
+      "q": "Pourquoi le principe de laïcité doit-il être respecté à l'école ?"
+    },
+    {
+      "id": "cr-vale-0abba22f",
+      "theme": "valeurs",
+      "q": "En quelle année la loi de séparation des Églises et de l'Etat a-t-elle été votée ?"
+    },
+    {
+      "id": "cr-vale-d1171fb2",
+      "theme": "valeurs",
+      "q": "Une personne a-t-elle le droit de ne pas croire en une religion ?"
+    },
+    {
+      "id": "cr-vale-6854dfe3",
+      "theme": "valeurs",
+      "q": "Quel droit est garanti par la laïcité ?"
+    },
+    {
+      "id": "cr-vale-4c79faf9",
+      "theme": "valeurs",
+      "q": "À l'école publique, qui peut porter des signes religieux très visibles ?"
+    },
+    {
+      "id": "cr-vale-c66c5922",
+      "theme": "valeurs",
+      "q": "Selon le principe de laïcité, que signifie la neutralité de l’État ?"
+    },
+    {
+      "id": "cr-vale-15d65b13",
+      "theme": "valeurs",
+      "q": "Que peut faire un usager du service public dans une mairie ?"
+    },
+    {
+      "id": "cr-vale-b7c885d2",
+      "theme": "valeurs",
+      "q": "Qui doit respecter le principe de neutralité religieuse dans une préfecture ?"
+    },
+    {
+      "id": "cr-vale-eb994ad2",
+      "theme": "valeurs",
+      "q": "La laïcité impose-t-elle aux agents publics d'être neutres vis-à-vis des usagers ?"
+    },
+    {
+      "id": "cr-vale-96f44c37",
+      "theme": "valeurs",
+      "q": "Que garantit le principe de laïcité ?"
+    },
+    {
+      "id": "cr-vale-5b5135ea",
+      "theme": "valeurs",
+      "q": "A-t-on le droit de changer de religion ?"
+    },
+    {
+      "id": "cr-vale-16245101",
+      "theme": "valeurs",
+      "q": "Que représente la laïcité ?"
+    },
+    {
+      "id": "cr-vale-57c7c26c",
+      "theme": "valeurs",
+      "q": "Qu'est ce qui est interdit par la Charte de la laïcité à l'école ?"
+    },
+    {
+      "id": "cr-vale-7d6fad09",
+      "theme": "valeurs",
+      "q": "Que dit l'article 1er de la Constitution française ?"
+    },
+    {
+      "id": "cr-inst-1118c0d1",
+      "theme": "institutions",
+      "q": "Qu'est-ce que l'État de droit ?"
+    },
+    {
+      "id": "cr-inst-5bd5a7aa",
+      "theme": "institutions",
+      "q": "Le président de la République a commis un crime. Quelle proposition est correcte ?"
+    },
+    {
+      "id": "cr-inst-4d63dc21",
+      "theme": "institutions",
+      "q": "La loi est l'expression de :"
+    },
+    {
+      "id": "cr-inst-dc238b8b",
+      "theme": "institutions",
+      "q": "Quelle est la durée du mandat du conseil municipal et du maire ?"
+    },
+    {
+      "id": "cr-inst-4740c150",
+      "theme": "institutions",
+      "q": "Que garantit l’État de droit ?"
+    },
+    {
+      "id": "cr-inst-d997a31a",
+      "theme": "institutions",
+      "q": "Une personne peut-elle voter à la place d'une autre ?"
+    },
+    {
+      "id": "cr-inst-3bf4b439",
+      "theme": "institutions",
+      "q": "Est-ce que le vote est obligatoire ?"
+    },
+    {
+      "id": "cr-inst-7f11547b",
+      "theme": "institutions",
+      "q": "À la fin de son mandat, le président de la République peut-il décider de rester au pouvoir ?"
+    },
+    {
+      "id": "cr-inst-3fdc3cbb",
+      "theme": "institutions",
+      "q": "Qui dirige l'action du Gouvernement ?"
+    },
+    {
+      "id": "cr-inst-54cfaa9a",
+      "theme": "institutions",
+      "q": "Qui nomme le Premier ministre ?"
+    },
+    {
+      "id": "cr-inst-73ed31a4",
+      "theme": "institutions",
+      "q": "Quelle est l'organisation administrative de la France ?"
+    },
+    {
+      "id": "cr-inst-eb3a8eb7",
+      "theme": "institutions",
+      "q": "Qu'est-ce que le pouvoir législatif ? Le pouvoir :"
+    },
+    {
+      "id": "cr-inst-2b39cfdf",
+      "theme": "institutions",
+      "q": "Pourquoi séparer les trois pouvoirs dans une démocratie ?"
+    },
+    {
+      "id": "cr-inst-7c6b2183",
+      "theme": "institutions",
+      "q": "Qui sanctionne l'auteur d'un vol ?"
+    },
+    {
+      "id": "cr-inst-56c4e0ae",
+      "theme": "institutions",
+      "q": "Quel est le rôle du gouvernement ?"
+    },
+    {
+      "id": "cr-inst-ef663246",
+      "theme": "institutions",
+      "q": "Que se passe-t-il si un ministre ne respecte pas la loi ?"
+    },
+    {
+      "id": "cr-inst-f8805f08",
+      "theme": "institutions",
+      "q": "Combien de députés composent l’Assemblée nationale ?"
+    },
+    {
+      "id": "cr-inst-9905943c",
+      "theme": "institutions",
+      "q": "Qui peut voter aux élections en France ?"
+    },
+    {
+      "id": "cr-inst-ff215b6d",
+      "theme": "institutions",
+      "q": "Pour combien de temps sont élus les sénateurs ?"
+    },
+    {
+      "id": "cr-inst-69b19879",
+      "theme": "institutions",
+      "q": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?"
+    },
+    {
+      "id": "cr-inst-8451626a",
+      "theme": "institutions",
+      "q": "Est-ce que le président de la République a tous les pouvoirs ?"
+    },
+    {
+      "id": "cr-inst-02343eb8",
+      "theme": "institutions",
+      "q": "Qui est le préfet ?"
+    },
+    {
+      "id": "cr-inst-3f5c7550",
+      "theme": "institutions",
+      "q": "Quelle condition est nécessaire pour voter aux élections ?"
+    },
+    {
+      "id": "cr-inst-989256f8",
+      "theme": "institutions",
+      "q": "Qui dirige la commune ?"
+    },
+    {
+      "id": "cr-inst-30ccfb74",
+      "theme": "institutions",
+      "q": "Quel est le régime politique de la France aujourd'hui ?"
+    },
+    {
+      "id": "cr-inst-1cceb9e7",
+      "theme": "institutions",
+      "q": "Qu'est-ce que l'Hôtel de Matignon ?"
+    },
+    {
+      "id": "cr-inst-af1a3b9c",
+      "theme": "institutions",
+      "q": "Le Parlement est composé :"
+    },
+    {
+      "id": "cr-inst-b80ec6c0",
+      "theme": "institutions",
+      "q": "Quel est le rôle du président de la République ?"
+    },
+    {
+      "id": "cr-inst-d15e86a1",
+      "theme": "institutions",
+      "q": "Quel est le rôle du Premier ministre ?"
+    },
+    {
+      "id": "cr-inst-3e2ed3db",
+      "theme": "institutions",
+      "q": "Qui est le chef du Gouvernement ?"
+    },
+    {
+      "id": "cr-inst-4dbad17b",
+      "theme": "institutions",
+      "q": "Combien y a-t-il de régions en France ?"
+    },
+    {
+      "id": "cr-inst-0ee08b24",
+      "theme": "institutions",
+      "q": "Quel est le rôle du Défenseur des droits ?"
+    },
+    {
+      "id": "cr-inst-a1b9590a",
+      "theme": "institutions",
+      "q": "Depuis quand l'euro est-elle la monnaie unique ?"
+    },
+    {
+      "id": "cr-inst-0504b7ad",
+      "theme": "institutions",
+      "q": "Quel est le rôle principal du département ?"
+    },
+    {
+      "id": "cr-inst-a2045bf7",
+      "theme": "institutions",
+      "q": "Quel est le rôle principal des communes ?"
+    },
+    {
+      "id": "cr-inst-2042b3f8",
+      "theme": "institutions",
+      "q": "Combien de communes environ existe-t-il en France ?"
+    },
+    {
+      "id": "cr-inst-4de7328e",
+      "theme": "institutions",
+      "q": "Quel traité concerne la construction de l'Union européenne ?"
+    },
+    {
+      "id": "cr-inst-4325ea39",
+      "theme": "institutions",
+      "q": "Quel État a quitté l'Union européenne en 2020 ?"
+    },
+    {
+      "id": "cr-inst-a5c2eab3",
+      "theme": "institutions",
+      "q": "Quelle est la devise de l’Union européenne ?"
+    },
+    {
+      "id": "cr-inst-f4ef9655",
+      "theme": "institutions",
+      "q": "Quel est l'hymne de l'Union européenne ?"
+    },
+    {
+      "id": "cr-inst-4be972c3",
+      "theme": "institutions",
+      "q": "De quoi est composé le drapeau européen ?"
+    },
+    {
+      "id": "cr-inst-95dfbf72",
+      "theme": "institutions",
+      "q": "De quelle couleur est le drapeau européen ?"
+    },
+    {
+      "id": "cr-inst-03be65a3",
+      "theme": "institutions",
+      "q": "En quelle année le traité de Maastricht, qui marque la fondation de l'Union européenne, a-t-il été signé ?"
+    },
+    {
+      "id": "cr-inst-9327a8de",
+      "theme": "institutions",
+      "q": "Où est le siège du Parlement européen ?"
+    },
+    {
+      "id": "cr-inst-829a6cbf",
+      "theme": "institutions",
+      "q": "Où est le siège de la Commission européenne ?"
+    },
+    {
+      "id": "cr-inst-f7889f64",
+      "theme": "institutions",
+      "q": "Quel État n'est pas membre de l'Union européenne ?"
+    },
+    {
+      "id": "cr-inst-91b1afb4",
+      "theme": "institutions",
+      "q": "Quand célèbre-t-on la journée de l'Europe ?"
+    },
+    {
+      "id": "cr-inst-246b3349",
+      "theme": "institutions",
+      "q": "À quelle fréquence les élections européennes sont-elles organisées ?"
+    },
+    {
+      "id": "cr-inst-2951970d",
+      "theme": "institutions",
+      "q": "Quelle condition est nécessaire pour voter aux élections européennes ?"
+    },
+    {
+      "id": "cr-inst-f7255650",
+      "theme": "institutions",
+      "q": "Quel pays est un pays fondateur de l'Union européenne ?"
+    },
+    {
+      "id": "cr-droi-7a7e33ab",
+      "theme": "droits",
+      "q": "À quelle liberté la PMA fait-elle référence ?"
+    },
+    {
+      "id": "cr-droi-78c364f4",
+      "theme": "droits",
+      "q": "Au nom de quoi l'État justifie-t-il la restriction des droits ?"
+    },
+    {
+      "id": "cr-droi-ba915e44",
+      "theme": "droits",
+      "q": "Concernant le droit de se marier, quelle proposition est correcte ?"
+    },
+    {
+      "id": "cr-droi-a90b7042",
+      "theme": "droits",
+      "q": "Est-il toujours possible de divorcer ?"
+    },
+    {
+      "id": "cr-droi-702a50fc",
+      "theme": "droits",
+      "q": "La peine de mort est :"
+    },
+    {
+      "id": "cr-droi-a4591504",
+      "theme": "droits",
+      "q": "Laquelle de ces citations est inscrite dans la Déclaration des Droits de l'homme et du Citoyen de 1789 ?"
+    },
+    {
+      "id": "cr-droi-67400644",
+      "theme": "droits",
+      "q": "Le recours à l'avortement est-il autorisé ?"
+    },
+    {
+      "id": "cr-droi-452868aa",
+      "theme": "droits",
+      "q": "Que contient la Constitution ?"
+    },
+    {
+      "id": "cr-droi-db504bdc",
+      "theme": "droits",
+      "q": "Que garantit la liberté de la presse ?"
+    },
+    {
+      "id": "cr-droi-1d852ee7",
+      "theme": "droits",
+      "q": "Que prévoit la Charte de l'environnement ?"
+    },
+    {
+      "id": "cr-droi-7f16704d",
+      "theme": "droits",
+      "q": "Que signifie la dignité humaine ?"
+    },
+    {
+      "id": "cr-droi-71f245e4",
+      "theme": "droits",
+      "q": "Que signifie le droit de manifester ?"
+    },
+    {
+      "id": "cr-droi-5b0ff9db",
+      "theme": "droits",
+      "q": "Que signifie PMA ?"
+    },
+    {
+      "id": "cr-droi-d385c587",
+      "theme": "droits",
+      "q": "Quel texte est le plus difficile à modifier ?"
+    },
+    {
+      "id": "cr-droi-33c14b63",
+      "theme": "droits",
+      "q": "Quelle liberté permet à une personne de croire en la religion de son choix ?"
+    },
+    {
+      "id": "cr-droi-3085ddaa",
+      "theme": "droits",
+      "q": "Qu'est-ce que le droit de grève ?"
+    },
+    {
+      "id": "cr-droi-b86c06ca",
+      "theme": "droits",
+      "q": "Qu'est-ce que la Constitution ?"
+    },
+    {
+      "id": "cr-droi-324ded2c",
+      "theme": "droits",
+      "q": "Qui peut demander à avorter ?"
+    },
+    {
+      "id": "cr-droi-0ad4998d",
+      "theme": "droits",
+      "q": "Une femme majeure de nationalité française a-t-elle le droit de voter aux élections ?"
+    },
+    {
+      "id": "cr-droi-048033bd",
+      "theme": "droits",
+      "q": "Concernant l'utilisation des réseaux sociaux, quelle proposition est correcte ?"
+    },
+    {
+      "id": "cr-droi-7feeb123",
+      "theme": "droits",
+      "q": "Jeter un mégot par terre est :"
+    },
+    {
+      "id": "cr-droi-ec242a0f",
+      "theme": "droits",
+      "q": "L'État peut-il limiter les droits et libertés ?"
+    },
+    {
+      "id": "cr-droi-ae117c9a",
+      "theme": "droits",
+      "q": "Parmi ces actions, laquelle permet d'adopter une attitude respectueuse de l’environnement ?"
+    },
+    {
+      "id": "cr-droi-22dc5832",
+      "theme": "droits",
+      "q": "Quelle proposition constitue une obligation ?"
+    },
+    {
+      "id": "cr-droi-684bd7a8",
+      "theme": "droits",
+      "q": "Pour quel motif peut-on limiter la liberté d'expression ?"
+    },
+    {
+      "id": "cr-droi-aa6df189",
+      "theme": "droits",
+      "q": "Pourquoi doit-on trier ses déchets ?"
+    },
+    {
+      "id": "cr-droi-cbb9e2c4",
+      "theme": "droits",
+      "q": "Que doit faire une victime de violences ?"
+    },
+    {
+      "id": "cr-droi-ffa4055c",
+      "theme": "droits",
+      "q": "Que doit-on faire face aux ordres des policiers ou gendarmes ?"
+    },
+    {
+      "id": "cr-droi-c799d5cb",
+      "theme": "droits",
+      "q": "Quel est le rôle de la police ?"
+    },
+    {
+      "id": "cr-droi-267daa59",
+      "theme": "droits",
+      "q": "Quel est un exemple d’assistance à personne en danger ?"
+    },
+    {
+      "id": "cr-droi-167e0259",
+      "theme": "droits",
+      "q": "Quel exemple illustre une limitation de liberté pour protéger l'intérêt général ?"
+    },
+    {
+      "id": "cr-droi-4d9b0516",
+      "theme": "droits",
+      "q": "Quelle est l’attitude à avoir lorsque qu'on est témoin de violences ?"
+    },
+    {
+      "id": "cr-droi-4921e405",
+      "theme": "droits",
+      "q": "Quelle est l'infraction la plus grave ?"
+    },
+    {
+      "id": "cr-droi-889cdcf3",
+      "theme": "droits",
+      "q": "Quelle obligation concerne toutes les personnes résidant en France quelle que soit leur nationalité ?"
+    },
+    {
+      "id": "cr-droi-d475503e",
+      "theme": "droits",
+      "q": "Quelle proposition représente un exemple de crime ?"
+    },
+    {
+      "id": "cr-droi-37bd282b",
+      "theme": "droits",
+      "q": "Quelle proposition représente un exemple de délit ?"
+    },
+    {
+      "id": "cr-droi-b1cfbc8a",
+      "theme": "droits",
+      "q": "Qui veille au maintien de l’ordre public ?"
+    },
+    {
+      "id": "cr-droi-e06e8dd5",
+      "theme": "droits",
+      "q": "S'agissant des déchets, quelle proposition est correcte ?"
+    },
+    {
+      "id": "cr-hist-91e19082",
+      "theme": "histoire",
+      "q": "Quel était le surnom de Louis XIV ?"
+    },
+    {
+      "id": "cr-hist-1d42f604",
+      "theme": "histoire",
+      "q": "Quel roi de France a été exécuté pendant la Révolution française ?"
+    },
+    {
+      "id": "cr-hist-8a07994b",
+      "theme": "histoire",
+      "q": "En quelle année Napoléon Ier est-il devenu empereur ?"
+    },
+    {
+      "id": "cr-hist-91f31691",
+      "theme": "histoire",
+      "q": "Lequel de ces personnages a un lien avec la République française ?"
+    },
+    {
+      "id": "cr-hist-7dc74e95",
+      "theme": "histoire",
+      "q": "De quand date l'appel à la résistance du général de Gaulle ?"
+    },
+    {
+      "id": "cr-hist-b91f8172",
+      "theme": "histoire",
+      "q": "Pourquoi la Shoah est-elle étudiée à l'école ?"
+    },
+    {
+      "id": "cr-hist-692a9a6c",
+      "theme": "histoire",
+      "q": "Quel pays a été colonisé par la France ?"
+    },
+    {
+      "id": "cr-hist-8ebdc107",
+      "theme": "histoire",
+      "q": "Depuis quand les Français élisent-ils le président de la République au suffrage universel direct ?"
+    },
+    {
+      "id": "cr-hist-2654214f",
+      "theme": "histoire",
+      "q": "Quelle est la première étape de la construction européenne en 1951 ?"
+    },
+    {
+      "id": "cr-hist-9506849e",
+      "theme": "histoire",
+      "q": "Durant le mandat de quel président la peine de mort a-t-elle été abolie ?"
+    },
+    {
+      "id": "cr-hist-653fdb4d",
+      "theme": "histoire",
+      "q": "Quel régime politique a été mis en place pendant la Révolution française en 1792 ?"
+    },
+    {
+      "id": "cr-hist-7ea00fac",
+      "theme": "histoire",
+      "q": "Qui était une figure de la Résistance française pendant la Seconde Guerre mondiale ?"
+    },
+    {
+      "id": "cr-hist-fff163df",
+      "theme": "histoire",
+      "q": "En 1944, qu'est-ce qui a changé pour les femmes ?"
+    },
+    {
+      "id": "cr-hist-16e6139a",
+      "theme": "histoire",
+      "q": "Quelle organisation internationale a été créée en 1945 après la Seconde Guerre mondiale ?"
+    },
+    {
+      "id": "cr-hist-561e9a01",
+      "theme": "histoire",
+      "q": "Quelle peine a été supprimée en 1981 ?"
+    },
+    {
+      "id": "cr-hist-624c9c6d",
+      "theme": "histoire",
+      "q": "En quelle année l'euro est-elle devenue la monnaie utilisée en France ?"
+    },
+    {
+      "id": "cr-hist-1d315050",
+      "theme": "histoire",
+      "q": "En quelle année a commencé la Première Guerre mondiale ?"
+    },
+    {
+      "id": "cr-hist-036b8fa7",
+      "theme": "histoire",
+      "q": "Où a eu lieu le débarquement en 1944 ?"
+    },
+    {
+      "id": "cr-hist-fc137121",
+      "theme": "histoire",
+      "q": "Quel continent a été le plus concerné par la décolonisation française après la Seconde Guerre mondiale ?"
+    },
+    {
+      "id": "cr-hist-06b638af",
+      "theme": "histoire",
+      "q": "Que fête-t-on le 8 mai ?"
+    },
+    {
+      "id": "cr-hist-dfc7cdf2",
+      "theme": "histoire",
+      "q": "Quelle mer ou océan borde la France métropolitaine ?"
+    },
+    {
+      "id": "cr-hist-6728391f",
+      "theme": "histoire",
+      "q": "Quel pays a une frontière terrestre avec la France métropolitaine ?"
+    },
+    {
+      "id": "cr-hist-a627f331",
+      "theme": "histoire",
+      "q": "Quelle ville française est un port maritime ?"
+    },
+    {
+      "id": "cr-hist-87bcbf47",
+      "theme": "histoire",
+      "q": "Quelle mer se situe entre la France et l'Angleterre ?"
+    },
+    {
+      "id": "cr-hist-1099dccf",
+      "theme": "histoire",
+      "q": "Qu'est ce que la France d'outre-mer ?"
+    },
+    {
+      "id": "cr-hist-34dc012f",
+      "theme": "histoire",
+      "q": "Quelle chaîne de montagnes est située entre la France et l’Espagne ?"
+    },
+    {
+      "id": "cr-hist-88fe2f46",
+      "theme": "histoire",
+      "q": "Quelle île française se trouve dans l'océan Indien ?"
+    },
+    {
+      "id": "cr-hist-c1f4836e",
+      "theme": "histoire",
+      "q": "Quelle est la population approximative de la France en 2025 ?"
+    },
+    {
+      "id": "cr-hist-dd15eac0",
+      "theme": "histoire",
+      "q": "Quel fleuve traverse Paris ?"
+    },
+    {
+      "id": "cr-hist-7ec0e95d",
+      "theme": "histoire",
+      "q": "Lequel de ces pays partage des frontières terrestres avec la France ?"
+    },
+    {
+      "id": "cr-hist-72d80f2b",
+      "theme": "histoire",
+      "q": "Quel pays a une frontière avec la France métropolitaine au nord-est ?"
+    },
+    {
+      "id": "cr-hist-535a7122",
+      "theme": "histoire",
+      "q": "Où se trouvent les principales activités économiques en France ?"
+    },
+    {
+      "id": "cr-hist-38b358bc",
+      "theme": "histoire",
+      "q": "Parmi ces pays, lequel attire le plus de visiteurs chaque année ?"
+    },
+    {
+      "id": "cr-hist-4559b47d",
+      "theme": "histoire",
+      "q": "Où habite la majorité des Français ?"
+    },
+    {
+      "id": "cr-hist-25183090",
+      "theme": "histoire",
+      "q": "Quelle région est la plus peuplée ?"
+    },
+    {
+      "id": "cr-hist-95af0363",
+      "theme": "histoire",
+      "q": "Quelle ville française fait partie des 10 plus grandes métropoles du pays ?"
+    },
+    {
+      "id": "cr-hist-546a01b0",
+      "theme": "histoire",
+      "q": "Lequel de ces départements de France est le plus touristique ?"
+    },
+    {
+      "id": "cr-hist-31461c66",
+      "theme": "histoire",
+      "q": "Quand peut-on visiter gratuitement des lieux culturels en France ?"
+    },
+    {
+      "id": "cr-hist-1e91464d",
+      "theme": "histoire",
+      "q": "Combien de personnes parlent français dans le monde ?"
+    },
+    {
+      "id": "cr-hist-be5602d2",
+      "theme": "histoire",
+      "q": "Qui était Marguerite Yourcenar ?"
+    },
+    {
+      "id": "cr-hist-b87b33d0",
+      "theme": "histoire",
+      "q": "Quel peintre est français ?"
+    },
+    {
+      "id": "cr-hist-df49d561",
+      "theme": "histoire",
+      "q": "Quel musée est situé à Paris ?"
+    },
+    {
+      "id": "cr-hist-86922a4a",
+      "theme": "histoire",
+      "q": "Qui était Auguste Rodin ?"
+    },
+    {
+      "id": "cr-hist-0e893cf9",
+      "theme": "histoire",
+      "q": "Quel est le classement de la langue française parmi les langues les plus parlées dans le monde ?"
+    },
+    {
+      "id": "cr-hist-91463b99",
+      "theme": "histoire",
+      "q": "Quelle cathédrale célèbre a été en partie détruite par un incendie en 2019 ?"
+    },
+    {
+      "id": "cr-hist-f91d7d11",
+      "theme": "histoire",
+      "q": "Qui était une écrivaine française célèbre ?"
+    },
+    {
+      "id": "cr-hist-8df86c13",
+      "theme": "histoire",
+      "q": "Qui était un célèbre musicien français ?"
+    },
+    {
+      "id": "cr-hist-d7fcefd3",
+      "theme": "histoire",
+      "q": "Qui était Auguste Renoir ?"
+    },
+    {
+      "id": "cr-hist-4a25fc36",
+      "theme": "histoire",
+      "q": "Quelle fête est française ?"
+    },
+    {
+      "id": "cr-vie-8381de62",
+      "theme": "vie",
+      "q": "Quel mariage est reconnu par l'État ?"
+    },
+    {
+      "id": "cr-vie-1fd63a6a",
+      "theme": "vie",
+      "q": "Auprès de quelle institution les parents peuvent-ils inscrire leur enfant à l'école publique ?"
+    },
+    {
+      "id": "cr-vie-56431c67",
+      "theme": "vie",
+      "q": "En cas de divorce, qui exerce l'autorité parentale ?"
+    },
+    {
+      "id": "cr-vie-90f93da9",
+      "theme": "vie",
+      "q": "Quelle aide permet aux personnes qui ont des difficultés financières d'avoir un avocat ?"
+    },
+    {
+      "id": "cr-vie-1c9879cd",
+      "theme": "vie",
+      "q": "Où faut-il déclarer la naissance d'un enfant ?"
+    },
+    {
+      "id": "cr-vie-06ecbca0",
+      "theme": "vie",
+      "q": "Quelle est l'une des conditions pour passer l'examen du permis de conduire ?"
+    },
+    {
+      "id": "cr-vie-459acd20",
+      "theme": "vie",
+      "q": "Un bail locatif est valide s'il est :"
+    },
+    {
+      "id": "cr-vie-9df59b71",
+      "theme": "vie",
+      "q": "Où peut-on déposer un lave-vaisselle cassé ?"
+    },
+    {
+      "id": "cr-vie-db3d14d7",
+      "theme": "vie",
+      "q": "Quel numéro d'urgence permet d'appeler la police ?"
+    },
+    {
+      "id": "cr-vie-bb8ad27c",
+      "theme": "vie",
+      "q": "Concernant l'accès aux soins, quelle proposition est correcte ?"
+    },
+    {
+      "id": "cr-vie-3fdf16ed",
+      "theme": "vie",
+      "q": "À qui est accessible la contraception ?"
+    },
+    {
+      "id": "cr-vie-dc08afb8",
+      "theme": "vie",
+      "q": "Qu’est-ce que le principe de confidentialité dans le domaine de la santé ?"
+    },
+    {
+      "id": "cr-vie-ed03898a",
+      "theme": "vie",
+      "q": "L'inscription à l'Assurance maladie est :"
+    },
+    {
+      "id": "cr-vie-122c251d",
+      "theme": "vie",
+      "q": "Qui peut demander un congé parental d'éducation ?"
+    },
+    {
+      "id": "cr-vie-39a43b32",
+      "theme": "vie",
+      "q": "Quelles sont les affaires traitées par le conseil de prud'hommes ?"
+    },
+    {
+      "id": "cr-vie-4d727fe5",
+      "theme": "vie",
+      "q": "Travailler sans être déclaré est :"
+    },
+    {
+      "id": "cr-vie-af2c4a86",
+      "theme": "vie",
+      "q": "Lorsqu'un employeur veut qu'un salarié travaille plus longtemps que la durée prévue dans le contrat de travail :"
+    },
+    {
+      "id": "cr-vie-65c1bae5",
+      "theme": "vie",
+      "q": "Quelle est la mission de France Travail ?"
+    },
+    {
+      "id": "cr-vie-20bb6214",
+      "theme": "vie",
+      "q": "Dans une entreprise, le droit syndical permet :"
+    },
+    {
+      "id": "cr-vie-afc915bf",
+      "theme": "vie",
+      "q": "Dans une entreprise, le droit de grève autorise :"
+    },
+    {
+      "id": "cr-vie-73bd875e",
+      "theme": "vie",
+      "q": "Quelles sont les conditions pour toucher les allocations chômage ?"
+    },
+    {
+      "id": "cr-vie-d4c7e87c",
+      "theme": "vie",
+      "q": "Qu'est-ce que l'école maternelle ?"
+    },
+    {
+      "id": "cr-vie-4ac35df1",
+      "theme": "vie",
+      "q": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?"
+    },
+    {
+      "id": "cr-vie-b0178fd0",
+      "theme": "vie",
+      "q": "Les parents d'élève ont le droit de :"
+    },
+    {
+      "id": "cr-vie-7a27e22d",
+      "theme": "vie",
+      "q": "Qui peut manger à la cantine scolaire ?"
+    },
+    {
+      "id": "cr-vie-56dd7afb",
+      "theme": "vie",
+      "q": "À quel âge commence l'instruction obligatoire des enfants ?"
+    },
+    {
+      "id": "cr-vie-61af2cb1",
+      "theme": "vie",
+      "q": "Quel est l'âge de la majorité ?"
+    },
+    {
+      "id": "cr-vie-4b7e9c96",
+      "theme": "vie",
+      "q": "À l'école, il est interdit aux parents de :"
+    },
+    {
+      "id": "cr-vie-0a05fb79",
+      "theme": "vie",
+      "q": "Quel motif d'absence est accepté par l'école ?"
+    },
+    {
+      "id": "cr-vie-184e0b7f",
+      "theme": "vie",
+      "q": "Des parents ne respectent pas l'obligation d'instruction pour leurs enfants. Quelle sanction maximale risquent-ils ?"
+    },
+    {
+      "id": "cr-vie-1e87333c",
+      "theme": "vie",
+      "q": "Quand ont lieu les vacances scolaires de Noël ?"
+    },
+    {
+      "id": "cr-vie-38e0b97c",
+      "theme": "vie",
+      "q": "À l'école, un enfant en situation de handicap :"
+    }
+  ]
+}

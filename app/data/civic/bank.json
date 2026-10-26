@@ -1,0 +1,1494 @@
+{
+  "themes": [
+    {
+      "id": "valeurs",
+      "label": "Principes & valeurs de la République"
+    },
+    {
+      "id": "institutions",
+      "label": "Système politique & institutions"
+    },
+    {
+      "id": "droits",
+      "label": "Droits & devoirs"
+    },
+    {
+      "id": "histoire",
+      "label": "Histoire, géographie & culture"
+    },
+    {
+      "id": "vie",
+      "label": "Vivre en France"
+    }
+  ],
+  "questions": [
+    {
+      "id": "civ-v1",
+      "theme": "valeurs",
+      "q": "Quelle est la devise de la République française ?",
+      "options": [
+        "Liberté, Égalité, Fraternité",
+        "Liberté, Justice, Solidarité",
+        "Unité, Travail, Progrès",
+        "Travail, Famille, Patrie"
+      ],
+      "explain": "« Liberté, Égalité, Fraternité » est la devise officielle (article 2 de la Constitution). Elle est inscrite sur les bâtiments publics et les pièces de monnaie.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-v2",
+      "theme": "valeurs",
+      "q": "D'après l'article 1er de la Constitution, la France est une République…",
+      "options": [
+        "indivisible, laïque, démocratique et sociale",
+        "fédérale, religieuse et monarchique",
+        "unie, chrétienne et parlementaire",
+        "libérale, centralisée et impériale"
+      ],
+      "explain": "L'article 1er de la Constitution de 1958 : « La France est une République indivisible, laïque, démocratique et sociale. »",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-v3",
+      "theme": "valeurs",
+      "q": "Que signifie la laïcité en France ?",
+      "options": [
+        "L'État est neutre et séparé des religions ; chacun est libre de croire ou de ne pas croire",
+        "Les religions sont interdites en France",
+        "L'État choisit une religion officielle pour tous",
+        "Seules les personnes non croyantes peuvent travailler pour l'État"
+      ],
+      "explain": "La laïcité garantit la liberté de conscience et de culte. L'État ne reconnaît, ne salarie ni ne subventionne aucun culte : il est neutre.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-v4",
+      "theme": "valeurs",
+      "q": "En quelle année a été votée la loi de séparation des Églises et de l'État ?",
+      "options": [
+        "1905",
+        "1789",
+        "1958",
+        "1981"
+      ],
+      "explain": "La loi du 9 décembre 1905 sépare les Églises et l'État : c'est le texte fondateur de la laïcité française.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-v5",
+      "theme": "valeurs",
+      "q": "La laïcité interdit-elle de pratiquer une religion en France ?",
+      "options": [
+        "Non : elle garantit la liberté de pratiquer sa religion, dans le respect de l'ordre public",
+        "Oui : toute pratique religieuse est interdite",
+        "Oui, sauf pour la religion majoritaire",
+        "Non, mais uniquement à la maison"
+      ],
+      "explain": "Chacun est libre de croire, de ne pas croire et de pratiquer sa religion. La laïcité protège cette liberté pour tous, dans le respect de l'ordre public.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-v6",
+      "theme": "valeurs",
+      "q": "Que signifie le principe d'égalité ?",
+      "options": [
+        "La loi est la même pour tous, sans distinction d'origine, de sexe ou de religion",
+        "Tout le monde doit gagner le même salaire",
+        "Seuls les citoyens français sont protégés par la loi",
+        "Les hommes ont plus de droits que les femmes"
+      ],
+      "explain": "L'égalité devant la loi est un principe fondamental : tous les êtres humains ont les mêmes droits, quelle que soit leur origine, leur religion ou leur sexe.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-v7",
+      "theme": "valeurs",
+      "q": "L'égalité entre les femmes et les hommes signifie que…",
+      "options": [
+        "les femmes et les hommes ont les mêmes droits dans tous les domaines (travail, famille, vote…)",
+        "les femmes doivent demander l'autorisation de leur mari pour travailler",
+        "seuls les hommes gèrent l'argent de la famille",
+        "les femmes ne peuvent pas être élues"
+      ],
+      "explain": "L'égalité femmes-hommes est un principe constitutionnel : mêmes droits au travail, dans la famille, en politique. Une femme n'a besoin d'aucune autorisation pour travailler, ouvrir un compte ou divorcer.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-v8",
+      "theme": "valeurs",
+      "q": "Quel texte de 1789 proclame que « les hommes naissent et demeurent libres et égaux en droits » ?",
+      "options": [
+        "La Déclaration des droits de l'homme et du citoyen",
+        "La Constitution de la Ve République",
+        "Le Code civil",
+        "Le traité de Versailles"
+      ],
+      "explain": "La Déclaration des droits de l'homme et du citoyen (DDHC) du 26 août 1789 est un texte fondateur, toujours en vigueur dans notre droit.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-v9",
+      "theme": "valeurs",
+      "q": "À qui appartient la souveraineté nationale ?",
+      "options": [
+        "Au peuple, qui l'exerce par ses représentants élus et par le référendum",
+        "Au président de la République seul",
+        "À l'armée",
+        "Aux juges"
+      ],
+      "explain": "Article 3 de la Constitution : la souveraineté nationale appartient au peuple. C'est le principe de la démocratie.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-v10",
+      "theme": "valeurs",
+      "q": "Que signifie la fraternité, troisième mot de la devise ?",
+      "options": [
+        "La solidarité entre tous les membres de la société",
+        "L'obligation d'avoir des frères et sœurs",
+        "La préférence donnée à sa famille",
+        "L'amitié entre pays voisins uniquement"
+      ],
+      "explain": "La fraternité, c'est la solidarité : aider les plus fragiles (sécurité sociale, aides sociales, bénévolat) et vivre ensemble dans le respect.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-v11",
+      "theme": "valeurs",
+      "q": "La liberté d'expression permet-elle de tout dire ?",
+      "options": [
+        "Non : l'injure, la diffamation et l'incitation à la haine sont punies par la loi",
+        "Oui, sans aucune limite",
+        "Non : il est interdit de critiquer le gouvernement",
+        "Oui, mais seulement pour les journalistes"
+      ],
+      "explain": "La liberté d'expression est fondamentale, mais elle a des limites fixées par la loi : injure, diffamation, incitation à la haine ou à la violence.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-v12",
+      "theme": "valeurs",
+      "q": "Les agents des services publics (mairie, école publique, hôpital public) doivent…",
+      "options": [
+        "rester neutres et ne pas manifester leurs convictions religieuses pendant leur service",
+        "porter un signe religieux visible",
+        "demander la religion des usagers",
+        "refuser de servir les personnes non croyantes"
+      ],
+      "explain": "Principe de neutralité du service public : les agents publics ne montrent pas leurs convictions religieuses ou politiques pendant leur travail. Les usagers, eux, restent libres.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-v13",
+      "theme": "valeurs",
+      "sit": true,
+      "q": "Dans une entreprise, une salariée découvre qu'elle est payée moins qu'un collègue homme pour exactement le même travail. Que dit la loi ?",
+      "options": [
+        "C'est interdit : à travail égal, salaire égal ; elle peut exercer un recours",
+        "C'est normal, l'employeur est libre",
+        "C'est légal si l'entreprise est privée",
+        "Elle doit changer d'entreprise, il n'y a rien à faire"
+      ],
+      "explain": "L'inégalité salariale entre femmes et hommes à travail égal est une discrimination interdite. La salariée peut saisir l'inspection du travail, les prud'hommes ou le Défenseur des droits.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-v14",
+      "theme": "valeurs",
+      "sit": true,
+      "q": "Une personne insulte votre voisin à cause de sa couleur de peau. Que dit la loi ?",
+      "options": [
+        "Les injures racistes sont un délit puni par la loi ; la victime peut porter plainte",
+        "Ce n'est pas grave, c'est la liberté d'expression",
+        "C'est autorisé si cela se passe en privé",
+        "Seule la victime a le droit de répondre par la violence"
+      ],
+      "explain": "Le racisme n'est pas une opinion mais un délit : les injures et discriminations racistes sont punies. On peut porter plainte au commissariat ou en gendarmerie.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-v15",
+      "theme": "valeurs",
+      "sit": true,
+      "q": "Un enseignant d'une école publique demande aux élèves de prier en classe. En a-t-il le droit ?",
+      "options": [
+        "Non : l'école publique est laïque, les enseignants doivent rester neutres",
+        "Oui, si la majorité des élèves est d'accord",
+        "Oui, c'est sa liberté religieuse",
+        "Oui, mais seulement le vendredi"
+      ],
+      "explain": "Depuis les lois Ferry (1882) et la loi de 1905, l'école publique est laïque : aucun enseignement religieux ne peut y être imposé, et les enseignants sont tenus à la neutralité.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-v16",
+      "theme": "valeurs",
+      "sit": true,
+      "q": "Un ami vous dit qu'en France, il est interdit de critiquer une religion. A-t-il raison ?",
+      "options": [
+        "Non : la critique des idées et des religions est autorisée ; ce qui est interdit, c'est la haine ou l'injure contre les personnes",
+        "Oui : toute critique d'une religion est un délit",
+        "Oui, sauf pour les journalistes",
+        "Non : on peut aussi insulter les croyants, tout est permis"
+      ],
+      "explain": "En France, le blasphème n'existe pas dans la loi : on peut critiquer une religion, une idée. En revanche, injurier ou appeler à la haine contre des personnes est puni.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-v17",
+      "theme": "valeurs",
+      "sit": true,
+      "q": "Un employeur refuse d'embaucher une personne uniquement à cause de son origine. Comment s'appelle cette pratique ?",
+      "options": [
+        "Une discrimination, interdite et punie par la loi",
+        "Une préférence commerciale, autorisée",
+        "Un choix de gestion, sans conséquence",
+        "Une clause de conscience"
+      ],
+      "explain": "Refuser un emploi, un logement ou un service à cause de l'origine, de la religion, du sexe ou du handicap est une discrimination punie par le Code pénal. On peut saisir le Défenseur des droits (gratuit).",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-v18",
+      "theme": "valeurs",
+      "q": "En France, le seul mariage qui a une valeur légale est…",
+      "options": [
+        "le mariage civil, célébré à la mairie",
+        "le mariage religieux",
+        "le mariage coutumier",
+        "le mariage conclu à l'étranger uniquement"
+      ],
+      "explain": "Seul le mariage civil, célébré en mairie par un officier d'état civil, a une valeur légale. Une cérémonie religieuse est possible, mais seulement après le mariage civil. Le mariage forcé est interdit.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-v19",
+      "theme": "valeurs",
+      "q": "La polygamie est-elle autorisée en France ?",
+      "options": [
+        "Non, elle est interdite par la loi",
+        "Oui, sans condition",
+        "Oui, avec l'accord de la première épouse",
+        "Oui, pour les personnes mariées à l'étranger"
+      ],
+      "explain": "La polygamie est interdite en France. Vivre en état de polygamie fait obstacle à la délivrance d'une carte de résident et peut entraîner son retrait.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i1",
+      "theme": "institutions",
+      "q": "Pour combien d'années le président de la République est-il élu ?",
+      "options": [
+        "5 ans",
+        "7 ans",
+        "4 ans",
+        "6 ans"
+      ],
+      "explain": "Depuis 2000, le mandat présidentiel est de 5 ans (quinquennat), renouvelable une fois de suite. Élection au suffrage universel direct.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i2",
+      "theme": "institutions",
+      "q": "Où réside officiellement le président de la République ?",
+      "options": [
+        "Au palais de l'Élysée",
+        "À l'hôtel Matignon",
+        "Au palais Bourbon",
+        "Au château de Versailles"
+      ],
+      "explain": "Le président réside au palais de l'Élysée, à Paris. Matignon est la résidence du Premier ministre, le palais Bourbon celle de l'Assemblée nationale.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i3",
+      "theme": "institutions",
+      "q": "Qui nomme le Premier ministre ?",
+      "options": [
+        "Le président de la République",
+        "L'Assemblée nationale",
+        "Le Sénat",
+        "Le Conseil constitutionnel"
+      ],
+      "explain": "Le président de la République nomme le Premier ministre, qui dirige l'action du gouvernement (article 8 de la Constitution).",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i4",
+      "theme": "institutions",
+      "q": "De quelles deux chambres se compose le Parlement français ?",
+      "options": [
+        "L'Assemblée nationale et le Sénat",
+        "L'Assemblée nationale et le Conseil d'État",
+        "Le Sénat et le Conseil constitutionnel",
+        "L'Élysée et Matignon"
+      ],
+      "explain": "Le Parlement comprend l'Assemblée nationale (députés) et le Sénat (sénateurs). Il vote la loi et contrôle le gouvernement.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i5",
+      "theme": "institutions",
+      "q": "Où siègent les députés ?",
+      "options": [
+        "À l'Assemblée nationale (palais Bourbon)",
+        "Au Sénat (palais du Luxembourg)",
+        "À l'Élysée",
+        "Au Panthéon"
+      ],
+      "explain": "Les députés siègent au palais Bourbon (Assemblée nationale) ; les sénateurs au palais du Luxembourg (Sénat).",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i6",
+      "theme": "institutions",
+      "q": "Combien y a-t-il de députés à l'Assemblée nationale ?",
+      "options": [
+        "577",
+        "348",
+        "925",
+        "100"
+      ],
+      "explain": "L'Assemblée nationale compte 577 députés, élus pour 5 ans au suffrage universel direct. Le Sénat compte 348 sénateurs.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i7",
+      "theme": "institutions",
+      "q": "Comment les sénateurs sont-ils élus ?",
+      "options": [
+        "Au suffrage universel indirect, par les grands électeurs",
+        "Au suffrage universel direct, par tous les citoyens",
+        "Ils sont nommés par le président",
+        "Ils sont tirés au sort"
+      ],
+      "explain": "Les sénateurs sont élus au suffrage indirect par environ 162 000 grands électeurs (surtout des élus locaux), pour 6 ans.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i8",
+      "theme": "institutions",
+      "q": "Quel est le rôle principal du Parlement ?",
+      "options": [
+        "Voter les lois et contrôler le gouvernement",
+        "Rendre la justice",
+        "Diriger l'armée",
+        "Gérer les mairies"
+      ],
+      "explain": "Le Parlement exerce le pouvoir législatif : il discute et vote les lois, vote le budget et contrôle l'action du gouvernement.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i9",
+      "theme": "institutions",
+      "q": "Quelle est la Constitution actuellement en vigueur en France ?",
+      "options": [
+        "Celle de la Ve République, adoptée en 1958",
+        "Celle de la IIIe République (1875)",
+        "La Constitution de 1791",
+        "La Charte de 1814"
+      ],
+      "explain": "La Ve République est née en 1958, à l'initiative du général de Gaulle. Sa Constitution organise les pouvoirs publics actuels.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i10",
+      "theme": "institutions",
+      "q": "Qui vérifie que les lois respectent la Constitution ?",
+      "options": [
+        "Le Conseil constitutionnel",
+        "Le Sénat",
+        "La Cour des comptes",
+        "Le préfet"
+      ],
+      "explain": "Le Conseil constitutionnel (9 membres) contrôle la conformité des lois à la Constitution et veille à la régularité des élections nationales.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i11",
+      "theme": "institutions",
+      "q": "La justice française est-elle indépendante du pouvoir politique ?",
+      "options": [
+        "Oui : c'est le principe de la séparation des pouvoirs",
+        "Non : le président juge les affaires importantes",
+        "Non : les juges obéissent aux ministres",
+        "Oui, sauf pendant les élections"
+      ],
+      "explain": "L'autorité judiciaire est indépendante. Les juges appliquent la loi sans recevoir d'ordres du pouvoir politique : c'est une garantie de l'État de droit.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i12",
+      "theme": "institutions",
+      "q": "Quels sont les trois pouvoirs séparés dans une démocratie ?",
+      "options": [
+        "Législatif, exécutif et judiciaire",
+        "Militaire, religieux et civil",
+        "National, régional et local",
+        "Politique, économique et médiatique"
+      ],
+      "explain": "Le pouvoir législatif (faire la loi : Parlement), l'exécutif (gouverner : président et gouvernement) et le judiciaire (juger : tribunaux) sont séparés.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i13",
+      "theme": "institutions",
+      "q": "Qui élit le maire d'une commune ?",
+      "options": [
+        "Le conseil municipal, élu par les habitants aux élections municipales",
+        "Le préfet",
+        "Le président de la République",
+        "Les habitants, directement"
+      ],
+      "explain": "Aux élections municipales (tous les 6 ans), les habitants élisent le conseil municipal, qui élit ensuite le maire parmi ses membres.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i14",
+      "theme": "institutions",
+      "q": "Quels sont les trois principaux niveaux de collectivités territoriales ?",
+      "options": [
+        "La commune, le département et la région",
+        "Le village, la ville et la capitale",
+        "Le canton, l'arrondissement et l'État",
+        "La mairie, la préfecture et l'ambassade"
+      ],
+      "explain": "La France compte trois niveaux principaux de collectivités : environ 35 000 communes, 101 départements et 18 régions (13 en métropole, 5 en outre-mer).",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i15",
+      "theme": "institutions",
+      "q": "Qui peut voter à l'élection présidentielle française ?",
+      "options": [
+        "Les citoyens français majeurs (18 ans) inscrits sur les listes électorales",
+        "Toute personne vivant en France",
+        "Les citoyens européens résidant en France",
+        "Uniquement les personnes qui paient des impôts"
+      ],
+      "explain": "Il faut être Français, majeur, jouir de ses droits civiques et être inscrit sur les listes électorales. Les citoyens de l'UE peuvent seulement voter aux municipales et aux européennes.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i16",
+      "theme": "institutions",
+      "q": "En France, le vote est…",
+      "options": [
+        "universel, égal et secret",
+        "obligatoire et public",
+        "réservé aux hommes",
+        "payant"
+      ],
+      "explain": "Le suffrage est universel (tous les citoyens majeurs), égal (une personne = une voix) et secret (isoloir). Voter est un droit et un devoir civique, mais il n'est pas obligatoire.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i17",
+      "theme": "institutions",
+      "q": "Combien d'États sont membres de l'Union européenne ?",
+      "options": [
+        "27",
+        "12",
+        "35",
+        "50"
+      ],
+      "explain": "L'Union européenne compte 27 États membres depuis le départ du Royaume-Uni (Brexit, 2020). La France en est un pays fondateur.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i18",
+      "theme": "institutions",
+      "q": "Dans quelle ville française siège le Parlement européen ?",
+      "options": [
+        "Strasbourg",
+        "Paris",
+        "Bruxelles",
+        "Lyon"
+      ],
+      "explain": "Le siège officiel du Parlement européen est à Strasbourg. Bruxelles accueille la Commission européenne et une partie des sessions.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i19",
+      "theme": "institutions",
+      "q": "Depuis quelle année paye-t-on en pièces et billets d'euros en France ?",
+      "options": [
+        "2002",
+        "1993",
+        "2010",
+        "1986"
+      ],
+      "explain": "L'euro fiduciaire (pièces et billets) circule depuis le 1er janvier 2002. Il a remplacé le franc.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i20",
+      "theme": "institutions",
+      "q": "Qui dirige et coordonne l'action du gouvernement ?",
+      "options": [
+        "Le Premier ministre",
+        "Le président du Sénat",
+        "Le maire de Paris",
+        "Le ministre de l'Intérieur"
+      ],
+      "explain": "Le Premier ministre, installé à l'hôtel Matignon, dirige l'action du gouvernement et est responsable devant l'Assemblée nationale.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i21",
+      "theme": "institutions",
+      "sit": true,
+      "q": "Vous n'êtes pas d'accord avec une décision de l'administration (par exemple un refus de la mairie). Que pouvez-vous faire ?",
+      "options": [
+        "Exercer un recours : demander un réexamen, puis saisir le tribunal administratif si besoin",
+        "Rien, les décisions de l'administration sont définitives",
+        "Organiser une action violente pour protester",
+        "Payer un agent pour changer la décision"
+      ],
+      "explain": "Toute décision administrative peut être contestée : recours gracieux (auprès de l'auteur), recours hiérarchique, puis recours devant le tribunal administratif. La corruption et la violence sont des délits.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-i22",
+      "theme": "institutions",
+      "sit": true,
+      "q": "C'est le jour du vote. Que devez-vous présenter au bureau de vote ?",
+      "options": [
+        "Une pièce d'identité (et être inscrit sur les listes électorales)",
+        "Une fiche de paie",
+        "Un justificatif de domicile seulement",
+        "Rien, il suffit de donner son nom"
+      ],
+      "explain": "Pour voter, il faut être inscrit sur les listes électorales de sa commune et prouver son identité. La carte électorale seule ne suffit pas dans les communes de 1 000 habitants et plus.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-d1",
+      "theme": "droits",
+      "q": "En France, l'instruction est obligatoire…",
+      "options": [
+        "de 3 à 16 ans",
+        "de 6 à 14 ans",
+        "de 5 à 18 ans",
+        "seulement à l'école primaire"
+      ],
+      "explain": "Depuis 2019, l'instruction est obligatoire de 3 à 16 ans, pour les filles comme pour les garçons. Une obligation de formation s'applique ensuite jusqu'à 18 ans.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-d2",
+      "theme": "droits",
+      "q": "Payer ses impôts est…",
+      "options": [
+        "un devoir pour toute personne qui réside en France",
+        "un choix personnel",
+        "réservé aux citoyens français",
+        "obligatoire seulement pour les entreprises"
+      ],
+      "explain": "Contribuer aux charges publiques est un devoir (article 13 de la DDHC). Les impôts financent l'école, la santé, la sécurité, les routes…",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-d3",
+      "theme": "droits",
+      "q": "Faut-il déclarer ses revenus chaque année ?",
+      "options": [
+        "Oui, la déclaration annuelle reste obligatoire, même avec le prélèvement à la source",
+        "Non, plus depuis le prélèvement à la source",
+        "Seulement si on gagne plus de 50 000 € par an",
+        "Seulement la première année en France"
+      ],
+      "explain": "Chaque foyer déclare ses revenus au printemps (impots.gouv.fr), même si l'impôt est prélevé à la source depuis 2019. L'avis d'imposition sert aussi de justificatif pour beaucoup de démarches — dont la carte de résident.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-d4",
+      "theme": "droits",
+      "q": "Le droit de grève est…",
+      "options": [
+        "un droit garanti par la Constitution",
+        "interdit en France",
+        "réservé aux fonctionnaires",
+        "autorisé seulement le week-end"
+      ],
+      "explain": "Le droit de grève est garanti par le préambule de la Constitution de 1946, repris par la Constitution de 1958. Il s'exerce dans le cadre des lois.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-d5",
+      "theme": "droits",
+      "q": "Quelle loi célèbre garantit la liberté d'association ?",
+      "options": [
+        "La loi de 1901",
+        "La loi de 1905",
+        "La loi de 2004",
+        "Le Code du travail"
+      ],
+      "explain": "La loi du 1er juillet 1901 garantit la liberté d'association : chacun peut créer ou rejoindre une association (sport, culture, entraide…).",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-d6",
+      "theme": "droits",
+      "q": "À quel âge devient-on majeur en France ?",
+      "options": [
+        "18 ans",
+        "16 ans",
+        "21 ans",
+        "20 ans"
+      ],
+      "explain": "La majorité est fixée à 18 ans depuis 1974 : droit de vote, pleine capacité juridique, responsabilité entière devant la loi.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-d7",
+      "theme": "droits",
+      "q": "Les violences au sein du couple (violences conjugales) sont…",
+      "options": [
+        "interdites et punies par la loi, même entre époux",
+        "une affaire privée qui ne regarde pas la loi",
+        "tolérées si elles restent rares",
+        "punies seulement en cas de blessure grave"
+      ],
+      "explain": "Les violences conjugales (physiques, psychologiques, sexuelles) sont des délits ou des crimes. Le mariage n'autorise jamais la violence. Numéro d'écoute : 3919 (gratuit, anonyme).",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-d8",
+      "theme": "droits",
+      "q": "Quel numéro national écoute et oriente les femmes victimes de violences ?",
+      "options": [
+        "Le 3919",
+        "Le 3615",
+        "Le 118 712",
+        "Le 3939"
+      ],
+      "explain": "Le 3919 « Violences Femmes Info » est gratuit et anonyme. En cas de danger immédiat, appeler le 17 ou envoyer un SMS au 114.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-d9",
+      "theme": "droits",
+      "q": "Les parents ont le devoir de…",
+      "options": [
+        "protéger, nourrir, éduquer et scolariser leurs enfants",
+        "choisir le futur métier et le futur époux de leurs enfants",
+        "faire travailler leurs enfants pour aider la famille",
+        "punir physiquement leurs enfants"
+      ],
+      "explain": "L'autorité parentale est un ensemble de droits et de devoirs qui protègent l'enfant : santé, sécurité, éducation, scolarisation. Les châtiments corporels sont interdits (loi de 2019).",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-d10",
+      "theme": "droits",
+      "q": "Que signifie « Nul n'est censé ignorer la loi » ?",
+      "options": [
+        "On ne peut pas se défendre en disant qu'on ne connaissait pas la loi",
+        "Tout le monde doit apprendre les lois par cœur à l'école",
+        "Seuls les avocats doivent connaître la loi",
+        "La loi ne s'applique pas aux étrangers"
+      ],
+      "explain": "La loi s'applique à toute personne présente sur le territoire français, française ou étrangère. Dire « je ne savais pas » n'est pas une excuse valable devant la justice.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-d11",
+      "theme": "droits",
+      "q": "L'excision et les autres mutilations sexuelles féminines sont…",
+      "options": [
+        "interdites et punies, même si elles sont commises à l'étranger sur une personne vivant en France",
+        "autorisées si la famille est d'accord",
+        "une tradition protégée par la loi",
+        "interdites seulement pour les mineures"
+      ],
+      "explain": "Les mutilations sexuelles féminines sont des crimes punis jusqu'à 20 ans de réclusion, même commises à l'étranger. Les professionnels de santé ont l'obligation de signaler.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-d12",
+      "theme": "droits",
+      "q": "Quelle autorité indépendante peut-on saisir gratuitement en cas de discrimination ?",
+      "options": [
+        "Le Défenseur des droits",
+        "Le Sénat",
+        "La Banque de France",
+        "Le conseil municipal"
+      ],
+      "explain": "Le Défenseur des droits est une autorité indépendante, gratuite, qui aide les victimes de discriminations et contrôle les relations avec les services publics.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-d13",
+      "theme": "droits",
+      "sit": true,
+      "q": "Vous êtes témoin d'un cambriolage en cours chez votre voisin. Quel numéro appelez-vous ?",
+      "options": [
+        "Le 17 (police / gendarmerie)",
+        "Le 15 (SAMU)",
+        "Le 18 (pompiers)",
+        "Le 3919"
+      ],
+      "explain": "Le 17 joint la police ou la gendarmerie pour les urgences de sécurité. Le 15 = urgences médicales (SAMU), le 18 = pompiers, le 112 = numéro d'urgence européen.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-d14",
+      "theme": "droits",
+      "sit": true,
+      "q": "Un incendie se déclare dans votre immeuble. Quel numéro appelez-vous ?",
+      "options": [
+        "Le 18 (sapeurs-pompiers)",
+        "Le 3919",
+        "Le 15 (SAMU)",
+        "Le 3646"
+      ],
+      "explain": "Le 18 joint les sapeurs-pompiers (incendies, accidents, secours). Le 112 fonctionne aussi depuis n'importe quel téléphone en Europe.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-d15",
+      "theme": "droits",
+      "sit": true,
+      "q": "Une personne fait un malaise grave devant vous dans la rue. Que faites-vous ?",
+      "options": [
+        "J'appelle le 15 (SAMU) ou le 112 et je reste près d'elle en suivant les consignes",
+        "Je continue mon chemin, quelqu'un d'autre s'en occupera",
+        "Je la mets debout et lui donne à boire",
+        "J'appelle la mairie"
+      ],
+      "explain": "Le 15 (SAMU) gère les urgences médicales. Ne pas porter assistance à une personne en danger est un délit (non-assistance à personne en danger).",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-d16",
+      "theme": "droits",
+      "sit": true,
+      "q": "La police vous contrôle dans la rue et demande vos papiers. Que devez-vous faire ?",
+      "options": [
+        "Rester calme et justifier de mon identité (titre de séjour, passeport…)",
+        "Refuser et partir en courant",
+        "Exiger d'abord un avocat pour un simple contrôle",
+        "Donner une fausse identité"
+      ],
+      "explain": "Lors d'un contrôle d'identité, il faut pouvoir justifier de son identité. Un étranger doit pouvoir présenter les documents autorisant son séjour. Rester calme et coopérer est la bonne attitude.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-d17",
+      "theme": "droits",
+      "sit": true,
+      "q": "Votre fille de 14 ans ne veut plus aller au collège. Que dit la loi ?",
+      "options": [
+        "L'instruction est obligatoire jusqu'à 16 ans : elle doit continuer, filles et garçons ont les mêmes droits et devoirs",
+        "Elle peut arrêter si les parents sont d'accord",
+        "Les filles peuvent arrêter l'école plus tôt que les garçons",
+        "Elle peut arrêter si elle trouve un petit travail"
+      ],
+      "explain": "L'instruction est obligatoire de 3 à 16 ans. Les parents qui n'y veillent pas s'exposent à des sanctions. L'école est mixte et gratuite.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-d18",
+      "theme": "droits",
+      "sit": true,
+      "q": "On vous propose un travail payé « de la main à la main », sans contrat ni bulletin de paie. Que risquez-vous en acceptant ?",
+      "options": [
+        "C'est du travail dissimulé : pas de droits sociaux (retraite, chômage, accidents) et des sanctions possibles",
+        "Rien, c'est une pratique normale",
+        "Rien pour moi, seul l'employeur risque quelque chose",
+        "Une simple amende de stationnement"
+      ],
+      "explain": "Le travail « au noir » est illégal : le salarié perd ses droits (retraite, assurance maladie, chômage, accidents du travail) et cela peut nuire au renouvellement du titre de séjour. L'employeur encourt de lourdes sanctions.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-d19",
+      "theme": "droits",
+      "q": "Quel est le numéro d'urgence unique, valable dans toute l'Union européenne ?",
+      "options": [
+        "Le 112",
+        "Le 911",
+        "Le 999",
+        "Le 100"
+      ],
+      "explain": "Le 112 est le numéro d'urgence européen, gratuit, joignable depuis tout téléphone, même verrouillé ou sans carte SIM.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h1",
+      "theme": "histoire",
+      "q": "En quelle année a commencé la Révolution française ?",
+      "options": [
+        "1789",
+        "1848",
+        "1905",
+        "1715"
+      ],
+      "explain": "La Révolution française commence en 1789 : États généraux, prise de la Bastille le 14 juillet, Déclaration des droits de l'homme le 26 août.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h2",
+      "theme": "histoire",
+      "q": "Que s'est-il passé le 14 juillet 1789 ?",
+      "options": [
+        "La prise de la Bastille",
+        "Le sacre de Napoléon",
+        "La fin de la Première Guerre mondiale",
+        "La construction de la tour Eiffel"
+      ],
+      "explain": "Le 14 juillet 1789, le peuple de Paris prend la Bastille, prison symbole de l'arbitraire royal. C'est l'événement fondateur commémoré par la fête nationale.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h3",
+      "theme": "histoire",
+      "q": "Quel jour est la fête nationale française ?",
+      "options": [
+        "Le 14 juillet",
+        "Le 1er mai",
+        "Le 11 novembre",
+        "Le 8 mai"
+      ],
+      "explain": "La fête nationale est le 14 juillet : défilé militaire sur les Champs-Élysées, bals et feux d'artifice partout en France.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h4",
+      "theme": "histoire",
+      "q": "Quel est l'hymne national de la France ?",
+      "options": [
+        "La Marseillaise",
+        "L'Ode à la joie",
+        "Le Chant des partisans",
+        "La Vie en rose"
+      ],
+      "explain": "La Marseillaise est l'hymne national. L'Ode à la joie est l'hymne européen ; le Chant des partisans était le chant de la Résistance.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h5",
+      "theme": "histoire",
+      "q": "Qui a écrit La Marseillaise en 1792 ?",
+      "options": [
+        "Rouget de Lisle",
+        "Victor Hugo",
+        "Napoléon Bonaparte",
+        "Molière"
+      ],
+      "explain": "Claude Joseph Rouget de Lisle compose en 1792 ce « Chant de guerre pour l'armée du Rhin », chanté par les volontaires marseillais — d'où son nom.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h6",
+      "theme": "histoire",
+      "q": "Lequel de ces drapeaux est le drapeau de la France ?",
+      "img": "<svg viewBox='0 0 480 110' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Trois drapeaux à comparer'>\n      <g><text x='60' y='14' text-anchor='middle' font-size='13' font-weight='bold' fill='#161616'>A</text>\n        <rect x='0' y='22' width='40' height='80' fill='#000091'/><rect x='40' y='22' width='40' height='80' fill='#fff' stroke='#bbb'/><rect x='80' y='22' width='40' height='80' fill='#E1000F'/>\n        <rect x='0' y='22' width='120' height='80' fill='none' stroke='#888'/></g>\n      <g><text x='240' y='14' text-anchor='middle' font-size='13' font-weight='bold' fill='#161616'>B</text>\n        <rect x='180' y='22' width='120' height='27' fill='#E1000F'/><rect x='180' y='49' width='120' height='27' fill='#fff' stroke='#bbb'/><rect x='180' y='76' width='120' height='26' fill='#000091'/>\n        <rect x='180' y='22' width='120' height='80' fill='none' stroke='#888'/></g>\n      <g><text x='420' y='14' text-anchor='middle' font-size='13' font-weight='bold' fill='#161616'>C</text>\n        <rect x='360' y='22' width='40' height='80' fill='#E1000F'/><rect x='400' y='22' width='40' height='80' fill='#fff' stroke='#bbb'/><rect x='440' y='22' width='40' height='80' fill='#000091'/>\n        <rect x='360' y='22' width='120' height='80' fill='none' stroke='#888'/></g>\n    </svg>",
+      "options": [
+        "Le drapeau A",
+        "Le drapeau B",
+        "Le drapeau C",
+        "Aucun des trois"
+      ],
+      "explain": "Le drapeau français est composé de trois bandes verticales : bleu (côté mât), blanc, rouge. Il date de la Révolution française.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h7",
+      "theme": "histoire",
+      "q": "Qui est ce personnage symbolique, coiffé d'un bonnet phrygien, présent dans toutes les mairies ?",
+      "img": "<svg viewBox='0 0 120 145' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Buste symbolique'>\n      <path d='M30 132 Q60 108 90 132 L90 145 L30 145 Z' fill='#000091'/>\n      <circle cx='60' cy='80' r='27' fill='#f2d6c4'/>\n      <path d='M31 76 Q28 40 62 34 Q94 30 91 56 Q101 50 98 41 Q112 55 93 66 L88 71 Q62 50 36 78 Z' fill='#E1000F'/>\n      <circle cx='90' cy='63' r='7.5' fill='#000091'/><circle cx='90' cy='63' r='5' fill='#fff'/><circle cx='90' cy='63' r='2.4' fill='#E1000F'/>\n    </svg>",
+      "options": [
+        "Marianne",
+        "Jeanne d'Arc",
+        "Marie-Antoinette",
+        "La Joconde"
+      ],
+      "explain": "Marianne incarne la République française. Son buste est présent dans les mairies et son profil figure sur les timbres et certaines pièces. Le bonnet phrygien est un symbole de liberté.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h8",
+      "theme": "histoire",
+      "q": "Quel animal est un symbole traditionnel de la France ?",
+      "options": [
+        "Le coq gaulois",
+        "L'aigle",
+        "Le lion",
+        "L'ours"
+      ],
+      "explain": "Le coq gaulois est un symbole traditionnel de la France — on le voit notamment sur les maillots des équipes sportives nationales.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h9",
+      "theme": "histoire",
+      "q": "En quelle année l'esclavage a-t-il été définitivement aboli en France ?",
+      "options": [
+        "1848",
+        "1789",
+        "1936",
+        "1905"
+      ],
+      "explain": "L'esclavage est définitivement aboli en 1848, grâce notamment à Victor Schœlcher. (Une première abolition en 1794 avait été rétablie en 1802.)",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h10",
+      "theme": "histoire",
+      "q": "En quelle année les femmes ont-elles obtenu le droit de vote en France ?",
+      "options": [
+        "1944",
+        "1918",
+        "1968",
+        "1958"
+      ],
+      "explain": "L'ordonnance du 21 avril 1944 accorde le droit de vote aux femmes, qui votent pour la première fois en 1945.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h11",
+      "theme": "histoire",
+      "q": "En quelle année la Sécurité sociale a-t-elle été créée ?",
+      "options": [
+        "1945",
+        "1905",
+        "1981",
+        "2000"
+      ],
+      "explain": "La Sécurité sociale est créée en 1945, à la Libération : elle protège contre la maladie, les accidents du travail, et finance retraites et allocations familiales.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h12",
+      "theme": "histoire",
+      "q": "En quelle année la peine de mort a-t-elle été abolie en France ?",
+      "options": [
+        "1981",
+        "1945",
+        "1905",
+        "2007"
+      ],
+      "explain": "La peine de mort est abolie en 1981, sous la présidence de François Mitterrand, grâce au combat du ministre de la Justice Robert Badinter.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h13",
+      "theme": "histoire",
+      "q": "Qui a lancé, depuis Londres, l'appel du 18 juin 1940 à continuer le combat ?",
+      "options": [
+        "Le général Charles de Gaulle",
+        "Napoléon III",
+        "Jean Moulin",
+        "Georges Clemenceau"
+      ],
+      "explain": "Le 18 juin 1940, le général de Gaulle appelle depuis Londres à poursuivre la lutte contre l'occupation nazie : c'est la naissance de la France libre.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h14",
+      "theme": "histoire",
+      "q": "Que commémore le 11 novembre, jour férié ?",
+      "options": [
+        "L'armistice de la Première Guerre mondiale (1918)",
+        "La fin de la Seconde Guerre mondiale",
+        "La prise de la Bastille",
+        "L'abolition de l'esclavage"
+      ],
+      "explain": "Le 11 novembre 1918, l'armistice met fin aux combats de la Première Guerre mondiale (1914-1918), qui a fait plus d'un million de morts français.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h15",
+      "theme": "histoire",
+      "q": "Que commémore le 8 mai, jour férié ?",
+      "options": [
+        "La victoire des Alliés et la fin de la Seconde Guerre mondiale en Europe (1945)",
+        "Le début de la Révolution française",
+        "La fête du Travail",
+        "La création de l'Union européenne"
+      ],
+      "explain": "Le 8 mai 1945, l'Allemagne nazie capitule : c'est la fin de la Seconde Guerre mondiale en Europe. Le 1er mai est, lui, la fête du Travail.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h16",
+      "theme": "histoire",
+      "q": "Que mettent en place les lois de Jules Ferry (1881-1882) ?",
+      "options": [
+        "L'école gratuite, laïque et obligatoire",
+        "Le droit de vote des femmes",
+        "La Sécurité sociale",
+        "Les congés payés"
+      ],
+      "explain": "Jules Ferry fait voter en 1881-1882 les lois qui rendent l'école publique gratuite, laïque et l'instruction obligatoire — un pilier de la République.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h17",
+      "theme": "histoire",
+      "q": "Quel est le plus long fleuve entièrement situé en France ?",
+      "options": [
+        "La Loire",
+        "La Seine",
+        "Le Rhône",
+        "Le Rhin"
+      ],
+      "explain": "La Loire (environ 1 000 km) est le plus long fleuve entièrement français. La Seine traverse Paris ; le Rhône et le Rhin prennent leur source hors de France.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h18",
+      "theme": "histoire",
+      "q": "Quel fleuve traverse Paris ?",
+      "options": [
+        "La Seine",
+        "La Loire",
+        "La Garonne",
+        "Le Rhône"
+      ],
+      "explain": "La Seine traverse Paris. La Garonne passe à Toulouse et Bordeaux, le Rhône à Lyon, la Loire à Nantes, Tours et Orléans.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h19",
+      "theme": "histoire",
+      "q": "Quel est le plus haut sommet de France et d'Europe occidentale ?",
+      "options": [
+        "Le mont Blanc (environ 4 800 m)",
+        "Le pic du Midi",
+        "Le puy de Dôme",
+        "Le mont Ventoux"
+      ],
+      "explain": "Le mont Blanc, dans les Alpes, culmine à environ 4 806 m. Les autres grands massifs français : Pyrénées, Massif central, Jura, Vosges, Corse.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h20",
+      "theme": "histoire",
+      "q": "Quelles mers et océans bordent la France métropolitaine ?",
+      "options": [
+        "La Manche, l'océan Atlantique et la mer Méditerranée",
+        "L'océan Pacifique et la mer Noire",
+        "La mer Baltique et l'océan Indien",
+        "Uniquement la Méditerranée"
+      ],
+      "explain": "La métropole est bordée par la mer du Nord et la Manche au nord, l'océan Atlantique à l'ouest et la Méditerranée au sud.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h21",
+      "theme": "histoire",
+      "q": "Lesquels de ces territoires sont des départements et régions d'outre-mer ?",
+      "options": [
+        "La Guadeloupe, la Martinique, la Guyane, La Réunion et Mayotte",
+        "La Corse, la Bretagne et l'Alsace",
+        "Monaco, Andorre et le Luxembourg",
+        "Le Maroc, la Tunisie et l'Algérie"
+      ],
+      "explain": "Les 5 départements-régions d'outre-mer (DROM) : Guadeloupe et Martinique (Antilles), Guyane (Amérique du Sud), La Réunion et Mayotte (océan Indien).",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h22",
+      "theme": "histoire",
+      "q": "Pourquoi surnomme-t-on la France métropolitaine « l'Hexagone » ?",
+      "img": "<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Forme hexagonale stylisée'>\n      <polygon points='100,12 176,56 176,144 100,188 24,144 24,56' fill='#e3e3fd' stroke='#000091' stroke-width='3'/>\n      <circle cx='108' cy='62' r='5' fill='#E1000F'/>\n      <text x='118' y='66' font-size='13' fill='#161616'>Paris</text>\n    </svg>",
+      "options": [
+        "À cause de sa forme géographique, proche d'un hexagone à six côtés",
+        "Parce qu'elle compte six grandes villes",
+        "Parce qu'elle a six régions",
+        "En hommage à un roi nommé Hexagone"
+      ],
+      "explain": "La forme de la France métropolitaine s'inscrit approximativement dans un hexagone (six côtés : trois maritimes, trois terrestres) — d'où son surnom.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h23",
+      "theme": "histoire",
+      "q": "Qui était Victor Hugo ?",
+      "options": [
+        "Un grand écrivain français, auteur des Misérables et de Notre-Dame de Paris",
+        "Un président de la République",
+        "Un peintre impressionniste",
+        "Un compositeur d'opéras"
+      ],
+      "explain": "Victor Hugo (1802-1885) est l'un des plus grands écrivains français. Il repose au Panthéon, où la nation honore ses grands personnages.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h24",
+      "theme": "histoire",
+      "q": "Dans quelle ville se trouve le musée du Louvre, qui abrite La Joconde ?",
+      "options": [
+        "Paris",
+        "Marseille",
+        "Lyon",
+        "Bordeaux"
+      ],
+      "explain": "Le Louvre, à Paris, est le musée le plus visité au monde. La Joconde est un tableau de Léonard de Vinci.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h25",
+      "theme": "histoire",
+      "q": "Quel est ce monument parisien, construit pour l'Exposition universelle de 1889 ?",
+      "img": "<svg viewBox='0 0 100 165' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Silhouette de monument'>\n      <path d='M50 6 L54 42 Q56 72 70 102 Q80 124 93 142 L79 142 Q66 118 50 118 Q34 118 21 142 L7 142 Q20 124 30 102 Q44 72 46 42 Z' fill='#4a4a52'/>\n      <rect x='29' y='90' width='42' height='6' rx='2' fill='#4a4a52'/>\n      <rect x='37' y='58' width='26' height='5' rx='2' fill='#4a4a52'/>\n      <path d='M34 142 Q50 120 66 142 Z' fill='#fff'/>\n      <rect x='47' y='0' width='6' height='10' fill='#4a4a52'/>\n    </svg>",
+      "options": [
+        "La tour Eiffel",
+        "L'Arc de triomphe",
+        "Notre-Dame de Paris",
+        "Le château de Versailles"
+      ],
+      "explain": "La tour Eiffel, construite par Gustave Eiffel pour l'Exposition universelle de 1889, est le symbole de Paris (environ 330 m).",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h26",
+      "theme": "histoire",
+      "q": "Qui était Simone Veil ?",
+      "options": [
+        "Une femme d'État, à l'origine de la loi de 1975 sur l'interruption volontaire de grossesse, entrée au Panthéon",
+        "Une chanteuse populaire des années 1960",
+        "La première femme présidente de la République",
+        "Une reine de France"
+      ],
+      "explain": "Simone Veil, rescapée de la Shoah, ministre de la Santé, a fait voter la loi de 1975 sur l'IVG et a présidé le Parlement européen. Elle est entrée au Panthéon en 2018.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h27",
+      "theme": "histoire",
+      "q": "Avec combien de pays la France métropolitaine partage-t-elle une frontière terrestre ?",
+      "options": [
+        "8",
+        "3",
+        "5",
+        "12"
+      ],
+      "explain": "Huit pays frontaliers : Belgique, Luxembourg, Allemagne, Suisse, Italie, Espagne, Andorre et Monaco.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-h28",
+      "theme": "histoire",
+      "q": "Combien d'étoiles figurent sur le drapeau de l'Union européenne ?",
+      "img": "<svg viewBox='0 0 120 80' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Drapeau européen'>\n      <rect width='120' height='80' fill='#003399'/>\n      <g fill='#FFCC00' font-size='11' text-anchor='middle'>\n        <text x='60' y='19'>★</text><text x='72.5' y='22.4'>★</text><text x='81.7' y='31.5'>★</text>\n        <text x='85' y='44'>★</text><text x='81.7' y='56.5'>★</text><text x='72.5' y='65.6'>★</text>\n        <text x='60' y='69'>★</text><text x='47.5' y='65.6'>★</text><text x='38.3' y='56.5'>★</text>\n        <text x='35' y='44'>★</text><text x='38.3' y='31.5'>★</text><text x='47.5' y='22.4'>★</text>\n      </g>\n    </svg>",
+      "options": [
+        "12, quel que soit le nombre de pays membres",
+        "27, une par pays membre",
+        "6, pour les pays fondateurs",
+        "50"
+      ],
+      "explain": "Le drapeau européen porte 12 étoiles d'or sur fond bleu — symbole de perfection et d'harmonie. Le nombre ne change pas avec les élargissements.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s1",
+      "theme": "vie",
+      "q": "À quoi sert la carte Vitale ?",
+      "options": [
+        "À être remboursé de ses frais de santé par l'Assurance maladie",
+        "À voter aux élections",
+        "À prouver son identité à la police",
+        "À payer ses courses"
+      ],
+      "explain": "La carte Vitale atteste des droits à l'Assurance maladie et permet le remboursement des soins. Elle ne remplace pas une pièce d'identité.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s2",
+      "theme": "vie",
+      "q": "Qu'est-ce que le « médecin traitant » ?",
+      "options": [
+        "Le médecin que l'on déclare à l'Assurance maladie et qui suit le patient dans la durée",
+        "Le médecin de garde de la ville",
+        "Un médecin réservé aux urgences",
+        "Le médecin de l'employeur"
+      ],
+      "explain": "Déclarer un médecin traitant permet un meilleur suivi et un meilleur remboursement. Consulter directement un spécialiste sans passer par lui est en général moins bien remboursé.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s3",
+      "theme": "vie",
+      "q": "Quel organisme verse les allocations familiales et les aides au logement ?",
+      "options": [
+        "La CAF (Caisse d'allocations familiales)",
+        "La préfecture",
+        "France Travail",
+        "Le Trésor public"
+      ],
+      "explain": "La CAF verse les prestations familiales et sociales : allocations familiales, aides au logement (APL), prime d'activité, RSA…",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s4",
+      "theme": "vie",
+      "q": "L'école publique en France est…",
+      "options": [
+        "gratuite et laïque",
+        "payante et religieuse",
+        "réservée aux enfants français",
+        "facultative"
+      ],
+      "explain": "L'école publique est gratuite et laïque, ouverte à tous les enfants vivant en France, quelle que soit leur nationalité ou leur situation.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s5",
+      "theme": "vie",
+      "q": "Où inscrit-on son enfant à l'école maternelle ou élémentaire ?",
+      "options": [
+        "À la mairie de sa commune",
+        "À la préfecture",
+        "Au commissariat",
+        "À la CAF"
+      ],
+      "explain": "L'inscription se fait à la mairie, puis auprès de l'école indiquée. Pour le collège et le lycée, c'est l'établissement du secteur qui gère.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s6",
+      "theme": "vie",
+      "q": "Quel est l'ordre des niveaux scolaires en France ?",
+      "options": [
+        "Maternelle → école élémentaire → collège → lycée",
+        "Collège → maternelle → lycée → élémentaire",
+        "Lycée → collège → université → maternelle",
+        "École élémentaire → maternelle → lycée → collège"
+      ],
+      "explain": "Le parcours : maternelle (3-6 ans), élémentaire (6-11), collège (11-15, brevet en fin de 3e), lycée (15-18, baccalauréat en terminale).",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s7",
+      "theme": "vie",
+      "q": "Quel diplôme passe-t-on à la fin du lycée ?",
+      "options": [
+        "Le baccalauréat",
+        "Le brevet des collèges",
+        "Le CAP petite enfance",
+        "La licence"
+      ],
+      "explain": "Le baccalauréat (général, technologique ou professionnel) clôt le lycée et ouvre l'accès aux études supérieures.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s8",
+      "theme": "vie",
+      "q": "Qu'est-ce que le SMIC ?",
+      "options": [
+        "Le salaire minimum légal en France",
+        "Un impôt sur les salaires",
+        "Une aide au logement",
+        "Le nom d'un contrat de travail"
+      ],
+      "explain": "Le SMIC (salaire minimum interprofessionnel de croissance) est le salaire horaire minimum légal : aucun salarié ne peut être payé en dessous.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s9",
+      "theme": "vie",
+      "q": "Quelle est la durée légale du travail à temps plein ?",
+      "options": [
+        "35 heures par semaine",
+        "40 heures par semaine",
+        "48 heures par semaine",
+        "30 heures par semaine"
+      ],
+      "explain": "La durée légale est de 35 h par semaine ; au-delà, ce sont des heures supplémentaires, mieux payées et encadrées.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s10",
+      "theme": "vie",
+      "q": "À combien de semaines de congés payés un salarié à temps plein a-t-il droit par an ?",
+      "options": [
+        "5 semaines",
+        "2 semaines",
+        "8 semaines",
+        "Aucune, c'est au choix de l'employeur"
+      ],
+      "explain": "Tout salarié acquiert 5 semaines de congés payés par an. Les premiers congés payés (2 semaines) datent du Front populaire, en 1936.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s11",
+      "theme": "vie",
+      "q": "Le bulletin de paie (fiche de paie) est…",
+      "options": [
+        "obligatoire : l'employeur doit le remettre à chaque salarié",
+        "facultatif si le salarié est d'accord",
+        "réservé aux cadres",
+        "délivré uniquement en fin d'année"
+      ],
+      "explain": "Le bulletin de paie est obligatoire à chaque paie. C'est aussi un justificatif essentiel (logement, préfecture, retraite) — conservez-les sans limite de durée.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s12",
+      "theme": "vie",
+      "q": "Quel organisme public accompagne les demandeurs d'emploi ?",
+      "options": [
+        "France Travail (ex-Pôle emploi)",
+        "La CAF",
+        "L'URSSAF",
+        "La Banque de France"
+      ],
+      "explain": "France Travail (nouveau nom de Pôle emploi depuis 2024) inscrit les demandeurs d'emploi, verse les allocations chômage et aide à la recherche d'emploi.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s13",
+      "theme": "vie",
+      "q": "Pour un locataire, l'assurance habitation est…",
+      "options": [
+        "obligatoire",
+        "facultative",
+        "à la charge du propriétaire",
+        "réservée aux maisons"
+      ],
+      "explain": "Le locataire doit assurer le logement (au minimum « risques locatifs » : incendie, dégât des eaux) et fournir l'attestation au propriétaire chaque année.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s14",
+      "theme": "vie",
+      "q": "Qu'est-ce que le dépôt de garantie quand on loue un logement ?",
+      "options": [
+        "Une somme versée à l'entrée, rendue à la sortie si le logement est en bon état",
+        "Le loyer du premier mois",
+        "Une taxe payée à la mairie",
+        "Une assurance obligatoire"
+      ],
+      "explain": "Le dépôt de garantie (souvent 1 mois de loyer hors charges pour un logement vide) est restitué après l'état des lieux de sortie, déduction faite des éventuelles dégradations.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s15",
+      "theme": "vie",
+      "sit": true,
+      "q": "Vous emménagez dans un nouveau logement. Que devez-vous faire pour avoir l'électricité ?",
+      "options": [
+        "Souscrire un contrat auprès d'un fournisseur d'énergie",
+        "Rien, l'électricité est gratuite en France",
+        "Demander à la mairie d'ouvrir le compteur",
+        "Brancher un câble sur le compteur du voisin"
+      ],
+      "explain": "Il faut ouvrir un contrat d'électricité (et de gaz le cas échéant) auprès du fournisseur de son choix. Se brancher sur un autre compteur est un vol d'énergie, puni par la loi.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s16",
+      "theme": "vie",
+      "sit": true,
+      "q": "Votre enfant est malade et ne peut pas aller à l'école. Que faites-vous ?",
+      "options": [
+        "Je préviens l'école le jour même et je justifie l'absence",
+        "Rien, l'école comprendra toute seule",
+        "Je le garde à la maison une semaine sans rien dire",
+        "Je change d'école"
+      ],
+      "explain": "Toute absence doit être signalée et justifiée auprès de l'école. Les absences répétées non justifiées peuvent être signalées aux autorités.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s17",
+      "theme": "vie",
+      "sit": true,
+      "q": "Vous avez un rendez-vous en préfecture pour votre titre de séjour. Quelle est la bonne attitude ?",
+      "options": [
+        "Arriver à l'heure avec tous les documents demandés (originaux et copies)",
+        "Arriver quand on veut, l'administration attend",
+        "Envoyer un cousin à sa place",
+        "Venir sans documents et improviser"
+      ],
+      "explain": "La ponctualité et un dossier complet sont indispensables : un rendez-vous manqué ou un dossier incomplet peut retarder la procédure de plusieurs semaines.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s18",
+      "theme": "vie",
+      "sit": true,
+      "q": "Au restaurant, le pourboire est-il obligatoire en France ?",
+      "options": [
+        "Non : le service est compris dans les prix affichés ; le pourboire est un geste libre",
+        "Oui : 15 % du prix, comme partout",
+        "Oui, sinon on peut être poursuivi",
+        "Oui, mais uniquement à Paris"
+      ],
+      "explain": "En France, le service est inclus dans l'addition (« service compris »). Laisser un pourboire est apprécié mais totalement facultatif.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s19",
+      "theme": "vie",
+      "sit": true,
+      "q": "Vos voisins font beaucoup de bruit à 2 h du matin, de façon répétée. Que dit la loi ?",
+      "options": [
+        "Le tapage nocturne est interdit : dialoguer d'abord, puis prévenir la police si cela continue",
+        "Le bruit est libre chez soi, à toute heure",
+        "Il faut répondre en faisant encore plus de bruit",
+        "Seule la musique est interdite la nuit"
+      ],
+      "explain": "Le tapage nocturne est une infraction. La bonne démarche : en parler calmement au voisin, puis, si cela persiste, contacter la police (17) ou le syndic/bailleur.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s20",
+      "theme": "vie",
+      "sit": true,
+      "q": "Vous trouvez un portefeuille avec de l'argent et des papiers dans la rue. Que faites-vous ?",
+      "options": [
+        "Je le rapporte à la police, à la mairie ou au service des objets trouvés",
+        "Je garde l'argent et je jette les papiers",
+        "Je le laisse par terre",
+        "Je le vends sur Internet"
+      ],
+      "explain": "Garder un bien trouvé en sachant qu'il appartient à quelqu'un peut être qualifié de vol. Le geste citoyen : le déposer à la police, à la mairie ou aux objets trouvés.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s21",
+      "theme": "vie",
+      "q": "Le tri des déchets consiste à…",
+      "options": [
+        "séparer les emballages recyclables, le verre et les ordures ménagères",
+        "mettre tous les déchets dans le même sac",
+        "brûler ses déchets dans le jardin",
+        "déposer ses déchets dans la rue"
+      ],
+      "explain": "Le tri (bac jaune pour les emballages/papier, conteneur à verre, bac ordinaire) est un geste attendu de tous ; les dépôts sauvages sont punis d'amende.",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s22",
+      "theme": "vie",
+      "q": "En voiture, la ceinture de sécurité est…",
+      "options": [
+        "obligatoire pour tous les passagers, à l'avant comme à l'arrière",
+        "obligatoire seulement pour le conducteur",
+        "facultative en ville",
+        "obligatoire seulement sur autoroute"
+      ],
+      "explain": "Ceinture obligatoire pour tous, enfants attachés dans des sièges adaptés. Autres règles clés : ne pas téléphoner au volant, alcool limité (0,5 g/l de sang).",
+      "source": "legacy"
+    },
+    {
+      "id": "civ-s23",
+      "theme": "vie",
+      "sit": true,
+      "q": "Vous êtes témoin d'un accident de la route grave. Quels sont les bons réflexes ?",
+      "options": [
+        "Protéger la zone, alerter les secours (15, 17, 18 ou 112), puis secourir si on le peut",
+        "Prendre des photos pour les réseaux sociaux et partir",
+        "Déplacer immédiatement les blessés soi-même",
+        "Klaxonner et continuer sa route"
+      ],
+      "explain": "Les 3 gestes : Protéger (baliser, couper le moteur), Alerter (112…), Secourir (sans déplacer un blessé sauf danger immédiat). Ne pas s'arrêter peut constituer une non-assistance à personne en danger.",
+      "source": "legacy"
+    }
+  ]
+}

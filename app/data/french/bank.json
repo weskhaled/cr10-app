@@ -1,0 +1,799 @@
+{
+  "themes": [
+    {
+      "id": "co",
+      "label": "Compréhension orale"
+    },
+    {
+      "id": "ce",
+      "label": "Compréhension écrite"
+    },
+    {
+      "id": "gram",
+      "label": "Grammaire & structures"
+    }
+  ],
+  "questions": [
+    {
+      "id": "fr-co1",
+      "theme": "co",
+      "q": "Écoutez l'annonce en gare. Quel est le retard du train pour Marseille ?",
+      "say": "Votre attention s'il vous plaît. Le TGV numéro 6214 à destination de Marseille, départ initialement prévu à 14 heures 35, partira avec un retard d'environ vingt minutes, voie 7. Nous vous prions de nous excuser pour la gêne occasionnée.",
+      "options": [
+        "Environ 20 minutes",
+        "35 minutes",
+        "7 minutes",
+        "Le train est à l'heure"
+      ],
+      "explain": "« …partira avec un retard d'environ vingt minutes, voie 7. » Le 14 h 35 est l'heure de départ prévue, le 7 est le numéro de la voie.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-co2",
+      "theme": "co",
+      "q": "Écoutez le message du cabinet médical. Quel est le nouveau rendez-vous proposé ?",
+      "say": "Bonjour, c'est le cabinet du docteur Martin. Votre rendez-vous de mardi 10 heures est annulé, le docteur étant absent. Nous vous proposons un nouveau rendez-vous jeudi à 14 heures 30. Merci de rappeler le secrétariat pour confirmer.",
+      "options": [
+        "Jeudi à 14 h 30",
+        "Mardi à 10 h",
+        "Jeudi à 10 h",
+        "Mardi à 14 h 30"
+      ],
+      "explain": "Le rendez-vous de mardi 10 h est annulé ; le nouveau créneau proposé est jeudi à 14 h 30, à confirmer par téléphone.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-co3",
+      "theme": "co",
+      "q": "Écoutez la météo. Quel temps fera-t-il demain après-midi ?",
+      "say": "Et voici la météo pour demain : le matin, le ciel restera gris avec quelques pluies fines sur toute la région. L'après-midi, en revanche, le soleil fera son retour et les températures atteindront 24 degrés.",
+      "options": [
+        "Du soleil, environ 24 degrés",
+        "De la pluie toute la journée",
+        "De la neige",
+        "Du brouillard et 12 degrés"
+      ],
+      "explain": "Matin : gris et pluies fines. Après-midi : retour du soleil, 24 degrés. Attention aux mots de contraste comme « en revanche ».",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-co4",
+      "theme": "co",
+      "q": "Écoutez l'annonce du magasin. Sur quels produits porte la promotion ?",
+      "say": "Chers clients, bienvenue dans votre magasin. Cette semaine, profitez de notre grande promotion : trente pour cent de réduction sur tous les fruits et légumes. Et pour votre confort, une caisse supplémentaire vient d'ouvrir, caisse numéro 4.",
+      "options": [
+        "Les fruits et légumes",
+        "Le pain et les gâteaux",
+        "Les produits ménagers",
+        "La viande et le poisson"
+      ],
+      "explain": "« …trente pour cent de réduction sur tous les fruits et légumes. » La caisse 4 est une information secondaire.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-co5",
+      "theme": "co",
+      "q": "Écoutez le message de la CAF. Quel document faut-il envoyer avant le 15 ?",
+      "say": "Bonjour, vous êtes bien sur le répondeur de la Caisse d'allocations familiales. Votre dossier est en cours de traitement. Pour finaliser votre demande, merci d'envoyer votre attestation de loyer avant le 15 du mois, depuis votre espace personnel sur notre site internet.",
+      "options": [
+        "L'attestation de loyer",
+        "Le passeport",
+        "Le contrat de travail",
+        "L'avis d'imposition"
+      ],
+      "explain": "Le document demandé est l'attestation de loyer, à déposer en ligne avant le 15 du mois.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-co6",
+      "theme": "co",
+      "q": "Écoutez le dialogue à la boulangerie. Combien le client paie-t-il au total ?",
+      "say": "Bonjour ! Je voudrais une baguette et trois croissants, s'il vous plaît. — Bien sûr. La baguette, c'est 1 euro 20, et les croissants, 1 euro 10 pièce. Ça vous fera 4 euros 50 au total. — Voilà. Merci, bonne journée !",
+      "options": [
+        "4,50 €",
+        "1,20 €",
+        "1,10 €",
+        "3,30 €"
+      ],
+      "explain": "« Ça vous fera 4 euros 50 au total » : 1,20 € (baguette) + 3 × 1,10 € (croissants) = 4,50 €.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-co7",
+      "theme": "co",
+      "q": "Écoutez le message de l'école. Quand a lieu la réunion des parents ?",
+      "say": "Bonjour, c'est un message de l'école Jules Ferry. Nous vous rappelons que la réunion des parents d'élèves aura lieu mardi prochain à 18 heures, dans la salle polyvalente. La présence d'au moins un parent est vivement souhaitée.",
+      "options": [
+        "Mardi prochain à 18 h",
+        "Jeudi prochain à 8 h",
+        "Samedi matin",
+        "Mardi prochain à 8 h"
+      ],
+      "explain": "« …la réunion des parents d'élèves aura lieu mardi prochain à 18 heures… » — attention à ne pas confondre 18 heures et 8 heures.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-co8",
+      "theme": "co",
+      "q": "Écoutez l'info trafic. Que propose-t-on aux voyageurs pendant l'interruption ?",
+      "say": "Info trafic : en raison d'un incident technique, le trafic est interrompu sur la ligne 4 du métro. Des bus de remplacement sont mis en place entre les stations concernées. Reprise estimée du trafic : 17 heures. Nous vous remercions de votre compréhension.",
+      "options": [
+        "Des bus de remplacement",
+        "Des taxis gratuits",
+        "Le remboursement du billet",
+        "Rien, il faut attendre"
+      ],
+      "explain": "« Des bus de remplacement sont mis en place… » La reprise est estimée à 17 h.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-co9",
+      "theme": "co",
+      "q": "Écoutez le message d'Amine. Que demande-t-il d'apporter ?",
+      "say": "Salut, c'est Amine ! Je t'appelle pour samedi : on fête l'anniversaire de Lina à la maison, à partir de 19 heures. Tu peux apporter un dessert si tu veux ? Dis-moi si tu viens. À plus !",
+      "options": [
+        "Un dessert",
+        "Une boisson",
+        "Un cadeau",
+        "De la musique"
+      ],
+      "explain": "« Tu peux apporter un dessert si tu veux ? » La fête est samedi à partir de 19 h.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-co10",
+      "theme": "co",
+      "q": "Écoutez le message de la banque. Quels documents faut-il apporter au rendez-vous ?",
+      "say": "Bonjour Monsieur, c'est votre agence bancaire. Suite à votre demande d'ouverture de compte, votre conseillère peut vous recevoir lundi à 10 heures. Merci d'apporter une pièce d'identité, un justificatif de domicile et votre titre de séjour.",
+      "options": [
+        "Une pièce d'identité, un justificatif de domicile et le titre de séjour",
+        "Seulement le passeport",
+        "Une fiche de paie et le permis de conduire",
+        "Aucun document"
+      ],
+      "explain": "Trois documents sont demandés : pièce d'identité + justificatif de domicile + titre de séjour. Le rendez-vous est lundi à 10 h.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-co11",
+      "theme": "co",
+      "q": "Écoutez les conseils du pharmacien. Comment faut-il prendre le médicament ?",
+      "say": "Voici votre traitement : vous prendrez un comprimé matin et soir, pendant sept jours, toujours au moment des repas. Si la fièvre continue après trois jours, consultez de nouveau votre médecin.",
+      "options": [
+        "Un comprimé matin et soir pendant 7 jours, au moment des repas",
+        "Trois comprimés par jour pendant une semaine",
+        "Un comprimé par semaine",
+        "Deux comprimés le soir seulement"
+      ],
+      "explain": "Posologie : 1 comprimé matin + soir, 7 jours, pendant les repas. Si la fièvre persiste après 3 jours → retourner chez le médecin.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-co12",
+      "theme": "co",
+      "q": "Écoutez le message de la préfecture. Quand peut-on retirer le titre de séjour ?",
+      "say": "Bonjour, vous appelez la préfecture. Votre titre de séjour est disponible. Vous pouvez venir le retirer du lundi au vendredi, de 9 heures à 12 heures, muni de votre ancien titre, de votre passeport et d'un timbre fiscal. Aucun rendez-vous n'est nécessaire pour le retrait.",
+      "options": [
+        "Du lundi au vendredi, de 9 h à 12 h, sans rendez-vous",
+        "Uniquement sur rendez-vous",
+        "Le samedi matin",
+        "Tous les jours de 9 h à 18 h"
+      ],
+      "explain": "Retrait du lundi au vendredi, 9 h - 12 h, sans rendez-vous, avec l'ancien titre + passeport + timbre fiscal.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-ceA1",
+      "theme": "ce",
+      "ctx": "À louer : appartement T2 de 38 m², rue de la République à Villeurbanne. Loyer : 720 € par mois, charges comprises. 3e étage sans ascenseur, lumineux, proche du métro et des commerces. Libre à partir du 1er septembre. Dépôt de garantie : un mois de loyer. Contact : Agence Lumière, du lundi au vendredi, 9 h - 18 h.",
+      "q": "Combien coûte ce logement chaque mois ?",
+      "options": [
+        "720 €, charges comprises",
+        "720 € + les charges en plus",
+        "380 €",
+        "Un mois de loyer"
+      ],
+      "explain": "« Loyer : 720 € par mois, charges comprises » — les charges sont incluses dans ce montant.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-ceA2",
+      "theme": "ce",
+      "ctx": "À louer : appartement T2 de 38 m², rue de la République à Villeurbanne. Loyer : 720 € par mois, charges comprises. 3e étage sans ascenseur, lumineux, proche du métro et des commerces. Libre à partir du 1er septembre. Dépôt de garantie : un mois de loyer. Contact : Agence Lumière, du lundi au vendredi, 9 h - 18 h.",
+      "q": "Quel peut être un inconvénient de cet appartement ?",
+      "options": [
+        "Il est au 3e étage sans ascenseur",
+        "Il est loin des transports",
+        "Il est sombre",
+        "Il est déjà loué"
+      ],
+      "explain": "L'annonce précise « 3e étage sans ascenseur » : il faut monter à pied. Le reste est présenté comme des avantages (lumineux, proche du métro).",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-ceA3",
+      "theme": "ce",
+      "ctx": "À louer : appartement T2 de 38 m², rue de la République à Villeurbanne. Loyer : 720 € par mois, charges comprises. 3e étage sans ascenseur, lumineux, proche du métro et des commerces. Libre à partir du 1er septembre. Dépôt de garantie : un mois de loyer. Contact : Agence Lumière, du lundi au vendredi, 9 h - 18 h.",
+      "q": "À partir de quand peut-on habiter dans l'appartement ?",
+      "options": [
+        "À partir du 1er septembre",
+        "Immédiatement",
+        "À partir du 9 septembre",
+        "Dans un an"
+      ],
+      "explain": "« Libre à partir du 1er septembre » = disponible à cette date.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-ceA4",
+      "theme": "ce",
+      "ctx": "À louer : appartement T2 de 38 m², rue de la République à Villeurbanne. Loyer : 720 € par mois, charges comprises. 3e étage sans ascenseur, lumineux, proche du métro et des commerces. Libre à partir du 1er septembre. Dépôt de garantie : un mois de loyer. Contact : Agence Lumière, du lundi au vendredi, 9 h - 18 h.",
+      "q": "En plus du premier loyer, que faut-il verser à l'entrée dans le logement ?",
+      "options": [
+        "Un dépôt de garantie d'un mois de loyer",
+        "Rien du tout",
+        "Trois mois de loyer d'avance",
+        "Une taxe à la mairie"
+      ],
+      "explain": "« Dépôt de garantie : un mois de loyer » — cette somme est rendue à la sortie si le logement est en bon état.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-ceB1",
+      "theme": "ce",
+      "ctx": "Objet : changement d'horaire — Bonjour à toutes et à tous, la réunion d'équipe prévue mardi à 9 h est déplacée à jeudi à 14 h, en salle 204. Merci de préparer un point rapide sur vos projets en cours et d'apporter le rapport du mois de juin. Si vous ne pouvez pas être présents, merci de prévenir Nadia avant mercredi midi. Bonne journée, Karim, responsable d'équipe.",
+      "q": "Pourquoi Karim écrit-il ce message ?",
+      "options": [
+        "Pour annoncer que la réunion change de jour et d'heure",
+        "Pour annuler définitivement la réunion",
+        "Pour inviter l'équipe à un déjeuner",
+        "Pour présenter un nouveau collègue"
+      ],
+      "explain": "L'objet du message est « changement d'horaire » : la réunion de mardi 9 h est déplacée à jeudi 14 h.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-ceB2",
+      "theme": "ce",
+      "ctx": "Objet : changement d'horaire — Bonjour à toutes et à tous, la réunion d'équipe prévue mardi à 9 h est déplacée à jeudi à 14 h, en salle 204. Merci de préparer un point rapide sur vos projets en cours et d'apporter le rapport du mois de juin. Si vous ne pouvez pas être présents, merci de prévenir Nadia avant mercredi midi. Bonne journée, Karim, responsable d'équipe.",
+      "q": "Quand la réunion aura-t-elle finalement lieu ?",
+      "options": [
+        "Jeudi à 14 h",
+        "Mardi à 9 h",
+        "Mercredi à midi",
+        "Jeudi à 9 h"
+      ],
+      "explain": "Nouvelle date : jeudi à 14 h, salle 204. Mardi 9 h était l'ancien horaire ; mercredi midi est la date limite pour prévenir Nadia.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-ceB3",
+      "theme": "ce",
+      "ctx": "Objet : changement d'horaire — Bonjour à toutes et à tous, la réunion d'équipe prévue mardi à 9 h est déplacée à jeudi à 14 h, en salle 204. Merci de préparer un point rapide sur vos projets en cours et d'apporter le rapport du mois de juin. Si vous ne pouvez pas être présents, merci de prévenir Nadia avant mercredi midi. Bonne journée, Karim, responsable d'équipe.",
+      "q": "Que doivent apporter les participants ?",
+      "options": [
+        "Le rapport du mois de juin",
+        "Leur ordinateur personnel",
+        "Un gâteau",
+        "Leur contrat de travail"
+      ],
+      "explain": "« …préparer un point rapide sur vos projets en cours et apporter le rapport du mois de juin. »",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-ceB4",
+      "theme": "ce",
+      "ctx": "Objet : changement d'horaire — Bonjour à toutes et à tous, la réunion d'équipe prévue mardi à 9 h est déplacée à jeudi à 14 h, en salle 204. Merci de préparer un point rapide sur vos projets en cours et d'apporter le rapport du mois de juin. Si vous ne pouvez pas être présents, merci de prévenir Nadia avant mercredi midi. Bonne journée, Karim, responsable d'équipe.",
+      "q": "Que doit faire une personne qui ne peut pas venir ?",
+      "options": [
+        "Prévenir Nadia avant mercredi midi",
+        "Envoyer un mail à Karim jeudi",
+        "Ne rien faire",
+        "Annuler la réunion"
+      ],
+      "explain": "« Si vous ne pouvez pas être présents, merci de prévenir Nadia avant mercredi midi. »",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-ceC1",
+      "theme": "ce",
+      "ctx": "La ville lance « Vélo'Ville », un nouveau service de vélos en libre-service. À partir du 15 mars, 300 vélos seront disponibles dans 40 stations. L'abonnement coûte 25 € par an pour les habitants, et les 30 premières minutes de chaque trajet sont gratuites. L'inscription se fait en ligne ou à l'accueil de la mairie, sur présentation d'une pièce d'identité et d'un justificatif de domicile. Objectif de la ville : réduire la circulation automobile dans le centre.",
+      "q": "Quel est le sujet principal de cet article ?",
+      "options": [
+        "Le lancement d'un service de vélos partagés dans la ville",
+        "L'augmentation du prix des transports",
+        "La fermeture du centre-ville aux piétons",
+        "Une course cycliste professionnelle"
+      ],
+      "explain": "L'article présente « Vélo'Ville », un nouveau service de vélos en libre-service lancé par la ville.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-ceC2",
+      "theme": "ce",
+      "ctx": "La ville lance « Vélo'Ville », un nouveau service de vélos en libre-service. À partir du 15 mars, 300 vélos seront disponibles dans 40 stations. L'abonnement coûte 25 € par an pour les habitants, et les 30 premières minutes de chaque trajet sont gratuites. L'inscription se fait en ligne ou à l'accueil de la mairie, sur présentation d'une pièce d'identité et d'un justificatif de domicile. Objectif de la ville : réduire la circulation automobile dans le centre.",
+      "q": "Combien coûte l'abonnement annuel pour les habitants ?",
+      "options": [
+        "25 € par an",
+        "30 € par mois",
+        "Il est gratuit",
+        "300 € par an"
+      ],
+      "explain": "« L'abonnement coûte 25 € par an pour les habitants » ; ce sont les 30 premières minutes de chaque trajet qui sont gratuites.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-ceC3",
+      "theme": "ce",
+      "ctx": "La ville lance « Vélo'Ville », un nouveau service de vélos en libre-service. À partir du 15 mars, 300 vélos seront disponibles dans 40 stations. L'abonnement coûte 25 € par an pour les habitants, et les 30 premières minutes de chaque trajet sont gratuites. L'inscription se fait en ligne ou à l'accueil de la mairie, sur présentation d'une pièce d'identité et d'un justificatif de domicile. Objectif de la ville : réduire la circulation automobile dans le centre.",
+      "q": "Quels documents faut-il présenter pour s'inscrire ?",
+      "options": [
+        "Une pièce d'identité et un justificatif de domicile",
+        "Un permis de conduire",
+        "Une fiche de paie et un RIB",
+        "Aucun document"
+      ],
+      "explain": "« …sur présentation d'une pièce d'identité et d'un justificatif de domicile. » L'inscription se fait en ligne ou à la mairie.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-ceC4",
+      "theme": "ce",
+      "ctx": "La ville lance « Vélo'Ville », un nouveau service de vélos en libre-service. À partir du 15 mars, 300 vélos seront disponibles dans 40 stations. L'abonnement coûte 25 € par an pour les habitants, et les 30 premières minutes de chaque trajet sont gratuites. L'inscription se fait en ligne ou à l'accueil de la mairie, sur présentation d'une pièce d'identité et d'un justificatif de domicile. Objectif de la ville : réduire la circulation automobile dans le centre.",
+      "q": "Quel est l'objectif de la ville avec ce service ?",
+      "options": [
+        "Réduire la circulation des voitures dans le centre",
+        "Gagner de l'argent",
+        "Remplacer les bus",
+        "Organiser des compétitions sportives"
+      ],
+      "explain": "Dernière phrase : « Objectif de la ville : réduire la circulation automobile dans le centre. »",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-ceD1",
+      "theme": "ce",
+      "ctx": "Madame, Monsieur, dans le cadre de l'étude de votre dossier d'aide au logement, nous vous invitons à nous transmettre, avant le 15 octobre, les documents suivants : votre contrat de location signé, votre attestation d'assurance habitation et vos trois derniers bulletins de salaire. Sans réponse de votre part avant cette date, le versement de votre aide sera suspendu. Vous pouvez déposer ces documents sur votre espace personnel en ligne ou les envoyer par courrier. — Votre Caisse d'allocations familiales.",
+      "q": "Qui envoie ce courrier ?",
+      "options": [
+        "La CAF (Caisse d'allocations familiales)",
+        "La préfecture",
+        "Le propriétaire du logement",
+        "La banque"
+      ],
+      "explain": "La signature indique « Votre Caisse d'allocations familiales » : c'est la CAF, qui gère les aides au logement.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-ceD2",
+      "theme": "ce",
+      "ctx": "Madame, Monsieur, dans le cadre de l'étude de votre dossier d'aide au logement, nous vous invitons à nous transmettre, avant le 15 octobre, les documents suivants : votre contrat de location signé, votre attestation d'assurance habitation et vos trois derniers bulletins de salaire. Sans réponse de votre part avant cette date, le versement de votre aide sera suspendu. Vous pouvez déposer ces documents sur votre espace personnel en ligne ou les envoyer par courrier. — Votre Caisse d'allocations familiales.",
+      "q": "Que demande ce courrier ?",
+      "options": [
+        "D'envoyer des documents pour compléter un dossier d'aide au logement",
+        "De payer une amende",
+        "De déménager avant le 15 octobre",
+        "De prendre un rendez-vous téléphonique"
+      ],
+      "explain": "La CAF demande trois documents (contrat de location, attestation d'assurance, bulletins de salaire) pour étudier le dossier.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-ceD3",
+      "theme": "ce",
+      "ctx": "Madame, Monsieur, dans le cadre de l'étude de votre dossier d'aide au logement, nous vous invitons à nous transmettre, avant le 15 octobre, les documents suivants : votre contrat de location signé, votre attestation d'assurance habitation et vos trois derniers bulletins de salaire. Sans réponse de votre part avant cette date, le versement de votre aide sera suspendu. Vous pouvez déposer ces documents sur votre espace personnel en ligne ou les envoyer par courrier. — Votre Caisse d'allocations familiales.",
+      "q": "Que se passe-t-il si la personne ne répond pas avant le 15 octobre ?",
+      "options": [
+        "Le versement de son aide sera suspendu",
+        "Elle recevra plus d'argent",
+        "Elle devra quitter son logement",
+        "Rien de particulier"
+      ],
+      "explain": "« Sans réponse de votre part avant cette date, le versement de votre aide sera suspendu. » Suspendu = arrêté temporairement.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-ceD4",
+      "theme": "ce",
+      "ctx": "Madame, Monsieur, dans le cadre de l'étude de votre dossier d'aide au logement, nous vous invitons à nous transmettre, avant le 15 octobre, les documents suivants : votre contrat de location signé, votre attestation d'assurance habitation et vos trois derniers bulletins de salaire. Sans réponse de votre part avant cette date, le versement de votre aide sera suspendu. Vous pouvez déposer ces documents sur votre espace personnel en ligne ou les envoyer par courrier. — Votre Caisse d'allocations familiales.",
+      "q": "Comment peut-on transmettre les documents ?",
+      "options": [
+        "En ligne sur son espace personnel, ou par courrier",
+        "Uniquement en main propre au guichet",
+        "Par téléphone",
+        "Par un ami"
+      ],
+      "explain": "Deux moyens sont proposés : le dépôt en ligne (espace personnel) ou l'envoi par courrier.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g1",
+      "theme": "gram",
+      "q": "Hier soir, nous ___ un très bon film au cinéma.",
+      "options": [
+        "avons vu",
+        "voyons",
+        "verrons",
+        "voyions"
+      ],
+      "explain": "« Hier soir » = action terminée dans le passé → passé composé : nous avons vu.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g2",
+      "theme": "gram",
+      "q": "Quand j'étais enfant, je ___ au football tous les mercredis.",
+      "options": [
+        "jouais",
+        "ai joué",
+        "jouerai",
+        "joue"
+      ],
+      "explain": "Habitude dans le passé (« tous les mercredis ») → imparfait : je jouais.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g3",
+      "theme": "gram",
+      "q": "Si j'avais plus de temps, je ___ du sport régulièrement.",
+      "options": [
+        "ferais",
+        "ferai",
+        "fais",
+        "faisais"
+      ],
+      "explain": "Hypothèse : « si + imparfait » → conditionnel présent dans la seconde partie : je ferais.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g4",
+      "theme": "gram",
+      "q": "Il faut que tu ___ à l'heure au rendez-vous de la préfecture.",
+      "options": [
+        "sois",
+        "es",
+        "seras",
+        "étais"
+      ],
+      "explain": "« Il faut que » est suivi du subjonctif : que tu sois.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g5",
+      "theme": "gram",
+      "q": "C'est la ville ___ je suis né.",
+      "options": [
+        "où",
+        "qui",
+        "que",
+        "dont"
+      ],
+      "explain": "« Où » remplace un complément de lieu : je suis né dans cette ville → la ville où je suis né.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g6",
+      "theme": "gram",
+      "q": "Le document ___ vous avez besoin est disponible à la mairie.",
+      "options": [
+        "dont",
+        "que",
+        "qui",
+        "où"
+      ],
+      "explain": "On dit « avoir besoin DE quelque chose » → le pronom relatif est « dont ».",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g7",
+      "theme": "gram",
+      "q": "J'habite en France ___ 2019.",
+      "options": [
+        "depuis",
+        "pendant",
+        "il y a",
+        "dans"
+      ],
+      "explain": "« Depuis » + point de départ d'une action qui continue encore : j'habite ici depuis 2019 (et j'y habite toujours).",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g8",
+      "theme": "gram",
+      "q": "J'ai étudié l'anglais ___ deux ans, puis j'ai arrêté.",
+      "options": [
+        "pendant",
+        "depuis",
+        "dans",
+        "il y a"
+      ],
+      "explain": "« Pendant » + durée terminée : l'action est finie (« puis j'ai arrêté »).",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g9",
+      "theme": "gram",
+      "q": "Tu as vu Sarah ? — Oui, je ___ ai vue ce matin.",
+      "options": [
+        "l'",
+        "lui",
+        "leur",
+        "y"
+      ],
+      "explain": "« Voir quelqu'un » → complément direct → le/la (l'). « Lui » s'utilise avec les verbes en « à quelqu'un » (parler à, téléphoner à…).",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g10",
+      "theme": "gram",
+      "q": "Tu écris souvent à tes parents ? — Oui, je ___ téléphone chaque semaine.",
+      "options": [
+        "leur",
+        "les",
+        "en",
+        "y"
+      ],
+      "explain": "« Téléphoner À quelqu'un » → complément indirect pluriel → leur.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g11",
+      "theme": "gram",
+      "q": "Vous voulez du café ? — Oui, j'___ veux bien, merci.",
+      "options": [
+        "en",
+        "le",
+        "y",
+        "lui"
+      ],
+      "explain": "« En » remplace « du/de la/des + chose » : je veux du café → j'en veux.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g12",
+      "theme": "gram",
+      "q": "Tu vas à la préfecture demain ? — Oui, j'___ vais à 9 heures.",
+      "options": [
+        "y",
+        "en",
+        "la",
+        "leur"
+      ],
+      "explain": "« Y » remplace un lieu introduit par « à » : je vais à la préfecture → j'y vais.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g13",
+      "theme": "gram",
+      "q": "Mon nouvel appartement est ___ grand que l'ancien : j'ai une chambre en plus.",
+      "options": [
+        "plus",
+        "aussi",
+        "moins",
+        "autant"
+      ],
+      "explain": "Une chambre en plus → comparatif de supériorité : plus grand que.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g14",
+      "theme": "gram",
+      "q": "C'est le ___ restaurant de la ville : il est toujours complet.",
+      "options": [
+        "meilleur",
+        "mieux",
+        "plus bon",
+        "bon"
+      ],
+      "explain": "Superlatif de « bon » = le meilleur. « Plus bon » n'existe pas ; « mieux » est l'adverbe (comparatif de « bien »).",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g15",
+      "theme": "gram",
+      "q": "Elle parle français ___ que moi, car elle vit ici depuis dix ans.",
+      "options": [
+        "mieux",
+        "meilleur",
+        "bien",
+        "bon"
+      ],
+      "explain": "« Mieux » est le comparatif de l'adverbe « bien » : elle parle bien → elle parle mieux que moi.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g16",
+      "theme": "gram",
+      "q": "L'année prochaine, nous ___ notre carte de résident.",
+      "options": [
+        "demanderons",
+        "demandons",
+        "avons demandé",
+        "demandions"
+      ],
+      "explain": "« L'année prochaine » = futur → futur simple : nous demanderons.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g17",
+      "theme": "gram",
+      "q": "Je viens ___ finir mon dossier : je peux enfin me reposer.",
+      "options": [
+        "de",
+        "à",
+        "pour",
+        "par"
+      ],
+      "explain": "Le passé récent se forme avec « venir DE + infinitif » : je viens de finir.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g18",
+      "theme": "gram",
+      "q": "Ne le dérange pas maintenant : il est en train ___ travailler.",
+      "options": [
+        "de",
+        "à",
+        "en",
+        "pour"
+      ],
+      "explain": "« Être en train DE + infinitif » exprime une action en cours : il est en train de travailler.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g19",
+      "theme": "gram",
+      "q": "___ tu ne comprends pas une question, n'hésite pas à demander.",
+      "options": [
+        "Si",
+        "Quand même",
+        "Pourtant",
+        "Alors que"
+      ],
+      "explain": "« Si » introduit la condition : si tu ne comprends pas… (+ présent), demande (+ impératif).",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g20",
+      "theme": "gram",
+      "q": "Désolé, je n'ai ___ compris : pouvez-vous répéter, s'il vous plaît ?",
+      "options": [
+        "rien",
+        "personne",
+        "jamais",
+        "plus"
+      ],
+      "explain": "« Ne… rien » = négation portant sur les choses : je n'ai rien compris.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g21",
+      "theme": "gram",
+      "q": "___ n'est venu à la réunion : la salle était vide.",
+      "options": [
+        "Personne",
+        "Rien",
+        "Aucun lieu",
+        "Jamais"
+      ],
+      "explain": "« Personne ne + verbe » = négation portant sur les gens : personne n'est venu.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g22",
+      "theme": "gram",
+      "q": "Cette lettre a été ___ par la directrice elle-même.",
+      "options": [
+        "écrite",
+        "écrit",
+        "écrire",
+        "écrivant"
+      ],
+      "explain": "Voix passive : le participe passé s'accorde avec le sujet (la lettre, féminin) → écrite.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g23",
+      "theme": "gram",
+      "q": "Avant de ___ , vérifiez que vous avez tous vos documents.",
+      "options": [
+        "partir",
+        "partez",
+        "partirez",
+        "parti"
+      ],
+      "explain": "« Avant de » est toujours suivi de l'infinitif : avant de partir.",
+      "source": "legacy"
+    },
+    {
+      "id": "fr-g24",
+      "theme": "gram",
+      "q": "Bien qu'il ___ fatigué, il a terminé son dossier avant minuit.",
+      "options": [
+        "soit",
+        "est",
+        "sera",
+        "était"
+      ],
+      "explain": "« Bien que » (concession) est suivi du subjonctif : bien qu'il soit fatigué. Niveau B1+ — bonus !",
+      "source": "legacy"
+    }
+  ],
+  "writing": [
+    {
+      "id": "ee1",
+      "title": "Tâche 1 — Message à un ami",
+      "prompt": "Vous venez de déménager dans une nouvelle ville en France. Écrivez un message à un ami : décrivez votre nouveau quartier et invitez-le à venir vous voir.",
+      "min": 60,
+      "max": 120,
+      "minutes": 10,
+      "tips": "Structure attendue : salutation → nouvelles → description (2-3 détails concrets) → invitation avec une proposition de date → formule finale. Utilisez le passé composé (j'ai déménagé) et le présent.",
+      "model": "Salut Karim ! J'espère que tu vas bien. Ça y est, j'ai déménagé à Lyon la semaine dernière ! Mon nouveau quartier est très agréable : il y a un grand marché le samedi matin, plein de petits cafés et un parc juste à côté de chez moi. Mon appartement est petit mais lumineux, et le métro est à cinq minutes à pied. Tu me manques ! Est-ce que tu veux venir passer un week-end le mois prochain ? On pourrait visiter la vieille ville et goûter les spécialités de la région. Dis-moi quelles dates t'arrangent. À très bientôt, Wes"
+    },
+    {
+      "id": "ee2",
+      "title": "Tâche 2 — Raconter une expérience",
+      "prompt": "Vous avez participé à une fête ou à un événement en France (fête des voisins, 14 juillet, festival…). Racontez cette expérience sur un forum : où, quand, avec qui, ce que vous avez aimé.",
+      "min": 100,
+      "max": 150,
+      "minutes": 12,
+      "tips": "Racontez au passé : passé composé pour les actions (nous avons discuté), imparfait pour le décor et les sentiments (j'étais timide, les enfants jouaient). Terminez par un bilan personnel.",
+      "model": "L'année dernière, j'ai participé pour la première fois à la fête des voisins, dans la cour de mon immeuble à Villeurbanne. Chaque famille avait préparé un plat de son pays : il y avait du couscous, des quiches et beaucoup de gâteaux. Au début, j'étais un peu timide parce que je ne connaissais personne. Mais très vite, mes voisins sont venus me parler et nous avons discuté toute la soirée. Les enfants jouaient ensemble pendant que les adultes échangeaient leurs recettes. Grâce à cette soirée, je connais maintenant presque tout mon immeuble, et une voisine m'aide même à améliorer mon français. C'était une expérience chaleureuse que je recommande à tous les nouveaux habitants."
+    },
+    {
+      "id": "ee3",
+      "title": "Tâche 3 — Donner son opinion",
+      "prompt": "« Pour bien s'intégrer dans un pays, il faut absolument parler la langue de ce pays. » Êtes-vous d'accord ? Donnez votre opinion avec des arguments et des exemples.",
+      "min": 120,
+      "max": 180,
+      "minutes": 15,
+      "tips": "Plan : votre position → 2-3 arguments introduits par des connecteurs (d'abord, ensuite, enfin) → un exemple personnel → une nuance (cependant…) → conclusion. Les connecteurs sont surlignés dans le modèle.",
+      "model": "<mark>À mon avis</mark>, parler la langue du pays où l'on vit est essentiel pour s'intégrer. <mark>D'abord</mark>, la langue permet d'être autonome dans la vie quotidienne : faire ses courses, aller chez le médecin, parler avec l'école de ses enfants. Sans le français, on dépend toujours de quelqu'un. <mark>Ensuite</mark>, il y a le travail : la plupart des employeurs demandent un bon niveau de français, et la langue ouvre de meilleures opportunités professionnelles. <mark>Enfin</mark>, la langue permet de créer des liens. Grâce au français, je me suis fait des amis français et je comprends mieux la culture du pays. <mark>Cependant</mark>, la langue ne suffit pas : il faut aussi connaître les valeurs de la société et participer à la vie locale. <mark>En conclusion</mark>, la langue est la clé la plus importante de l'intégration, mais elle doit s'accompagner d'une vraie participation à la vie du pays.",
+      "modelIsHtml": true
+    }
+  ],
+  "speaking": [
+    {
+      "id": "eo1",
+      "title": "Partie 1 — Entretien dirigé (≈ 2 min, sans préparation)",
+      "desc": "L'examinateur vous pose des questions sur vous : identité, famille, travail, vie en France. Répondez en phrases complètes, pas en un seul mot.",
+      "questions": [
+        "Présentez-vous, s'il vous plaît.",
+        "Parlez-moi de votre famille.",
+        "Que faites-vous dans la vie ?",
+        "Depuis combien de temps habitez-vous en France ?",
+        "Qu'est-ce que vous aimez dans votre ville ?"
+      ],
+      "model": "Je m'appelle Wes, j'ai 32 ans et je viens de Tunisie. J'habite en France depuis 2019, à Lyon. Je travaille comme développeur web dans une entreprise de services informatiques : je crée des sites et des applications. J'aime beaucoup ma ville parce qu'elle est vivante, bien desservie par les transports, et il y a toujours quelque chose à faire le week-end. Pendant mon temps libre, je fais du sport et je retrouve mes amis autour d'un café.",
+      "tips": "Donnez 2-3 phrases par réponse. Entraînez-vous à parler de : votre métier, votre parcours, votre quartier, vos loisirs, votre famille — ce sont presque toujours ces questions."
+    },
+    {
+      "id": "eo2",
+      "title": "Partie 2 — Interaction : poser des questions (≈ 3-4 min)",
+      "desc": "On vous donne une situation et VOUS devez poser les questions (c'est l'inverse d'un entretien !). Exemple de sujet : « Vous voulez vous inscrire dans un club de sport. L'examinateur est l'employé du club. Posez-lui des questions. »",
+      "questions": [
+        "Bonjour, je voudrais des informations sur votre club, s'il vous plaît.",
+        "Quels sont vos horaires d'ouverture ?",
+        "Combien coûte l'abonnement pour une année ?",
+        "Est-ce qu'il y a une réduction pour les étudiants ou les familles ?",
+        "Quels documents faut-il pour s'inscrire ?",
+        "Est-ce que je peux faire une séance d'essai gratuite ?"
+      ],
+      "model": "La clé : variez les formes de questions — « Est-ce que… ? », « Quel/Quelle… ? », « Combien… ? », « Où… ? », « Comment… ? ». Préparez des questions sur : le prix, les horaires, le lieu, les conditions, les documents nécessaires — elles marchent pour presque tous les sujets (club, voyage, cours, location…).",
+      "tips": "Ne répondez pas aux questions : posez-les ! Beaucoup de candidats perdent des points en racontant leur vie au lieu d'interroger l'examinateur."
+    },
+    {
+      "id": "eo3",
+      "title": "Partie 3 — Exprimer un point de vue (≈ 4-5 min)",
+      "desc": "Vous parlez seul(e) en continu pour donner votre opinion sur un sujet de société simple. Exemples : « Est-il important d'apprendre la langue du pays où on vit ? », « Vaut-il mieux vivre en ville ou à la campagne ? », « Les réseaux sociaux sont-ils une bonne chose ? »",
+      "questions": [
+        "Annoncez votre position (« Je pense que… », « À mon avis… »)",
+        "Donnez 2 ou 3 arguments (« D'abord… Ensuite… Enfin… »)",
+        "Illustrez avec un exemple personnel (« Par exemple, quand je suis arrivé en France… »)",
+        "Concluez (« Pour toutes ces raisons, je pense que… »)"
+      ],
+      "model": "À mon avis, il est très important d'apprendre la langue du pays où on vit. D'abord, c'est une question d'autonomie : avec le français, je peux faire mes démarches, comprendre un contrat, parler avec mon médecin. Ensuite, c'est essentiel pour le travail : dans mon entreprise, toutes les réunions sont en français. Enfin, la langue permet de rencontrer les gens. Par exemple, quand je suis arrivé en France, je ne parlais pas bien et je restais souvent seul ; aujourd'hui, grâce à la langue, j'ai des amis français et je me sens chez moi. Pour toutes ces raisons, je pense que la langue est la première étape de l'intégration.",
+      "tips": "Parlez 2 minutes minimum sans vous arrêter. Enregistrez-vous avec votre téléphone, réécoutez, et vérifiez : temps du passé corrects ? connecteurs présents ? exemples concrets ?"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# pnpm 11 reads build-script approvals from here (the package.json `pnpm`
+# field is no longer honoured).
+allowBuilds:
+  '@parcel/watcher': true
+  esbuild: true
+  vue-demi: true
