@@ -1,11 +1,11 @@
 /* All study state, persisted in localStorage under `cr10v2:` and shared
    by every page. */
-import type { AnswerCheck, CardState, DayStats, QuizItem, Settings, Track } from '~/types/study'
+import type { AnswerCheck, CardState, DayStats, LevelResult, QuizItem, Settings, Track } from '~/types/study'
 
 const DEFAULT_SETTINGS: Settings = { expiry: '2027-03-01', civicExam: '', frenchExam: '' }
 const EMPTY_DAY: DayStats = { learned: 0, reviewed: 0, correct: 0, wrong: 0 }
 
-export const STORAGE_KEYS = ['cr10v2:settings', 'cr10v2:cards', 'cr10v2:days', 'cr10v2:checks'] as const
+export const STORAGE_KEYS = ['cr10v2:settings', 'cr10v2:cards', 'cr10v2:days', 'cr10v2:checks', 'cr10v2:levels'] as const
 
 export interface TrackPlan {
   total: number
@@ -24,6 +24,9 @@ export const useStudy = createSharedComposable(() => {
   const days = useLocalStorage<Record<string, DayStats>>('cr10v2:days', {})
   // your checks of drafted official answers — applied to the data with scripts/apply-checks.mjs
   const checks = useLocalStorage<Record<string, AnswerCheck>>('cr10v2:checks', {})
+  // French level-check results, oldest first
+  const levels = useLocalStorage<LevelResult[]>('cr10v2:levels', [])
+  const lastLevel = computed(() => levels.value.at(-1) ?? null)
 
   // re-evaluated every minute so the day rolls over at midnight
   const now = useNow({ scheduler: (cb) => useIntervalFn(cb, 60_000) })
@@ -90,5 +93,5 @@ export const useStudy = createSharedComposable(() => {
     return roundRobin(unseen, (i) => i.theme).slice(0, count)
   }
 
-  return { settings, cards, days, checks, today, deadline, currentStreak, checkStats, plan, grade, extra, setCheck }
+  return { settings, cards, days, checks, levels, lastLevel, today, deadline, currentStreak, checkStats, plan, grade, extra, setCheck }
 })

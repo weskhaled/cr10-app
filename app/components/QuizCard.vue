@@ -1,10 +1,13 @@
 <script setup lang="ts">
 /* One multiple-choice item: shuffled options, instant feedback,
    keyboard shortcuts (1–4 / A–D to answer, Enter for next).
+   `test`: no feedback — the parent moves on as soon as an answer is picked.
    Re-mount it (`:key`) for each new item. */
 import type { QuizItem, Track } from '~/types/study'
 
-const props = defineProps<{ item: QuizItem; track: Track }>()
+type CardItem = Omit<QuizItem, 'source'> & Partial<Pick<QuizItem, 'source'>>
+
+const props = defineProps<{ item: CardItem; track: Track; test?: boolean }>()
 const emit = defineEmits<{ answer: [correct: boolean]; next: [] }>()
 
 const KEYS = ['A', 'B', 'C', 'D']
@@ -31,7 +34,7 @@ function play() {
 }
 
 function optionColor(i: number) {
-  if (!answered.value) return 'neutral'
+  if (!answered.value || props.test) return 'neutral'
   if (order[i] === 0) return 'success'
   return i === picked.value ? 'error' : 'neutral'
 }
@@ -42,7 +45,7 @@ onKeyStroke(['1', '2', '3', '4', 'a', 'b', 'c', 'd', 'A', 'B', 'C', 'D'], (e) =>
   pick('1234'.includes(k) ? Number(k) - 1 : 'abcd'.indexOf(k))
 })
 onKeyStroke('Enter', () => {
-  if (answered.value) emit('next')
+  if (answered.value && !props.test) emit('next')
 })
 onBeforeUnmount(stopSpeech)
 </script>
@@ -89,7 +92,7 @@ onBeforeUnmount(stopSpeech)
       </UButton>
     </div>
 
-    <template v-if="answered">
+    <template v-if="answered && !test">
       <UAlert
         class="mt-4"
         :color="isRight ? 'success' : 'error'"

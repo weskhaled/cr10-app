@@ -2,6 +2,7 @@
 const links = [
   { label: 'Today', to: '/', icon: 'i-lucide-sun' },
   { label: 'Official list', to: '/official', icon: 'i-lucide-list-checks' },
+  { label: 'Level check', to: '/level', icon: 'i-lucide-gauge' },
   { label: 'Settings', to: '/settings', icon: 'i-lucide-settings' },
 ]
 </script>

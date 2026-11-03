@@ -66,3 +66,20 @@ export interface Settings {
   civicExam: string // booked date, '' if not booked
   frenchExam: string // booked TCF/TEF date, '' if not booked
 }
+
+export type Level = 'A1' | 'A2' | 'B1' | 'B2'
+export type Band = 'pre-A1' | Level
+
+/** A placement item of the French level check; `theme` is the skill (co / ce / gram). */
+export interface LevelItem extends Omit<QuizItem, 'source'> {
+  level: Level
+}
+
+export type TestedSkill = 'gram' | 'ce' | 'co'
+export type SelfSkill = 'ee' | 'eo'
+
+export interface LevelResult {
+  on: string // ISO date
+  bands: Record<TestedSkill, Band>
+  self: Record<SelfSkill, Band>
+}

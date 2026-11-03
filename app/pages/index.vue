@@ -2,7 +2,7 @@
 import type { Track } from '~/types/study'
 import type { ExamStatus } from '~/utils/deadline'
 
-const { settings, days, today, deadline, currentStreak, checkStats, plan } = useStudy()
+const { settings, days, today, deadline, currentStreak, checkStats, lastLevel, plan } = useStudy()
 
 const tracks = computed(() =>
   (['civic', 'french'] as Track[]).map((id) => {
@@ -49,6 +49,20 @@ function examLine(exam: ExamStatus): { color: keyof typeof LINE_STYLE; text: str
     return { color: 'error', text: `Not booked, and the usual booking date (${formatDate(d.latestBooking)}) has passed. Book the earliest session you can.` }
   return { color: 'warning', text: `Not booked. Book by ${formatDate(d.latestBooking)} for a session on or before ${formatDate(d.latestExam)}.` }
 }
+
+// French level estimate, worst skill first
+const levelSummary = computed(() => {
+  const r = lastLevel.value
+  if (!r) return null
+  const skills = [
+    { label: 'Grammar', band: r.bands.gram },
+    { label: 'Reading', band: r.bands.ce },
+    { label: 'Listening', band: r.bands.co },
+    { label: 'Writing', band: r.self.ee },
+    { label: 'Speaking', band: r.self.eo },
+  ]
+  return { on: r.on, skills, below: skills.filter((s) => gapToTarget(s.band) > 0).length, stale: daysBetween(r.on, today.value) > 14 }
+})
 
 // last 14 days, oldest first
 const history = computed(() =>
@@ -122,6 +136,34 @@ const history = computed(() =>
         </div>
       </UCard>
     </div>
+
+    <!-- French level -->
+    <UCard>
+      <div class="flex flex-wrap items-center justify-between gap-3">
+        <div class="space-y-1">
+          <h2 class="font-semibold">French level estimate</h2>
+          <p v-if="!levelSummary" class="text-sm text-muted">Not measured yet — take the 15-minute level check to see where you stand against B1.</p>
+          <template v-else>
+            <div class="flex flex-wrap gap-1.5">
+              <UBadge
+                v-for="s in levelSummary.skills"
+                :key="s.label"
+                :color="gapToTarget(s.band) ? 'warning' : 'success'"
+                variant="subtle"
+                :label="`${s.label} ${s.band === 'pre-A1' ? '<A1' : s.band}`"
+              />
+            </div>
+            <p class="text-xs text-muted">
+              {{ formatDate(levelSummary.on) }} · {{ levelSummary.below ? `${levelSummary.below} below B1` : 'B1 or above everywhere' }}
+              <template v-if="levelSummary.stale"> · more than 2 weeks old, retake it</template>
+            </p>
+          </template>
+        </div>
+        <UButton to="/level" :variant="levelSummary && !levelSummary.stale ? 'outline' : 'solid'" icon="i-lucide-gauge">
+          {{ levelSummary ? 'Retake' : 'Level check' }}
+        </UButton>
+      </div>
+    </UCard>
 
     <!-- official list -->
     <UCard>

@@ -23,10 +23,13 @@ pnpm generate     # static site in .output/public
 | `app/pages/index.vue` | **Today** — deadlines, today's reviews + new items per track, streak, last 14 days |
 | `app/pages/session/[track].vue` | Study session (`civic` / `french`): due reviews first, then new items; keys 1–4 / A–D, Enter |
 | `app/pages/official.vue` | The official CR knowledge-question list, searchable |
+| `app/pages/level.vue` | **French level check**: grammar, reading, listening placement (A1 → B2, stops at the first failed level) + writing/speaking self-assessment; estimate per skill vs B1 |
 | `app/pages/settings.vue` | Expiry + exam dates, backup export/import, reset |
 | `app/utils/deadline.ts` | Works back from the titre expiry: ANEF window, last useful exam date, last booking date, daily pace |
 | `app/utils/srs.ts` | Leitner boxes, intervals 1/2/4/7/14 days |
 | `app/utils/plan.ts` | Today's queue, theme interleaving, streak |
+| `app/utils/level.ts` | Level-check scoring: 3 items per level, pass with 2, stop at the first failed level |
+| `app/data/french/level-check.json` | 36 original placement items (3 per level × 3 skills) + self-assessment statements |
 | `app/composables/useStudy.ts` | Shared, persisted state (`cr10v2:*` keys) |
 | `app/data/civic/official-cr.json` | 209 official question texts, as published (no options/answers) |
 | `app/data/civic/official-cr-answers.json` | Drafted options + answer + explanation + fiche link per official question, `verified: false` until checked |
