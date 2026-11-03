@@ -11,6 +11,10 @@ export default defineNuxtConfig({
       meta: [{ name: 'description', content: 'Daily prep for the carte de résident: civic exam + French B1.' }],
     },
   },
+  // dynamic routes the crawler can't find: give them a real page (200, cacheable offline)
+  nitro: {
+    prerender: { routes: ['/session/civic', '/session/french'] },
+  },
   ui: {
     fonts: false, // no external font download — works offline
   },
