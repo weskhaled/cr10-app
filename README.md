@@ -1,7 +1,10 @@
 # Objectif 10 ans — cr10-app
 
 Daily prep for the **carte de résident (10 years)**: the civic exam (CR level) and French B1 (TCF/TEF IRN).
-Successor of [`carte-resident-prep`](../carte-resident-prep), which stays live as the fallback.
+Successor of [`carte-resident-prep`](https://github.com/weskhaled/carte-resident-prep), which stays live as the fallback.
+
+**Live: <https://weskhaled.github.io/cr10-app/>** — deployed by `.github/workflows/deploy.yml` on every push to `main`.
+On a phone: open it in Safari → Share → Add to Home Screen (offline + progress kept).
 
 Nuxt 4 · Nuxt UI 4 (Reka UI + Tailwind 4) · VueUse · client-only, static output, data in `localStorage`.
 
