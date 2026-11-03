@@ -3,15 +3,16 @@ const { checks, checkStats } = useStudy()
 
 const query = ref('')
 const showAnswers = ref(true)
-const filter = ref<'all' | 'toCheck' | 'flagged' | 'checked'>('all')
+const filter = ref<'all' | 'checkFirst' | 'toCheck' | 'flagged' | 'checked'>('all')
 const FILTERS = [
   { label: 'All', value: 'all' },
+  { label: 'Check first', value: 'checkFirst' },
   { label: 'To check', value: 'toCheck' },
   { label: 'Flagged', value: 'flagged' },
   { label: 'Checked / verified', value: 'checked' },
 ]
 
-const fold = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
+const fold = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
 
 function statusOf(id: string): 'none' | 'toCheck' | 'flagged' | 'checked' {
   const a = OFFICIAL_ANSWERS[id]
@@ -29,7 +30,8 @@ const groups = computed(() => {
     questions: OFFICIAL.questions.filter((x) =>
       x.theme === t.id &&
       (!q || fold(x.q).includes(q)) &&
-      (filter.value === 'all' || statusOf(x.id) === filter.value)),
+      (filter.value === 'all' || statusOf(x.id) === filter.value ||
+        (filter.value === 'checkFirst' && statusOf(x.id) === 'toCheck' && !!OFFICIAL_ANSWERS[x.id]?.note))),
   }))
 })
 const shown = computed(() => groups.value.reduce((n, g) => n + g.questions.length, 0))
@@ -74,7 +76,7 @@ const shown = computed(() => groups.value.reduce((n, g) => n + g.questions.lengt
           <div v-if="showAnswers && OFFICIAL_ANSWERS[x.id]" class="mt-1 space-y-1.5">
             <p class="font-medium text-success">→ {{ OFFICIAL_ANSWERS[x.id]!.options[0] }}</p>
             <p class="text-muted">{{ OFFICIAL_ANSWERS[x.id]!.explain }}</p>
-            <AnswerCheckBar :id="x.id" :verified="OFFICIAL_ANSWERS[x.id]!.verified" :fiche="OFFICIAL_ANSWERS[x.id]!.ref" />
+            <AnswerCheckBar :id="x.id" :verified="OFFICIAL_ANSWERS[x.id]!.verified" :fiche="OFFICIAL_ANSWERS[x.id]!.ref" :note="OFFICIAL_ANSWERS[x.id]!.note" />
           </div>
         </li>
       </ol>

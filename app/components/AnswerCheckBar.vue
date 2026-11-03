@@ -1,6 +1,6 @@
 <script setup lang="ts">
 /* Status of a drafted official answer + your check against the fiche. */
-const props = defineProps<{ id: string; verified?: boolean; fiche?: string | null }>()
+const props = defineProps<{ id: string; verified?: boolean; fiche?: string | null; note?: string }>()
 
 const { checks, setCheck } = useStudy()
 const status = computed(() => checks.value[props.id]?.status)
@@ -21,6 +21,9 @@ const badge = computed(() => BADGE[status.value ?? 'none'])
       Official fiche <UIcon name="i-lucide-external-link" class="size-3.5" />
     </ULink>
     <span v-else class="text-muted">No fiche found — check on service-public.gouv.fr</span>
+    <UTooltip v-if="note && !verified" :text="note">
+      <UBadge color="error" variant="outline" icon="i-lucide-search-check" label="Check first" />
+    </UTooltip>
     <div v-if="!verified || status === 'flagged'" class="ms-auto flex flex-wrap gap-1">
       <UButton
         size="xs"

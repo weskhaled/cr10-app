@@ -15,6 +15,7 @@ export interface QuizItem {
   source: 'legacy' | 'official-cr'
   verified?: boolean // official-cr: answer checked against the official fiche
   ref?: string // official fiche supporting the answer
+  note?: string // why the drafted answer needs a closer check
   sit?: boolean // civic: mise en situation
   say?: string // french: text read aloud (listening)
   ctx?: string // french: reading passage

@@ -1,0 +1,327 @@
+{
+  "cr-vie-8381de62": {
+    "options": [
+      "Le mariage civil, célébré en mairie",
+      "Le mariage religieux",
+      "Le mariage coutumier",
+      "Le mariage célébré devant des témoins seulement"
+    ],
+    "explain": "Le mariage civil est le seul mariage reconnu en France. Un mariage civil célébré à l'étranger est reconnu après sa transcription dans les registres de l'état civil français.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/la-declaration-de-mariage/"
+  },
+  "cr-vie-1fd63a6a": {
+    "options": [
+      "La mairie de sa commune",
+      "La préfecture de son département",
+      "La caisse d'allocations familiales (CAF)",
+      "Le tribunal judiciaire"
+    ],
+    "explain": "Pour inscrire son enfant à l'école publique, il suffit de contacter la mairie, ou l'école située à proximité du domicile. Les parents sont libres de choisir une école publique ou privée.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/la-liberte-de-choisir-l-ecole-de-son-enfant/"
+  },
+  "cr-vie-56431c67": {
+    "options": [
+      "Les deux parents, comme avant la séparation",
+      "Seulement la mère",
+      "Seulement le parent chez qui vit l'enfant",
+      "Le juge, à la place des parents"
+    ],
+    "explain": "Les deux parents gardent l'autorité parentale, avec les mêmes droits et devoirs, même s'ils sont séparés. Seul un tribunal peut la retirer à un parent en cas de danger pour l'enfant ou de désintérêt.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/exercice-de-l-autorite-parentale-1/"
+  },
+  "cr-vie-90f93da9": {
+    "options": [
+      "L'aide juridictionnelle",
+      "L'aide personnalisée au logement",
+      "Le revenu de solidarité active",
+      "La Complémentaire santé solidaire"
+    ],
+    "explain": "L'aide juridictionnelle est une aide financière qui permet à chacun d'être défendu de façon juste devant la justice. Pour les personnes aux faibles ressources, les frais d'avocat peuvent être pris en charge.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/"
+  },
+  "cr-vie-1c9879cd": {
+    "options": [
+      "À la mairie du lieu de naissance",
+      "À la préfecture du département",
+      "À la caisse d'allocations familiales",
+      "Au commissariat de police"
+    ],
+    "explain": "La déclaration de naissance est obligatoire. Elle se fait dans les 5 jours qui suivent la naissance, à la mairie du lieu de naissance, où l'officier d'état civil établit l'acte de naissance.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/la-declaration-de-naissance/"
+  },
+  "cr-vie-06ecbca0": {
+    "options": [
+      "Avoir 17 ans au minimum",
+      "Avoir 21 ans au minimum",
+      "Avoir la nationalité française",
+      "Posséder sa propre voiture"
+    ],
+    "explain": "Pour passer l'examen du permis de conduire, il faut avoir 17 ans au minimum et être résident en France. La nationalité française n'est pas exigée.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-du-quotidien-comme-le-permis-de-conduire-1/"
+  },
+  "cr-vie-459acd20": {
+    "options": [
+      "signé par le locataire et par le propriétaire",
+      "enregistré à la préfecture",
+      "validé par le maire de la commune",
+      "approuvé par la caisse d'allocations familiales"
+    ],
+    "explain": "Le bail est un contrat écrit entre le bailleur et le locataire. Il est valide seulement s'il est signé par le locataire et par le propriétaire.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-relatives-au-logement-1/"
+  },
+  "cr-vie-9df59b71": {
+    "options": [
+      "À la déchèterie la plus proche",
+      "Dans la poubelle des ordures ménagères",
+      "Dans le bac de tri des emballages",
+      "Sur le trottoir, devant son immeuble"
+    ],
+    "explain": "Un appareil électroménager cassé se dépose à la déchèterie (ou chez le vendeur qui reprend l'ancien appareil), jamais dans les poubelles ni dans la rue. Chacun a le devoir de trier ses déchets.",
+    "ref": null,
+    "note": "no fiche"
+  },
+  "cr-vie-db3d14d7": {
+    "options": [
+      "Le 17",
+      "Le 15",
+      "Le 18",
+      "Le 115"
+    ],
+    "explain": "Le 17 est le numéro de la police, pour signaler une infraction. Le 15 est le SAMU (urgence médicale), le 18 les pompiers et le 115 l'aide aux personnes sans domicile fixe.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/annexe-les-numeros-durgence/"
+  },
+  "cr-vie-bb8ad27c": {
+    "options": [
+      "En cas de danger vital, il faut appeler le SAMU au 15.",
+      "Il est interdit de changer de médecin traitant.",
+      "Les urgences de l'hôpital ne sont ouvertes que la journée.",
+      "Il faut une mutuelle pour être soigné à l'hôpital public."
+    ],
+    "explain": "En cas de danger vital (blessure grave, détresse respiratoire, perte de connaissance), il faut appeler le SAMU au 15, joignable gratuitement 24h/24 et 7j/7. Les urgences de l'hôpital sont aussi ouvertes 24h/24.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/acces-aux-soins-services-et-numeros-d-urgence/"
+  },
+  "cr-vie-3fdf16ed": {
+    "options": [
+      "À toute personne, majeure ou mineure",
+      "Uniquement aux personnes majeures",
+      "Uniquement aux personnes mariées",
+      "Uniquement aux femmes qui ont l'accord de leur partenaire"
+    ],
+    "explain": "Le droit de disposer de son corps vaut pour les plus et les moins de 18 ans. Les consultations et prescriptions de contraception aux mineurs peuvent être anonymes et gratuites.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/un-droit-fondamental-le-droit-de-disposer-de-son-corps/"
+  },
+  "cr-vie-dc08afb8": {
+    "options": [
+      "Le médecin garde secrètes les informations médicales du patient",
+      "Le patient choisit librement son médecin et son établissement de santé",
+      "Le médecin prévient l'employeur du patient en cas de maladie",
+      "Le patient doit garder secrets les conseils donnés par son médecin"
+    ],
+    "explain": "Le principe de confidentialité oblige le médecin à garder secrètes les informations médicales d'un patient. Le secret médical protège tout ce que le professionnel a vu, entendu ou compris pendant la consultation.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/sante-les-droits-du-patient/"
+  },
+  "cr-vie-ed03898a": {
+    "options": [
+      "obligatoire",
+      "facultative",
+      "réservée aux salariés",
+      "réservée aux personnes de nationalité française"
+    ],
+    "explain": "L'inscription à l'Assurance maladie est obligatoire. Une fois validée, elle donne un numéro de sécurité sociale et une carte Vitale, qui permettent d'être remboursé des frais de santé.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/sante-la-prise-en-charge-les-demarches-pour-etre-rembourse/"
+  },
+  "cr-vie-122c251d": {
+    "options": [
+      "Le père ou la mère, s'ils sont salariés",
+      "Seulement la mère de l'enfant",
+      "Seulement les parents mariés",
+      "Les grands-parents de l'enfant"
+    ],
+    "explain": "Le congé parental d'éducation permet à un parent salarié, père ou mère, d'arrêter ou de réduire son travail pour s'occuper de son enfant, sous conditions d'ancienneté. Il n'est pas réservé à la mère ni aux couples mariés.",
+    "ref": null,
+    "note": "no fiche"
+  },
+  "cr-vie-39a43b32": {
+    "options": [
+      "Les conflits entre un salarié et son employeur",
+      "Les conflits entre un locataire et son propriétaire",
+      "Les infractions au code de la route",
+      "Les divorces et les séparations de couples"
+    ],
+    "explain": "Le conseil de prud'hommes est un lieu de justice qui décide dans les désaccords entre un salarié et son employeur sur le contrat de travail (licenciement, salaire…). Il peut imposer une indemnité ou la réintégration du salarié.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/le-droit-au-travail-2/"
+  },
+  "cr-vie-4d727fe5": {
+    "options": [
+      "interdit par la loi",
+      "autorisé si le salarié est d'accord",
+      "autorisé pendant les trois premiers mois",
+      "autorisé pour un travail de courte durée"
+    ],
+    "explain": "Le travail non déclaré (ou travail dissimulé) est interdit par la loi. L'employeur risque jusqu'à 3 ans de prison et 45 000 euros d'amende, et le salarié ne cotise ni pour la retraite ni pour le chômage.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/le-droit-au-travail-5/"
+  },
+  "cr-vie-af2c4a86": {
+    "options": [
+      "il doit payer ces heures supplémentaires ou permettre de les rattraper",
+      "il peut les payer moins que le SMIC, s'il le décide",
+      "le salarié doit les faire gratuitement, sans contrepartie",
+      "il doit d'abord obtenir l'autorisation écrite de la mairie de la commune"
+    ],
+    "explain": "Au-delà de la durée légale (35 heures par semaine pour un temps complet), ce sont des heures supplémentaires. L'employeur doit les payer au salarié ou lui permettre de les rattraper.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/le-droit-au-travail-1/"
+  },
+  "cr-vie-65c1bae5": {
+    "options": [
+      "Aider les personnes à trouver un emploi ou une formation",
+      "Délivrer les titres de séjour aux étrangers",
+      "Rembourser les frais de santé des assurés",
+      "Verser les allocations familiales aux parents"
+    ],
+    "explain": "France Travail est un organisme public qui accompagne les personnes à la recherche d'un emploi : il les aide à trouver un travail ou une formation. Il aide aussi les entreprises qui recrutent.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/orientation-1/"
+  },
+  "cr-vie-20bb6214": {
+    "options": [
+      "à chaque salarié de créer un syndicat ou d'y adhérer",
+      "à l'employeur de choisir le syndicat de ses salariés",
+      "au salarié de fixer lui-même son salaire",
+      "au salarié de refuser tous les ordres de l'employeur"
+    ],
+    "explain": "Le droit syndical permet à chaque salarié de créer un syndicat, d'y adhérer ou d'y participer. Un syndicat défend les droits des travailleurs ; personne ne peut obliger un salarié à en rejoindre un ni le punir s'il en fait partie.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/le-droit-au-travail-2/"
+  },
+  "cr-vie-afc915bf": {
+    "options": [
+      "les salariés à cesser le travail pour exprimer un désaccord",
+      "les salariés à choisir librement leurs jours de travail",
+      "les salariés à venir travailler quand ils le souhaitent",
+      "l'employeur à fermer l'entreprise sans prévenir les salariés"
+    ],
+    "explain": "Le droit de grève est le droit, pour une personne employée, de cesser le travail pour exprimer un désaccord. C'est un droit fondamental lié à la liberté.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-droits-inherents-a-la-personne-humaine/"
+  },
+  "cr-vie-73bd875e": {
+    "options": [
+      "Avoir travaillé, perdre son emploi sans l'avoir voulu, s'inscrire à France Travail",
+      "Avoir la nationalité française, avoir plus de 25 ans et vivre en couple",
+      "Avoir quitté son emploi de sa propre décision, sans chercher d'autre travail",
+      "Être inscrit à la mairie de son domicile et toucher déjà les allocations familiales"
+    ],
+    "explain": "En principe, il faut avoir travaillé, avoir perdu son emploi sans l'avoir voulu, être inscrit à France Travail et chercher un emploi. La nationalité française n'est pas exigée.",
+    "ref": null,
+    "note": "no fiche"
+  },
+  "cr-vie-d4c7e87c": {
+    "options": [
+      "L'école des enfants de 3 à 6 ans",
+      "L'école des enfants de 6 à 11 ans",
+      "L'école des enfants de 11 à 15 ans",
+      "Un lieu de garde pour les enfants de moins de 3 ans"
+    ],
+    "explain": "L'école maternelle accueille les enfants de 3 à 6 ans (petite, moyenne et grande section). Les enfants y apprennent le français s'ils ne le parlent pas encore, à vivre ensemble et à se faire des amis.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/le-systeme-educatif/"
+  },
+  "cr-vie-4ac35df1": {
+    "options": [
+      "Le brevet des collèges (DNB)",
+      "Le baccalauréat (BAC)",
+      "Le certificat d'études primaires",
+      "La licence universitaire"
+    ],
+    "explain": "À la fin du collège, l'élève passe le brevet des collèges, ou diplôme national du brevet (DNB). Le baccalauréat se passe à la fin du lycée.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/le-systeme-educatif/"
+  },
+  "cr-vie-b0178fd0": {
+    "options": [
+      "se présenter aux élections des représentants des parents d'élèves",
+      "choisir les professeurs de leur enfant",
+      "fixer eux-mêmes le programme des cours",
+      "entrer en classe pendant les cours quand ils le veulent"
+    ],
+    "explain": "Les parents peuvent participer à la vie de l'école : rejoindre l'association de parents d'élèves ou se présenter aux élections des représentants des parents, qui participent aux décisions importantes concernant l'organisation de l'école.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/droits-et-devoirs-des-parents-a-l-ecole/"
+  },
+  "cr-vie-7a27e22d": {
+    "options": [
+      "Tous les enfants qui le souhaitent",
+      "Seulement les enfants de nationalité française",
+      "Seulement les enfants dont les parents sont mariés",
+      "Seulement les enfants dont les deux parents travaillent"
+    ],
+    "explain": "Une cantine est accessible à tous les enfants qui le souhaitent, dans tous les établissements scolaires, qu'ils soient français ou étrangers.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/le-systeme-educatif/"
+  },
+  "cr-vie-56dd7afb": {
+    "options": [
+      "À 3 ans",
+      "À 5 ans",
+      "À 6 ans",
+      "À 7 ans"
+    ],
+    "explain": "En France, tous les enfants de 3 à 16 ans qui habitent en France doivent aller à l'école : l'instruction est obligatoire dès 3 ans, pour les enfants français comme pour les enfants étrangers.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/le-systeme-educatif/"
+  },
+  "cr-vie-61af2cb1": {
+    "options": [
+      "18 ans",
+      "16 ans",
+      "21 ans",
+      "25 ans"
+    ],
+    "explain": "La majorité est fixée à 18 ans en France : elle a été abaissée à 18 ans sous la présidence de Valéry Giscard d'Estaing (1974-1981). Avant 18 ans, on est mineur.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/les-presidents-de-la-cinquieme-republique/"
+  },
+  "cr-vie-4b7e9c96": {
+    "options": [
+      "faire du prosélytisme pour leur religion",
+      "lire le bulletin scolaire de leur enfant",
+      "rencontrer les professeurs de leur enfant",
+      "rejoindre l'association de parents d'élèves"
+    ],
+    "explain": "Dans les écoles publiques, le prosélytisme (chercher à convaincre les autres d'adopter sa religion) est interdit, car l'école est neutre. Lire le bulletin, voir les professeurs et rejoindre l'association de parents sont permis, voire des devoirs.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-laicite-a-ecole-1/"
+  },
+  "cr-vie-0a05fb79": {
+    "options": [
+      "La maladie de l'enfant",
+      "Un départ en vacances avant la date officielle",
+      "La garde de ses frères et sœurs à la maison",
+      "Un rendez-vous chez le coiffeur"
+    ],
+    "explain": "La maladie de l'enfant est un motif d'absence accepté par l'école. Partir en vacances hors des dates officielles ne l'est pas : l'instruction est obligatoire de 3 à 16 ans.",
+    "ref": null,
+    "note": "no fiche"
+  },
+  "cr-vie-184e0b7f": {
+    "options": [
+      "Une amende et une peine de prison",
+      "Uniquement une amende",
+      "Un simple avertissement de la mairie",
+      "Aucune sanction"
+    ],
+    "explain": "L'instruction est obligatoire pour tout enfant entre 3 et 16 ans. Des parents qui ne respectent pas cette obligation peuvent recevoir une amende et faire une peine de prison.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/exercice-de-l-autorite-parentale-1/"
+  },
+  "cr-vie-1e87333c": {
+    "options": [
+      "À la fin de l'année, autour du 25 décembre",
+      "À la fin du mois d'octobre, autour de la Toussaint",
+      "En février, pendant l'hiver",
+      "À la fin du mois d'avril, au printemps"
+    ],
+    "explain": "Les vacances scolaires de Noël ont lieu à la fin de l'année, pendant environ deux semaines autour du 25 décembre. Elles sont différentes des vacances de la Toussaint, d'hiver et de printemps.",
+    "ref": null,
+    "note": "no fiche"
+  },
+  "cr-vie-38e0b97c": {
+    "options": [
+      "peut bénéficier d'un emploi du temps aménagé",
+      "ne peut pas aller à l'école avec les autres enfants",
+      "est dispensé de l'obligation d'aller à l'école",
+      "doit obligatoirement être scolarisé à la maison"
+    ],
+    "explain": "Un enfant en situation de handicap a le droit de vivre avec et comme les autres, d'aller à l'école et d'avoir des loisirs. Il peut bénéficier d'un emploi du temps aménagé.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/les-droits-de-l-enfant/"
+  }
+}

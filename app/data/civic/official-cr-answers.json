@@ -1,1 +1,2342 @@
-{}
+{
+  "cr-vale-87dadaed": {
+    "options": [
+      "Voter ou s’engager comme bénévole dans une association",
+      "Se plaindre des décisions de la commune sans jamais s’impliquer",
+      "Rester à l’écart de la vie de son quartier et de sa commune",
+      "Attendre que les autres s’occupent des problèmes du quartier"
+    ],
+    "explain": "Voter, faire du bénévolat ou adhérer à une association, un syndicat ou un parti, c’est participer à la vie collective, à la solidarité et à la démocratie.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/fraternite-2/",
+    "verified": false
+  },
+  "cr-vale-69597a18": {
+    "options": [
+      "Le droit de parler, d’écrire et de publier librement, dans les limites de la loi",
+      "Le droit de tenir des propos racistes ou haineux sans risquer aucune sanction pénale",
+      "Le droit de critiquer le gouvernement, mais jamais une religion ni ses croyances",
+      "Le droit d’imposer ses opinions aux autres, y compris en utilisant la contrainte"
+    ],
+    "explain": "La liberté d’expression est un droit fondamental (DDHC de 1789) : chacun peut parler, écrire et publier librement. Certains propos restent punis par la loi : insultes, incitation à la haine, négation de la Shoah.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/le-blaspheme/",
+    "verified": false
+  },
+  "cr-vale-b0e1bf73": {
+    "options": [
+      "À séjourner légalement en France et à s’y déplacer librement",
+      "À voter à toutes les élections nationales et locales en France",
+      "À acquérir immédiatement et automatiquement la nationalité française",
+      "À être dispensé de payer des impôts et de déclarer ses revenus"
+    ],
+    "explain": "Une personne étrangère qui vit en France doit avoir un titre de séjour valide : il montre qu’elle est en situation régulière et lui permet de se déplacer sur le territoire.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/la-liberte/",
+    "verified": false
+  },
+  "cr-vale-5b2f5145": {
+    "options": [
+      "se déplacer librement sur le territoire, dans le respect de la loi",
+      "entrer dans n’importe quel pays du monde sans passeport ni visa",
+      "occuper n’importe quel logement vide sans l’accord de son propriétaire",
+      "circuler en voiture partout sans respecter le code de la route"
+    ],
+    "explain": "Se déplacer sur le territoire (pour un étranger, grâce à son titre de séjour) est une liberté de chaque personne. Comme toute liberté, elle s’arrête là où commence celle des autres et la loi peut la limiter.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/la-liberte/",
+    "verified": false
+  },
+  "cr-vale-e2d9de89": {
+    "options": [
+      "Sur les sites officiels de l’État, comme ceux en .gouv.fr",
+      "Uniquement sur les sites internet des grandes entreprises privées",
+      "Sur tous les sites de vente en ligne et de comparaison de prix",
+      "Seulement sur les réseaux sociaux et les sites de streaming"
+    ],
+    "explain": "Marianne, symbole officiel de la République, figure dans le logo des entités de l’État et sur les documents officiels : on la retrouve donc sur les sites internet officiels de l’administration (.gouv.fr).",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/marianne/",
+    "verified": false,
+    "note": "weak fiche: only the Marianne fiche (logo des entités de l’État); site name inferred"
+  },
+  "cr-vale-73547a35": {
+    "options": [
+      "citoyens",
+      "soldats",
+      "patriotes",
+      "Français"
+    ],
+    "explain": "Le refrain de La Marseillaise, notre hymne national, dit : « Aux armes, citoyens ! Formez vos bataillons, marchons, marchons ! ».",
+    "ref": null,
+    "verified": false,
+    "note": "no fiche (lyrics not in the fiche)"
+  },
+  "cr-vale-901268f7": {
+    "options": [
+      "Le jour de gloire est arrivé !",
+      "Le jour de la liberté est arrivé !",
+      "L’heure de la victoire est venue !",
+      "L’aube de la gloire est arrivée !"
+    ],
+    "explain": "Le premier couplet de La Marseillaise, notre hymne national, commence ainsi : « Allons enfants de la Patrie, le jour de gloire est arrivé ! ».",
+    "ref": null,
+    "verified": false,
+    "note": "no fiche (lyrics not in the fiche)"
+  },
+  "cr-vale-35d21230": {
+    "options": [
+      "vivre avec la personne de son choix",
+      "imposer ses choix de vie à sa famille et à ses voisins",
+      "empêcher une autre personne d’exprimer son opinion",
+      "ignorer les lois qui ne lui conviennent pas"
+    ],
+    "explain": "La liberté individuelle permet à chacun de vivre comme il le souhaite : avoir ou non une religion, exprimer une opinion, vivre avec la personne de son choix, tant qu’on n’empêche pas les autres d’en faire autant.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/la-liberte/",
+    "verified": false
+  },
+  "cr-vale-9eb9b5b0": {
+    "options": [
+      "Chacun est libre de pratiquer la religion de son choix ou de n’en avoir aucune.",
+      "Chacun doit obligatoirement pratiquer la religion de sa famille ou de son pays d’origine.",
+      "La pratique d’une religion est interdite dans tous les lieux ouverts au public.",
+      "Chaque personne doit déclarer sa religion à la préfecture de son département."
+    ],
+    "explain": "La laïcité garantit la liberté de conscience : chacun est libre de pratiquer la religion de son choix, dans le respect des autres et de l’ordre public, ou de ne pas en pratiquer. Personne ne peut y être obligé.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-definition-de-la-laicite-1/",
+    "verified": false
+  },
+  "cr-vale-332825e2": {
+    "options": [
+      "Non, un cours du programme ne peut pas être refusé pour un motif religieux",
+      "Oui, si les parents expliquent que leurs convictions religieuses l’exigent",
+      "Oui, il suffit de prévenir le directeur de l’école par un courrier écrit",
+      "Oui, mais uniquement pour les filles et pendant les cours de sport"
+    ],
+    "explain": "À l’école, personne ne peut invoquer sa religion pour refuser un cours du programme (sport, sortie scolaire…). Le programme est le même pour tous et c’est l’État qui le fixe.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-laicite-a-ecole-1/",
+    "verified": false
+  },
+  "cr-vale-834f5629": {
+    "options": [
+      "Liberté, Égalité, Fraternité",
+      "Liberté, Égalité, Solidarité",
+      "Travail, Famille, Patrie",
+      "Unie dans la diversité"
+    ],
+    "explain": "La devise de la République française est « Liberté, Égalité, Fraternité » : apparue en 1789, officielle depuis 1848 et inscrite dans la Constitution de 1958. « Unie dans la diversité » est la devise de l’Union européenne.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/la-devise-francaise/",
+    "verified": false
+  },
+  "cr-vale-dfcbe2b1": {
+    "options": [
+      "interdite en France, car elle est contraire à l’égalité entre époux",
+      "autorisée si le mari en fait la demande à la mairie de son domicile",
+      "autorisée si elle est prévue par la religion ou la coutume des époux",
+      "autorisée si la famille de l’épouse donne son accord par écrit"
+    ],
+    "explain": "En France, chaque conjoint est libre de mettre fin à son mariage, mais par le divorce. La répudiation, décision unilatérale du mari, est contraire à l’égalité entre les femmes et les hommes et n’a aucune valeur légale.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple/",
+    "verified": false,
+    "note": "weak fiche: répudiation is not named in the fiche (liberté conjugale/divorce + égalité); answer from French law"
+  },
+  "cr-vale-fd31497e": {
+    "options": [
+      "Les impôts servent à financer les services publics, les écoles et les routes.",
+      "Seules les personnes de nationalité française doivent déclarer et payer des impôts.",
+      "Les impôts servent uniquement à financer l’armée, la police et les frontières.",
+      "Plus les revenus d’un foyer sont élevés, plus la part prélevée est faible."
+    ],
+    "explain": "L’impôt permet à l’État de faire fonctionner le pays : services publics gratuits, écoles, routes, aides sociales. Toute personne de plus de 18 ans résidant en France, française ou non, doit déclarer ses revenus.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/l-impot-en-france-et-la-declaration-de-revenus/",
+    "verified": false
+  },
+  "cr-vale-f7dae6ee": {
+    "options": [
+      "Non, c’est interdit : détruire ou dégrader le drapeau en public est un outrage",
+      "Oui, c’est un droit protégé par la liberté d’expression et la liberté de manifester",
+      "Oui, à condition de prévenir la mairie ou la préfecture quelques jours à l’avance",
+      "Oui, si le drapeau appartient à la personne qui le brûle et qu’il est usagé"
+    ],
+    "explain": "Il est interdit de faire outrage au drapeau français, c’est-à-dire de le détruire ou de l’utiliser de manière dégradante en public. Le drapeau tricolore est un symbole officiel de la République.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/le-drapeau-fran%C3%A7ais/",
+    "verified": false
+  },
+  "cr-vale-b9ab4b19": {
+    "options": [
+      "Il interdit les discriminations et les sanctionne par des amendes",
+      "Il laisse chaque employeur ou propriétaire choisir librement ses critères",
+      "Il tolère les discriminations lorsqu’elles sont indirectes ou involontaires",
+      "Il interdit de parler de racisme ou de sexisme dans les médias"
+    ],
+    "explain": "La loi interdit la discrimination (plus de 26 critères : origine, sexe, handicap, religion…) et la punit d’amendes et d’autres sanctions. L’État lutte activement contre le racisme, l’antisémitisme, le sexisme et l’homophobie.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/egalite-3/",
+    "verified": false
+  },
+  "cr-vale-00aca238": {
+    "options": [
+      "La République française",
+      "La monarchie de l’Ancien Régime",
+      "L’Union européenne et ses États",
+      "L’armée et la défense nationale"
+    ],
+    "explain": "Marianne apparaît pendant la Révolution française pour représenter la République. Son prénom populaire symbolise une République fondée sur la volonté du peuple et la démocratie ; c’est un symbole officiel.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/marianne/",
+    "verified": false
+  },
+  "cr-vale-28c4894b": {
+    "options": [
+      "Le droit de s’associer librement avec d’autres, inscrit dans la loi de 1901",
+      "L’obligation d’adhérer à une association locale pour pouvoir résider en France",
+      "Le droit de créer une association sans respecter les lois de la République",
+      "Un droit réservé uniquement aux personnes de nationalité française"
+    ],
+    "explain": "Chaque personne, française ou étrangère, peut s’engager librement, créer ou rejoindre une association : c’est la liberté d’association, inscrite dans une loi de 1901. Il faut au moins deux personnes, un objectif non lucratif et des statuts.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/fraternite-2/",
+    "verified": false
+  },
+  "cr-vale-fb9f7e2f": {
+    "options": [
+      "Le droit de penser, de s’exprimer et de vivre comme on veut, sans empêcher autrui de le faire",
+      "Le droit de faire tout ce que l’on veut, même quand cela empêche les autres de s’exprimer ou de vivre librement",
+      "Le droit de choisir les lois que l’on respecte et celles que l’on préfère ignorer",
+      "Le droit réservé aux personnes nées en France de parents eux-mêmes français"
+    ],
+    "explain": "En France, chacun peut penser, s’exprimer et vivre comme il le souhaite : la seule limite est de ne pas empêcher une autre personne d’en faire autant. C’est un droit pour tous, garanti par la DDHC de 1789.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/la-liberte/",
+    "verified": false
+  },
+  "cr-vale-219a4fb8": {
+    "options": [
+      "L’hymne national de la France",
+      "L’hymne officiel de l’Union européenne",
+      "La devise de la République française",
+      "Le chant officiel de la ville de Marseille"
+    ],
+    "explain": "La Marseillaise est l’hymne national de la France. Composée en 1792, elle représente les valeurs de liberté, de résistance et d’unité du peuple français ; elle est l’hymne national depuis 1879.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/hymne-francais/",
+    "verified": false
+  },
+  "cr-vale-badb8144": {
+    "options": [
+      "Sur la carte d’identité française",
+      "Sur une facture d’électricité ou de gaz",
+      "Sur un billet de train ou de bus",
+      "Sur un ticket de caisse de supermarché"
+    ],
+    "explain": "La figure de Marianne apparaît sur la carte d’identité, sur les documents administratifs (déclaration d’impôts…), ainsi que sur les timbres et les pièces de monnaie. Son buste est présent dans toutes les mairies.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/marianne/",
+    "verified": false
+  },
+  "cr-vale-2529a4f6": {
+    "options": [
+      "C’est une discrimination liée au sexe, interdite et punie par la loi",
+      "L’employeur est libre de choisir qui il embauche",
+      "C’est autorisé si l’employeur le justifie par écrit",
+      "C’est autorisé dans les entreprises de moins de 50 salariés"
+    ],
+    "explain": "Refuser d’embaucher quelqu’un à cause de son sexe est une discrimination directe, interdite par la loi (le sexe fait partie des critères). Elle est punie par des amendes et d’autres sanctions, et par de la prison en cas de récidive.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/egalite-3/",
+    "verified": false
+  },
+  "cr-vale-8bbca030": {
+    "options": [
+      "La loi est la même pour tous, et les droits sociaux sont accessibles à tous",
+      "Tout le monde reçoit le même salaire, quel que soit son métier",
+      "Seules les personnes qui paient des impôts ont accès aux services publics gratuits",
+      "Les hommes ont plus de droits civiques que les femmes"
+    ],
+    "explain": "L’égalité est un principe fondamental de la République : égalité devant la loi (la même pour toutes les personnes), égalité des droits civiques pour les citoyens et égalité d’accès aux droits sociaux (éducation, santé, logement, emploi).",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/egalite-1/",
+    "verified": false
+  },
+  "cr-vale-aece05ab": {
+    "options": [
+      "Le français est la langue de la République et sa seule langue officielle",
+      "Le français partage son statut officiel avec les langues régionales",
+      "Le français n’est mentionné dans aucun texte de la Constitution",
+      "Les langues régionales sont interdites à l’école comme dans toute la vie publique"
+    ],
+    "explain": "Depuis 1992, la Constitution dit : « la langue de la République est le français ». C’est la seule langue officielle (école, administration, justice). Les langues régionales font partie du patrimoine, mais ne sont pas officielles.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/la-langue-de-la-republique/la-langue-fran%C3%A7aise/",
+    "verified": false
+  },
+  "cr-vale-9326d596": {
+    "options": [
+      "Le drapeau tricolore, Marianne et la devise nationale",
+      "Le coq gaulois, la tour Eiffel et la baguette de pain",
+      "La fleur de lys, le béret et le muguet du 1er mai",
+      "Le drapeau européen, l’euro et l’« Ode à la joie »"
+    ],
+    "explain": "Le drapeau tricolore, Marianne et la devise nationale sont des symboles officiels de la République (avec l’hymne La Marseillaise et la fête du 14 juillet). Le coq, très utilisé, n’est pas un symbole officiel.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/le-coq/",
+    "verified": false
+  },
+  "cr-vale-0e16ce80": {
+    "options": [
+      "Non, c’est interdit par la loi et passible de sanctions",
+      "Oui, car la liberté d’expression autorise toutes les insultes",
+      "Oui, tant que la personne insultée ne porte pas plainte",
+      "Oui, si l’insulte est publiée sous un pseudonyme sur internet"
+    ],
+    "explain": "Le handicap, l’apparence physique et le sexe font partie des critères protégés par la loi contre la discrimination. Chaque personne mérite un respect inconditionnel : insulter quelqu’un pour cela est interdit et sanctionné.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/egalite-3/",
+    "verified": false
+  },
+  "cr-vale-b4bc7137": {
+    "options": [
+      "une république, la Ve République, instaurée en 1958",
+      "une monarchie constitutionnelle, comme en 1791",
+      "un empire dirigé par un empereur, comme en 1852",
+      "un régime autoritaire dirigé par un maréchal, comme en 1940"
+    ],
+    "explain": "Depuis 1958, le régime politique de la France est la Ve République. Selon l’article 1er de la Constitution, la France est une République indivisible, laïque, démocratique et sociale.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-cinquieme-republique/",
+    "verified": false
+  },
+  "cr-vale-c216e523": {
+    "options": [
+      "Pour garantir la liberté de conscience et l’égalité de traitement des élèves",
+      "Pour imposer la religion la plus pratiquée à tous les élèves de l’école",
+      "Pour interdire aux élèves de parler de religion entre eux, même en dehors des cours",
+      "Pour permettre aux familles de choisir leurs cours selon leur religion"
+    ],
+    "explain": "À l’école, la laïcité garantit la liberté de conscience, protège les élèves de tout prosélytisme et assure l’égalité de traitement de tous. Elle est aussi une condition de la fraternité : les élèves se respectent les uns les autres.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-laicite-a-ecole-2/",
+    "verified": false
+  },
+  "cr-vale-0abba22f": {
+    "options": [
+      "1905",
+      "1882",
+      "1801",
+      "2004"
+    ],
+    "explain": "La loi de séparation des Églises et de l’État date de 1905 : l’État est indépendant des religions et ne finance aucun culte. (1801 : Concordat ; 1882 : école publique laïque ; 2004 : loi sur les signes religieux à l’école.)",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/histoire-de-la-laicite/",
+    "verified": false
+  },
+  "cr-vale-d1171fb2": {
+    "options": [
+      "Oui, chacun est libre de croire ou de ne pas croire en une religion",
+      "Non, chaque personne doit avoir une religion",
+      "Non, il faut obligatoirement adopter la religion majoritaire du pays",
+      "Oui, mais seulement après l’avoir déclaré à la mairie"
+    ],
+    "explain": "Ne pas avoir de religion est aussi un droit : la laïcité garantit la liberté de conscience, c’est-à-dire que chacun est libre d’avoir ou de ne pas avoir de religion, d’en changer ou de ne plus en avoir.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/definition-laicite-2/",
+    "verified": false
+  },
+  "cr-vale-6854dfe3": {
+    "options": [
+      "La liberté de croire ou de ne pas croire en une religion",
+      "Le droit d’imposer sa religion aux autres personnes",
+      "Le droit de refuser un cours du programme pour motif religieux",
+      "Le droit de recevoir de l’argent public pour son culte"
+    ],
+    "explain": "La laïcité garantit la liberté de conscience : chacun est libre de croire ou de ne pas croire, et d’exprimer ses convictions dans le respect des autres et de l’ordre public. Elle ne permet ni d’imposer sa religion ni de refuser un cours.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-laicite-a-ecole-1/",
+    "verified": false
+  },
+  "cr-vale-4c79faf9": {
+    "options": [
+      "Les parents d’élèves, qui sont des usagers du service public",
+      "Les élèves, à partir du lycée",
+      "Les enseignants, en dehors de leurs heures de cours",
+      "Le personnel de la cantine scolaire"
+    ],
+    "explain": "À l’école publique, les élèves ne peuvent pas porter de signe religieux ostensible (loi de 2004) et les personnels doivent rester neutres. La neutralité ne s’impose pas aux usagers, comme les parents.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-laicite-dans-les-services-publics/",
+    "verified": false,
+    "note": "revised: the fiche says neutrality does not apply to service users (parents); pupils and staff are covered by the 2004 law and the neutrality duty"
+  },
+  "cr-vale-c66c5922": {
+    "options": [
+      "L’État ne reconnaît ni ne finance aucune religion",
+      "L’État choisit une religion officielle pour tout le pays",
+      "L’État interdit aux citoyens de pratiquer une religion",
+      "L’État finance en priorité la religion la plus pratiquée"
+    ],
+    "explain": "L’État est neutre vis-à-vis des religions depuis la séparation de 1905 : il ne reconnaît aucune religion, ne salarie ni ne subventionne aucun culte et ne participe pas à leur fonctionnement interne.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-definition-de-la-laicite-1/",
+    "verified": false
+  },
+  "cr-vale-15d65b13": {
+    "options": [
+      "Porter un signe qui montre son appartenance religieuse",
+      "Demander qu’on adapte le fonctionnement du service à sa religion",
+      "Faire du prosélytisme auprès des agents et des autres usagers",
+      "Exposer un emblème religieux dans les bureaux ou au guichet"
+    ],
+    "explain": "La neutralité ne s’impose pas aux usagers : ils peuvent porter un signe religieux (sauf ponctuellement, par exemple pour un contrôle d’identité). Ils ne peuvent pas demander d’adapter le service à leur religion ni faire de prosélytisme.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-laicite-dans-les-services-publics/",
+    "verified": false
+  },
+  "cr-vale-b7c885d2": {
+    "options": [
+      "Les personnes qui travaillent dans la préfecture",
+      "Les usagers venus faire une démarche administrative",
+      "Toutes les personnes présentes, usagers compris",
+      "Seulement les personnes de nationalité étrangère"
+    ],
+    "explain": "Les personnes qui travaillent dans un service public (comme une préfecture) ne peuvent ni exprimer ni montrer leurs convictions. La neutralité ne concerne pas les usagers, qui peuvent porter un signe religieux.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-laicite-dans-les-services-publics/",
+    "verified": false
+  },
+  "cr-vale-eb994ad2": {
+    "options": [
+      "Oui, ils ne doivent ni exprimer ni montrer leurs convictions au travail",
+      "Non, ils peuvent porter un signe religieux discret devant les usagers",
+      "Non, cette obligation ne concerne que les enseignants et les policiers",
+      "Oui, mais seulement pendant les périodes d’élections nationales"
+    ],
+    "explain": "Les personnes qui travaillent dans les services publics ne peuvent pas exprimer ou montrer leurs convictions religieuses, politiques ou philosophiques : cela permet de traiter tous les usagers de manière équitable.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-laicite-dans-les-services-publics/",
+    "verified": false
+  },
+  "cr-vale-96f44c37": {
+    "options": [
+      "La liberté de conscience et l’égalité de tous, quelle que soit la religion",
+      "La priorité donnée à la religion majoritaire dans les services publics",
+      "Le droit de ne pas respecter les lois contraires à ses croyances",
+      "L’obligation de pratiquer une religion pour être citoyen"
+    ],
+    "explain": "La laïcité garantit la liberté de conscience (croire, ne pas croire, changer de religion) et l’égalité de tous devant la loi, sans distinction de religion. Elle rejette les violences et les discriminations.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-definition-de-la-laicite-1/",
+    "verified": false
+  },
+  "cr-vale-5b5135ea": {
+    "options": [
+      "Oui, la liberté de conscience permet de changer de religion",
+      "Non, chacun doit garder toute sa vie la religion de sa famille",
+      "Oui, mais seulement avec l’autorisation écrite de la mairie",
+      "Oui, mais seulement une fois, en le signalant à la préfecture"
+    ],
+    "explain": "La laïcité garantit la liberté de conscience : chaque personne est libre d’avoir ou de ne pas avoir de religion, d’en changer ou de ne plus en avoir. Personne ne peut être obligé de suivre une religion.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-definition-de-la-laicite-1/",
+    "verified": false
+  },
+  "cr-vale-16245101": {
+    "options": [
+      "Un principe de la République qui garantit la liberté de conscience pour tous",
+      "Une simple opinion défendue seulement par certains partis politiques",
+      "Une interdiction de pratiquer une religion en France",
+      "Un système où l’État soutient financièrement la religion majoritaire"
+    ],
+    "explain": "La laïcité n’est pas une opinion mais un principe constitutionnel (article 1 : la France est une République laïque). Elle garantit la liberté de conscience, sépare l’État et les religions, et n’est pas une contrainte mais une garantie d’égalité.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-definition-de-la-laicite-1/",
+    "verified": false
+  },
+  "cr-vale-57c7c26c": {
+    "options": [
+      "Porter un signe ou une tenue qui montre ostensiblement sa religion",
+      "Parler de religion avec les autres élèves, dans le respect de chacun",
+      "Avoir une religion et la pratiquer en dehors de l’école",
+      "Étudier l’histoire des religions dans certains cours"
+    ],
+    "explain": "La Charte interdit aux élèves de porter des signes ou tenues manifestant ostensiblement une appartenance religieuse. Parler de religion entre élèves, dans le respect des autres, ou l’étudier dans certains cours reste permis.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-laicite-a-ecole-1/",
+    "verified": false
+  },
+  "cr-vale-7d6fad09": {
+    "options": [
+      "La France est une République indivisible, laïque, démocratique et sociale",
+      "La France est une République fédérale, laïque, démocratique et sociale",
+      "La France est une République indivisible, catholique, démocratique et sociale",
+      "La France est une monarchie indivisible, laïque, démocratique et sociale"
+    ],
+    "explain": "Selon l’article 1er de la Constitution de 1958, « La France est une République indivisible, laïque, démocratique et sociale ». La laïcité n’est donc pas une opinion mais un principe constitutionnel.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-definition-de-la-laicite-1/",
+    "verified": false
+  },
+  "cr-inst-1118c0d1": {
+    "options": [
+      "Un système où la loi est la même pour tous, y compris pour l'État",
+      "Un régime où le chef de l'État peut décider seul de toutes les lois du pays",
+      "Un système où seuls les juges ont le droit de voter et de modifier les lois",
+      "Un régime où l'État peut écarter la loi pour protéger la sécurité du pays"
+    ],
+    "explain": "Dans un État de droit, la loi est la même pour tous, y compris pour l'État : le droit est supérieur aux autorités politiques et garantit les droits fondamentaux.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs/",
+    "verified": false
+  },
+  "cr-inst-5bd5a7aa": {
+    "options": [
+      "Il n'est pas au-dessus de la loi : la justice peut le juger",
+      "Il ne peut jamais être jugé, car il est le chef de l'État et des armées",
+      "Seul le Premier ministre peut décider de le faire juger par un tribunal",
+      "Seul le Conseil constitutionnel est compétent pour juger le président"
+    ],
+    "explain": "Dans un État de droit, la loi est la même pour tous, y compris pour ceux qui gouvernent. Pendant son mandat le président est protégé : les poursuites sont suspendues et peuvent reprendre un mois après la fin de ses fonctions.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs/",
+    "verified": false,
+    "note": "fiche gives only equality before the law; the presidential immunity detail (Const. art. 67-68) is general knowledge — check the real exam wording of this question"
+  },
+  "cr-inst-4d63dc21": {
+    "options": [
+      "la volonté générale du peuple",
+      "la volonté du président de la République",
+      "l'opinion des juges et des magistrats",
+      "la volonté du Gouvernement"
+    ],
+    "explain": "La loi est l'expression de la volonté générale : elle est votée par le Parlement, dont les membres représentent les citoyens.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/comment-voter-une-loi-1/",
+    "verified": false
+  },
+  "cr-inst-dc238b8b": {
+    "options": [
+      "6 ans",
+      "5 ans",
+      "4 ans",
+      "7 ans"
+    ],
+    "explain": "Le maire et les conseillers municipaux sont élus au suffrage direct pour 6 ans, lors des élections municipales.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-2/",
+    "verified": false
+  },
+  "cr-inst-4740c150": {
+    "options": [
+      "Le respect des droits fondamentaux et de la démocratie",
+      "L'égalité des salaires et des richesses entre tous les citoyens",
+      "La victoire du parti au pouvoir à chaque élection nationale",
+      "L'obéissance des citoyens à toutes les décisions du Gouvernement"
+    ],
+    "explain": "L'État de droit garantit le respect des droits fondamentaux et de la démocratie : les autorités publiques agissent toujours en respectant la loi, sous le contrôle de juges indépendants.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs/",
+    "verified": false
+  },
+  "cr-inst-d997a31a": {
+    "options": [
+      "Oui, mais uniquement si elle a donné une procuration",
+      "Non, jamais : le vote est strictement personnel dans tous les cas",
+      "Oui, si les deux personnes sont de la même famille proche",
+      "Oui, si l'on présente simplement sa carte d'électeur à sa place"
+    ],
+    "explain": "Le vote est personnel, mais on peut voter pour une autre personne uniquement si celle-ci a fait une procuration de vote.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1/",
+    "verified": false
+  },
+  "cr-inst-3bf4b439": {
+    "options": [
+      "Non, voter est un droit et non un devoir pour les citoyens",
+      "Oui, c'est un devoir pour tous les citoyens majeurs",
+      "Oui, sous peine d'une amende pour ceux qui s'abstiennent",
+      "Oui, mais seulement pour les élections présidentielles et législatives"
+    ],
+    "explain": "Le vote n'est pas obligatoire en France : c'est un droit et non un devoir.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1/",
+    "verified": false
+  },
+  "cr-inst-7f11547b": {
+    "options": [
+      "Non, il ne reste que s'il est réélu par les citoyens",
+      "Oui, s'il estime que la situation du pays l'exige vraiment",
+      "Oui, si le Premier ministre lui demande de rester en poste",
+      "Oui, s'il obtient l'accord du Conseil constitutionnel"
+    ],
+    "explain": "Le président est élu pour 5 ans par les citoyens : pour continuer, il doit être réélu. La Constitution limite à deux mandats consécutifs.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-2/",
+    "verified": false,
+    "note": "fiche covers the 5-year term elected by citizens; the two-consecutive-terms limit (Const. art. 6) is general knowledge"
+  },
+  "cr-inst-3fdc3cbb": {
+    "options": [
+      "Le Premier ministre",
+      "Le président de l'Assemblée nationale",
+      "Le président du Sénat",
+      "Le ministre de l'Intérieur"
+    ],
+    "explain": "Le Gouvernement se compose du Premier ministre et des ministres ; le Premier ministre, nommé par le président de la République, dirige son action.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/",
+    "verified": false,
+    "note": "fiche gives Gouvernement = Premier ministre + ministres and his appointment; 'dirige l'action du Gouvernement' is Const. art. 21 (general knowledge)"
+  },
+  "cr-inst-54cfaa9a": {
+    "options": [
+      "Le président de la République",
+      "Le président de l'Assemblée nationale",
+      "Le président du Sénat",
+      "Le Conseil constitutionnel"
+    ],
+    "explain": "Le Premier ministre, qui réside à l'hôtel de Matignon, est nommé par le président de la République, selon la majorité.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/",
+    "verified": false
+  },
+  "cr-inst-73ed31a4": {
+    "options": [
+      "Des communes, des départements et des régions",
+      "Des États fédérés, chacun avec sa propre Constitution",
+      "Des provinces, des duchés et des comtés dirigés par des nobles",
+      "Une administration centrale unique, sans aucune collectivité locale"
+    ],
+    "explain": "La France est organisée de façon décentralisée : l'État transfère des compétences aux collectivités territoriales, d'abord les communes, les départements et les régions.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-1/",
+    "verified": false
+  },
+  "cr-inst-eb3a8eb7": {
+    "options": [
+      "d'élaborer et de voter les lois",
+      "d'appliquer les lois et de diriger l'Administration",
+      "de juger et de sanctionner ceux qui ne respectent pas la loi",
+      "de contrôler que les lois respectent la Constitution"
+    ],
+    "explain": "Le pouvoir législatif est exercé par le Parlement (Assemblée nationale et Sénat) : il propose, négocie et vote les lois. Le pouvoir exécutif les applique et la justice les fait respecter.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/",
+    "verified": false
+  },
+  "cr-inst-2b39cfdf": {
+    "options": [
+      "Pour garantir les droits fondamentaux et équilibrer les pouvoirs",
+      "Pour que le chef de l'État puisse décider plus vite et sans contrôle",
+      "Pour réduire le nombre de lois votées chaque année par le Parlement",
+      "Pour que les juges puissent aussi diriger le Gouvernement"
+    ],
+    "explain": "Séparer les pouvoirs législatif, exécutif et judiciaire garantit les droits fondamentaux et crée un équilibre : les pouvoirs se contrôlent mutuellement et ne peuvent pas agir de façon arbitraire.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs/",
+    "verified": false
+  },
+  "cr-inst-7c6b2183": {
+    "options": [
+      "Un juge, dans le cadre de la justice pénale",
+      "Le maire de la commune où le vol a eu lieu",
+      "Le préfet du département où le vol a eu lieu",
+      "Le ministre de l'Intérieur, par une décision personnelle"
+    ],
+    "explain": "La justice pénale punit les infractions des citoyens à la loi, par exemple un vol : ce sont les juges, indépendants et impartiaux, qui sanctionnent.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2/",
+    "verified": false
+  },
+  "cr-inst-56c4e0ae": {
+    "options": [
+      "Faire appliquer les lois et conduire la politique du pays",
+      "Voter les lois à la place des députés et des sénateurs élus",
+      "Juger les citoyens qui ne respectent pas les lois du pays",
+      "Vérifier que les lois votées respectent bien la Constitution"
+    ],
+    "explain": "Le Gouvernement (Premier ministre et ministres), avec le président de la République, applique et fait respecter les lois, dirige l'Administration et conduit la politique nationale.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/",
+    "verified": false
+  },
+  "cr-inst-ef663246": {
+    "options": [
+      "Il peut être sanctionné comme n'importe quel citoyen",
+      "Il est protégé par sa fonction : il ne peut pas être sanctionné",
+      "Seul le Premier ministre a le droit de le sanctionner",
+      "Il peut seulement être renvoyé du Gouvernement, sans autre sanction"
+    ],
+    "explain": "Un ministre qui ne respecte pas la loi peut être sanctionné comme tout citoyen : dans un État de droit, personne n'est au-dessus de la loi.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs/",
+    "verified": false
+  },
+  "cr-inst-f8805f08": {
+    "options": [
+      "577 députés",
+      "348 députés",
+      "720 députés",
+      "1 000 députés"
+    ],
+    "explain": "L'Assemblée nationale compte 577 députés, élus au suffrage direct tous les 5 ans. Le Sénat compte 348 sénateurs.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/",
+    "verified": false
+  },
+  "cr-inst-9905943c": {
+    "options": [
+      "Les Français majeurs inscrits sur les listes électorales",
+      "Toute personne majeure vivant en France depuis plus de 5 ans",
+      "Toute personne titulaire d'une carte de résident de 10 ans",
+      "Tous les habitants de plus de 16 ans, quelle que soit leur nationalité"
+    ],
+    "explain": "Peuvent voter les citoyens de nationalité française, majeurs, qui ont leurs droits civiques et sont inscrits sur les listes électorales. Les citoyens de l'UE votent seulement aux municipales et aux européennes.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1/",
+    "verified": false
+  },
+  "cr-inst-ff215b6d": {
+    "options": [
+      "6 ans",
+      "5 ans",
+      "4 ans",
+      "3 ans"
+    ],
+    "explain": "Les sénateurs sont élus pour 6 ans, au suffrage indirect, par les grands électeurs. Le Sénat est renouvelé par moitié tous les 3 ans.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-2/",
+    "verified": false
+  },
+  "cr-inst-69b19879": {
+    "options": [
+      "Législatif, exécutif et judiciaire",
+      "Législatif, exécutif et administratif",
+      "Exécutif, judiciaire et militaire",
+      "Législatif, politique et économique"
+    ],
+    "explain": "La séparation des 3 pouvoirs distingue le pouvoir législatif (le Parlement vote les lois), exécutif (le Gouvernement les applique) et judiciaire (la justice contrôle leur application).",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs/",
+    "verified": false
+  },
+  "cr-inst-8451626a": {
+    "options": [
+      "Non, les pouvoirs sont séparés entre plusieurs institutions",
+      "Oui, car il est élu directement par tous les citoyens",
+      "Oui, il peut voter lui-même les lois à la place du Parlement",
+      "Oui, puisqu'il dirige à la fois le Parlement et les tribunaux"
+    ],
+    "explain": "Le président de la République fait partie du pouvoir exécutif : c'est le Parlement qui vote les lois et la justice, indépendante, qui juge. Les pouvoirs sont séparés et se contrôlent mutuellement.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/",
+    "verified": false
+  },
+  "cr-inst-02343eb8": {
+    "options": [
+      "Le représentant de l'État dans le département",
+      "Le président élu du conseil départemental",
+      "Le maire de la plus grande ville du département",
+      "Le responsable de la justice dans le département"
+    ],
+    "explain": "Le préfet est le représentant de l'État dans le département : il dirige les services de l'État et organise la sécurité, mais ne s'occupe ni de la justice ni de l'armée.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-2/",
+    "verified": false
+  },
+  "cr-inst-3f5c7550": {
+    "options": [
+      "Être français, majeur et inscrit sur les listes électorales",
+      "Avoir un emploi et payer des impôts sur le revenu en France",
+      "Avoir vécu au moins dix ans de suite en France sans interruption",
+      "Avoir un diplôme ou parler couramment le français"
+    ],
+    "explain": "Pour voter, il faut avoir la nationalité française, être majeur (plus de 18 ans), avoir ses droits civiques et être inscrit sur les listes électorales (exception : citoyens de l'UE, aux municipales et européennes).",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1/",
+    "verified": false
+  },
+  "cr-inst-989256f8": {
+    "options": [
+      "Le maire, avec les élus du conseil municipal",
+      "Le préfet, qui représente l'État dans le département",
+      "Le président du conseil départemental et ses conseillers",
+      "Le président du conseil régional et ses conseillers"
+    ],
+    "explain": "La commune est dirigée par des personnes élues, dont le maire. Le maire et les conseillers municipaux sont élus pour 6 ans.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-1/",
+    "verified": false
+  },
+  "cr-inst-30ccfb74": {
+    "options": [
+      "Une République démocratique : la Vème République",
+      "Une monarchie constitutionnelle dirigée par un roi",
+      "Un empire dirigé par un empereur héréditaire",
+      "Une dictature dirigée par un seul parti"
+    ],
+    "explain": "La Vème République, instaurée le 4 octobre 1958, est le régime politique actuel de la France : une démocratie et une République, où le pouvoir est exercé par des représentants élus par le peuple.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-cinquieme-republique/",
+    "verified": false
+  },
+  "cr-inst-1cceb9e7": {
+    "options": [
+      "La résidence du Premier ministre",
+      "La résidence du président de la République",
+      "Le siège de l'Assemblée nationale",
+      "Le siège du Sénat"
+    ],
+    "explain": "L'hôtel de Matignon est la résidence du Premier ministre. Le président de la République, lui, réside au Palais de l'Élysée.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/",
+    "verified": false
+  },
+  "cr-inst-af1a3b9c": {
+    "options": [
+      "de l'Assemblée nationale et du Sénat",
+      "du président de la République et du Premier ministre",
+      "du Conseil constitutionnel et du Conseil d'État",
+      "du Gouvernement et des tribunaux de la République"
+    ],
+    "explain": "Le Parlement est composé de deux chambres : l'Assemblée nationale (577 députés) et le Sénat (348 sénateurs). Il vote la loi.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/",
+    "verified": false
+  },
+  "cr-inst-b80ec6c0": {
+    "options": [
+      "Il est le chef de l'État et des armées",
+      "Il préside l'Assemblée nationale et le Sénat",
+      "Il dirige les tribunaux et rend lui-même la justice",
+      "Il gère les communes et nomme tous les maires"
+    ],
+    "explain": "Le président de la République est le chef de l'État et des armées. Il réside au Palais de l'Élysée et, avec le Gouvernement, applique les lois et conduit la politique nationale.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/",
+    "verified": false
+  },
+  "cr-inst-d15e86a1": {
+    "options": [
+      "Diriger le Gouvernement et proposer les ministres au président",
+      "Présider l'Assemblée nationale et organiser les débats des députés",
+      "Représenter l'État dans le département et diriger la préfecture",
+      "Juger les litiges entre les citoyens et l'administration de l'État"
+    ],
+    "explain": "Le Premier ministre, nommé par le président de la République, dirige l'action du Gouvernement : il lui propose les ministres.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-2/",
+    "verified": false,
+    "note": "fiche gives PM appointed by the president and proposing the ministers; 'dirige l'action du Gouvernement' is Const. art. 21 (general knowledge)"
+  },
+  "cr-inst-3e2ed3db": {
+    "options": [
+      "Le Premier ministre",
+      "Le président de la République",
+      "Le président du Sénat",
+      "Le président de l'Assemblée nationale"
+    ],
+    "explain": "Le Gouvernement est composé du Premier ministre et des ministres : le chef du Gouvernement est le Premier ministre. Le président de la République est le chef de l'État.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/",
+    "verified": false
+  },
+  "cr-inst-4dbad17b": {
+    "options": [
+      "18 régions",
+      "13 régions",
+      "22 régions",
+      "27 régions"
+    ],
+    "explain": "La France compte 18 régions : 13 en métropole et 5 en outre-mer (ainsi que 101 départements).",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-1/",
+    "verified": false
+  },
+  "cr-inst-0ee08b24": {
+    "options": [
+      "Défendre les personnes dont les droits ne sont pas respectés",
+      "Juger les personnes accusées d'avoir enfreint la loi pénale",
+      "Voter les lois qui protègent les droits des citoyens français",
+      "Faire respecter l'ordre public dans chaque commune du pays"
+    ],
+    "explain": "Le Défenseur des droits est une autorité administrative indépendante : il défend les personnes dont les droits ne sont pas respectés, lutte contre les discriminations et règle les conflits entre un service public et un usager.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-acteurs-institutionnels/",
+    "verified": false
+  },
+  "cr-inst-a1b9590a": {
+    "options": [
+      "Depuis 2002",
+      "Depuis 1992",
+      "Depuis 1957",
+      "Depuis 2007"
+    ],
+    "explain": "Selon la fiche, c'est en 2002 que l'euro devient la monnaie officielle des pays membres concernés ; le traité de Maastricht (1992) avait prévu une monnaie unique.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne/",
+    "verified": false,
+    "note": "check wording: euro created 1 Jan 1999 (accounting) and coins/notes 1 Jan 2002; the fiche says 2002 — 1999 deliberately not used as a distractor"
+  },
+  "cr-inst-0504b7ad": {
+    "options": [
+      "L'action sociale, comme l'aide aux personnes handicapées",
+      "La gestion des lycées et le développement économique",
+      "La gestion des écoles maternelles et primaires",
+      "La délivrance des titres et autorisations administratives"
+    ],
+    "explain": "Le département agit surtout dans l'action sociale (aide aux personnes handicapées, RSA) et gère aussi les collèges. Les lycées relèvent de la région, les écoles de la commune.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-1/",
+    "verified": false
+  },
+  "cr-inst-a2045bf7": {
+    "options": [
+      "Gérer les services de proximité, comme les écoles primaires",
+      "Gérer les lycées et le développement économique de la région",
+      "Gérer les collèges et verser le RSA dans le département",
+      "Délivrer les titres de séjour et diriger les services de l'État"
+    ],
+    "explain": "La commune a de nombreuses compétences, surtout en urbanisme, logement et action sociale. Elle gère les écoles maternelles et primaires et les services de proximité.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-1/",
+    "verified": false
+  },
+  "cr-inst-2042b3f8": {
+    "options": [
+      "Environ 35 000",
+      "Environ 3 500",
+      "Environ 12 000",
+      "Environ 350 000"
+    ],
+    "explain": "Il y a environ 35 000 communes en France : c'est la collectivité territoriale la plus répandue.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-1/",
+    "verified": false
+  },
+  "cr-inst-4de7328e": {
+    "options": [
+      "Le traité de Maastricht",
+      "Le traité de Versailles",
+      "Le traité de Westphalie",
+      "Le traité de Verdun"
+    ],
+    "explain": "En 1992, le traité de Maastricht crée l'Union européenne. Avant lui, les traités de Paris (1951) et de Rome (1957) avaient créé la CECA et la CEE.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-etapes-cles-de-la-construction-europeenne/",
+    "verified": false,
+    "note": "ambiguous stem: Paris, Rome and Lisbonne treaties also concern EU construction; Maastricht chosen (fiche: it 'crée l'UE') and the 3 distractors are deliberately non-EU treaties — check real exam wording"
+  },
+  "cr-inst-4325ea39": {
+    "options": [
+      "Le Royaume-Uni",
+      "La République d'Irlande",
+      "Le Royaume du Danemark",
+      "Le Royaume de Suède"
+    ],
+    "explain": "Le Royaume-Uni a quitté l'Union européenne en 2020 (Brexit) : c'est la première fois qu'un pays quitte l'UE.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-etapes-cles-de-la-construction-europeenne/",
+    "verified": false
+  },
+  "cr-inst-a5c2eab3": {
+    "options": [
+      "Unie dans la diversité",
+      "Liberté, Égalité, Fraternité",
+      "L'union fait la force",
+      "Une Europe, un peuple, une monnaie"
+    ],
+    "explain": "La devise de l'Union européenne est « Unie dans la diversité » depuis 2000 : les Européens s'unissent dans le respect de leurs cultures, traditions et langues.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-symboles-europeens-2/",
+    "verified": false
+  },
+  "cr-inst-f4ef9655": {
+    "options": [
+      "L'« Ode à la joie » de Beethoven",
+      "La Marseillaise de Rouget de Lisle",
+      "Les Quatre Saisons de Vivaldi",
+      "Le Boléro de Ravel"
+    ],
+    "explain": "L'hymne européen est l'« Ode à la joie », mélodie du compositeur Ludwig van Beethoven. Il symbolise la liberté, la paix et la solidarité.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-symboles-europeens-1/",
+    "verified": false
+  },
+  "cr-inst-4be972c3": {
+    "options": [
+      "De douze étoiles jaunes en cercle sur un fond bleu",
+      "De 27 étoiles jaunes en cercle sur un fond bleu",
+      "De trois bandes verticales bleue, blanche et rouge",
+      "De douze étoiles blanches alignées sur un fond rouge"
+    ],
+    "explain": "Le drapeau européen est composé de douze étoiles jaunes formant un cercle sur un fond bleu. Ce cercle symbolise l'unité, la solidarité et l'harmonie entre les peuples d'Europe.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-symboles-europeens-1/",
+    "verified": false
+  },
+  "cr-inst-95dfbf72": {
+    "options": [
+      "Bleu, avec des étoiles jaunes",
+      "Bleu, blanc et rouge, en trois bandes",
+      "Rouge, avec des étoiles jaunes",
+      "Jaune, avec des étoiles bleues"
+    ],
+    "explain": "Le drapeau européen est bleu, avec douze étoiles jaunes disposées en cercle.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-symboles-europeens-1/",
+    "verified": false
+  },
+  "cr-inst-03be65a3": {
+    "options": [
+      "En 1992",
+      "En 1957",
+      "En 1951",
+      "En 2007"
+    ],
+    "explain": "Le traité de Maastricht (1992) crée l'Union européenne. Le traité de Paris date de 1951, celui de Rome de 1957 et celui de Lisbonne de 2007.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-etapes-cles-de-la-construction-europeenne/",
+    "verified": false
+  },
+  "cr-inst-9327a8de": {
+    "options": [
+      "À Strasbourg",
+      "À Bruxelles",
+      "À Luxembourg",
+      "À Francfort"
+    ],
+    "explain": "Le Parlement européen est situé à Strasbourg. La Commission européenne est à Bruxelles et la Cour de justice à Luxembourg.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/le-fonctionnement-europeen-2/",
+    "verified": false
+  },
+  "cr-inst-829a6cbf": {
+    "options": [
+      "À Bruxelles",
+      "À Strasbourg",
+      "À Luxembourg",
+      "À Francfort"
+    ],
+    "explain": "La Commission européenne est située à Bruxelles, dans le Berlaymont. Le Parlement européen, lui, est à Strasbourg.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/le-fonctionnement-europeen-2/",
+    "verified": false
+  },
+  "cr-inst-f7889f64": {
+    "options": [
+      "La Suisse",
+      "Le Portugal",
+      "La Croatie",
+      "La Pologne"
+    ],
+    "explain": "La Suisse n'a jamais rejoint l'UE. Le Portugal (1986), la Pologne (2004) et la Croatie (2013) en sont membres.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-etapes-cles-de-la-construction-europeenne/",
+    "verified": false,
+    "note": "Suisse is not named in the fiche (non-membership is general knowledge); the 3 distractors are all EU members in the fiche's list"
+  },
+  "cr-inst-91b1afb4": {
+    "options": [
+      "Le 9 mai",
+      "Le 8 mai",
+      "Le 14 juillet",
+      "Le 11 novembre"
+    ],
+    "explain": "Chaque année, le 9 mai, les pays de l'UE fêtent la Journée de l'Europe, anniversaire de la déclaration Schuman du 9 mai 1950.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-symboles-europeens-2/",
+    "verified": false
+  },
+  "cr-inst-246b3349": {
+    "options": [
+      "Tous les cinq ans",
+      "Tous les quatre ans",
+      "Tous les six ans",
+      "Tous les sept ans"
+    ],
+    "explain": "Les élections européennes ont lieu tous les cinq ans : les citoyens de l'UE élisent alors les députés du Parlement européen.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-elections-europeennes/",
+    "verified": false
+  },
+  "cr-inst-2951970d": {
+    "options": [
+      "Être citoyen de l'UE, habiter en France et être inscrit sur les listes",
+      "Être de nationalité française et avoir au moins 21 ans le jour du scrutin",
+      "Être né dans un pays membre de l'UE et occuper un emploi en France",
+      "Avoir résidé au moins dix ans en France sans aucune interruption"
+    ],
+    "explain": "Pour voter aux européennes en France, il faut avoir la nationalité d'un pays de l'UE, habiter en France, avoir au moins 18 ans la veille du 1er tour et être inscrit sur les listes électorales françaises.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-elections-europeennes/",
+    "verified": false
+  },
+  "cr-inst-f7255650": {
+    "options": [
+      "L'Italie",
+      "L'Espagne",
+      "La Pologne",
+      "L'Irlande"
+    ],
+    "explain": "Six pays fondent la CEE en 1957 : Allemagne, Belgique, France, Italie, Luxembourg et Pays-Bas. L'Irlande (1973), l'Espagne (1986) et la Pologne (2004) l'ont rejointe plus tard.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-etapes-cles-de-la-construction-europeenne/",
+    "verified": false
+  },
+  "cr-droi-7a7e33ab": {
+    "options": [
+      "La liberté d'avoir ou non des enfants",
+      "La liberté de choisir son conjoint",
+      "La liberté d'expression et d'opinion",
+      "La liberté de réunion et d'association"
+    ],
+    "explain": "La PMA (procréation médicalement assistée) relève de la liberté d'avoir des enfants : depuis le 2 août 2021, elle est ouverte à toutes les femmes, en couple ou seules.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple/",
+    "verified": false
+  },
+  "cr-droi-78c364f4": {
+    "options": [
+      "Au nom de l'intérêt général et de l'ordre public",
+      "Au nom des convictions du gouvernement en place",
+      "Au nom de la religion la plus pratiquée dans le pays",
+      "Au nom des intérêts des grandes entreprises"
+    ],
+    "explain": "Les droits et libertés sont limités par l'intérêt général, les libertés des autres, la défense de l'ordre public et le respect de la dignité humaine.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-limite-des-libertes-individuelles/",
+    "verified": false
+  },
+  "cr-droi-ba915e44": {
+    "options": [
+      "Chacun choisit librement son conjoint, quel que soit son sexe",
+      "Le mariage est obligatoire dès que l'on vit en couple",
+      "Seuls deux conjoints de sexe différent peuvent se marier",
+      "Les parents peuvent imposer le choix du conjoint à leur enfant"
+    ],
+    "explain": "En France, chacun est libre de choisir son conjoint, quel que soit son sexe, ou de ne pas se marier. Le consentement libre est une condition essentielle de la validité du mariage.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple/",
+    "verified": false
+  },
+  "cr-droi-a90b7042": {
+    "options": [
+      "Oui, chacun peut mettre fin au mariage, même sans faute",
+      "Non, seulement si l'un des conjoints a commis une faute",
+      "Non, l'autre conjoint peut toujours refuser le divorce",
+      "Non, seulement après dix ans de mariage"
+    ],
+    "explain": "La liberté conjugale permet à chaque conjoint de mettre fin à l'union : le divorce met fin au mariage, sans avoir besoin d'une faute.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple/",
+    "verified": false
+  },
+  "cr-droi-702a50fc": {
+    "options": [
+      "totalement abolie en France depuis 1981",
+      "autorisée seulement pour les crimes les plus graves",
+      "autorisée seulement en temps de guerre ou de crise",
+      "abolie seulement pour les crimes politiques"
+    ],
+    "explain": "La loi du 9 octobre 1981 a totalement aboli la peine de mort. Depuis 2007, l'article 66-1 de la Constitution dit que « nul ne peut être condamné à la peine de mort ».",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/focus-sur-la-cinquieme-republique-5/",
+    "verified": false
+  },
+  "cr-droi-a4591504": {
+    "options": [
+      "Les hommes naissent et demeurent libres et égaux en droits",
+      "Chacun a le droit de vivre dans un environnement équilibré et respectueux de la santé",
+      "La France est une République indivisible, laïque, démocratique et sociale",
+      "La langue de la République est le français"
+    ],
+    "explain": "C'est l'article 1er de la Déclaration de 1789. Les autres phrases viennent de la Charte de l'environnement (2004) et de la Constitution de 1958.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen/",
+    "verified": false
+  },
+  "cr-droi-67400644": {
+    "options": [
+      "Oui, dans un cadre réglementé, sans condition d'âge",
+      "Non, il est interdit par la loi en France",
+      "Oui, mais seulement avec l'accord du conjoint ou du compagnon",
+      "Oui, mais seulement si la santé de la mère est en danger"
+    ],
+    "explain": "Chaque femme, sans condition d'âge, peut avoir recours à l'IVG dans un cadre réglementé. Elle n'a pas besoin de l'autorisation de son partenaire, et l'IVG est prise en charge à 100 %.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/focus-sur-la-cinquieme-republique-le-droit-a-l-avortement/",
+    "verified": false
+  },
+  "cr-droi-452868aa": {
+    "options": [
+      "L'organisation de l'État et les principaux droits et libertés",
+      "Le texte de toutes les lois votées par le Parlement",
+      "Les règles du droit du travail et du droit de la famille",
+      "Les programmes des partis politiques"
+    ],
+    "explain": "Les articles de la Constitution déterminent l'organisation de l'État, les caractéristiques du régime politique, les principaux droits et libertés fondamentaux et la façon de les garantir.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-constitution-de-la-5-republique/",
+    "verified": false
+  },
+  "cr-droi-db504bdc": {
+    "options": [
+      "La liberté d'écrire et de publier, dans les limites de la loi",
+      "Le droit de publier n'importe quelle information sans aucune limite",
+      "Le contrôle des journaux par le gouvernement avant leur publication",
+      "L'obligation pour les journaux de soutenir l'État"
+    ],
+    "explain": "La Déclaration de 1789 (article 11) dit que tout citoyen peut parler, écrire et imprimer librement, sauf à répondre des abus de cette liberté dans les cas fixés par la loi.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen/",
+    "verified": false,
+    "note": "fiche covers freedom of expression/art. 11 DDHC, not 'presse' by name"
+  },
+  "cr-droi-1d852ee7": {
+    "options": [
+      "Un droit à l'environnement sain et un devoir de préservation",
+      "L'interdiction de toute activité industrielle sur le territoire",
+      "La priorité de l'économie sur la protection de la nature",
+      "Le droit d'utiliser sans limite les ressources naturelles"
+    ],
+    "explain": "La Charte de 2004 dit que chacun a le droit de vivre dans un environnement équilibré et respectueux de la santé, et que toute personne a le devoir de prendre part à sa préservation.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-charte-de-lenvironnement/",
+    "verified": false
+  },
+  "cr-droi-7f16704d": {
+    "options": [
+      "Chaque être humain mérite le respect, sans condition",
+      "Seules les personnes de nationalité française méritent le respect",
+      "Le respect dépend de la condition sociale",
+      "Le respect s'acquiert par le travail et la réussite personnelle"
+    ],
+    "explain": "La dignité humaine, c'est le fait que chaque personne a de la valeur et mérite un respect inconditionnel, peu importe son âge, son sexe, sa santé, sa condition sociale, sa religion ou son origine.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/la-diginite-humaine/",
+    "verified": false
+  },
+  "cr-droi-71f245e4": {
+    "options": [
+      "Pouvoir se rassembler publiquement pour défendre une opinion",
+      "Pouvoir cesser le travail pour exprimer un désaccord avec l'employeur",
+      "Pouvoir choisir librement le candidat pour lequel on vote",
+      "Pouvoir dégrader les biens publics pour se faire entendre"
+    ],
+    "explain": "Manifester fait partie des libertés collectives : se rassembler dans un lieu, participer à une manifestation, adhérer à un syndicat pour défendre des intérêts communs.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/la-liberte/",
+    "verified": false
+  },
+  "cr-droi-5b0ff9db": {
+    "options": [
+      "Procréation médicalement assistée",
+      "Prise en charge médicale ambulatoire",
+      "Prévention médicale de l'adolescent",
+      "Protection maternelle et accueil"
+    ],
+    "explain": "PMA signifie procréation médicalement assistée. Depuis le 2 août 2021 (loi bioéthique), elle est ouverte à toutes les femmes, en couple ou seules.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple/",
+    "verified": false
+  },
+  "cr-droi-d385c587": {
+    "options": [
+      "La Constitution de 1958",
+      "Une loi votée par le Parlement",
+      "Un décret du Gouvernement",
+      "Un arrêté du maire"
+    ],
+    "explain": "La Constitution est un texte très difficile à modifier, même si quelques changements ont eu lieu (en 1962, par exemple, pour l'élection du président au suffrage direct). C'est la norme suprême.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-constitution-de-la-5-republique/",
+    "verified": false
+  },
+  "cr-droi-33c14b63": {
+    "options": [
+      "La liberté de conscience",
+      "La liberté de la presse",
+      "La liberté d'association",
+      "La liberté d'aller et venir"
+    ],
+    "explain": "La liberté de conscience (liberté de religion) permet à chacun d'avoir ou de ne pas avoir de religion, d'en changer ou de ne plus en avoir. La laïcité la garantit.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-definition-de-la-laicite-1/",
+    "verified": false
+  },
+  "cr-droi-3085ddaa": {
+    "options": [
+      "Le droit de cesser le travail pour exprimer un désaccord",
+      "Le droit de démissionner à tout moment, sans respecter de préavis",
+      "Le droit de prendre ses congés payés aux dates que l'on souhaite",
+      "Le droit de ne jamais être licencié"
+    ],
+    "explain": "Le droit de grève est le droit, pour une personne employée, de cesser le travail pour exprimer un désaccord. Il découle du principe de liberté.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-droits-inherents-a-la-personne-humaine/",
+    "verified": false
+  },
+  "cr-droi-b86c06ca": {
+    "options": [
+      "Le texte fondateur qui organise l'État et garantit les libertés",
+      "Le code qui regroupe les règles de la vie privée depuis 1804",
+      "La loi qui fixe chaque année les dépenses et recettes de l'État",
+      "Le programme politique du président de la République"
+    ],
+    "explain": "Une Constitution est l'acte fondateur par lequel une société décide de son organisation : elle fixe l'organisation de l'État et les principaux droits et libertés. C'est la norme suprême.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-constitution-de-la-5-republique/",
+    "verified": false
+  },
+  "cr-droi-324ded2c": {
+    "options": [
+      "Toute femme, même mineure, sans condition d'âge",
+      "Seulement les femmes majeures",
+      "Seulement les femmes mariées ou en couple",
+      "Seulement les femmes ayant l'accord du père de l'enfant"
+    ],
+    "explain": "Chaque femme peut recourir à l'IVG sans condition d'âge. Une mineure n'a pas besoin de l'autorisation de ses parents, mais doit être accompagnée d'une personne majeure de son choix.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/focus-sur-la-cinquieme-republique-le-droit-a-l-avortement/",
+    "verified": false
+  },
+  "cr-droi-0ad4998d": {
+    "options": [
+      "Oui, comme tout citoyen majeur, sans distinction de sexe",
+      "Non, le droit de vote est réservé aux hommes majeurs",
+      "Oui, mais seulement aux élections municipales et régionales",
+      "Oui, mais seulement avec l'autorisation écrite de son mari"
+    ],
+    "explain": "Le suffrage universel permet à tous les citoyens français majeurs, qui ont leurs droits civiques et sont inscrits sur les listes électorales, de voter sans distinction de sexe.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1/",
+    "verified": false
+  },
+  "cr-droi-048033bd": {
+    "options": [
+      "Insultes, menaces et propos haineux y sont punis par la loi",
+      "La loi ne s'applique pas à ce qui est publié sur internet",
+      "Les insultes y sont permises si l'on utilise un pseudonyme",
+      "On peut y critiquer n'importe qui, sans aucune limite légale"
+    ],
+    "explain": "La liberté d'expression a des limites, y compris sur les réseaux sociaux : les insultes, les menaces et les propos haineux sont punis par la loi.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/le-blaspheme/",
+    "verified": false,
+    "note": "weak match: no fiche on social networks beyond parental supervision; stem ambiguous"
+  },
+  "cr-droi-7feeb123": {
+    "options": [
+      "une infraction sanctionnée par une amende",
+      "un geste autorisé dans l'espace public",
+      "un crime puni de plusieurs années de prison",
+      "un geste toléré s'il n'y a pas de poubelle à proximité"
+    ],
+    "explain": "Il faut respecter les espaces communs et ne pas y jeter de déchets. Jeter un mégot par terre est une infraction (une contravention), punie par une amende.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement/",
+    "verified": false,
+    "note": "partial: fiche says not to litter in common spaces; 'contravention/amende' from general law"
+  },
+  "cr-droi-ec242a0f": {
+    "options": [
+      "Oui, pour protéger l'intérêt général et l'ordre public",
+      "Non, ces droits sont absolus et ne peuvent jamais être limités",
+      "Oui, mais seulement lorsque le pays est en temps de guerre",
+      "Oui, à tout moment et sans avoir à se justifier"
+    ],
+    "explain": "Les droits et libertés ont une limite pour protéger la vie en société : l'intérêt général, les libertés des autres, l'ordre public et le respect de la dignité humaine.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-limite-des-libertes-individuelles/",
+    "verified": false
+  },
+  "cr-droi-ae117c9a": {
+    "options": [
+      "Trier ses déchets et réduire ses déchets plastiques",
+      "Laisser les appareils électriques allumés en son absence",
+      "Prendre la voiture même pour de très courts trajets",
+      "Acheter des produits jetables en grande quantité"
+    ],
+    "explain": "La fiche cite parmi les gestes du quotidien : trier ses déchets, réduire ses déchets plastiques, éviter le gaspillage, privilégier les transports en commun et le vélo.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement/",
+    "verified": false
+  },
+  "cr-droi-22dc5832": {
+    "options": [
+      "Payer des impôts selon ses moyens",
+      "Adhérer à un syndicat quand on est salarié",
+      "Pratiquer une religion",
+      "Se marier ou se pacser avec son partenaire"
+    ],
+    "explain": "Toute personne qui habite en France doit payer des impôts, adaptés à ses revenus (article 13 de la Déclaration de 1789). Adhérer à un syndicat, pratiquer une religion ou se marier sont des libertés.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/les-obligations-en-tant-que-resident-francais/",
+    "verified": false
+  },
+  "cr-droi-684bd7a8": {
+    "options": [
+      "Pour éviter les propos haineux et protéger l'ordre public",
+      "Pour empêcher toute critique d'une religion",
+      "Pour interdire toute critique du Gouvernement",
+      "Pour réserver la parole aux personnes de nationalité française"
+    ],
+    "explain": "On peut critiquer une religion, mais pas tout dire : les insultes, les propos haineux et l'incitation à la haine ou à la violence sont punis. Les opinions ne doivent pas non plus troubler l'ordre public.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/le-blaspheme/",
+    "verified": false
+  },
+  "cr-droi-aa6df189": {
+    "options": [
+      "Pour préserver l'environnement et la santé de tous",
+      "Pour réduire son impôt sur le revenu de l'année",
+      "Pour gagner de l'argent en revendant ses déchets",
+      "Pour que la mairie ramasse moins souvent les poubelles"
+    ],
+    "explain": "Toutes les personnes qui habitent en France ont le devoir de protéger l'environnement, pour soi et pour les autres. Trier ses déchets et les réduire en fait partie.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement/",
+    "verified": false
+  },
+  "cr-droi-cbb9e2c4": {
+    "options": [
+      "En parler et se faire accompagner, sans rester isolée",
+      "Garder le silence pour ne pas aggraver la situation",
+      "Se faire justice elle-même en répondant par la violence",
+      "Attendre que la violence s'arrête d'elle-même"
+    ],
+    "explain": "Il ne faut pas rester seul : on peut en parler à une personne de confiance ou à un professionnel, se faire accompagner par une association et porter plainte. La victime n'est jamais responsable.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-protection-des-victimes-de-violences/",
+    "verified": false
+  },
+  "cr-droi-ffa4055c": {
+    "options": [
+      "Leur obéir et se conformer à leurs instructions",
+      "Les ignorer quand on n'est pas d'accord avec eux",
+      "Ne les suivre que si l'on est convaincu qu'ils sont justes",
+      "N'obéir qu'aux ordres donnés par un juge"
+    ],
+    "explain": "La police et la gendarmerie font respecter la loi et l'ordre public. D'après la Déclaration de 1789 (article 7), tout citoyen appelé ou saisi en vertu de la loi doit obéir.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen/",
+    "verified": false,
+    "note": "indirect: police/gendarmerie role (fiche 'les acteurs') + DDHC art. 7; no fiche says 'obéir aux ordres' in those words"
+  },
+  "cr-droi-c799d5cb": {
+    "options": [
+      "Faire respecter la loi et protéger les personnes",
+      "Rédiger les lois qui s'appliquent dans toutes les villes",
+      "Juger les personnes qui commettent une infraction",
+      "Défendre les accusés devant le tribunal"
+    ],
+    "explain": "La police assure le respect des lois : elle se charge de la prévention des infractions, du maintien de l'ordre public, de la protection des personnes et des biens et des enquêtes.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-acteurs/",
+    "verified": false
+  },
+  "cr-droi-267daa59": {
+    "options": [
+      "Appeler les secours pour une personne blessée",
+      "Filmer la scène pour la publier en ligne",
+      "Passer son chemin en laissant faire les autres témoins",
+      "Attendre que la personne demande de l'aide pour réagir"
+    ],
+    "explain": "Assurer l'assistance à personne en danger, c'est porter secours à toute personne en danger, par exemple en appelant les secours. Sinon, on peut être condamné pour non-assistance.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/les-obligations-en-tant-que-resident-francais/",
+    "verified": false
+  },
+  "cr-droi-167e0259": {
+    "options": [
+      "Les restrictions de déplacement pendant le Covid-19",
+      "L'interdiction de changer de religion au cours de sa vie",
+      "L'obligation d'adhérer à un syndicat pour travailler",
+      "L'interdiction de choisir librement son conjoint"
+    ],
+    "explain": "La fiche cite l'état d'urgence sanitaire de mars 2020 : il a limité la liberté d'aller et venir, la liberté d'entreprendre et la liberté de réunion pour protéger la santé de tous.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-limite-des-libertes-individuelles/",
+    "verified": false
+  },
+  "cr-droi-4d9b0516": {
+    "options": [
+      "Se protéger d'abord, puis aider la victime ou appeler la police",
+      "Ne rien faire, car cela ne regarde que la victime et l'agresseur",
+      "Intervenir physiquement, quel que soit le danger encouru",
+      "Attendre que la victime porte plainte avant d'agir soi-même"
+    ],
+    "explain": "Quelle que soit la violence dont on est témoin, il faut agir sans se mettre en danger : se protéger d'abord, puis aider la victime ou appeler les forces de l'ordre.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/le-role-des-temoins-en-cas-de-violences/",
+    "verified": false
+  },
+  "cr-droi-4921e405": {
+    "options": [
+      "Le crime",
+      "Le délit",
+      "La contravention",
+      "La faute civile"
+    ],
+    "explain": "Il existe trois types d'infractions : la contravention (la moins grave), le délit (intermédiaire) et le crime (le plus grave), jugé par la cour d'assises ou la cour criminelle.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-infractions/",
+    "verified": false
+  },
+  "cr-droi-889cdcf3": {
+    "options": [
+      "Porter secours à une personne en danger",
+      "Participer à la Journée Défense et Citoyenneté",
+      "Être tiré au sort comme juré en cour d'assises",
+      "Faire son service militaire"
+    ],
+    "explain": "Toute personne qui habite en France, quelle que soit sa nationalité, doit porter assistance à une personne en danger. La JDC et le rôle de juré concernent les citoyens français ; le service national est suspendu.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/les-obligations-en-tant-que-resident-francais/",
+    "verified": false
+  },
+  "cr-droi-d475503e": {
+    "options": [
+      "Le meurtre d'une personne sans préméditation",
+      "Le vol d'un téléphone dans un magasin de la ville",
+      "Le tapage nocturne répété dans un immeuble",
+      "La fraude fiscale d'un contribuable aisé"
+    ],
+    "explain": "Le crime est l'infraction la plus grave (assassinat, meurtre, viol, braquage, terrorisme…). Le vol et la fraude fiscale sont des délits, le tapage nocturne une contravention.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-infractions/",
+    "verified": false
+  },
+  "cr-droi-37bd282b": {
+    "options": [
+      "Le vol d'un téléphone dans un magasin",
+      "Le meurtre d'une personne",
+      "Le tapage nocturne dans un immeuble",
+      "Le stationnement gênant devant un commerce"
+    ],
+    "explain": "Le délit est une infraction intermédiaire : vol, fraude fiscale, harcèlement, agression sexuelle, homicide involontaire… Le meurtre est un crime ; le tapage nocturne est une contravention.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-infractions/",
+    "verified": false
+  },
+  "cr-droi-b1cfbc8a": {
+    "options": [
+      "La police et la gendarmerie nationales",
+      "Les avocats et les médiateurs",
+      "Les députés et les sénateurs de la République",
+      "Les employeurs et les syndicats de salariés"
+    ],
+    "explain": "La police et la gendarmerie sont les forces de l'ordre : elles assurent le respect des lois et se chargent notamment du maintien de l'ordre public.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-acteurs/",
+    "verified": false
+  },
+  "cr-droi-e06e8dd5": {
+    "options": [
+      "Il faut trier ses déchets et respecter les espaces communs",
+      "On peut jeter ses déchets dans les espaces communs",
+      "Seules les entreprises doivent s'occuper de trier les déchets",
+      "Le tri des déchets est réservé aux habitants des grandes villes"
+    ],
+    "explain": "Parmi les actions concrètes du quotidien : trier ses déchets, réduire ses déchets plastiques, respecter les espaces communs et ne pas y jeter de déchets.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement/",
+    "verified": false
+  },
+  "cr-hist-91e19082": {
+    "options": [
+      "Le Roi-Soleil",
+      "Le Bien-Aimé",
+      "Le Roi-Citoyen",
+      "Le Vert-Galant"
+    ],
+    "explain": "Louis XIV est surnommé le Roi-Soleil : il incarne la monarchie absolue de l'Ancien Régime.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/l-ancien-regime-jusqu-en-1789/",
+    "verified": false
+  },
+  "cr-hist-1d42f604": {
+    "options": [
+      "Louis XVI",
+      "Louis XIV",
+      "Louis XVIII",
+      "Charles X"
+    ],
+    "explain": "Sous la Terreur, pendant la Ière République, la guillotine est utilisée contre les ennemis de la Révolution : Louis XVI est exécuté en 1793.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-premiere-republique-1792-1804/",
+    "verified": false
+  },
+  "cr-hist-8a07994b": {
+    "options": [
+      "1804",
+      "1799",
+      "1789",
+      "1815"
+    ],
+    "explain": "Napoléon Bonaparte est nommé empereur le 18 mai 1804 : c'est le début du 1er Empire (1804-1815).",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-1er-empire-1804-1815/",
+    "verified": false
+  },
+  "cr-hist-91f31691": {
+    "options": [
+      "Marianne",
+      "Louis XIV",
+      "Charlemagne",
+      "Clovis"
+    ],
+    "explain": "Marianne apparaît pendant la Révolution française pour représenter la République. Son buste est présent dans toutes les mairies.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/marianne/",
+    "verified": false,
+    "note": "stem is vague (no fiche says 'personnage lien avec la République'); Marianne chosen as the official symbol, distractors are monarchs - check the real exam wording"
+  },
+  "cr-hist-7dc74e95": {
+    "options": [
+      "Le 18 juin 1940",
+      "Le 8 mai 1945",
+      "Le 11 novembre 1918",
+      "Le 6 juin 1944"
+    ],
+    "explain": "Depuis Londres, le général de Gaulle lance son célèbre appel du 18 juin 1940 à la radio pour continuer le combat.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration/",
+    "verified": false
+  },
+  "cr-hist-b91f8172": {
+    "options": [
+      "Pour comprendre les conséquences de la haine et rappeler le devoir de mémoire",
+      "Pour étudier les stratégies militaires des armées pendant la Seconde Guerre mondiale",
+      "Pour célébrer chaque année la victoire des Alliés et la fin de la guerre",
+      "Pour comprendre comment l'économie allemande s'est effondrée avant la guerre"
+    ],
+    "explain": "On étudie la Shoah à l'école pour comprendre les conséquences de la haine, du racisme et de l'antisémitisme, et pour rappeler l'importance du devoir de mémoire.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-shoah/",
+    "verified": false
+  },
+  "cr-hist-692a9a6c": {
+    "options": [
+      "L'Algérie",
+      "L'Argentine",
+      "Le Nigeria",
+      "Le Mozambique"
+    ],
+    "explain": "L'Algérie est conquise par l'armée française en 1830. Elle devient indépendante après la guerre d'Algérie (1954-1962).",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/le-territoire-francais-dans-le-temps-1/",
+    "verified": false,
+    "note": "stem gives no options; Algeria is the safe pick (fiche lists many colonised countries: Tunisie, Maroc, Madagascar...); distractors are former Spanish/British/Portuguese colonies"
+  },
+  "cr-hist-8ebdc107": {
+    "options": [
+      "Depuis 1962",
+      "Depuis 1958",
+      "Depuis 1969",
+      "Depuis 1981"
+    ],
+    "explain": "En 1962, un référendum constitutionnel décide que le président est élu au suffrage direct par les citoyens, et non plus par des grands électeurs.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-constitution-de-la-5-republique/",
+    "verified": false,
+    "note": "fiche says 1962 (referendum); the first such election took place in 1965 - check which year the real exam expects"
+  },
+  "cr-hist-2654214f": {
+    "options": [
+      "La création de la CECA (charbon et acier)",
+      "La création de la CEE par le traité de Rome",
+      "La création de l'Union européenne à Maastricht",
+      "La mise en circulation de l'euro"
+    ],
+    "explain": "En 1951, le traité de Paris crée la CECA, la Communauté européenne du charbon et de l'acier, entre six pays dont la France.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne/",
+    "verified": false
+  },
+  "cr-hist-9506849e": {
+    "options": [
+      "François Mitterrand",
+      "Valéry Giscard d'Estaing",
+      "Georges Pompidou",
+      "Jacques Chirac"
+    ],
+    "explain": "La peine de mort est abolie par la loi du 9 octobre 1981, soutenue par Robert Badinter, ministre de la Justice du président François Mitterrand.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/focus-sur-la-cinquieme-republique-5/",
+    "verified": false
+  },
+  "cr-hist-653fdb4d": {
+    "options": [
+      "La Ière République",
+      "La monarchie absolue",
+      "Le Premier Empire",
+      "La Monarchie de Juillet"
+    ],
+    "explain": "La Ière République est proclamée le 22 septembre 1792, après le renversement du roi le 10 août 1792.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-premiere-republique-1792-1804/",
+    "verified": false
+  },
+  "cr-hist-7ea00fac": {
+    "options": [
+      "Jean Moulin",
+      "Philippe Pétain",
+      "Pierre Laval",
+      "Georges Clemenceau"
+    ],
+    "explain": "Jean Moulin est une figure phare de la Résistance : en 1943, il unifie les mouvements en créant le Conseil national de la Résistance (CNR).",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration/",
+    "verified": false
+  },
+  "cr-hist-fff163df": {
+    "options": [
+      "Elles obtiennent le droit de vote",
+      "Elles obtiennent le droit d'avorter légalement",
+      "Elles peuvent travailler sans l'accord de leur mari",
+      "Elles obtiennent la parité obligatoire en politique"
+    ],
+    "explain": "Le droit de vote est accordé aux femmes en avril 1944, sous le Gouvernement provisoire de la République française.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-gouvernement-provisoire-de-la-republique-francaise-1944-1946/",
+    "verified": false,
+    "note": "fiche gives vote in avril 1944; distractors are later reforms (1975 loi Veil, 1965, 2000) - general knowledge"
+  },
+  "cr-hist-16e6139a": {
+    "options": [
+      "L'ONU (Organisation des Nations unies)",
+      "L'OTAN (Organisation du traité de l'Atlantique Nord)",
+      "La Société des Nations",
+      "L'Union européenne"
+    ],
+    "explain": "L'ONU est créée en 1945 pour maintenir la paix après la Seconde Guerre mondiale. La Société des Nations date du traité de Versailles (1919).",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-1/",
+    "verified": false
+  },
+  "cr-hist-561e9a01": {
+    "options": [
+      "La peine de mort",
+      "La réclusion criminelle à perpétuité",
+      "Les travaux d'intérêt général",
+      "L'amende pour les délits"
+    ],
+    "explain": "En 1981, sous la Vème République, la peine de mort est totalement abolie par la loi du 9 octobre 1981.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/focus-sur-la-cinquieme-republique-5/",
+    "verified": false
+  },
+  "cr-hist-624c9c6d": {
+    "options": [
+      "2002",
+      "1992",
+      "1957",
+      "2007"
+    ],
+    "explain": "En 2002, l'euro devient la monnaie officielle de plusieurs pays membres de l'Union européenne, dont la France.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne/",
+    "verified": false
+  },
+  "cr-hist-1d315050": {
+    "options": [
+      "1914",
+      "1918",
+      "1939",
+      "1870"
+    ],
+    "explain": "La Première Guerre mondiale commence en 1914 : elle est officiellement déclarée en août, après l'assassinat de l'archiduc à Sarajevo le 28 juin.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-premiere-guerre-mondiale-1/",
+    "verified": false
+  },
+  "cr-hist-036b8fa7": {
+    "options": [
+      "En Normandie",
+      "En Aquitaine",
+      "En Bretagne",
+      "En Charente-Maritime"
+    ],
+    "explain": "Le 6 juin 1944, le débarquement des Alliés en Normandie marque le début de la Libération de la France et de l'Europe.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-1/",
+    "verified": false,
+    "note": "a second Allied landing took place in Provence on 15 August 1944 (also in the fiche); distractors avoid Provence"
+  },
+  "cr-hist-fc137121": {
+    "options": [
+      "L'Afrique",
+      "L'Europe",
+      "L'Amérique du Sud",
+      "L'Océanie"
+    ],
+    "explain": "La décolonisation française touche surtout l'Afrique : guerre d'Algérie (1954-1962) puis indépendance en 1960 des colonies d'Afrique et de Madagascar.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-decolonisation/",
+    "verified": false,
+    "note": "Asia (Indochine, 1946-1954) was also concerned; Africa is the continent most concerned (distractors avoid Asia)"
+  },
+  "cr-hist-06b638af": {
+    "options": [
+      "La victoire de 1945 et la fin de la Seconde Guerre mondiale",
+      "L'armistice de 1918 et la fin de la Première Guerre mondiale",
+      "La prise de la Bastille en 1789 pendant la Révolution",
+      "Le débarquement des Alliés en Normandie en 1944"
+    ],
+    "explain": "Le 8 mai est un jour férié : commémoration de la victoire de 1945 et de la fin de la Seconde Guerre mondiale (capitulation de l'Allemagne).",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/patrimoine-francais-les-jours-feries/",
+    "verified": false
+  },
+  "cr-hist-dfc7cdf2": {
+    "options": [
+      "L'océan Atlantique",
+      "La mer Baltique",
+      "La mer Noire",
+      "La mer Rouge"
+    ],
+    "explain": "La France métropolitaine est bordée par la mer du Nord, la Manche, l'océan Atlantique et la mer Méditerranée.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/",
+    "verified": false,
+    "note": "four correct seas/oceans exist (mer du Nord, Manche, Atlantique, Méditerranée); distractors avoid all of them"
+  },
+  "cr-hist-6728391f": {
+    "options": [
+      "L'Espagne",
+      "Le Portugal",
+      "L'Autriche",
+      "La Pologne"
+    ],
+    "explain": "La France partage des frontières terrestres avec la Belgique, le Luxembourg, l'Allemagne, la Suisse, l'Italie, l'Espagne, Andorre et Monaco.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/",
+    "verified": false
+  },
+  "cr-hist-a627f331": {
+    "options": [
+      "Le Havre",
+      "Toulouse",
+      "Clermont-Ferrand",
+      "Limoges"
+    ],
+    "explain": "Le Havre est l'un des 7 grands ports maritimes de France métropolitaine, avec Dunkerque, Rouen, Nantes Saint-Nazaire, La Rochelle, Bordeaux et Marseille.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/les-ports-francais/",
+    "verified": false,
+    "note": "several correct ports exist (Marseille, Dunkerque...); distractors are inland cities with no sea port"
+  },
+  "cr-hist-87bcbf47": {
+    "options": [
+      "La Manche",
+      "La mer d'Irlande",
+      "La mer Baltique",
+      "La mer Méditerranée"
+    ],
+    "explain": "La Manche sépare la France du Royaume-Uni : elle borde le nord-ouest de la France, notamment la Normandie.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/",
+    "verified": false,
+    "note": "fiche lists the Manche among French maritime frontiers and says Normandie is near the UK; 'Angleterre' not named in a fiche"
+  },
+  "cr-hist-1099dccf": {
+    "options": [
+      "Les territoires français situés hors d'Europe",
+      "Les anciennes colonies françaises devenues des États indépendants",
+      "Les régions françaises situées le long des frontières terrestres",
+      "Les îles françaises situées dans la mer Méditerranée et la Manche"
+    ],
+    "explain": "La France d'outre-mer regroupe les territoires français éloignés de l'Europe, répartis dans plusieurs océans : les DROM (Guadeloupe, Guyane, Martinique, Réunion, Mayotte) et les COM.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/le-territoire-de-la-france/",
+    "verified": false
+  },
+  "cr-hist-34dc012f": {
+    "options": [
+      "Les Pyrénées",
+      "Le Massif central",
+      "Les Alpes",
+      "Le Jura"
+    ],
+    "explain": "Les Pyrénées forment une barrière montagneuse entre la France et l'Espagne.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/",
+    "verified": false
+  },
+  "cr-hist-88fe2f46": {
+    "options": [
+      "La Réunion",
+      "La Martinique",
+      "La Corse",
+      "La Nouvelle-Calédonie"
+    ],
+    "explain": "La Réunion se trouve dans l'océan Indien, comme Mayotte et les îles Éparses. La Martinique est dans l'Atlantique, la Nouvelle-Calédonie dans le Pacifique.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/une-puissance-maritime/",
+    "verified": false,
+    "note": "Mayotte is also in the Indian Ocean; it is not among the distractors"
+  },
+  "cr-hist-c1f4836e": {
+    "options": [
+      "Environ 68,6 millions",
+      "Environ 58 millions",
+      "Environ 52 millions",
+      "Environ 75 millions"
+    ],
+    "explain": "Au 1er janvier 2025, 68,6 millions d'habitants vivent en France (66,4 millions en métropole et 2,3 millions dans les DROM).",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-demographie-francaise/",
+    "verified": false
+  },
+  "cr-hist-dd15eac0": {
+    "options": [
+      "La Seine",
+      "La Loire",
+      "La Garonne",
+      "Le Rhône"
+    ],
+    "explain": "La Seine traverse Troyes, Paris, Rouen et Le Havre avant de se jeter dans la Manche.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-fleuves-fran%C3%A7ais/",
+    "verified": false
+  },
+  "cr-hist-7ec0e95d": {
+    "options": [
+      "La Suisse",
+      "Le Danemark",
+      "L'Irlande",
+      "Le Portugal"
+    ],
+    "explain": "En Europe, la France partage ses frontières terrestres avec 8 pays, dont la Suisse (massifs du Jura et des Alpes). Le Danemark, l'Irlande et le Portugal n'ont pas de frontière avec elle.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/",
+    "verified": false,
+    "note": "France also borders Brazil, Suriname (Guyane) and the Netherlands (Saint-Martin); none appear among the distractors"
+  },
+  "cr-hist-72d80f2b": {
+    "options": [
+      "L'Allemagne",
+      "L'Espagne",
+      "L'Italie",
+      "Le Portugal"
+    ],
+    "explain": "Le Rhin sépare la France et l'Allemagne sur une partie de la frontière, à l'est et au nord-est. L'Espagne est au sud-ouest, l'Italie au sud-est.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/",
+    "verified": false,
+    "note": "Belgique and Luxembourg also border the north-east; they are not among the distractors"
+  },
+  "cr-hist-535a7122": {
+    "options": [
+      "Dans les grandes métropoles",
+      "Dans les zones rurales isolées",
+      "Dans les villages de montagne",
+      "Dans les petites communes du littoral"
+    ],
+    "explain": "En France, la population, les principales activités économiques, les emplois, les richesses et les services sont concentrés dans les métropoles : c'est la métropolisation.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-france-aire-urbaine-et-metropolisation/",
+    "verified": false
+  },
+  "cr-hist-38b358bc": {
+    "options": [
+      "La France",
+      "L'Espagne",
+      "L'Italie",
+      "Les États-Unis"
+    ],
+    "explain": "La France est la première destination touristique au monde : plus de 100 millions de voyageurs en 2024.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/une-puissance-touristique/",
+    "verified": false
+  },
+  "cr-hist-4559b47d": {
+    "options": [
+      "En ville, dans une aire urbaine",
+      "À la campagne, dans des villages isolés",
+      "En montagne, dans les Alpes et les Pyrénées",
+      "Dans les territoires d'outre-mer"
+    ],
+    "explain": "Environ 81 % de la population française vit en ville, surtout dans les grandes agglomérations comme Paris, Lyon, Marseille, Toulouse, Lille et Bordeaux.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-demographie-francaise/",
+    "verified": false
+  },
+  "cr-hist-25183090": {
+    "options": [
+      "L'Île-de-France",
+      "L'Auvergne-Rhône-Alpes",
+      "L'Occitanie",
+      "La Bretagne"
+    ],
+    "explain": "L'Île-de-France, avec environ 12,4 millions d'habitants, est la région la plus peuplée de France. L'Auvergne-Rhône-Alpes est la 2ème.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/ile-de-france/",
+    "verified": false
+  },
+  "cr-hist-95af0363": {
+    "options": [
+      "Lille",
+      "Rennes",
+      "Grenoble",
+      "Dijon"
+    ],
+    "explain": "La Métropole européenne de Lille (1,2 million d'habitants) fait partie des 10 plus grandes métropoles françaises, avec Paris, Marseille, Lyon, Bordeaux, Toulouse...",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-france-aire-urbaine-et-metropolisation/",
+    "verified": false,
+    "note": "other correct answers possible if the real options include Marseille, Lyon, Bordeaux, Toulouse, Nantes, Nice, Montpellier or Strasbourg"
+  },
+  "cr-hist-546a01b0": {
+    "options": [
+      "Paris",
+      "La Creuse",
+      "Les Ardennes",
+      "La Haute-Marne"
+    ],
+    "explain": "Paris est le département le plus visité de France : la tour Eiffel, le Louvre ou Notre-Dame y attirent des millions de touristes. Les autres sont peu touristiques.",
+    "ref": null,
+    "verified": false,
+    "note": "no fiche; general knowledge (Paris = most visited department). The real exam options are unknown - check the exact wording"
+  },
+  "cr-hist-31461c66": {
+    "options": [
+      "Lors des Journées européennes du patrimoine",
+      "Uniquement le jour de la fête du Travail, le 1er mai",
+      "Seulement pendant les vacances scolaires d'été",
+      "Chaque premier mardi du mois dans tous les musées"
+    ],
+    "explain": "Les Journées européennes du patrimoine, en septembre, offrent un accès souvent gratuit à des lieux culturels. Les musées nationaux sont aussi gratuits le 1er dimanche du mois.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-acces-a-la-culture/",
+    "verified": false,
+    "note": "fiche gives two valid answers: Journées européennes du patrimoine (septembre) and 1er dimanche du mois (musées nationaux) - check the real options"
+  },
+  "cr-hist-1e91464d": {
+    "options": [
+      "Plus de 396 millions",
+      "Environ 120 millions",
+      "Environ 250 millions",
+      "Environ 800 millions"
+    ],
+    "explain": "Le français est la 4ème langue la plus parlée au monde, avec plus de 396 millions de locuteurs répartis sur les 5 continents.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-la-langue-francaise-dans-le-monde/",
+    "verified": false
+  },
+  "cr-hist-be5602d2": {
+    "options": [
+      "Une écrivaine du 20ème siècle",
+      "Une peintre du 19ème siècle",
+      "Une sculptrice du 19ème siècle",
+      "Une chanteuse du 20ème siècle"
+    ],
+    "explain": "Marguerite Yourcenar (1903-1987) est une écrivaine emblématique du 20ème siècle. Elle devient en 1980 la première femme élue à l'Académie française.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3/",
+    "verified": false
+  },
+  "cr-hist-b87b33d0": {
+    "options": [
+      "Claude Monet",
+      "Rembrandt",
+      "Léonard de Vinci",
+      "Francisco de Goya"
+    ],
+    "explain": "Claude Monet (1840-1926) est un peintre impressionniste français, célèbre pour Les Nymphéas. Rembrandt est néerlandais, Léonard de Vinci italien, Goya espagnol.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-peintres/",
+    "verified": false,
+    "note": "fiche lists Delacroix, Cézanne, Monet, Renoir as French painters; other nationalities from general knowledge"
+  },
+  "cr-hist-df49d561": {
+    "options": [
+      "Le musée du Louvre",
+      "Le MuCEM",
+      "Le musée des Confluences",
+      "Le musée Soulages"
+    ],
+    "explain": "Le Louvre et le musée d'Orsay, à Paris, comptent parmi les musées les plus prestigieux du monde. Le MuCEM est à Marseille, les Confluences à Lyon, le musée Soulages à Rodez.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/une-puissance-culturelle/",
+    "verified": false,
+    "note": "fiche names the Louvre and Orsay as prestigious French museums (and the musée Rodin 'à Paris' in the sculptors fiche); location of the distractors is general knowledge"
+  },
+  "cr-hist-86922a4a": {
+    "options": [
+      "Un grand sculpteur français",
+      "Un peintre impressionniste français",
+      "Un écrivain romantique français",
+      "Un compositeur de musique classique"
+    ],
+    "explain": "Auguste Rodin (1840-1917) est un grand sculpteur français au style très expressif et réaliste, auteur du Penseur et du Baiser. Le musée Rodin est à Paris.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-sculpteurs/",
+    "verified": false
+  },
+  "cr-hist-0e893cf9": {
+    "options": [
+      "La 4ème langue la plus parlée",
+      "La 1ère langue la plus parlée",
+      "La 2ème langue la plus parlée",
+      "La 10ème langue la plus parlée"
+    ],
+    "explain": "Le français est la 4ème langue la plus parlée au monde, avec plus de 396 millions de locuteurs.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-la-langue-francaise-dans-le-monde/",
+    "verified": false
+  },
+  "cr-hist-91463b99": {
+    "options": [
+      "Notre-Dame de Paris",
+      "La cathédrale de Chartres",
+      "La cathédrale de Reims",
+      "La cathédrale de Strasbourg"
+    ],
+    "explain": "Après l'incendie de 2019, plus de 840 millions d'euros ont été récoltés par des dons privés pour reconstruire la cathédrale Notre-Dame de Paris.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-le-citoyen-acteur-et-conservateur-de-la-culture-en-france/",
+    "verified": false
+  },
+  "cr-hist-f91d7d11": {
+    "options": [
+      "George Sand",
+      "Jane Austen",
+      "Virginia Woolf",
+      "Agatha Christie"
+    ],
+    "explain": "George Sand (1804-1876) est une écrivaine française du 19ème siècle, connue pour son engagement social et sa défense des droits des femmes. Les autres autrices sont britanniques.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2/",
+    "verified": false,
+    "note": "fiches also name Simone de Beauvoir and Marguerite Yourcenar as French women writers; they are not among the distractors"
+  },
+  "cr-hist-8df86c13": {
+    "options": [
+      "Claude Debussy",
+      "Wolfgang Amadeus Mozart",
+      "Ludwig van Beethoven",
+      "Giuseppe Verdi"
+    ],
+    "explain": "Claude Debussy (1862-1918), compositeur français, est considéré comme le père de la musique moderne (Clair de lune, La Mer). Mozart, Beethoven et Verdi ne sont pas français.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-dans-univers-musique/",
+    "verified": false,
+    "note": "fiche also names Edith Piaf (chanteuse) and Berlioz is mentioned elsewhere as a French composer; neither is among the distractors"
+  },
+  "cr-hist-d7fcefd3": {
+    "options": [
+      "Un peintre impressionniste",
+      "Un sculpteur romantique",
+      "Un poète symboliste",
+      "Un compositeur impressionniste"
+    ],
+    "explain": "Auguste Renoir (1841-1919) est un peintre impressionniste français, auteur du Déjeuner des canotiers et du Bal du moulin de la Galette.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-peintres/",
+    "verified": false
+  },
+  "cr-hist-4a25fc36": {
+    "options": [
+      "Le 14 juillet, la fête nationale",
+      "Thanksgiving, fête de la récolte américaine",
+      "La Saint-Patrick, fête nationale irlandaise",
+      "L'Oktoberfest, fête de la bière allemande"
+    ],
+    "explain": "Le 14 juillet est la fête nationale française : elle célèbre la République, avec feux d'artifice, bals populaires et défilé militaire.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/patrimoine-francais-les-jours-feries/",
+    "verified": false,
+    "note": "the fiche also names the Fête de la musique (1982), Noël, etc. as French festivals; the real options are unknown - check the exact wording"
+  },
+  "cr-vie-8381de62": {
+    "options": [
+      "Le mariage civil, célébré en mairie",
+      "Le mariage religieux",
+      "Le mariage coutumier",
+      "Le mariage célébré devant des témoins seulement"
+    ],
+    "explain": "Le mariage civil est le seul mariage reconnu en France. Un mariage civil célébré à l'étranger est reconnu après sa transcription dans les registres de l'état civil français.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/la-declaration-de-mariage/",
+    "verified": false
+  },
+  "cr-vie-1fd63a6a": {
+    "options": [
+      "La mairie de sa commune",
+      "La préfecture de son département",
+      "La caisse d'allocations familiales (CAF)",
+      "Le tribunal judiciaire"
+    ],
+    "explain": "Pour inscrire son enfant à l'école publique, il suffit de contacter la mairie, ou l'école située à proximité du domicile. Les parents sont libres de choisir une école publique ou privée.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/la-liberte-de-choisir-l-ecole-de-son-enfant/",
+    "verified": false
+  },
+  "cr-vie-56431c67": {
+    "options": [
+      "Les deux parents, comme avant la séparation",
+      "Seulement la mère",
+      "Seulement le parent chez qui vit l'enfant",
+      "Le juge, à la place des parents"
+    ],
+    "explain": "Les deux parents gardent l'autorité parentale, avec les mêmes droits et devoirs, même s'ils sont séparés. Seul un tribunal peut la retirer à un parent en cas de danger pour l'enfant ou de désintérêt.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/exercice-de-l-autorite-parentale-1/",
+    "verified": false
+  },
+  "cr-vie-90f93da9": {
+    "options": [
+      "L'aide juridictionnelle",
+      "L'aide personnalisée au logement",
+      "Le revenu de solidarité active",
+      "La Complémentaire santé solidaire"
+    ],
+    "explain": "L'aide juridictionnelle est une aide financière qui permet à chacun d'être défendu de façon juste devant la justice. Pour les personnes aux faibles ressources, les frais d'avocat peuvent être pris en charge.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/",
+    "verified": false
+  },
+  "cr-vie-1c9879cd": {
+    "options": [
+      "À la mairie du lieu de naissance",
+      "À la préfecture du département",
+      "À la caisse d'allocations familiales",
+      "Au commissariat de police"
+    ],
+    "explain": "La déclaration de naissance est obligatoire. Elle se fait dans les 5 jours qui suivent la naissance, à la mairie du lieu de naissance, où l'officier d'état civil établit l'acte de naissance.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/la-declaration-de-naissance/",
+    "verified": false
+  },
+  "cr-vie-06ecbca0": {
+    "options": [
+      "Avoir 17 ans au minimum",
+      "Avoir 21 ans au minimum",
+      "Avoir la nationalité française",
+      "Posséder sa propre voiture"
+    ],
+    "explain": "Pour passer l'examen du permis de conduire, il faut avoir 17 ans au minimum et être résident en France. La nationalité française n'est pas exigée.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-du-quotidien-comme-le-permis-de-conduire-1/",
+    "verified": false
+  },
+  "cr-vie-459acd20": {
+    "options": [
+      "signé par le locataire et par le propriétaire",
+      "enregistré à la préfecture",
+      "validé par le maire de la commune",
+      "approuvé par la caisse d'allocations familiales"
+    ],
+    "explain": "Le bail est un contrat écrit entre le bailleur et le locataire. Il est valide seulement s'il est signé par le locataire et par le propriétaire.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-relatives-au-logement-1/",
+    "verified": false
+  },
+  "cr-vie-9df59b71": {
+    "options": [
+      "À la déchèterie la plus proche",
+      "Dans la poubelle des ordures ménagères",
+      "Dans le bac de tri des emballages",
+      "Sur le trottoir, devant son immeuble"
+    ],
+    "explain": "Un appareil électroménager cassé se dépose à la déchèterie (ou chez le vendeur qui reprend l'ancien appareil), jamais dans les poubelles ni dans la rue. Chacun a le devoir de trier ses déchets.",
+    "ref": null,
+    "verified": false,
+    "note": "no fiche"
+  },
+  "cr-vie-db3d14d7": {
+    "options": [
+      "Le 17",
+      "Le 15",
+      "Le 18",
+      "Le 115"
+    ],
+    "explain": "Le 17 est le numéro de la police, pour signaler une infraction. Le 15 est le SAMU (urgence médicale), le 18 les pompiers et le 115 l'aide aux personnes sans domicile fixe.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/annexe-les-numeros-durgence/",
+    "verified": false
+  },
+  "cr-vie-bb8ad27c": {
+    "options": [
+      "En cas de danger vital, il faut appeler le SAMU au 15.",
+      "Il est interdit de changer de médecin traitant.",
+      "Les urgences de l'hôpital ne sont ouvertes que la journée.",
+      "Il faut une mutuelle pour être soigné à l'hôpital public."
+    ],
+    "explain": "En cas de danger vital (blessure grave, détresse respiratoire, perte de connaissance), il faut appeler le SAMU au 15, joignable gratuitement 24h/24 et 7j/7. Les urgences de l'hôpital sont aussi ouvertes 24h/24.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/acces-aux-soins-services-et-numeros-d-urgence/",
+    "verified": false
+  },
+  "cr-vie-3fdf16ed": {
+    "options": [
+      "À toute personne, majeure ou mineure",
+      "Uniquement aux personnes majeures",
+      "Uniquement aux personnes mariées",
+      "Uniquement aux femmes qui ont l'accord de leur partenaire"
+    ],
+    "explain": "Le droit de disposer de son corps vaut pour les plus et les moins de 18 ans. Les consultations et prescriptions de contraception aux mineurs peuvent être anonymes et gratuites.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/un-droit-fondamental-le-droit-de-disposer-de-son-corps/",
+    "verified": false
+  },
+  "cr-vie-dc08afb8": {
+    "options": [
+      "Le médecin garde secrètes les informations médicales du patient",
+      "Le patient choisit librement son médecin et son établissement de santé",
+      "Le médecin prévient l'employeur du patient en cas de maladie",
+      "Le patient doit garder secrets les conseils donnés par son médecin"
+    ],
+    "explain": "Le principe de confidentialité oblige le médecin à garder secrètes les informations médicales d'un patient. Le secret médical protège tout ce que le professionnel a vu, entendu ou compris pendant la consultation.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/sante-les-droits-du-patient/",
+    "verified": false
+  },
+  "cr-vie-ed03898a": {
+    "options": [
+      "obligatoire",
+      "facultative",
+      "réservée aux salariés",
+      "réservée aux personnes de nationalité française"
+    ],
+    "explain": "L'inscription à l'Assurance maladie est obligatoire. Une fois validée, elle donne un numéro de sécurité sociale et une carte Vitale, qui permettent d'être remboursé des frais de santé.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/sante-la-prise-en-charge-les-demarches-pour-etre-rembourse/",
+    "verified": false
+  },
+  "cr-vie-122c251d": {
+    "options": [
+      "Le père ou la mère, s'ils sont salariés",
+      "Seulement la mère de l'enfant",
+      "Seulement les parents mariés",
+      "Les grands-parents de l'enfant"
+    ],
+    "explain": "Le congé parental d'éducation permet à un parent salarié, père ou mère, d'arrêter ou de réduire son travail pour s'occuper de son enfant, sous conditions d'ancienneté. Il n'est pas réservé à la mère ni aux couples mariés.",
+    "ref": null,
+    "verified": false,
+    "note": "no fiche"
+  },
+  "cr-vie-39a43b32": {
+    "options": [
+      "Les conflits entre un salarié et son employeur",
+      "Les conflits entre un locataire et son propriétaire",
+      "Les infractions au code de la route",
+      "Les divorces et les séparations de couples"
+    ],
+    "explain": "Le conseil de prud'hommes est un lieu de justice qui décide dans les désaccords entre un salarié et son employeur sur le contrat de travail (licenciement, salaire…). Il peut imposer une indemnité ou la réintégration du salarié.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/le-droit-au-travail-2/",
+    "verified": false
+  },
+  "cr-vie-4d727fe5": {
+    "options": [
+      "interdit par la loi",
+      "autorisé si le salarié est d'accord",
+      "autorisé pendant les trois premiers mois",
+      "autorisé pour un travail de courte durée"
+    ],
+    "explain": "Le travail non déclaré (ou travail dissimulé) est interdit par la loi. L'employeur risque jusqu'à 3 ans de prison et 45 000 euros d'amende, et le salarié ne cotise ni pour la retraite ni pour le chômage.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/le-droit-au-travail-5/",
+    "verified": false
+  },
+  "cr-vie-af2c4a86": {
+    "options": [
+      "il doit payer ces heures supplémentaires ou permettre de les rattraper",
+      "il peut les payer moins que le SMIC, s'il le décide",
+      "le salarié doit les faire gratuitement, sans contrepartie",
+      "il doit d'abord obtenir l'autorisation écrite de la mairie de la commune"
+    ],
+    "explain": "Au-delà de la durée légale (35 heures par semaine pour un temps complet), ce sont des heures supplémentaires. L'employeur doit les payer au salarié ou lui permettre de les rattraper.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/le-droit-au-travail-1/",
+    "verified": false
+  },
+  "cr-vie-65c1bae5": {
+    "options": [
+      "Aider les personnes à trouver un emploi ou une formation",
+      "Délivrer les titres de séjour aux étrangers",
+      "Rembourser les frais de santé des assurés",
+      "Verser les allocations familiales aux parents"
+    ],
+    "explain": "France Travail est un organisme public qui accompagne les personnes à la recherche d'un emploi : il les aide à trouver un travail ou une formation. Il aide aussi les entreprises qui recrutent.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/orientation-1/",
+    "verified": false
+  },
+  "cr-vie-20bb6214": {
+    "options": [
+      "à chaque salarié de créer un syndicat ou d'y adhérer",
+      "à l'employeur de choisir le syndicat de ses salariés",
+      "au salarié de fixer lui-même son salaire",
+      "au salarié de refuser tous les ordres de l'employeur"
+    ],
+    "explain": "Le droit syndical permet à chaque salarié de créer un syndicat, d'y adhérer ou d'y participer. Un syndicat défend les droits des travailleurs ; personne ne peut obliger un salarié à en rejoindre un ni le punir s'il en fait partie.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/le-droit-au-travail-2/",
+    "verified": false
+  },
+  "cr-vie-afc915bf": {
+    "options": [
+      "les salariés à cesser le travail pour exprimer un désaccord",
+      "les salariés à choisir librement leurs jours de travail",
+      "les salariés à venir travailler quand ils le souhaitent",
+      "l'employeur à fermer l'entreprise sans prévenir les salariés"
+    ],
+    "explain": "Le droit de grève est le droit, pour une personne employée, de cesser le travail pour exprimer un désaccord. C'est un droit fondamental lié à la liberté.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-droits-inherents-a-la-personne-humaine/",
+    "verified": false
+  },
+  "cr-vie-73bd875e": {
+    "options": [
+      "Avoir travaillé, perdre son emploi sans l'avoir voulu, s'inscrire à France Travail",
+      "Avoir la nationalité française, avoir plus de 25 ans et vivre en couple",
+      "Avoir quitté son emploi de sa propre décision, sans chercher d'autre travail",
+      "Être inscrit à la mairie de son domicile et toucher déjà les allocations familiales"
+    ],
+    "explain": "En principe, il faut avoir travaillé, avoir perdu son emploi sans l'avoir voulu, être inscrit à France Travail et chercher un emploi. La nationalité française n'est pas exigée.",
+    "ref": null,
+    "verified": false,
+    "note": "no fiche"
+  },
+  "cr-vie-d4c7e87c": {
+    "options": [
+      "L'école des enfants de 3 à 6 ans",
+      "L'école des enfants de 6 à 11 ans",
+      "L'école des enfants de 11 à 15 ans",
+      "Un lieu de garde pour les enfants de moins de 3 ans"
+    ],
+    "explain": "L'école maternelle accueille les enfants de 3 à 6 ans (petite, moyenne et grande section). Les enfants y apprennent le français s'ils ne le parlent pas encore, à vivre ensemble et à se faire des amis.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/le-systeme-educatif/",
+    "verified": false
+  },
+  "cr-vie-4ac35df1": {
+    "options": [
+      "Le brevet des collèges (DNB)",
+      "Le baccalauréat (BAC)",
+      "Le certificat d'études primaires",
+      "La licence universitaire"
+    ],
+    "explain": "À la fin du collège, l'élève passe le brevet des collèges, ou diplôme national du brevet (DNB). Le baccalauréat se passe à la fin du lycée.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/le-systeme-educatif/",
+    "verified": false
+  },
+  "cr-vie-b0178fd0": {
+    "options": [
+      "se présenter aux élections des représentants des parents d'élèves",
+      "choisir les professeurs de leur enfant",
+      "fixer eux-mêmes le programme des cours",
+      "entrer en classe pendant les cours quand ils le veulent"
+    ],
+    "explain": "Les parents peuvent participer à la vie de l'école : rejoindre l'association de parents d'élèves ou se présenter aux élections des représentants des parents, qui participent aux décisions importantes concernant l'organisation de l'école.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/droits-et-devoirs-des-parents-a-l-ecole/",
+    "verified": false
+  },
+  "cr-vie-7a27e22d": {
+    "options": [
+      "Tous les enfants qui le souhaitent",
+      "Seulement les enfants de nationalité française",
+      "Seulement les enfants dont les parents sont mariés",
+      "Seulement les enfants dont les deux parents travaillent"
+    ],
+    "explain": "Une cantine est accessible à tous les enfants qui le souhaitent, dans tous les établissements scolaires, qu'ils soient français ou étrangers.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/le-systeme-educatif/",
+    "verified": false
+  },
+  "cr-vie-56dd7afb": {
+    "options": [
+      "À 3 ans",
+      "À 5 ans",
+      "À 6 ans",
+      "À 7 ans"
+    ],
+    "explain": "En France, tous les enfants de 3 à 16 ans qui habitent en France doivent aller à l'école : l'instruction est obligatoire dès 3 ans, pour les enfants français comme pour les enfants étrangers.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/le-systeme-educatif/",
+    "verified": false
+  },
+  "cr-vie-61af2cb1": {
+    "options": [
+      "18 ans",
+      "16 ans",
+      "21 ans",
+      "25 ans"
+    ],
+    "explain": "La majorité est fixée à 18 ans en France : elle a été abaissée à 18 ans sous la présidence de Valéry Giscard d'Estaing (1974-1981). Avant 18 ans, on est mineur.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/les-presidents-de-la-cinquieme-republique/",
+    "verified": false
+  },
+  "cr-vie-4b7e9c96": {
+    "options": [
+      "faire du prosélytisme pour leur religion",
+      "lire le bulletin scolaire de leur enfant",
+      "rencontrer les professeurs de leur enfant",
+      "rejoindre l'association de parents d'élèves"
+    ],
+    "explain": "Dans les écoles publiques, le prosélytisme (chercher à convaincre les autres d'adopter sa religion) est interdit, car l'école est neutre. Lire le bulletin, voir les professeurs et rejoindre l'association de parents sont permis, voire des devoirs.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-laicite-a-ecole-1/",
+    "verified": false
+  },
+  "cr-vie-0a05fb79": {
+    "options": [
+      "La maladie de l'enfant",
+      "Un départ en vacances avant la date officielle",
+      "La garde de ses frères et sœurs à la maison",
+      "Un rendez-vous chez le coiffeur"
+    ],
+    "explain": "La maladie de l'enfant est un motif d'absence accepté par l'école. Partir en vacances hors des dates officielles ne l'est pas : l'instruction est obligatoire de 3 à 16 ans.",
+    "ref": null,
+    "verified": false,
+    "note": "no fiche"
+  },
+  "cr-vie-184e0b7f": {
+    "options": [
+      "Une amende et une peine de prison",
+      "Uniquement une amende",
+      "Un simple avertissement de la mairie",
+      "Aucune sanction"
+    ],
+    "explain": "L'instruction est obligatoire pour tout enfant entre 3 et 16 ans. Des parents qui ne respectent pas cette obligation peuvent recevoir une amende et faire une peine de prison.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/exercice-de-l-autorite-parentale-1/",
+    "verified": false
+  },
+  "cr-vie-1e87333c": {
+    "options": [
+      "À la fin de l'année, autour du 25 décembre",
+      "À la fin du mois d'octobre, autour de la Toussaint",
+      "En février, pendant l'hiver",
+      "À la fin du mois d'avril, au printemps"
+    ],
+    "explain": "Les vacances scolaires de Noël ont lieu à la fin de l'année, pendant environ deux semaines autour du 25 décembre. Elles sont différentes des vacances de la Toussaint, d'hiver et de printemps.",
+    "ref": null,
+    "verified": false,
+    "note": "no fiche"
+  },
+  "cr-vie-38e0b97c": {
+    "options": [
+      "peut bénéficier d'un emploi du temps aménagé",
+      "ne peut pas aller à l'école avec les autres enfants",
+      "est dispensé de l'obligation d'aller à l'école",
+      "doit obligatoirement être scolarisé à la maison"
+    ],
+    "explain": "Un enfant en situation de handicap a le droit de vivre avec et comme les autres, d'aller à l'école et d'avoir des loisirs. Il peut bénéficier d'un emploi du temps aménagé.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/les-droits-de-l-enfant/",
+    "verified": false
+  }
+}

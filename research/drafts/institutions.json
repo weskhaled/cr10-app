@@ -1,0 +1,509 @@
+{
+  "cr-inst-1118c0d1": {
+    "options": [
+      "Un système où la loi est la même pour tous, y compris pour l'État",
+      "Un régime où le chef de l'État peut décider seul de toutes les lois du pays",
+      "Un système où seuls les juges ont le droit de voter et de modifier les lois",
+      "Un régime où l'État peut écarter la loi pour protéger la sécurité du pays"
+    ],
+    "explain": "Dans un État de droit, la loi est la même pour tous, y compris pour l'État : le droit est supérieur aux autorités politiques et garantit les droits fondamentaux.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs/"
+  },
+  "cr-inst-5bd5a7aa": {
+    "options": [
+      "Il n'est pas au-dessus de la loi : la justice peut le juger",
+      "Il ne peut jamais être jugé, car il est le chef de l'État et des armées",
+      "Seul le Premier ministre peut décider de le faire juger par un tribunal",
+      "Seul le Conseil constitutionnel est compétent pour juger le président"
+    ],
+    "explain": "Dans un État de droit, la loi est la même pour tous, y compris pour ceux qui gouvernent. Pendant son mandat le président est protégé : les poursuites sont suspendues et peuvent reprendre un mois après la fin de ses fonctions.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs/",
+    "note": "fiche gives only equality before the law; the presidential immunity detail (Const. art. 67-68) is general knowledge — check the real exam wording of this question"
+  },
+  "cr-inst-4d63dc21": {
+    "options": [
+      "la volonté générale du peuple",
+      "la volonté du président de la République",
+      "l'opinion des juges et des magistrats",
+      "la volonté du Gouvernement"
+    ],
+    "explain": "La loi est l'expression de la volonté générale : elle est votée par le Parlement, dont les membres représentent les citoyens.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/comment-voter-une-loi-1/"
+  },
+  "cr-inst-dc238b8b": {
+    "options": [
+      "6 ans",
+      "5 ans",
+      "4 ans",
+      "7 ans"
+    ],
+    "explain": "Le maire et les conseillers municipaux sont élus au suffrage direct pour 6 ans, lors des élections municipales.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-2/"
+  },
+  "cr-inst-4740c150": {
+    "options": [
+      "Le respect des droits fondamentaux et de la démocratie",
+      "L'égalité des salaires et des richesses entre tous les citoyens",
+      "La victoire du parti au pouvoir à chaque élection nationale",
+      "L'obéissance des citoyens à toutes les décisions du Gouvernement"
+    ],
+    "explain": "L'État de droit garantit le respect des droits fondamentaux et de la démocratie : les autorités publiques agissent toujours en respectant la loi, sous le contrôle de juges indépendants.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs/"
+  },
+  "cr-inst-d997a31a": {
+    "options": [
+      "Oui, mais uniquement si elle a donné une procuration",
+      "Non, jamais : le vote est strictement personnel dans tous les cas",
+      "Oui, si les deux personnes sont de la même famille proche",
+      "Oui, si l'on présente simplement sa carte d'électeur à sa place"
+    ],
+    "explain": "Le vote est personnel, mais on peut voter pour une autre personne uniquement si celle-ci a fait une procuration de vote.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1/"
+  },
+  "cr-inst-3bf4b439": {
+    "options": [
+      "Non, voter est un droit et non un devoir pour les citoyens",
+      "Oui, c'est un devoir pour tous les citoyens majeurs",
+      "Oui, sous peine d'une amende pour ceux qui s'abstiennent",
+      "Oui, mais seulement pour les élections présidentielles et législatives"
+    ],
+    "explain": "Le vote n'est pas obligatoire en France : c'est un droit et non un devoir.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1/"
+  },
+  "cr-inst-7f11547b": {
+    "options": [
+      "Non, il ne reste que s'il est réélu par les citoyens",
+      "Oui, s'il estime que la situation du pays l'exige vraiment",
+      "Oui, si le Premier ministre lui demande de rester en poste",
+      "Oui, s'il obtient l'accord du Conseil constitutionnel"
+    ],
+    "explain": "Le président est élu pour 5 ans par les citoyens : pour continuer, il doit être réélu. La Constitution limite à deux mandats consécutifs.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-2/",
+    "note": "fiche covers the 5-year term elected by citizens; the two-consecutive-terms limit (Const. art. 6) is general knowledge"
+  },
+  "cr-inst-3fdc3cbb": {
+    "options": [
+      "Le Premier ministre",
+      "Le président de l'Assemblée nationale",
+      "Le président du Sénat",
+      "Le ministre de l'Intérieur"
+    ],
+    "explain": "Le Gouvernement se compose du Premier ministre et des ministres ; le Premier ministre, nommé par le président de la République, dirige son action.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/",
+    "note": "fiche gives Gouvernement = Premier ministre + ministres and his appointment; 'dirige l'action du Gouvernement' is Const. art. 21 (general knowledge)"
+  },
+  "cr-inst-54cfaa9a": {
+    "options": [
+      "Le président de la République",
+      "Le président de l'Assemblée nationale",
+      "Le président du Sénat",
+      "Le Conseil constitutionnel"
+    ],
+    "explain": "Le Premier ministre, qui réside à l'hôtel de Matignon, est nommé par le président de la République, selon la majorité.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/"
+  },
+  "cr-inst-73ed31a4": {
+    "options": [
+      "Des communes, des départements et des régions",
+      "Des États fédérés, chacun avec sa propre Constitution",
+      "Des provinces, des duchés et des comtés dirigés par des nobles",
+      "Une administration centrale unique, sans aucune collectivité locale"
+    ],
+    "explain": "La France est organisée de façon décentralisée : l'État transfère des compétences aux collectivités territoriales, d'abord les communes, les départements et les régions.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-1/"
+  },
+  "cr-inst-eb3a8eb7": {
+    "options": [
+      "d'élaborer et de voter les lois",
+      "d'appliquer les lois et de diriger l'Administration",
+      "de juger et de sanctionner ceux qui ne respectent pas la loi",
+      "de contrôler que les lois respectent la Constitution"
+    ],
+    "explain": "Le pouvoir législatif est exercé par le Parlement (Assemblée nationale et Sénat) : il propose, négocie et vote les lois. Le pouvoir exécutif les applique et la justice les fait respecter.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/"
+  },
+  "cr-inst-2b39cfdf": {
+    "options": [
+      "Pour garantir les droits fondamentaux et équilibrer les pouvoirs",
+      "Pour que le chef de l'État puisse décider plus vite et sans contrôle",
+      "Pour réduire le nombre de lois votées chaque année par le Parlement",
+      "Pour que les juges puissent aussi diriger le Gouvernement"
+    ],
+    "explain": "Séparer les pouvoirs législatif, exécutif et judiciaire garantit les droits fondamentaux et crée un équilibre : les pouvoirs se contrôlent mutuellement et ne peuvent pas agir de façon arbitraire.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs/"
+  },
+  "cr-inst-7c6b2183": {
+    "options": [
+      "Un juge, dans le cadre de la justice pénale",
+      "Le maire de la commune où le vol a eu lieu",
+      "Le préfet du département où le vol a eu lieu",
+      "Le ministre de l'Intérieur, par une décision personnelle"
+    ],
+    "explain": "La justice pénale punit les infractions des citoyens à la loi, par exemple un vol : ce sont les juges, indépendants et impartiaux, qui sanctionnent.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2/"
+  },
+  "cr-inst-56c4e0ae": {
+    "options": [
+      "Faire appliquer les lois et conduire la politique du pays",
+      "Voter les lois à la place des députés et des sénateurs élus",
+      "Juger les citoyens qui ne respectent pas les lois du pays",
+      "Vérifier que les lois votées respectent bien la Constitution"
+    ],
+    "explain": "Le Gouvernement (Premier ministre et ministres), avec le président de la République, applique et fait respecter les lois, dirige l'Administration et conduit la politique nationale.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/"
+  },
+  "cr-inst-ef663246": {
+    "options": [
+      "Il peut être sanctionné comme n'importe quel citoyen",
+      "Il est protégé par sa fonction : il ne peut pas être sanctionné",
+      "Seul le Premier ministre a le droit de le sanctionner",
+      "Il peut seulement être renvoyé du Gouvernement, sans autre sanction"
+    ],
+    "explain": "Un ministre qui ne respecte pas la loi peut être sanctionné comme tout citoyen : dans un État de droit, personne n'est au-dessus de la loi.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs/"
+  },
+  "cr-inst-f8805f08": {
+    "options": [
+      "577 députés",
+      "348 députés",
+      "720 députés",
+      "1 000 députés"
+    ],
+    "explain": "L'Assemblée nationale compte 577 députés, élus au suffrage direct tous les 5 ans. Le Sénat compte 348 sénateurs.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/"
+  },
+  "cr-inst-9905943c": {
+    "options": [
+      "Les Français majeurs inscrits sur les listes électorales",
+      "Toute personne majeure vivant en France depuis plus de 5 ans",
+      "Toute personne titulaire d'une carte de résident de 10 ans",
+      "Tous les habitants de plus de 16 ans, quelle que soit leur nationalité"
+    ],
+    "explain": "Peuvent voter les citoyens de nationalité française, majeurs, qui ont leurs droits civiques et sont inscrits sur les listes électorales. Les citoyens de l'UE votent seulement aux municipales et aux européennes.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1/"
+  },
+  "cr-inst-ff215b6d": {
+    "options": [
+      "6 ans",
+      "5 ans",
+      "4 ans",
+      "3 ans"
+    ],
+    "explain": "Les sénateurs sont élus pour 6 ans, au suffrage indirect, par les grands électeurs. Le Sénat est renouvelé par moitié tous les 3 ans.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-2/"
+  },
+  "cr-inst-69b19879": {
+    "options": [
+      "Législatif, exécutif et judiciaire",
+      "Législatif, exécutif et administratif",
+      "Exécutif, judiciaire et militaire",
+      "Législatif, politique et économique"
+    ],
+    "explain": "La séparation des 3 pouvoirs distingue le pouvoir législatif (le Parlement vote les lois), exécutif (le Gouvernement les applique) et judiciaire (la justice contrôle leur application).",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs/"
+  },
+  "cr-inst-8451626a": {
+    "options": [
+      "Non, les pouvoirs sont séparés entre plusieurs institutions",
+      "Oui, car il est élu directement par tous les citoyens",
+      "Oui, il peut voter lui-même les lois à la place du Parlement",
+      "Oui, puisqu'il dirige à la fois le Parlement et les tribunaux"
+    ],
+    "explain": "Le président de la République fait partie du pouvoir exécutif : c'est le Parlement qui vote les lois et la justice, indépendante, qui juge. Les pouvoirs sont séparés et se contrôlent mutuellement.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/"
+  },
+  "cr-inst-02343eb8": {
+    "options": [
+      "Le représentant de l'État dans le département",
+      "Le président élu du conseil départemental",
+      "Le maire de la plus grande ville du département",
+      "Le responsable de la justice dans le département"
+    ],
+    "explain": "Le préfet est le représentant de l'État dans le département : il dirige les services de l'État et organise la sécurité, mais ne s'occupe ni de la justice ni de l'armée.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-2/"
+  },
+  "cr-inst-3f5c7550": {
+    "options": [
+      "Être français, majeur et inscrit sur les listes électorales",
+      "Avoir un emploi et payer des impôts sur le revenu en France",
+      "Avoir vécu au moins dix ans de suite en France sans interruption",
+      "Avoir un diplôme ou parler couramment le français"
+    ],
+    "explain": "Pour voter, il faut avoir la nationalité française, être majeur (plus de 18 ans), avoir ses droits civiques et être inscrit sur les listes électorales (exception : citoyens de l'UE, aux municipales et européennes).",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1/"
+  },
+  "cr-inst-989256f8": {
+    "options": [
+      "Le maire, avec les élus du conseil municipal",
+      "Le préfet, qui représente l'État dans le département",
+      "Le président du conseil départemental et ses conseillers",
+      "Le président du conseil régional et ses conseillers"
+    ],
+    "explain": "La commune est dirigée par des personnes élues, dont le maire. Le maire et les conseillers municipaux sont élus pour 6 ans.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-1/"
+  },
+  "cr-inst-30ccfb74": {
+    "options": [
+      "Une République démocratique : la Vème République",
+      "Une monarchie constitutionnelle dirigée par un roi",
+      "Un empire dirigé par un empereur héréditaire",
+      "Une dictature dirigée par un seul parti"
+    ],
+    "explain": "La Vème République, instaurée le 4 octobre 1958, est le régime politique actuel de la France : une démocratie et une République, où le pouvoir est exercé par des représentants élus par le peuple.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-cinquieme-republique/"
+  },
+  "cr-inst-1cceb9e7": {
+    "options": [
+      "La résidence du Premier ministre",
+      "La résidence du président de la République",
+      "Le siège de l'Assemblée nationale",
+      "Le siège du Sénat"
+    ],
+    "explain": "L'hôtel de Matignon est la résidence du Premier ministre. Le président de la République, lui, réside au Palais de l'Élysée.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/"
+  },
+  "cr-inst-af1a3b9c": {
+    "options": [
+      "de l'Assemblée nationale et du Sénat",
+      "du président de la République et du Premier ministre",
+      "du Conseil constitutionnel et du Conseil d'État",
+      "du Gouvernement et des tribunaux de la République"
+    ],
+    "explain": "Le Parlement est composé de deux chambres : l'Assemblée nationale (577 députés) et le Sénat (348 sénateurs). Il vote la loi.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/"
+  },
+  "cr-inst-b80ec6c0": {
+    "options": [
+      "Il est le chef de l'État et des armées",
+      "Il préside l'Assemblée nationale et le Sénat",
+      "Il dirige les tribunaux et rend lui-même la justice",
+      "Il gère les communes et nomme tous les maires"
+    ],
+    "explain": "Le président de la République est le chef de l'État et des armées. Il réside au Palais de l'Élysée et, avec le Gouvernement, applique les lois et conduit la politique nationale.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/"
+  },
+  "cr-inst-d15e86a1": {
+    "options": [
+      "Diriger le Gouvernement et proposer les ministres au président",
+      "Présider l'Assemblée nationale et organiser les débats des députés",
+      "Représenter l'État dans le département et diriger la préfecture",
+      "Juger les litiges entre les citoyens et l'administration de l'État"
+    ],
+    "explain": "Le Premier ministre, nommé par le président de la République, dirige l'action du Gouvernement : il lui propose les ministres.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-2/",
+    "note": "fiche gives PM appointed by the president and proposing the ministers; 'dirige l'action du Gouvernement' is Const. art. 21 (general knowledge)"
+  },
+  "cr-inst-3e2ed3db": {
+    "options": [
+      "Le Premier ministre",
+      "Le président de la République",
+      "Le président du Sénat",
+      "Le président de l'Assemblée nationale"
+    ],
+    "explain": "Le Gouvernement est composé du Premier ministre et des ministres : le chef du Gouvernement est le Premier ministre. Le président de la République est le chef de l'État.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/"
+  },
+  "cr-inst-4dbad17b": {
+    "options": [
+      "18 régions",
+      "13 régions",
+      "22 régions",
+      "27 régions"
+    ],
+    "explain": "La France compte 18 régions : 13 en métropole et 5 en outre-mer (ainsi que 101 départements).",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-1/"
+  },
+  "cr-inst-0ee08b24": {
+    "options": [
+      "Défendre les personnes dont les droits ne sont pas respectés",
+      "Juger les personnes accusées d'avoir enfreint la loi pénale",
+      "Voter les lois qui protègent les droits des citoyens français",
+      "Faire respecter l'ordre public dans chaque commune du pays"
+    ],
+    "explain": "Le Défenseur des droits est une autorité administrative indépendante : il défend les personnes dont les droits ne sont pas respectés, lutte contre les discriminations et règle les conflits entre un service public et un usager.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-acteurs-institutionnels/"
+  },
+  "cr-inst-a1b9590a": {
+    "options": [
+      "Depuis 2002",
+      "Depuis 1992",
+      "Depuis 1957",
+      "Depuis 2007"
+    ],
+    "explain": "Selon la fiche, c'est en 2002 que l'euro devient la monnaie officielle des pays membres concernés ; le traité de Maastricht (1992) avait prévu une monnaie unique.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne/",
+    "note": "check wording: euro created 1 Jan 1999 (accounting) and coins/notes 1 Jan 2002; the fiche says 2002 — 1999 deliberately not used as a distractor"
+  },
+  "cr-inst-0504b7ad": {
+    "options": [
+      "L'action sociale, comme l'aide aux personnes handicapées",
+      "La gestion des lycées et le développement économique",
+      "La gestion des écoles maternelles et primaires",
+      "La délivrance des titres et autorisations administratives"
+    ],
+    "explain": "Le département agit surtout dans l'action sociale (aide aux personnes handicapées, RSA) et gère aussi les collèges. Les lycées relèvent de la région, les écoles de la commune.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-1/"
+  },
+  "cr-inst-a2045bf7": {
+    "options": [
+      "Gérer les services de proximité, comme les écoles primaires",
+      "Gérer les lycées et le développement économique de la région",
+      "Gérer les collèges et verser le RSA dans le département",
+      "Délivrer les titres de séjour et diriger les services de l'État"
+    ],
+    "explain": "La commune a de nombreuses compétences, surtout en urbanisme, logement et action sociale. Elle gère les écoles maternelles et primaires et les services de proximité.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-1/"
+  },
+  "cr-inst-2042b3f8": {
+    "options": [
+      "Environ 35 000",
+      "Environ 3 500",
+      "Environ 12 000",
+      "Environ 350 000"
+    ],
+    "explain": "Il y a environ 35 000 communes en France : c'est la collectivité territoriale la plus répandue.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-1/"
+  },
+  "cr-inst-4de7328e": {
+    "options": [
+      "Le traité de Maastricht",
+      "Le traité de Versailles",
+      "Le traité de Westphalie",
+      "Le traité de Verdun"
+    ],
+    "explain": "En 1992, le traité de Maastricht crée l'Union européenne. Avant lui, les traités de Paris (1951) et de Rome (1957) avaient créé la CECA et la CEE.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-etapes-cles-de-la-construction-europeenne/",
+    "note": "ambiguous stem: Paris, Rome and Lisbonne treaties also concern EU construction; Maastricht chosen (fiche: it 'crée l'UE') and the 3 distractors are deliberately non-EU treaties — check real exam wording"
+  },
+  "cr-inst-4325ea39": {
+    "options": [
+      "Le Royaume-Uni",
+      "La République d'Irlande",
+      "Le Royaume du Danemark",
+      "Le Royaume de Suède"
+    ],
+    "explain": "Le Royaume-Uni a quitté l'Union européenne en 2020 (Brexit) : c'est la première fois qu'un pays quitte l'UE.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-etapes-cles-de-la-construction-europeenne/"
+  },
+  "cr-inst-a5c2eab3": {
+    "options": [
+      "Unie dans la diversité",
+      "Liberté, Égalité, Fraternité",
+      "L'union fait la force",
+      "Une Europe, un peuple, une monnaie"
+    ],
+    "explain": "La devise de l'Union européenne est « Unie dans la diversité » depuis 2000 : les Européens s'unissent dans le respect de leurs cultures, traditions et langues.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-symboles-europeens-2/"
+  },
+  "cr-inst-f4ef9655": {
+    "options": [
+      "L'« Ode à la joie » de Beethoven",
+      "La Marseillaise de Rouget de Lisle",
+      "Les Quatre Saisons de Vivaldi",
+      "Le Boléro de Ravel"
+    ],
+    "explain": "L'hymne européen est l'« Ode à la joie », mélodie du compositeur Ludwig van Beethoven. Il symbolise la liberté, la paix et la solidarité.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-symboles-europeens-1/"
+  },
+  "cr-inst-4be972c3": {
+    "options": [
+      "De douze étoiles jaunes en cercle sur un fond bleu",
+      "De 27 étoiles jaunes en cercle sur un fond bleu",
+      "De trois bandes verticales bleue, blanche et rouge",
+      "De douze étoiles blanches alignées sur un fond rouge"
+    ],
+    "explain": "Le drapeau européen est composé de douze étoiles jaunes formant un cercle sur un fond bleu. Ce cercle symbolise l'unité, la solidarité et l'harmonie entre les peuples d'Europe.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-symboles-europeens-1/"
+  },
+  "cr-inst-95dfbf72": {
+    "options": [
+      "Bleu, avec des étoiles jaunes",
+      "Bleu, blanc et rouge, en trois bandes",
+      "Rouge, avec des étoiles jaunes",
+      "Jaune, avec des étoiles bleues"
+    ],
+    "explain": "Le drapeau européen est bleu, avec douze étoiles jaunes disposées en cercle.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-symboles-europeens-1/"
+  },
+  "cr-inst-03be65a3": {
+    "options": [
+      "En 1992",
+      "En 1957",
+      "En 1951",
+      "En 2007"
+    ],
+    "explain": "Le traité de Maastricht (1992) crée l'Union européenne. Le traité de Paris date de 1951, celui de Rome de 1957 et celui de Lisbonne de 2007.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-etapes-cles-de-la-construction-europeenne/"
+  },
+  "cr-inst-9327a8de": {
+    "options": [
+      "À Strasbourg",
+      "À Bruxelles",
+      "À Luxembourg",
+      "À Francfort"
+    ],
+    "explain": "Le Parlement européen est situé à Strasbourg. La Commission européenne est à Bruxelles et la Cour de justice à Luxembourg.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/le-fonctionnement-europeen-2/"
+  },
+  "cr-inst-829a6cbf": {
+    "options": [
+      "À Bruxelles",
+      "À Strasbourg",
+      "À Luxembourg",
+      "À Francfort"
+    ],
+    "explain": "La Commission européenne est située à Bruxelles, dans le Berlaymont. Le Parlement européen, lui, est à Strasbourg.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/le-fonctionnement-europeen-2/"
+  },
+  "cr-inst-f7889f64": {
+    "options": [
+      "La Suisse",
+      "Le Portugal",
+      "La Croatie",
+      "La Pologne"
+    ],
+    "explain": "La Suisse n'a jamais rejoint l'UE. Le Portugal (1986), la Pologne (2004) et la Croatie (2013) en sont membres.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-etapes-cles-de-la-construction-europeenne/",
+    "note": "Suisse is not named in the fiche (non-membership is general knowledge); the 3 distractors are all EU members in the fiche's list"
+  },
+  "cr-inst-91b1afb4": {
+    "options": [
+      "Le 9 mai",
+      "Le 8 mai",
+      "Le 14 juillet",
+      "Le 11 novembre"
+    ],
+    "explain": "Chaque année, le 9 mai, les pays de l'UE fêtent la Journée de l'Europe, anniversaire de la déclaration Schuman du 9 mai 1950.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-symboles-europeens-2/"
+  },
+  "cr-inst-246b3349": {
+    "options": [
+      "Tous les cinq ans",
+      "Tous les quatre ans",
+      "Tous les six ans",
+      "Tous les sept ans"
+    ],
+    "explain": "Les élections européennes ont lieu tous les cinq ans : les citoyens de l'UE élisent alors les députés du Parlement européen.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-elections-europeennes/"
+  },
+  "cr-inst-2951970d": {
+    "options": [
+      "Être citoyen de l'UE, habiter en France et être inscrit sur les listes",
+      "Être de nationalité française et avoir au moins 21 ans le jour du scrutin",
+      "Être né dans un pays membre de l'UE et occuper un emploi en France",
+      "Avoir résidé au moins dix ans en France sans aucune interruption"
+    ],
+    "explain": "Pour voter aux européennes en France, il faut avoir la nationalité d'un pays de l'UE, habiter en France, avoir au moins 18 ans la veille du 1er tour et être inscrit sur les listes électorales françaises.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-elections-europeennes/"
+  },
+  "cr-inst-f7255650": {
+    "options": [
+      "L'Italie",
+      "L'Espagne",
+      "La Pologne",
+      "L'Irlande"
+    ],
+    "explain": "Six pays fondent la CEE en 1957 : Allemagne, Belgique, France, Italie, Luxembourg et Pays-Bas. L'Irlande (1973), l'Espagne (1986) et la Pologne (2004) l'ont rejointe plus tard.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-etapes-cles-de-la-construction-europeenne/"
+  }
+}

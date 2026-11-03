@@ -98,7 +98,7 @@ onBeforeUnmount(stopSpeech)
         :title="isRight ? 'Correct' : `Answer: ${item.options[0]}`"
         :description="item.explain"
       />
-      <AnswerCheckBar v-if="item.source === 'official-cr'" :id="item.id" :verified="item.verified" :fiche="item.ref" class="mt-3" />
+      <AnswerCheckBar v-if="item.source === 'official-cr'" :id="item.id" :verified="item.verified" :fiche="item.ref" :note="item.note" class="mt-3" />
       <div class="mt-4 flex justify-end">
         <UButton trailing-icon="i-lucide-arrow-right" @click="emit('next')">Next</UButton>
       </div>

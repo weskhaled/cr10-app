@@ -27,7 +27,7 @@ export const OFFICIAL_ANSWERS = officialAnswers as Record<string, OfficialAnswer
 const officialItems: QuizItem[] = OFFICIAL.questions.flatMap((q) => {
   const a = OFFICIAL_ANSWERS[q.id]
   if (!a) return []
-  return [{ ...q, options: a.options, explain: a.explain, source: 'official-cr', verified: a.verified, ...(a.ref ? { ref: a.ref } : {}) }]
+  return [{ ...q, options: a.options, explain: a.explain, source: 'official-cr', verified: a.verified, ...(a.ref ? { ref: a.ref } : {}), ...(a.note ? { note: a.note } : {}) }]
 })
 
 // official questions first: the exam's knowledge questions come from that list

@@ -1,0 +1,386 @@
+{
+  "cr-droi-7a7e33ab": {
+    "options": [
+      "La liberté d'avoir ou non des enfants",
+      "La liberté de choisir son conjoint",
+      "La liberté d'expression et d'opinion",
+      "La liberté de réunion et d'association"
+    ],
+    "explain": "La PMA (procréation médicalement assistée) relève de la liberté d'avoir des enfants : depuis le 2 août 2021, elle est ouverte à toutes les femmes, en couple ou seules.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple/"
+  },
+  "cr-droi-78c364f4": {
+    "options": [
+      "Au nom de l'intérêt général et de l'ordre public",
+      "Au nom des convictions du gouvernement en place",
+      "Au nom de la religion la plus pratiquée dans le pays",
+      "Au nom des intérêts des grandes entreprises"
+    ],
+    "explain": "Les droits et libertés sont limités par l'intérêt général, les libertés des autres, la défense de l'ordre public et le respect de la dignité humaine.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-limite-des-libertes-individuelles/"
+  },
+  "cr-droi-ba915e44": {
+    "options": [
+      "Chacun choisit librement son conjoint, quel que soit son sexe",
+      "Le mariage est obligatoire dès que l'on vit en couple",
+      "Seuls deux conjoints de sexe différent peuvent se marier",
+      "Les parents peuvent imposer le choix du conjoint à leur enfant"
+    ],
+    "explain": "En France, chacun est libre de choisir son conjoint, quel que soit son sexe, ou de ne pas se marier. Le consentement libre est une condition essentielle de la validité du mariage.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple/"
+  },
+  "cr-droi-a90b7042": {
+    "options": [
+      "Oui, chacun peut mettre fin au mariage, même sans faute",
+      "Non, seulement si l'un des conjoints a commis une faute",
+      "Non, l'autre conjoint peut toujours refuser le divorce",
+      "Non, seulement après dix ans de mariage"
+    ],
+    "explain": "La liberté conjugale permet à chaque conjoint de mettre fin à l'union : le divorce met fin au mariage, sans avoir besoin d'une faute.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple/"
+  },
+  "cr-droi-702a50fc": {
+    "options": [
+      "totalement abolie en France depuis 1981",
+      "autorisée seulement pour les crimes les plus graves",
+      "autorisée seulement en temps de guerre ou de crise",
+      "abolie seulement pour les crimes politiques"
+    ],
+    "explain": "La loi du 9 octobre 1981 a totalement aboli la peine de mort. Depuis 2007, l'article 66-1 de la Constitution dit que « nul ne peut être condamné à la peine de mort ».",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/focus-sur-la-cinquieme-republique-5/"
+  },
+  "cr-droi-a4591504": {
+    "options": [
+      "Les hommes naissent et demeurent libres et égaux en droits",
+      "Chacun a le droit de vivre dans un environnement équilibré et respectueux de la santé",
+      "La France est une République indivisible, laïque, démocratique et sociale",
+      "La langue de la République est le français"
+    ],
+    "explain": "C'est l'article 1er de la Déclaration de 1789. Les autres phrases viennent de la Charte de l'environnement (2004) et de la Constitution de 1958.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen/"
+  },
+  "cr-droi-67400644": {
+    "options": [
+      "Oui, dans un cadre réglementé, sans condition d'âge",
+      "Non, il est interdit par la loi en France",
+      "Oui, mais seulement avec l'accord du conjoint ou du compagnon",
+      "Oui, mais seulement si la santé de la mère est en danger"
+    ],
+    "explain": "Chaque femme, sans condition d'âge, peut avoir recours à l'IVG dans un cadre réglementé. Elle n'a pas besoin de l'autorisation de son partenaire, et l'IVG est prise en charge à 100 %.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/focus-sur-la-cinquieme-republique-le-droit-a-l-avortement/"
+  },
+  "cr-droi-452868aa": {
+    "options": [
+      "L'organisation de l'État et les principaux droits et libertés",
+      "Le texte de toutes les lois votées par le Parlement",
+      "Les règles du droit du travail et du droit de la famille",
+      "Les programmes des partis politiques"
+    ],
+    "explain": "Les articles de la Constitution déterminent l'organisation de l'État, les caractéristiques du régime politique, les principaux droits et libertés fondamentaux et la façon de les garantir.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-constitution-de-la-5-republique/"
+  },
+  "cr-droi-db504bdc": {
+    "options": [
+      "La liberté d'écrire et de publier, dans les limites de la loi",
+      "Le droit de publier n'importe quelle information sans aucune limite",
+      "Le contrôle des journaux par le gouvernement avant leur publication",
+      "L'obligation pour les journaux de soutenir l'État"
+    ],
+    "explain": "La Déclaration de 1789 (article 11) dit que tout citoyen peut parler, écrire et imprimer librement, sauf à répondre des abus de cette liberté dans les cas fixés par la loi.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen/",
+    "note": "fiche covers freedom of expression/art. 11 DDHC, not 'presse' by name"
+  },
+  "cr-droi-1d852ee7": {
+    "options": [
+      "Un droit à l'environnement sain et un devoir de préservation",
+      "L'interdiction de toute activité industrielle sur le territoire",
+      "La priorité de l'économie sur la protection de la nature",
+      "Le droit d'utiliser sans limite les ressources naturelles"
+    ],
+    "explain": "La Charte de 2004 dit que chacun a le droit de vivre dans un environnement équilibré et respectueux de la santé, et que toute personne a le devoir de prendre part à sa préservation.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-charte-de-lenvironnement/"
+  },
+  "cr-droi-7f16704d": {
+    "options": [
+      "Chaque être humain mérite le respect, sans condition",
+      "Seules les personnes de nationalité française méritent le respect",
+      "Le respect dépend de la condition sociale",
+      "Le respect s'acquiert par le travail et la réussite personnelle"
+    ],
+    "explain": "La dignité humaine, c'est le fait que chaque personne a de la valeur et mérite un respect inconditionnel, peu importe son âge, son sexe, sa santé, sa condition sociale, sa religion ou son origine.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/la-diginite-humaine/"
+  },
+  "cr-droi-71f245e4": {
+    "options": [
+      "Pouvoir se rassembler publiquement pour défendre une opinion",
+      "Pouvoir cesser le travail pour exprimer un désaccord avec l'employeur",
+      "Pouvoir choisir librement le candidat pour lequel on vote",
+      "Pouvoir dégrader les biens publics pour se faire entendre"
+    ],
+    "explain": "Manifester fait partie des libertés collectives : se rassembler dans un lieu, participer à une manifestation, adhérer à un syndicat pour défendre des intérêts communs.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/la-liberte/"
+  },
+  "cr-droi-5b0ff9db": {
+    "options": [
+      "Procréation médicalement assistée",
+      "Prise en charge médicale ambulatoire",
+      "Prévention médicale de l'adolescent",
+      "Protection maternelle et accueil"
+    ],
+    "explain": "PMA signifie procréation médicalement assistée. Depuis le 2 août 2021 (loi bioéthique), elle est ouverte à toutes les femmes, en couple ou seules.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple/"
+  },
+  "cr-droi-d385c587": {
+    "options": [
+      "La Constitution de 1958",
+      "Une loi votée par le Parlement",
+      "Un décret du Gouvernement",
+      "Un arrêté du maire"
+    ],
+    "explain": "La Constitution est un texte très difficile à modifier, même si quelques changements ont eu lieu (en 1962, par exemple, pour l'élection du président au suffrage direct). C'est la norme suprême.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-constitution-de-la-5-republique/"
+  },
+  "cr-droi-33c14b63": {
+    "options": [
+      "La liberté de conscience",
+      "La liberté de la presse",
+      "La liberté d'association",
+      "La liberté d'aller et venir"
+    ],
+    "explain": "La liberté de conscience (liberté de religion) permet à chacun d'avoir ou de ne pas avoir de religion, d'en changer ou de ne plus en avoir. La laïcité la garantit.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-definition-de-la-laicite-1/"
+  },
+  "cr-droi-3085ddaa": {
+    "options": [
+      "Le droit de cesser le travail pour exprimer un désaccord",
+      "Le droit de démissionner à tout moment, sans respecter de préavis",
+      "Le droit de prendre ses congés payés aux dates que l'on souhaite",
+      "Le droit de ne jamais être licencié"
+    ],
+    "explain": "Le droit de grève est le droit, pour une personne employée, de cesser le travail pour exprimer un désaccord. Il découle du principe de liberté.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-droits-inherents-a-la-personne-humaine/"
+  },
+  "cr-droi-b86c06ca": {
+    "options": [
+      "Le texte fondateur qui organise l'État et garantit les libertés",
+      "Le code qui regroupe les règles de la vie privée depuis 1804",
+      "La loi qui fixe chaque année les dépenses et recettes de l'État",
+      "Le programme politique du président de la République"
+    ],
+    "explain": "Une Constitution est l'acte fondateur par lequel une société décide de son organisation : elle fixe l'organisation de l'État et les principaux droits et libertés. C'est la norme suprême.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-constitution-de-la-5-republique/"
+  },
+  "cr-droi-324ded2c": {
+    "options": [
+      "Toute femme, même mineure, sans condition d'âge",
+      "Seulement les femmes majeures",
+      "Seulement les femmes mariées ou en couple",
+      "Seulement les femmes ayant l'accord du père de l'enfant"
+    ],
+    "explain": "Chaque femme peut recourir à l'IVG sans condition d'âge. Une mineure n'a pas besoin de l'autorisation de ses parents, mais doit être accompagnée d'une personne majeure de son choix.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/focus-sur-la-cinquieme-republique-le-droit-a-l-avortement/"
+  },
+  "cr-droi-0ad4998d": {
+    "options": [
+      "Oui, comme tout citoyen majeur, sans distinction de sexe",
+      "Non, le droit de vote est réservé aux hommes majeurs",
+      "Oui, mais seulement aux élections municipales et régionales",
+      "Oui, mais seulement avec l'autorisation écrite de son mari"
+    ],
+    "explain": "Le suffrage universel permet à tous les citoyens français majeurs, qui ont leurs droits civiques et sont inscrits sur les listes électorales, de voter sans distinction de sexe.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1/"
+  },
+  "cr-droi-048033bd": {
+    "options": [
+      "Insultes, menaces et propos haineux y sont punis par la loi",
+      "La loi ne s'applique pas à ce qui est publié sur internet",
+      "Les insultes y sont permises si l'on utilise un pseudonyme",
+      "On peut y critiquer n'importe qui, sans aucune limite légale"
+    ],
+    "explain": "La liberté d'expression a des limites, y compris sur les réseaux sociaux : les insultes, les menaces et les propos haineux sont punis par la loi.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/le-blaspheme/",
+    "note": "weak match: no fiche on social networks beyond parental supervision; stem ambiguous"
+  },
+  "cr-droi-7feeb123": {
+    "options": [
+      "une infraction sanctionnée par une amende",
+      "un geste autorisé dans l'espace public",
+      "un crime puni de plusieurs années de prison",
+      "un geste toléré s'il n'y a pas de poubelle à proximité"
+    ],
+    "explain": "Il faut respecter les espaces communs et ne pas y jeter de déchets. Jeter un mégot par terre est une infraction (une contravention), punie par une amende.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement/",
+    "note": "partial: fiche says not to litter in common spaces; 'contravention/amende' from general law"
+  },
+  "cr-droi-ec242a0f": {
+    "options": [
+      "Oui, pour protéger l'intérêt général et l'ordre public",
+      "Non, ces droits sont absolus et ne peuvent jamais être limités",
+      "Oui, mais seulement lorsque le pays est en temps de guerre",
+      "Oui, à tout moment et sans avoir à se justifier"
+    ],
+    "explain": "Les droits et libertés ont une limite pour protéger la vie en société : l'intérêt général, les libertés des autres, l'ordre public et le respect de la dignité humaine.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-limite-des-libertes-individuelles/"
+  },
+  "cr-droi-ae117c9a": {
+    "options": [
+      "Trier ses déchets et réduire ses déchets plastiques",
+      "Laisser les appareils électriques allumés en son absence",
+      "Prendre la voiture même pour de très courts trajets",
+      "Acheter des produits jetables en grande quantité"
+    ],
+    "explain": "La fiche cite parmi les gestes du quotidien : trier ses déchets, réduire ses déchets plastiques, éviter le gaspillage, privilégier les transports en commun et le vélo.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement/"
+  },
+  "cr-droi-22dc5832": {
+    "options": [
+      "Payer des impôts selon ses moyens",
+      "Adhérer à un syndicat quand on est salarié",
+      "Pratiquer une religion",
+      "Se marier ou se pacser avec son partenaire"
+    ],
+    "explain": "Toute personne qui habite en France doit payer des impôts, adaptés à ses revenus (article 13 de la Déclaration de 1789). Adhérer à un syndicat, pratiquer une religion ou se marier sont des libertés.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/les-obligations-en-tant-que-resident-francais/"
+  },
+  "cr-droi-684bd7a8": {
+    "options": [
+      "Pour éviter les propos haineux et protéger l'ordre public",
+      "Pour empêcher toute critique d'une religion",
+      "Pour interdire toute critique du Gouvernement",
+      "Pour réserver la parole aux personnes de nationalité française"
+    ],
+    "explain": "On peut critiquer une religion, mais pas tout dire : les insultes, les propos haineux et l'incitation à la haine ou à la violence sont punis. Les opinions ne doivent pas non plus troubler l'ordre public.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/le-blaspheme/"
+  },
+  "cr-droi-aa6df189": {
+    "options": [
+      "Pour préserver l'environnement et la santé de tous",
+      "Pour réduire son impôt sur le revenu de l'année",
+      "Pour gagner de l'argent en revendant ses déchets",
+      "Pour que la mairie ramasse moins souvent les poubelles"
+    ],
+    "explain": "Toutes les personnes qui habitent en France ont le devoir de protéger l'environnement, pour soi et pour les autres. Trier ses déchets et les réduire en fait partie.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement/"
+  },
+  "cr-droi-cbb9e2c4": {
+    "options": [
+      "En parler et se faire accompagner, sans rester isolée",
+      "Garder le silence pour ne pas aggraver la situation",
+      "Se faire justice elle-même en répondant par la violence",
+      "Attendre que la violence s'arrête d'elle-même"
+    ],
+    "explain": "Il ne faut pas rester seul : on peut en parler à une personne de confiance ou à un professionnel, se faire accompagner par une association et porter plainte. La victime n'est jamais responsable.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-protection-des-victimes-de-violences/"
+  },
+  "cr-droi-ffa4055c": {
+    "options": [
+      "Leur obéir et se conformer à leurs instructions",
+      "Les ignorer quand on n'est pas d'accord avec eux",
+      "Ne les suivre que si l'on est convaincu qu'ils sont justes",
+      "N'obéir qu'aux ordres donnés par un juge"
+    ],
+    "explain": "La police et la gendarmerie font respecter la loi et l'ordre public. D'après la Déclaration de 1789 (article 7), tout citoyen appelé ou saisi en vertu de la loi doit obéir.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen/",
+    "note": "indirect: police/gendarmerie role (fiche 'les acteurs') + DDHC art. 7; no fiche says 'obéir aux ordres' in those words"
+  },
+  "cr-droi-c799d5cb": {
+    "options": [
+      "Faire respecter la loi et protéger les personnes",
+      "Rédiger les lois qui s'appliquent dans toutes les villes",
+      "Juger les personnes qui commettent une infraction",
+      "Défendre les accusés devant le tribunal"
+    ],
+    "explain": "La police assure le respect des lois : elle se charge de la prévention des infractions, du maintien de l'ordre public, de la protection des personnes et des biens et des enquêtes.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-acteurs/"
+  },
+  "cr-droi-267daa59": {
+    "options": [
+      "Appeler les secours pour une personne blessée",
+      "Filmer la scène pour la publier en ligne",
+      "Passer son chemin en laissant faire les autres témoins",
+      "Attendre que la personne demande de l'aide pour réagir"
+    ],
+    "explain": "Assurer l'assistance à personne en danger, c'est porter secours à toute personne en danger, par exemple en appelant les secours. Sinon, on peut être condamné pour non-assistance.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/les-obligations-en-tant-que-resident-francais/"
+  },
+  "cr-droi-167e0259": {
+    "options": [
+      "Les restrictions de déplacement pendant le Covid-19",
+      "L'interdiction de changer de religion au cours de sa vie",
+      "L'obligation d'adhérer à un syndicat pour travailler",
+      "L'interdiction de choisir librement son conjoint"
+    ],
+    "explain": "La fiche cite l'état d'urgence sanitaire de mars 2020 : il a limité la liberté d'aller et venir, la liberté d'entreprendre et la liberté de réunion pour protéger la santé de tous.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-limite-des-libertes-individuelles/"
+  },
+  "cr-droi-4d9b0516": {
+    "options": [
+      "Se protéger d'abord, puis aider la victime ou appeler la police",
+      "Ne rien faire, car cela ne regarde que la victime et l'agresseur",
+      "Intervenir physiquement, quel que soit le danger encouru",
+      "Attendre que la victime porte plainte avant d'agir soi-même"
+    ],
+    "explain": "Quelle que soit la violence dont on est témoin, il faut agir sans se mettre en danger : se protéger d'abord, puis aider la victime ou appeler les forces de l'ordre.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/le-role-des-temoins-en-cas-de-violences/"
+  },
+  "cr-droi-4921e405": {
+    "options": [
+      "Le crime",
+      "Le délit",
+      "La contravention",
+      "La faute civile"
+    ],
+    "explain": "Il existe trois types d'infractions : la contravention (la moins grave), le délit (intermédiaire) et le crime (le plus grave), jugé par la cour d'assises ou la cour criminelle.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-infractions/"
+  },
+  "cr-droi-889cdcf3": {
+    "options": [
+      "Porter secours à une personne en danger",
+      "Participer à la Journée Défense et Citoyenneté",
+      "Être tiré au sort comme juré en cour d'assises",
+      "Faire son service militaire"
+    ],
+    "explain": "Toute personne qui habite en France, quelle que soit sa nationalité, doit porter assistance à une personne en danger. La JDC et le rôle de juré concernent les citoyens français ; le service national est suspendu.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/les-obligations-en-tant-que-resident-francais/"
+  },
+  "cr-droi-d475503e": {
+    "options": [
+      "Le meurtre d'une personne sans préméditation",
+      "Le vol d'un téléphone dans un magasin de la ville",
+      "Le tapage nocturne répété dans un immeuble",
+      "La fraude fiscale d'un contribuable aisé"
+    ],
+    "explain": "Le crime est l'infraction la plus grave (assassinat, meurtre, viol, braquage, terrorisme…). Le vol et la fraude fiscale sont des délits, le tapage nocturne une contravention.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-infractions/"
+  },
+  "cr-droi-37bd282b": {
+    "options": [
+      "Le vol d'un téléphone dans un magasin",
+      "Le meurtre d'une personne",
+      "Le tapage nocturne dans un immeuble",
+      "Le stationnement gênant devant un commerce"
+    ],
+    "explain": "Le délit est une infraction intermédiaire : vol, fraude fiscale, harcèlement, agression sexuelle, homicide involontaire… Le meurtre est un crime ; le tapage nocturne est une contravention.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-infractions/"
+  },
+  "cr-droi-b1cfbc8a": {
+    "options": [
+      "La police et la gendarmerie nationales",
+      "Les avocats et les médiateurs",
+      "Les députés et les sénateurs de la République",
+      "Les employeurs et les syndicats de salariés"
+    ],
+    "explain": "La police et la gendarmerie sont les forces de l'ordre : elles assurent le respect des lois et se chargent notamment du maintien de l'ordre public.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-acteurs/"
+  },
+  "cr-droi-e06e8dd5": {
+    "options": [
+      "Il faut trier ses déchets et respecter les espaces communs",
+      "On peut jeter ses déchets dans les espaces communs",
+      "Seules les entreprises doivent s'occuper de trier les déchets",
+      "Le tri des déchets est réservé aux habitants des grandes villes"
+    ],
+    "explain": "Parmi les actions concrètes du quotidien : trier ses déchets, réduire ses déchets plastiques, respecter les espaces communs et ne pas y jeter de déchets.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement/"
+  }
+}

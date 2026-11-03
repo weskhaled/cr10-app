@@ -1,0 +1,512 @@
+{
+  "cr-hist-91e19082": {
+    "options": [
+      "Le Roi-Soleil",
+      "Le Bien-Aimé",
+      "Le Roi-Citoyen",
+      "Le Vert-Galant"
+    ],
+    "explain": "Louis XIV est surnommé le Roi-Soleil : il incarne la monarchie absolue de l'Ancien Régime.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/l-ancien-regime-jusqu-en-1789/"
+  },
+  "cr-hist-1d42f604": {
+    "options": [
+      "Louis XVI",
+      "Louis XIV",
+      "Louis XVIII",
+      "Charles X"
+    ],
+    "explain": "Sous la Terreur, pendant la Ière République, la guillotine est utilisée contre les ennemis de la Révolution : Louis XVI est exécuté en 1793.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-premiere-republique-1792-1804/"
+  },
+  "cr-hist-8a07994b": {
+    "options": [
+      "1804",
+      "1799",
+      "1789",
+      "1815"
+    ],
+    "explain": "Napoléon Bonaparte est nommé empereur le 18 mai 1804 : c'est le début du 1er Empire (1804-1815).",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-1er-empire-1804-1815/"
+  },
+  "cr-hist-91f31691": {
+    "options": [
+      "Marianne",
+      "Louis XIV",
+      "Charlemagne",
+      "Clovis"
+    ],
+    "explain": "Marianne apparaît pendant la Révolution française pour représenter la République. Son buste est présent dans toutes les mairies.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/marianne/",
+    "note": "stem is vague (no fiche says 'personnage lien avec la République'); Marianne chosen as the official symbol, distractors are monarchs - check the real exam wording"
+  },
+  "cr-hist-7dc74e95": {
+    "options": [
+      "Le 18 juin 1940",
+      "Le 8 mai 1945",
+      "Le 11 novembre 1918",
+      "Le 6 juin 1944"
+    ],
+    "explain": "Depuis Londres, le général de Gaulle lance son célèbre appel du 18 juin 1940 à la radio pour continuer le combat.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration/"
+  },
+  "cr-hist-b91f8172": {
+    "options": [
+      "Pour comprendre les conséquences de la haine et rappeler le devoir de mémoire",
+      "Pour étudier les stratégies militaires des armées pendant la Seconde Guerre mondiale",
+      "Pour célébrer chaque année la victoire des Alliés et la fin de la guerre",
+      "Pour comprendre comment l'économie allemande s'est effondrée avant la guerre"
+    ],
+    "explain": "On étudie la Shoah à l'école pour comprendre les conséquences de la haine, du racisme et de l'antisémitisme, et pour rappeler l'importance du devoir de mémoire.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-shoah/"
+  },
+  "cr-hist-692a9a6c": {
+    "options": [
+      "L'Algérie",
+      "L'Argentine",
+      "Le Nigeria",
+      "Le Mozambique"
+    ],
+    "explain": "L'Algérie est conquise par l'armée française en 1830. Elle devient indépendante après la guerre d'Algérie (1954-1962).",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/le-territoire-francais-dans-le-temps-1/",
+    "note": "stem gives no options; Algeria is the safe pick (fiche lists many colonised countries: Tunisie, Maroc, Madagascar...); distractors are former Spanish/British/Portuguese colonies"
+  },
+  "cr-hist-8ebdc107": {
+    "options": [
+      "Depuis 1962",
+      "Depuis 1958",
+      "Depuis 1969",
+      "Depuis 1981"
+    ],
+    "explain": "En 1962, un référendum constitutionnel décide que le président est élu au suffrage direct par les citoyens, et non plus par des grands électeurs.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-constitution-de-la-5-republique/",
+    "note": "fiche says 1962 (referendum); the first such election took place in 1965 - check which year the real exam expects"
+  },
+  "cr-hist-2654214f": {
+    "options": [
+      "La création de la CECA (charbon et acier)",
+      "La création de la CEE par le traité de Rome",
+      "La création de l'Union européenne à Maastricht",
+      "La mise en circulation de l'euro"
+    ],
+    "explain": "En 1951, le traité de Paris crée la CECA, la Communauté européenne du charbon et de l'acier, entre six pays dont la France.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne/"
+  },
+  "cr-hist-9506849e": {
+    "options": [
+      "François Mitterrand",
+      "Valéry Giscard d'Estaing",
+      "Georges Pompidou",
+      "Jacques Chirac"
+    ],
+    "explain": "La peine de mort est abolie par la loi du 9 octobre 1981, soutenue par Robert Badinter, ministre de la Justice du président François Mitterrand.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/focus-sur-la-cinquieme-republique-5/"
+  },
+  "cr-hist-653fdb4d": {
+    "options": [
+      "La Ière République",
+      "La monarchie absolue",
+      "Le Premier Empire",
+      "La Monarchie de Juillet"
+    ],
+    "explain": "La Ière République est proclamée le 22 septembre 1792, après le renversement du roi le 10 août 1792.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-premiere-republique-1792-1804/"
+  },
+  "cr-hist-7ea00fac": {
+    "options": [
+      "Jean Moulin",
+      "Philippe Pétain",
+      "Pierre Laval",
+      "Georges Clemenceau"
+    ],
+    "explain": "Jean Moulin est une figure phare de la Résistance : en 1943, il unifie les mouvements en créant le Conseil national de la Résistance (CNR).",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration/"
+  },
+  "cr-hist-fff163df": {
+    "options": [
+      "Elles obtiennent le droit de vote",
+      "Elles obtiennent le droit d'avorter légalement",
+      "Elles peuvent travailler sans l'accord de leur mari",
+      "Elles obtiennent la parité obligatoire en politique"
+    ],
+    "explain": "Le droit de vote est accordé aux femmes en avril 1944, sous le Gouvernement provisoire de la République française.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-gouvernement-provisoire-de-la-republique-francaise-1944-1946/",
+    "note": "fiche gives vote in avril 1944; distractors are later reforms (1975 loi Veil, 1965, 2000) - general knowledge"
+  },
+  "cr-hist-16e6139a": {
+    "options": [
+      "L'ONU (Organisation des Nations unies)",
+      "L'OTAN (Organisation du traité de l'Atlantique Nord)",
+      "La Société des Nations",
+      "L'Union européenne"
+    ],
+    "explain": "L'ONU est créée en 1945 pour maintenir la paix après la Seconde Guerre mondiale. La Société des Nations date du traité de Versailles (1919).",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-1/"
+  },
+  "cr-hist-561e9a01": {
+    "options": [
+      "La peine de mort",
+      "La réclusion criminelle à perpétuité",
+      "Les travaux d'intérêt général",
+      "L'amende pour les délits"
+    ],
+    "explain": "En 1981, sous la Vème République, la peine de mort est totalement abolie par la loi du 9 octobre 1981.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/focus-sur-la-cinquieme-republique-5/"
+  },
+  "cr-hist-624c9c6d": {
+    "options": [
+      "2002",
+      "1992",
+      "1957",
+      "2007"
+    ],
+    "explain": "En 2002, l'euro devient la monnaie officielle de plusieurs pays membres de l'Union européenne, dont la France.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne/"
+  },
+  "cr-hist-1d315050": {
+    "options": [
+      "1914",
+      "1918",
+      "1939",
+      "1870"
+    ],
+    "explain": "La Première Guerre mondiale commence en 1914 : elle est officiellement déclarée en août, après l'assassinat de l'archiduc à Sarajevo le 28 juin.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-premiere-guerre-mondiale-1/"
+  },
+  "cr-hist-036b8fa7": {
+    "options": [
+      "En Normandie",
+      "En Aquitaine",
+      "En Bretagne",
+      "En Charente-Maritime"
+    ],
+    "explain": "Le 6 juin 1944, le débarquement des Alliés en Normandie marque le début de la Libération de la France et de l'Europe.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-1/",
+    "note": "a second Allied landing took place in Provence on 15 August 1944 (also in the fiche); distractors avoid Provence"
+  },
+  "cr-hist-fc137121": {
+    "options": [
+      "L'Afrique",
+      "L'Europe",
+      "L'Amérique du Sud",
+      "L'Océanie"
+    ],
+    "explain": "La décolonisation française touche surtout l'Afrique : guerre d'Algérie (1954-1962) puis indépendance en 1960 des colonies d'Afrique et de Madagascar.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-decolonisation/",
+    "note": "Asia (Indochine, 1946-1954) was also concerned; Africa is the continent most concerned (distractors avoid Asia)"
+  },
+  "cr-hist-06b638af": {
+    "options": [
+      "La victoire de 1945 et la fin de la Seconde Guerre mondiale",
+      "L'armistice de 1918 et la fin de la Première Guerre mondiale",
+      "La prise de la Bastille en 1789 pendant la Révolution",
+      "Le débarquement des Alliés en Normandie en 1944"
+    ],
+    "explain": "Le 8 mai est un jour férié : commémoration de la victoire de 1945 et de la fin de la Seconde Guerre mondiale (capitulation de l'Allemagne).",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/patrimoine-francais-les-jours-feries/"
+  },
+  "cr-hist-dfc7cdf2": {
+    "options": [
+      "L'océan Atlantique",
+      "La mer Baltique",
+      "La mer Noire",
+      "La mer Rouge"
+    ],
+    "explain": "La France métropolitaine est bordée par la mer du Nord, la Manche, l'océan Atlantique et la mer Méditerranée.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/",
+    "note": "four correct seas/oceans exist (mer du Nord, Manche, Atlantique, Méditerranée); distractors avoid all of them"
+  },
+  "cr-hist-6728391f": {
+    "options": [
+      "L'Espagne",
+      "Le Portugal",
+      "L'Autriche",
+      "La Pologne"
+    ],
+    "explain": "La France partage des frontières terrestres avec la Belgique, le Luxembourg, l'Allemagne, la Suisse, l'Italie, l'Espagne, Andorre et Monaco.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/"
+  },
+  "cr-hist-a627f331": {
+    "options": [
+      "Le Havre",
+      "Toulouse",
+      "Clermont-Ferrand",
+      "Limoges"
+    ],
+    "explain": "Le Havre est l'un des 7 grands ports maritimes de France métropolitaine, avec Dunkerque, Rouen, Nantes Saint-Nazaire, La Rochelle, Bordeaux et Marseille.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/les-ports-francais/",
+    "note": "several correct ports exist (Marseille, Dunkerque...); distractors are inland cities with no sea port"
+  },
+  "cr-hist-87bcbf47": {
+    "options": [
+      "La Manche",
+      "La mer d'Irlande",
+      "La mer Baltique",
+      "La mer Méditerranée"
+    ],
+    "explain": "La Manche sépare la France du Royaume-Uni : elle borde le nord-ouest de la France, notamment la Normandie.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/",
+    "note": "fiche lists the Manche among French maritime frontiers and says Normandie is near the UK; 'Angleterre' not named in a fiche"
+  },
+  "cr-hist-1099dccf": {
+    "options": [
+      "Les territoires français situés hors d'Europe",
+      "Les anciennes colonies françaises devenues des États indépendants",
+      "Les régions françaises situées le long des frontières terrestres",
+      "Les îles françaises situées dans la mer Méditerranée et la Manche"
+    ],
+    "explain": "La France d'outre-mer regroupe les territoires français éloignés de l'Europe, répartis dans plusieurs océans : les DROM (Guadeloupe, Guyane, Martinique, Réunion, Mayotte) et les COM.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/le-territoire-de-la-france/"
+  },
+  "cr-hist-34dc012f": {
+    "options": [
+      "Les Pyrénées",
+      "Le Massif central",
+      "Les Alpes",
+      "Le Jura"
+    ],
+    "explain": "Les Pyrénées forment une barrière montagneuse entre la France et l'Espagne.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/"
+  },
+  "cr-hist-88fe2f46": {
+    "options": [
+      "La Réunion",
+      "La Martinique",
+      "La Corse",
+      "La Nouvelle-Calédonie"
+    ],
+    "explain": "La Réunion se trouve dans l'océan Indien, comme Mayotte et les îles Éparses. La Martinique est dans l'Atlantique, la Nouvelle-Calédonie dans le Pacifique.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/une-puissance-maritime/",
+    "note": "Mayotte is also in the Indian Ocean; it is not among the distractors"
+  },
+  "cr-hist-c1f4836e": {
+    "options": [
+      "Environ 68,6 millions",
+      "Environ 58 millions",
+      "Environ 52 millions",
+      "Environ 75 millions"
+    ],
+    "explain": "Au 1er janvier 2025, 68,6 millions d'habitants vivent en France (66,4 millions en métropole et 2,3 millions dans les DROM).",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-demographie-francaise/"
+  },
+  "cr-hist-dd15eac0": {
+    "options": [
+      "La Seine",
+      "La Loire",
+      "La Garonne",
+      "Le Rhône"
+    ],
+    "explain": "La Seine traverse Troyes, Paris, Rouen et Le Havre avant de se jeter dans la Manche.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-fleuves-fran%C3%A7ais/"
+  },
+  "cr-hist-7ec0e95d": {
+    "options": [
+      "La Suisse",
+      "Le Danemark",
+      "L'Irlande",
+      "Le Portugal"
+    ],
+    "explain": "En Europe, la France partage ses frontières terrestres avec 8 pays, dont la Suisse (massifs du Jura et des Alpes). Le Danemark, l'Irlande et le Portugal n'ont pas de frontière avec elle.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/",
+    "note": "France also borders Brazil, Suriname (Guyane) and the Netherlands (Saint-Martin); none appear among the distractors"
+  },
+  "cr-hist-72d80f2b": {
+    "options": [
+      "L'Allemagne",
+      "L'Espagne",
+      "L'Italie",
+      "Le Portugal"
+    ],
+    "explain": "Le Rhin sépare la France et l'Allemagne sur une partie de la frontière, à l'est et au nord-est. L'Espagne est au sud-ouest, l'Italie au sud-est.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/",
+    "note": "Belgique and Luxembourg also border the north-east; they are not among the distractors"
+  },
+  "cr-hist-535a7122": {
+    "options": [
+      "Dans les grandes métropoles",
+      "Dans les zones rurales isolées",
+      "Dans les villages de montagne",
+      "Dans les petites communes du littoral"
+    ],
+    "explain": "En France, la population, les principales activités économiques, les emplois, les richesses et les services sont concentrés dans les métropoles : c'est la métropolisation.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-france-aire-urbaine-et-metropolisation/"
+  },
+  "cr-hist-38b358bc": {
+    "options": [
+      "La France",
+      "L'Espagne",
+      "L'Italie",
+      "Les États-Unis"
+    ],
+    "explain": "La France est la première destination touristique au monde : plus de 100 millions de voyageurs en 2024.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/une-puissance-touristique/"
+  },
+  "cr-hist-4559b47d": {
+    "options": [
+      "En ville, dans une aire urbaine",
+      "À la campagne, dans des villages isolés",
+      "En montagne, dans les Alpes et les Pyrénées",
+      "Dans les territoires d'outre-mer"
+    ],
+    "explain": "Environ 81 % de la population française vit en ville, surtout dans les grandes agglomérations comme Paris, Lyon, Marseille, Toulouse, Lille et Bordeaux.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-demographie-francaise/"
+  },
+  "cr-hist-25183090": {
+    "options": [
+      "L'Île-de-France",
+      "L'Auvergne-Rhône-Alpes",
+      "L'Occitanie",
+      "La Bretagne"
+    ],
+    "explain": "L'Île-de-France, avec environ 12,4 millions d'habitants, est la région la plus peuplée de France. L'Auvergne-Rhône-Alpes est la 2ème.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/ile-de-france/"
+  },
+  "cr-hist-95af0363": {
+    "options": [
+      "Lille",
+      "Rennes",
+      "Grenoble",
+      "Dijon"
+    ],
+    "explain": "La Métropole européenne de Lille (1,2 million d'habitants) fait partie des 10 plus grandes métropoles françaises, avec Paris, Marseille, Lyon, Bordeaux, Toulouse...",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-france-aire-urbaine-et-metropolisation/",
+    "note": "other correct answers possible if the real options include Marseille, Lyon, Bordeaux, Toulouse, Nantes, Nice, Montpellier or Strasbourg"
+  },
+  "cr-hist-546a01b0": {
+    "options": [
+      "Paris",
+      "La Creuse",
+      "Les Ardennes",
+      "La Haute-Marne"
+    ],
+    "explain": "Paris est le département le plus visité de France : la tour Eiffel, le Louvre ou Notre-Dame y attirent des millions de touristes. Les autres sont peu touristiques.",
+    "ref": null,
+    "note": "no fiche; general knowledge (Paris = most visited department). The real exam options are unknown - check the exact wording"
+  },
+  "cr-hist-31461c66": {
+    "options": [
+      "Lors des Journées européennes du patrimoine",
+      "Uniquement le jour de la fête du Travail, le 1er mai",
+      "Seulement pendant les vacances scolaires d'été",
+      "Chaque premier mardi du mois dans tous les musées"
+    ],
+    "explain": "Les Journées européennes du patrimoine, en septembre, offrent un accès souvent gratuit à des lieux culturels. Les musées nationaux sont aussi gratuits le 1er dimanche du mois.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-acces-a-la-culture/",
+    "note": "fiche gives two valid answers: Journées européennes du patrimoine (septembre) and 1er dimanche du mois (musées nationaux) - check the real options"
+  },
+  "cr-hist-1e91464d": {
+    "options": [
+      "Plus de 396 millions",
+      "Environ 120 millions",
+      "Environ 250 millions",
+      "Environ 800 millions"
+    ],
+    "explain": "Le français est la 4ème langue la plus parlée au monde, avec plus de 396 millions de locuteurs répartis sur les 5 continents.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-la-langue-francaise-dans-le-monde/"
+  },
+  "cr-hist-be5602d2": {
+    "options": [
+      "Une écrivaine du 20ème siècle",
+      "Une peintre du 19ème siècle",
+      "Une sculptrice du 19ème siècle",
+      "Une chanteuse du 20ème siècle"
+    ],
+    "explain": "Marguerite Yourcenar (1903-1987) est une écrivaine emblématique du 20ème siècle. Elle devient en 1980 la première femme élue à l'Académie française.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3/"
+  },
+  "cr-hist-b87b33d0": {
+    "options": [
+      "Claude Monet",
+      "Rembrandt",
+      "Léonard de Vinci",
+      "Francisco de Goya"
+    ],
+    "explain": "Claude Monet (1840-1926) est un peintre impressionniste français, célèbre pour Les Nymphéas. Rembrandt est néerlandais, Léonard de Vinci italien, Goya espagnol.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-peintres/",
+    "note": "fiche lists Delacroix, Cézanne, Monet, Renoir as French painters; other nationalities from general knowledge"
+  },
+  "cr-hist-df49d561": {
+    "options": [
+      "Le musée du Louvre",
+      "Le MuCEM",
+      "Le musée des Confluences",
+      "Le musée Soulages"
+    ],
+    "explain": "Le Louvre et le musée d'Orsay, à Paris, comptent parmi les musées les plus prestigieux du monde. Le MuCEM est à Marseille, les Confluences à Lyon, le musée Soulages à Rodez.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/une-puissance-culturelle/",
+    "note": "fiche names the Louvre and Orsay as prestigious French museums (and the musée Rodin 'à Paris' in the sculptors fiche); location of the distractors is general knowledge"
+  },
+  "cr-hist-86922a4a": {
+    "options": [
+      "Un grand sculpteur français",
+      "Un peintre impressionniste français",
+      "Un écrivain romantique français",
+      "Un compositeur de musique classique"
+    ],
+    "explain": "Auguste Rodin (1840-1917) est un grand sculpteur français au style très expressif et réaliste, auteur du Penseur et du Baiser. Le musée Rodin est à Paris.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-sculpteurs/"
+  },
+  "cr-hist-0e893cf9": {
+    "options": [
+      "La 4ème langue la plus parlée",
+      "La 1ère langue la plus parlée",
+      "La 2ème langue la plus parlée",
+      "La 10ème langue la plus parlée"
+    ],
+    "explain": "Le français est la 4ème langue la plus parlée au monde, avec plus de 396 millions de locuteurs.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-la-langue-francaise-dans-le-monde/"
+  },
+  "cr-hist-91463b99": {
+    "options": [
+      "Notre-Dame de Paris",
+      "La cathédrale de Chartres",
+      "La cathédrale de Reims",
+      "La cathédrale de Strasbourg"
+    ],
+    "explain": "Après l'incendie de 2019, plus de 840 millions d'euros ont été récoltés par des dons privés pour reconstruire la cathédrale Notre-Dame de Paris.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-le-citoyen-acteur-et-conservateur-de-la-culture-en-france/"
+  },
+  "cr-hist-f91d7d11": {
+    "options": [
+      "George Sand",
+      "Jane Austen",
+      "Virginia Woolf",
+      "Agatha Christie"
+    ],
+    "explain": "George Sand (1804-1876) est une écrivaine française du 19ème siècle, connue pour son engagement social et sa défense des droits des femmes. Les autres autrices sont britanniques.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2/",
+    "note": "fiches also name Simone de Beauvoir and Marguerite Yourcenar as French women writers; they are not among the distractors"
+  },
+  "cr-hist-8df86c13": {
+    "options": [
+      "Claude Debussy",
+      "Wolfgang Amadeus Mozart",
+      "Ludwig van Beethoven",
+      "Giuseppe Verdi"
+    ],
+    "explain": "Claude Debussy (1862-1918), compositeur français, est considéré comme le père de la musique moderne (Clair de lune, La Mer). Mozart, Beethoven et Verdi ne sont pas français.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-dans-univers-musique/",
+    "note": "fiche also names Edith Piaf (chanteuse) and Berlioz is mentioned elsewhere as a French composer; neither is among the distractors"
+  },
+  "cr-hist-d7fcefd3": {
+    "options": [
+      "Un peintre impressionniste",
+      "Un sculpteur romantique",
+      "Un poète symboliste",
+      "Un compositeur impressionniste"
+    ],
+    "explain": "Auguste Renoir (1841-1919) est un peintre impressionniste français, auteur du Déjeuner des canotiers et du Bal du moulin de la Galette.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-peintres/"
+  },
+  "cr-hist-4a25fc36": {
+    "options": [
+      "Le 14 juillet, la fête nationale",
+      "Thanksgiving, fête de la récolte américaine",
+      "La Saint-Patrick, fête nationale irlandaise",
+      "L'Oktoberfest, fête de la bière allemande"
+    ],
+    "explain": "Le 14 juillet est la fête nationale française : elle célèbre la République, avec feux d'artifice, bals populaires et défilé militaire.",
+    "ref": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/patrimoine-francais-les-jours-feries/",
+    "note": "the fiche also names the Fête de la musique (1982), Noël, etc. as French festivals; the real options are unknown - check the exact wording"
+  }
+}
