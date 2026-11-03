@@ -2,7 +2,7 @@
    by every page. */
 import type { AnswerCheck, CardState, DayStats, LevelResult, QuizItem, Settings, Track } from '~/types/study'
 
-const DEFAULT_SETTINGS: Settings = { expiry: '2027-03-01', civicExam: '', frenchExam: '' }
+const DEFAULT_SETTINGS: Settings = { expiry: '2027-03-01', civicExam: '', frenchExam: '', commuteMin: 20, verifiedAudioOnly: false }
 const EMPTY_DAY: DayStats = { learned: 0, reviewed: 0, correct: 0, wrong: 0 }
 
 export const STORAGE_KEYS = ['cr10v2:settings', 'cr10v2:cards', 'cr10v2:days', 'cr10v2:checks', 'cr10v2:levels'] as const
@@ -68,6 +68,12 @@ export const useStudy = createSharedComposable(() => {
     }
   }
 
+  function logListen(): void {
+    const t = today.value
+    const d = days.value[t] ?? { ...EMPTY_DAY }
+    days.value[t] = { ...d, listened: (d.listened ?? 0) + 1 }
+  }
+
   function setCheck(id: string, status: AnswerCheck['status'] | null): void {
     if (status) checks.value[id] = { status, on: today.value }
     else delete checks.value[id]
@@ -93,5 +99,5 @@ export const useStudy = createSharedComposable(() => {
     return roundRobin(unseen, (i) => i.theme).slice(0, count)
   }
 
-  return { settings, cards, days, checks, levels, lastLevel, today, deadline, currentStreak, checkStats, plan, grade, extra, setCheck }
+  return { settings, cards, days, checks, levels, lastLevel, today, deadline, currentStreak, checkStats, plan, grade, extra, setCheck, logListen }
 })

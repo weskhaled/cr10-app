@@ -3,6 +3,7 @@ import type { Track } from '~/types/study'
 import type { ExamStatus } from '~/utils/deadline'
 
 const { settings, days, today, deadline, currentStreak, checkStats, lastLevel, plan } = useStudy()
+const { mix } = useMorningMix()
 
 const tracks = computed(() =>
   (['civic', 'french'] as Track[]).map((id) => {
@@ -136,6 +137,19 @@ const history = computed(() =>
         </div>
       </UCard>
     </div>
+
+    <!-- morning audio -->
+    <UCard>
+      <div class="flex flex-wrap items-center justify-between gap-3">
+        <div>
+          <h2 class="font-semibold">Morning audio</h2>
+          <p class="text-sm text-muted">
+            {{ mix.length }} clips · ≈ {{ totalMinutes(mix) }} min — today's questions to listen to on the way to work.
+          </p>
+        </div>
+        <UButton to="/listen" icon="i-lucide-headphones">Listen</UButton>
+      </div>
+    </UCard>
 
     <!-- French level -->
     <UCard>

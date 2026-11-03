@@ -59,12 +59,15 @@ export interface DayStats {
   reviewed: number
   correct: number
   wrong: number
+  listened?: number // morning-audio clips played to the end
 }
 
 export interface Settings {
   expiry: string // titre de séjour expiry
   civicExam: string // booked date, '' if not booked
   frenchExam: string // booked TCF/TEF date, '' if not booked
+  commuteMin: number // length of the morning-audio mix
+  verifiedAudioOnly: boolean // leave unverified draft answers out of the audio
 }
 
 export type Level = 'A1' | 'A2' | 'B1' | 'B2'

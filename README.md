@@ -14,6 +14,8 @@ pnpm test         # unit tests (deadline engine, spaced repetition, daily plan)
 pnpm typecheck
 pnpm lint
 pnpm generate     # static site in .output/public
+pnpm serve:dist   # try the build (service worker, offline) on http://localhost:3011
+pnpm audio        # (re)build the morning-audio clips — macOS only, uses the system French voice
 ```
 
 ## What's inside
@@ -24,6 +26,7 @@ pnpm generate     # static site in .output/public
 | `app/pages/session/[track].vue` | Study session (`civic` / `french`): due reviews first, then new items; keys 1–4 / A–D, Enter |
 | `app/pages/official.vue` | The official CR knowledge-question list, searchable |
 | `app/pages/level.vue` | **French level check**: grammar, reading, listening placement (A1 → B2, stops at the first failed level) + writing/speaking self-assessment; estimate per skill vs B1 |
+| `app/pages/listen.vue` | **Morning audio**: today's mix (new civic questions, missed ones, French listening, then upcoming) sized to the commute; lock-screen controls; save for offline |
 | `app/pages/settings.vue` | Expiry + exam dates, backup export/import, reset |
 | `app/utils/deadline.ts` | Works back from the titre expiry: ANEF window, last useful exam date, last booking date, daily pace |
 | `app/utils/srs.ts` | Leitner boxes, intervals 1/2/4/7/14 days |
@@ -31,6 +34,9 @@ pnpm generate     # static site in .output/public
 | `app/utils/level.ts` | Level-check scoring: 3 items per level, pass with 2, stop at the first failed level |
 | `app/data/french/level-check.json` | 36 original placement items (3 per level × 3 skills) + self-assessment statements |
 | `app/composables/useStudy.ts` | Shared, persisted state (`cr10v2:*` keys) |
+| `app/composables/useMorningMix.ts` · `app/utils/audio.ts` | Morning-audio playlist |
+| `public/audio/*.m4a` · `app/data/audio.json` | Generated clips (macOS French voice, AAC 32 kbps) + durations |
+| `public/sw.js` · `app/utils/offline.ts` | Service worker (clips cache-first with Range support, app shell network-first) and the "save for offline" helpers |
 | `app/data/civic/official-cr.json` | 209 official question texts, as published (no options/answers) |
 | `app/data/civic/official-cr-answers.json` | Drafted options + answer + explanation + fiche link per official question, `verified: false` until checked |
 | `app/data/{civic,french}/bank.json` | Banks ported from v1: 111 civic, 52 French QCM + writing/speaking tasks |
@@ -65,4 +71,11 @@ The ministry publishes the questions only, so every option/answer for the offici
    ```
 
    Checked answers become `verified: true`; flagged ones are listed so they can be fixed.
+
+## Morning audio
+
+`pnpm audio` turns every civic question (209 official + 111 from v1) and every French listening item into a clip:
+question → 3-second pause → answer → explanation. It uses the macOS `say` voice (default "Thomas"; install a
+better one in System Settings → Accessibility → Spoken Content → Manage Voices, e.g. "Thomas (Enhanced)", then
+`pnpm audio --voice "Thomas (Enhanced)"`). Only clips whose text changed are rebuilt, so re-run it after fixing an answer.
 

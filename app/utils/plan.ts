@@ -45,7 +45,7 @@ export function roundRobin<T>(list: T[], key: (item: T) => string): T[] {
 export function streak(days: Record<string, DayStats>, today: string): number {
   const active = (d: string) => {
     const s = days[d]
-    return !!s && s.learned + s.reviewed > 0
+    return !!s && s.learned + s.reviewed + (s.listened ?? 0) > 0
   }
   let d = active(today) ? today : addDays(today, -1)
   let n = 0

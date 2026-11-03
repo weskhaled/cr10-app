@@ -13,7 +13,9 @@
     "typecheck": "nuxt typecheck",
     "lint": "oxlint .",
     "import:official": "node scripts/import-official.mjs",
-    "port:legacy": "node scripts/port-legacy.mjs ../carte-resident-prep/assets/data"
+    "port:legacy": "node scripts/port-legacy.mjs ../carte-resident-prep/assets/data",
+    "serve:dist": "node scripts/serve-static.mjs",
+    "audio": "node scripts/audio/build.mjs"
   },
   "dependencies": {
     "@nuxt/ui": "^4.12.0",

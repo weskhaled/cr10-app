@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { addDays, addMonths, daysBetween } from '../app/utils/dates'
 import { computeDeadline, dailyNewQuota } from '../app/utils/deadline'
 
-const settings = { expiry: '2027-03-01', civicExam: '', frenchExam: '' }
+const settings = { expiry: '2027-03-01', civicExam: '', frenchExam: '', commuteMin: 20, verifiedAudioOnly: false }
 
 describe('dates', () => {
   it('adds months and clamps to the end of the month', () => {
