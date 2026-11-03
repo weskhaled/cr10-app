@@ -28,9 +28,10 @@ pnpm generate     # static site in .output/public
 | `app/utils/srs.ts` | Leitner boxes, intervals 1/2/4/7/14 days |
 | `app/utils/plan.ts` | Today's queue, theme interleaving, streak |
 | `app/composables/useStudy.ts` | Shared, persisted state (`cr10v2:*` keys) |
-| `app/data/civic/official-cr.json` | 209 official question **texts** (no options/answers yet) |
+| `app/data/civic/official-cr.json` | 209 official question texts, as published (no options/answers) |
+| `app/data/civic/official-cr-answers.json` | Drafted options + answer + explanation + fiche link per official question, `verified: false` until checked |
 | `app/data/{civic,french}/bank.json` | Banks ported from v1: 111 civic, 52 French QCM + writing/speaking tasks |
-| `scripts/` | `import-official.mjs` (re-import the official list) · `port-legacy.mjs` (v1 banks → JSON) |
+| `scripts/` | `import-official.mjs` (re-import the official list) · `merge-drafts.mjs` (drafted answers → data) · `apply-checks.mjs` (your in-app checks → `verified`) · `port-legacy.mjs` (v1 banks → JSON) |
 
 Deadline constants (filing 4 → 2 months before expiry, results ≤ 4 weeks, booking ~3 weeks ahead) are
 typical values, not legal limits — confirm with the préfecture and the exam centre.
@@ -46,3 +47,19 @@ Re-import the official list:
 curl -sSL -o /tmp/cr.html https://formation-civique.interieur.gouv.fr/examen-civique/liste-officielle-des-questions-de-connaissance-cr/
 pnpm import:official /tmp/cr.html
 ```
+
+## Checking the drafted answers
+
+The ministry publishes the questions only, so every option/answer for the official list is a draft
+(`verified: false`), written from the official fiches and linked to the fiche it comes from.
+
+1. In a session (or on **Official list → Show answers**), open the fiche and press
+   **Matches the fiche** or **Something's wrong**. Checks are saved in the browser (`cr10v2:checks`).
+2. **Settings → Export backup**, then write the checks into the data:
+
+   ```sh
+   node scripts/apply-checks.mjs ~/Downloads/cr10-backup-YYYY-MM-DD.json
+   ```
+
+   Checked answers become `verified: true`; flagged ones are listed so they can be fixed.
+

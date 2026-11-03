@@ -13,6 +13,8 @@ export interface QuizItem {
   options: string[]
   explain: string
   source: 'legacy' | 'official-cr'
+  verified?: boolean // official-cr: answer checked against the official fiche
+  ref?: string // official fiche supporting the answer
   sit?: boolean // civic: mise en situation
   say?: string // french: text read aloud (listening)
   ctx?: string // french: reading passage
@@ -24,6 +26,21 @@ export interface OfficialQuestion {
   id: string
   theme: string
   q: string
+}
+
+/** Drafted options/answer for an official question, keyed by question id. */
+export interface OfficialAnswer {
+  options: string[] // options[0] is the correct answer
+  explain: string
+  ref: string | null
+  verified: boolean
+  note?: string
+}
+
+/** The user's own check of a drafted answer against the fiche. */
+export interface AnswerCheck {
+  status: 'ok' | 'flagged'
+  on: string // ISO date
 }
 
 /** Leitner card state, one per item seen at least once. Dates are ISO `YYYY-MM-DD`. */

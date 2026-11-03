@@ -1,11 +1,11 @@
 /* All study state, persisted in localStorage under `cr10v2:` and shared
    by every page. */
-import type { CardState, DayStats, QuizItem, Settings, Track } from '~/types/study'
+import type { AnswerCheck, CardState, DayStats, QuizItem, Settings, Track } from '~/types/study'
 
 const DEFAULT_SETTINGS: Settings = { expiry: '2027-03-01', civicExam: '', frenchExam: '' }
 const EMPTY_DAY: DayStats = { learned: 0, reviewed: 0, correct: 0, wrong: 0 }
 
-export const STORAGE_KEYS = ['cr10v2:settings', 'cr10v2:cards', 'cr10v2:days'] as const
+export const STORAGE_KEYS = ['cr10v2:settings', 'cr10v2:cards', 'cr10v2:days', 'cr10v2:checks'] as const
 
 export interface TrackPlan {
   total: number
@@ -22,6 +22,8 @@ export const useStudy = createSharedComposable(() => {
   const settings = useLocalStorage<Settings>('cr10v2:settings', { ...DEFAULT_SETTINGS }, { mergeDefaults: true })
   const cards = useLocalStorage<Record<string, CardState>>('cr10v2:cards', {})
   const days = useLocalStorage<Record<string, DayStats>>('cr10v2:days', {})
+  // your checks of drafted official answers — applied to the data with scripts/apply-checks.mjs
+  const checks = useLocalStorage<Record<string, AnswerCheck>>('cr10v2:checks', {})
 
   // re-evaluated every minute so the day rolls over at midnight
   const now = useNow({ scheduler: (cb) => useIntervalFn(cb, 60_000) })
@@ -63,11 +65,30 @@ export const useStudy = createSharedComposable(() => {
     }
   }
 
+  function setCheck(id: string, status: AnswerCheck['status'] | null): void {
+    if (status) checks.value[id] = { status, on: today.value }
+    else delete checks.value[id]
+  }
+
+  /** Drafted official answers: how many are verified in the data, checked or flagged by you. */
+  const checkStats = computed(() => {
+    const n = { drafted: 0, verified: 0, ok: 0, flagged: 0, toCheck: 0 }
+    for (const [id, a] of Object.entries(OFFICIAL_ANSWERS)) {
+      n.drafted++
+      const status = checks.value[id]?.status
+      if (status === 'flagged') n.flagged++
+      else if (a.verified) n.verified++
+      else if (status === 'ok') n.ok++
+      else n.toCheck++
+    }
+    return n
+  })
+
   /** Unseen items beyond today's quota, for an extra round. */
   function extra(track: Track, count: number): QuizItem[] {
     const unseen = BANKS[track].items.filter((i) => !cards.value[i.id])
     return roundRobin(unseen, (i) => i.theme).slice(0, count)
   }
 
-  return { settings, cards, days, today, deadline, currentStreak, plan, grade, extra }
+  return { settings, cards, days, checks, today, deadline, currentStreak, checkStats, plan, grade, extra, setCheck }
 })

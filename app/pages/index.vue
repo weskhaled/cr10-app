@@ -2,7 +2,7 @@
 import type { Track } from '~/types/study'
 import type { ExamStatus } from '~/utils/deadline'
 
-const { settings, days, today, deadline, currentStreak, plan } = useStudy()
+const { settings, days, today, deadline, currentStreak, checkStats, plan } = useStudy()
 
 const tracks = computed(() =>
   (['civic', 'french'] as Track[]).map((id) => {
@@ -129,11 +129,16 @@ const history = computed(() =>
         <div>
           <h2 class="font-semibold">Official civic questions (CR)</h2>
           <p class="text-sm text-muted">
-            {{ OFFICIAL.count }} knowledge questions published by the ministry — texts only for now;
-            options and answers will be added and checked against the official fiches.
+            {{ OFFICIAL.count }} knowledge questions published by the ministry, in your civic sessions.
+            The answers are drafts: check each one against its official fiche.
+          </p>
+          <p class="mt-1 text-sm">
+            <span class="text-success"><b>{{ checkStats.verified + checkStats.ok }}</b> checked</span> ·
+            <span class="text-warning"><b>{{ checkStats.toCheck }}</b> to check</span>
+            <template v-if="checkStats.flagged"> · <span class="text-error"><b>{{ checkStats.flagged }}</b> flagged</span></template>
           </p>
         </div>
-        <UButton to="/official" variant="outline" icon="i-lucide-list-checks">Browse</UButton>
+        <UButton to="/official" variant="outline" icon="i-lucide-list-checks">Review answers</UButton>
       </div>
     </UCard>
 

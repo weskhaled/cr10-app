@@ -51,6 +51,7 @@ onBeforeUnmount(stopSpeech)
   <UCard>
     <div class="mb-3 flex flex-wrap items-center gap-2">
       <UBadge variant="subtle" :label="themeLabel(track, item.theme)" />
+      <UBadge v-if="item.source === 'official-cr'" color="info" variant="subtle" icon="i-lucide-landmark" label="Official list" />
       <UBadge v-if="item.sit" color="warning" variant="subtle" label="Mise en situation" />
     </div>
 
@@ -97,6 +98,7 @@ onBeforeUnmount(stopSpeech)
         :title="isRight ? 'Correct' : `Answer: ${item.options[0]}`"
         :description="item.explain"
       />
+      <AnswerCheckBar v-if="item.source === 'official-cr'" :id="item.id" :verified="item.verified" :fiche="item.ref" class="mt-3" />
       <div class="mt-4 flex justify-end">
         <UButton trailing-icon="i-lucide-arrow-right" @click="emit('next')">Next</UButton>
       </div>
