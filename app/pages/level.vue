@@ -8,22 +8,10 @@ const ITEMS = check.items as LevelItem[]
 const SELF = check.selfAssessment as Record<SelfSkill, { level: Level; text: string }[]>
 const OLD_SIMULATOR = 'https://weskhaled.github.io/carte-resident-prep/french-simulator.html'
 
-const LABEL: Record<TestedSkill | SelfSkill, string> = {
-  gram: 'Grammar & vocabulary',
-  ce: 'Reading',
-  co: 'Listening',
-  ee: 'Writing (self-assessed)',
-  eo: 'Speaking (self-assessed)',
-}
-const TIPS: Record<TestedSkill | SelfSkill, string> = {
-  gram: 'Do the grammar items in your French sessions and revise passé composé / imparfait, object pronouns and the subjonctif.',
-  ce: 'Read one short news article a day and sum it up in three sentences; do the reading items in your sessions.',
-  co: 'Listen to RFI « Journal en français facile » every morning and do the listening items in your sessions (2 plays max).',
-  ee: 'Write one TCF-style task a day (60–120 words) and compare it with the model answers.',
-  eo: 'Speak 5 minutes a day out loud — present your job, tell what you did yesterday, give an opinion — record yourself and listen back.',
-}
-
+const { t } = useI18n()
+const { date } = useLocaleUi()
 const { levels, today } = useStudy()
+const label = (id: TestedSkill | SelfSkill) => t(`level.label.${id}`)
 
 const step = ref<'intro' | 'test' | 'self' | 'result'>('intro')
 const answers = reactive<Record<TestedSkill, { id: string; level: Level; correct: boolean }[]>>({ gram: [], ce: [], co: [] })
@@ -77,53 +65,47 @@ const rows = computed(() => {
     ...SKILL_ORDER.map((s) => ({ id: s, band: r.bands[s] })),
     { id: 'ee' as const, band: r.self.ee },
     { id: 'eo' as const, band: r.self.eo },
-  ].map((row) => ({ ...row, label: LABEL[row.id], gap: gapToTarget(row.band), rank: bandRank(row.band) }))
+  ].map((row) => ({ ...row, label: label(row.id), gap: gapToTarget(row.band), rank: bandRank(row.band) }))
 })
 const below = computed(() => rows.value.filter((r) => r.gap > 0))
 const mistakes = computed(() =>
   SKILL_ORDER.flatMap((s) => answers[s].filter((a) => !a.correct)).map((a) => ITEMS.find((i) => i.id === a.id)!))
 
-const bandLabel = (b: Band) => (b === 'pre-A1' ? 'Below A1' : b)
+const bandLabel = (b: Band) => (b === 'pre-A1' ? t('skill.belowA1') : b)
 </script>
 
 <template>
   <div class="space-y-6 pb-24">
     <div class="flex items-center gap-2">
-      <UButton to="/" icon="i-lucide-arrow-left" variant="ghost" color="neutral" aria-label="Back to Today" />
-      <h1 class="text-2xl font-bold">French level check</h1>
+      <UButton to="/" icon="i-lucide-arrow-left" variant="ghost" color="neutral" :aria-label="t('common.backToToday')" :ui="{ leadingIcon: 'rtl:-scale-x-100' }" />
+      <h1 class="text-2xl font-bold">{{ t('level.title') }}</h1>
     </div>
 
     <!-- intro -->
     <UCard v-if="step === 'intro'">
       <div class="space-y-3 text-sm">
-        <p>
-          About <b>15 minutes</b>: three short parts (grammar &amp; vocabulary, reading, listening) from A1 to B2,
-          then a one-minute self-assessment for writing and speaking. Each part stops as soon as a level gets too hard.
-        </p>
-        <p>Use headphones for the listening part (2 plays per item). No answers are shown during the test — you'll see your mistakes at the end.</p>
-        <p class="text-muted">
-          This is an estimate to steer your practice, not a TCF / TEF score — the real tests use calibrated scales.
-          Retake it every week or two.
-        </p>
-        <UButton icon="i-lucide-play" @click="start">Start the level check</UButton>
+        <p>{{ t('level.intro1') }}</p>
+        <p>{{ t('level.intro2') }}</p>
+        <p class="text-muted">{{ t('level.intro3') }}</p>
+        <UButton icon="i-lucide-play" @click="start">{{ t('level.start') }}</UButton>
       </div>
     </UCard>
 
     <!-- placement items -->
     <template v-else-if="step === 'test' && current">
       <div class="flex items-center gap-3 text-sm">
-        <UBadge variant="subtle" :label="`Part ${skillIndex + 1} of 3 · ${LABEL[skill]}`" />
-        <span class="ms-auto text-muted">{{ asked }} answered</span>
+        <UBadge variant="subtle" :label="t('level.part', { n: skillIndex + 1, label: label(skill) })" />
+        <span class="ms-auto text-muted">{{ t('level.answered', { n: asked }) }}</span>
       </div>
       <QuizCard :key="current.id" :item="current" track="french" test @answer="onAnswer" />
     </template>
 
     <!-- self-assessment -->
     <UCard v-else-if="step === 'self'">
-      <template #header><h2 class="font-semibold">Writing &amp; speaking — tick what you can already do</h2></template>
+      <template #header><h2 class="font-semibold">{{ t('level.selfTitle') }}</h2></template>
       <div class="space-y-5">
         <div v-for="s in (['ee', 'eo'] as const)" :key="s" class="space-y-2">
-          <h3 class="text-sm font-semibold">{{ LABEL[s] }}</h3>
+          <h3 class="text-sm font-semibold">{{ label(s) }}</h3>
           <UCheckbox
             v-for="st in SELF[s]"
             :key="st.level"
@@ -131,10 +113,11 @@ const bandLabel = (b: Band) => (b === 'pre-A1' ? 'Below A1' : b)
             :label="st.text"
             :ui="{ label: 'font-normal' }"
             lang="fr"
+            dir="ltr"
           />
         </div>
-        <p class="text-xs text-muted">Be strict: tick a statement only if you could do it today, without preparing.</p>
-        <UButton icon="i-lucide-flag" @click="finish">See my results</UButton>
+        <p class="text-xs text-muted">{{ t('level.selfHint') }}</p>
+        <UButton icon="i-lucide-flag" @click="finish">{{ t('level.seeResults') }}</UButton>
       </div>
     </UCard>
 
@@ -143,18 +126,18 @@ const bandLabel = (b: Band) => (b === 'pre-A1' ? 'Below A1' : b)
       <UCard>
         <template #header>
           <div class="flex flex-wrap items-center justify-between gap-2">
-            <h2 class="font-semibold">{{ step === 'result' ? 'Your estimate' : 'Last estimate' }} — {{ formatDate(result!.on) }}</h2>
+            <h2 class="font-semibold">{{ t(step === 'result' ? 'level.yourEstimate' : 'level.lastEstimate', { date: date(result!.on) }) }}</h2>
             <UBadge
               :color="below.length ? 'warning' : 'success'"
               variant="subtle"
-              :label="below.length ? `${below.length} skill${below.length > 1 ? 's' : ''} below B1` : 'B1 or above everywhere'"
+              :label="below.length ? t('level.below', below.length) : t('level.allB1')"
             />
           </div>
         </template>
         <div class="space-y-3">
           <div v-for="r in rows" :key="r.id" class="grid grid-cols-[minmax(0,11rem)_1fr_auto] items-center gap-3 text-sm">
             <span>{{ r.label }}</span>
-            <div class="grid grid-cols-4 gap-1" :aria-label="`${r.label}: ${bandLabel(r.band)}`">
+            <div class="grid grid-cols-4 gap-1" dir="ltr" :aria-label="`${r.label}: ${bandLabel(r.band)}`">
               <div
                 v-for="(l, i) in LEVELS"
                 :key="l"
@@ -165,25 +148,25 @@ const bandLabel = (b: Band) => (b === 'pre-A1' ? 'Below A1' : b)
             </div>
             <span class="w-20 text-end font-semibold" :class="r.gap ? 'text-warning' : 'text-success'">{{ bandLabel(r.band) }}</span>
           </div>
-          <p class="text-xs text-muted">Bars run A1 → B2; the outlined box is B1, the level required for the carte de résident.</p>
+          <p class="text-xs text-muted">{{ t('level.scaleNote') }}</p>
         </div>
       </UCard>
 
       <UCard v-if="below.length">
-        <template #header><h2 class="font-semibold">Focus until the exam</h2></template>
+        <template #header><h2 class="font-semibold">{{ t('level.focus') }}</h2></template>
         <ul class="space-y-2 text-sm">
           <li v-for="r in below" :key="r.id">
-            <b>{{ r.label }}</b> ({{ bandLabel(r.band) }}, {{ r.gap }} level{{ r.gap > 1 ? 's' : '' }} to B1): {{ TIPS[r.id] }}
+            <b>{{ r.label }}</b> ({{ t('level.gap', { band: bandLabel(r.band), n: r.gap }, r.gap) }}): {{ t(`level.tip.${r.id}`) }}
             <ULink v-if="r.id === 'ee' || r.id === 'eo'" :to="OLD_SIMULATOR" target="_blank" class="text-primary underline">
-              Writing &amp; speaking practice
+              {{ t('level.practiceLink') }}
             </ULink>
           </li>
         </ul>
       </UCard>
 
       <UCard v-if="step === 'result' && mistakes.length">
-        <template #header><h2 class="font-semibold">Your mistakes</h2></template>
-        <ul class="space-y-3 text-sm" lang="fr">
+        <template #header><h2 class="font-semibold">{{ t('level.mistakes') }}</h2></template>
+        <ul class="space-y-3 text-sm" lang="fr" dir="ltr">
           <li v-for="m in mistakes" :key="m.id">
             <p class="font-medium">{{ m.q }} <UBadge size="sm" variant="outline" :label="m.level" /></p>
             <p class="text-success">→ {{ m.options[0] }}</p>
@@ -193,8 +176,8 @@ const bandLabel = (b: Band) => (b === 'pre-A1' ? 'Below A1' : b)
       </UCard>
 
       <div class="flex flex-wrap gap-2">
-        <UButton to="/" icon="i-lucide-sun">Back to Today</UButton>
-        <UButton v-if="step === 'result'" variant="outline" icon="i-lucide-rotate-ccw" @click="start">Retake</UButton>
+        <UButton to="/" icon="i-lucide-sun">{{ t('common.backToToday') }}</UButton>
+        <UButton v-if="step === 'result'" variant="outline" icon="i-lucide-rotate-ccw" @click="start">{{ t('common.retake') }}</UButton>
       </div>
     </template>
   </div>

@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "today": "Aujourd'hui",
+    "listen": "Écouter",
+    "official": "Questions officielles",
+    "level": "Test de niveau",
+    "settings": "Réglages",
+    "language": "Langue"
+  },
+  "track": {
+    "civic": "Examen civique",
+    "french": "Français B1"
+  },
+  "common": {
+    "days": "{n} jour | {n} jours",
+    "minutes": "{n} min",
+    "backToToday": "Retour à Aujourd'hui",
+    "retake": "Refaire"
+  },
+  "skill": {
+    "gram": "Grammaire",
+    "ce": "Lecture",
+    "co": "Écoute",
+    "ee": "Écrit",
+    "eo": "Oral",
+    "belowA1": "Avant A1"
+  },
+  "today": {
+    "title": "Aujourd'hui",
+    "streak": "{n} jour d'affilée | {n} jours d'affilée",
+    "deadlines": "Vos échéances",
+    "editDates": "Modifier les dates",
+    "expiresOn": "Titre valable jusqu'au",
+    "phase": {
+      "prep": {
+        "title": "En préparation",
+        "text": "La fenêtre de dépôt ouvre le {open} et ferme le {close}."
+      },
+      "filing": {
+        "title": "Fenêtre de dépôt ANEF ouverte",
+        "text": "Déposez sur l'ANEF avant le {close} — encore {days}."
+      },
+      "late": {
+        "title": "Date habituelle de dépôt dépassée",
+        "text": "Déposez sur l'ANEF au plus vite et renseignez-vous auprès de votre préfecture."
+      },
+      "expired": {
+        "title": "Votre titre a expiré",
+        "text": "Contactez votre préfecture dès maintenant."
+      }
+    },
+    "exam": {
+      "tooLate": "Réservé le {date} — les résultats risquent d'arriver après la fermeture de la fenêtre ({close}). Demandez une session plus tôt au centre.",
+      "booked": "Réservé le {date} — dans {days}.",
+      "missedBooking": "Pas encore réservé, et la date habituelle d'inscription ({date}) est passée. Réservez la première session possible.",
+      "notBooked": "Pas encore réservé. Réservez avant le {booking} pour une session au plus tard le {latest}."
+    },
+    "deadlinesNote": "Valeurs habituelles : dépôt de 4 à 2 mois avant l'expiration, résultats sous ~4 semaines, inscription ~3 semaines avant. Vérifiez auprès de votre préfecture et du centre d'examen.",
+    "doneForToday": "Terminé pour aujourd'hui",
+    "queue": "{review} à revoir · {fresh} nouvelles restantes aujourd'hui",
+    "mastered": "Maîtrisées",
+    "seen": "Vues",
+    "pace": "Rythme : {n} nouvelles par jour pour tout voir avant le {date}.",
+    "start": "Commencer la séance",
+    "practiceMore": "S'entraîner encore",
+    "audioTitle": "Audio du matin",
+    "audioText": "{clips} extraits · ≈ {min} min — les questions du jour à écouter sur le trajet.",
+    "levelTitle": "Estimation du niveau de français",
+    "levelNone": "Pas encore mesuré — faites le test de niveau de 15 minutes pour vous situer par rapport au B1.",
+    "levelBelow": "{n} sous le B1",
+    "levelAllGood": "B1 ou plus partout",
+    "levelStale": "date de plus de 2 semaines, refaites-le",
+    "officialTitle": "Questions civiques officielles (CR)",
+    "officialText": "{n} questions de connaissance publiées par le ministère, dans vos séances civiques. Les réponses sont des brouillons : vérifiez chacune avec sa fiche officielle.",
+    "studyThem": "Les étudier",
+    "last14": "14 derniers jours",
+    "dayItems": "{date} — {n} questions"
+  },
+  "check": {
+    "checked": "{n} vérifiées",
+    "toCheck": "{n} à vérifier",
+    "flagged": "{n} signalées",
+    "byYou": "Vérifiée par vous",
+    "flaggedBadge": "Signalée",
+    "draft": "Réponse brouillon — à vérifier",
+    "verified": "Réponse vérifiée",
+    "fiche": "Fiche officielle",
+    "noFiche": "Aucune fiche trouvée — vérifiez sur service-public.gouv.fr",
+    "checkFirst": "À vérifier en priorité",
+    "matches": "Conforme à la fiche",
+    "wrong": "Il y a une erreur"
+  },
+  "session": {
+    "stop": "Arrêter la séance",
+    "done": "Séance terminée",
+    "known": "{n} connues",
+    "toWork": "{n} à retravailler",
+    "spacing": "Les questions connues reviennent dans quelques jours, les autres demain — c'est l'espacement qui les ancre.",
+    "nothingDue": "Rien à revoir pour l'instant — vous êtes dans les temps aujourd'hui.",
+    "backToQuestions": "Retour aux questions",
+    "practiceMissed": "Refaire les {n} manquées",
+    "moreTheme": "{n} de plus sur ce thème",
+    "learnMore": "5 de plus",
+    "toRemember": "À retenir"
+  },
+  "quiz": {
+    "kind": {
+      "new": "Nouvelle",
+      "review": "Révision",
+      "again": "À nouveau"
+    },
+    "officialList": "Liste officielle",
+    "situation": "Mise en situation",
+    "situationHint": "Une situation de la vie quotidienne : choisissez le comportement conforme à la loi et aux valeurs françaises.",
+    "draft": "Réponse brouillon",
+    "draftHint": "Cette réponse a été rédigée à partir des fiches officielles et n'a pas encore été vérifiée. Comparez-la avec la fiche, puis indiquez le résultat.",
+    "listen": "Écouter · encore {n}",
+    "listenHint": "2 écoutes maximum, comme au vrai TCF.",
+    "noVoice": "Pas de voix française sur cet appareil — lisez plutôt :",
+    "correct": "Bonne réponse !",
+    "reveal": "Voici la réponse",
+    "notQuite": "Pas tout à fait",
+    "yourAnswer": "Votre réponse",
+    "rightAnswer": "Bonne réponse",
+    "why": "Pourquoi",
+    "transcript": "Transcription :",
+    "readFiche": "Lire la fiche officielle",
+    "dontKnow": "Je ne sais pas",
+    "keyAnswer": "répondre",
+    "keyDontKnow": "je ne sais pas",
+    "guessed": "J'ai deviné",
+    "guessedHint": "Elle reviendra demain au lieu de dans quelques jours",
+    "continue": "Continuer"
+  },
+  "card": {
+    "tapOr": "Touchez votre réponse, ou",
+    "show": "affichez la réponse",
+    "notQuite": "Pas tout à fait — la bonne réponse est en vert.",
+    "hide": "Masquer à nouveau"
+  },
+  "official": {
+    "title": "Questions officielles (CR)",
+    "intro": "Les {n} questions de connaissance publiées par le ministère — 28 des 40 questions de l'examen viennent de cette liste (les 12 mises en situation ne sont pas publiées).",
+    "study": "Étudier",
+    "check": "Vérifier les réponses",
+    "themes": "Thèmes",
+    "themeProgress": "{seen} vues · {mastered} / {total} maîtrisées",
+    "studyHint": "Touchez la proposition que vous pensez juste pour vous tester. Pour bien les retenir, entraînez-vous en séance : celles que vous manquez reviennent jusqu'à ce que vous les sachiez.",
+    "practise": "S'entraîner sur 10 questions",
+    "search": "Rechercher dans toutes les questions et réponses…",
+    "found": "{n} question trouvée dans tous les thèmes. | {n} questions trouvées dans tous les thèmes.",
+    "checkInfoTitle": "Le ministère ne publie que les questions",
+    "checkInfo": "Les propositions et les réponses ont été rédigées à partir des fiches officielles. Ouvrez la fiche, comparez, puis appuyez sur « Conforme à la fiche » ou « Il y a une erreur ». Commencez par « À vérifier en priorité » : celles dont le rédacteur n'était pas sûr.",
+    "of": "sur {n}",
+    "searchShort": "Rechercher…",
+    "count": "{n} question | {n} questions",
+    "source": "Source :",
+    "imported": "importé le {date}",
+    "filter": {
+      "checkFirst": "À vérifier en priorité",
+      "toCheck": "À vérifier",
+      "flagged": "Signalées",
+      "checked": "Vérifiées",
+      "all": "Toutes"
+    }
+  },
+  "level": {
+    "title": "Test de niveau de français",
+    "intro1": "Environ 15 minutes : trois parties courtes (grammaire et vocabulaire, lecture, écoute) de A1 à B2, puis une auto-évaluation d'une minute pour l'écrit et l'oral. Chaque partie s'arrête dès qu'un niveau devient trop difficile.",
+    "intro2": "Utilisez des écouteurs pour l'écoute (2 écoutes par question). Aucune réponse n'est donnée pendant le test — vous verrez vos erreurs à la fin.",
+    "intro3": "C'est une estimation pour orienter votre entraînement, pas un score TCF / TEF — les vrais tests utilisent des barèmes calibrés. Refaites-le toutes les une à deux semaines.",
+    "start": "Commencer le test de niveau",
+    "part": "Partie {n} sur 3 · {label}",
+    "answered": "{n} réponses",
+    "selfTitle": "Écrit et oral — cochez ce que vous savez déjà faire",
+    "selfHint": "Soyez exigeant : cochez une phrase seulement si vous pourriez le faire aujourd'hui, sans préparation.",
+    "seeResults": "Voir mes résultats",
+    "label": {
+      "gram": "Grammaire et vocabulaire",
+      "ce": "Lecture",
+      "co": "Écoute",
+      "ee": "Écrit (auto-évalué)",
+      "eo": "Oral (auto-évalué)"
+    },
+    "tip": {
+      "gram": "Faites les questions de grammaire dans vos séances de français et révisez passé composé / imparfait, pronoms compléments et subjonctif.",
+      "ce": "Lisez un court article d'actualité par jour et résumez-le en trois phrases ; faites les questions de lecture dans vos séances.",
+      "co": "Écoutez RFI « Journal en français facile » chaque matin et faites les questions d'écoute dans vos séances (2 écoutes max).",
+      "ee": "Rédigez une tâche type TCF par jour (60 à 120 mots) et comparez-la avec les réponses modèles.",
+      "eo": "Parlez 5 minutes par jour à voix haute — présentez votre métier, racontez votre journée d'hier, donnez un avis — enregistrez-vous et réécoutez."
+    },
+    "yourEstimate": "Votre estimation — {date}",
+    "lastEstimate": "Dernière estimation — {date}",
+    "below": "{n} compétence sous le B1 | {n} compétences sous le B1",
+    "allB1": "B1 ou plus partout",
+    "scaleNote": "Les barres vont de A1 à B2 ; la case encadrée est le B1, le niveau exigé pour la carte de résident.",
+    "focus": "Priorités jusqu'à l'examen",
+    "gap": "{band}, {n} niveau avant le B1 | {band}, {n} niveaux avant le B1",
+    "practiceLink": "Entraînement écrit et oral",
+    "mistakes": "Vos erreurs"
+  },
+  "listen": {
+    "title": "Audio du matin",
+    "intro": "Les nouvelles questions civiques du jour, celles que vous avez manquées et quelques exercices d'écoute — la question, 3 secondes pour répondre dans votre tête, puis la réponse. Pensé pour le métro : la lecture continue écran éteint.",
+    "commute": "Trajet",
+    "verifiedOnly": "Réponses vérifiées uniquement",
+    "summary": "{clips} extraits · ≈ {min} min",
+    "noVerifiedTitle": "Aucune réponse vérifiée pour l'instant",
+    "noVerifiedText": "Vérifiez des réponses sur la page Questions officielles, ou désactivez « Réponses vérifiées uniquement ».",
+    "noClipsTitle": "Aucun extrait disponible",
+    "noClipsText": "Générez-les avec : node scripts/audio/build.mjs",
+    "offlineTitle": "Hors ligne (métro, avion)",
+    "saved": "{saved} / {total} extraits du mix du jour sont enregistrés sur cet appareil.",
+    "saveMix": "Enregistrer le mix du jour",
+    "saveAll": "Enregistrer les {n} extraits (~30 Mo)",
+    "iosHint": "Sur iPhone : ouvrez l'app dans Safari → Partager → Sur l'écran d'accueil, puis utilisez-la depuis l'icône — elle fonctionne hors ligne et Safari n'effacera pas votre progression.",
+    "savedAllToast": "Les {n} extraits sont enregistrés pour le hors-ligne",
+    "savedMixToast": "Mix du jour enregistré pour le hors-ligne",
+    "saveFailed": "Impossible d'enregistrer pour le hors-ligne"
+  },
+  "player": {
+    "listening": "Français B1 · écoute",
+    "position": "{i} / {n} · encore {min} min",
+    "previous": "Précédent",
+    "play": "Lecture",
+    "pause": "Pause",
+    "next": "Suivant",
+    "album": "Objectif 10 ans — audio du matin"
+  },
+  "settings": {
+    "title": "Réglages",
+    "dates": "Dates",
+    "expiry": "Expiration du titre de séjour",
+    "expiryHelp": "Indiquée sur votre carte actuelle.",
+    "civic": "Examen civique",
+    "french": "TCF / TEF IRN",
+    "notBookedHelp": "Laissez vide si ce n'est pas réservé.",
+    "data": "Vos données",
+    "dataText": "La progression est enregistrée dans ce navigateur uniquement. Sur iPhone, Safari peut l'effacer après 7 jours sans visite si l'app n'est pas ajoutée à l'écran d'accueil — exportez une sauvegarde régulièrement.",
+    "export": "Exporter une sauvegarde",
+    "import": "Importer une sauvegarde",
+    "erase": "Effacer la progression",
+    "confirmImport": "Remplacer votre progression actuelle par cette sauvegarde ?",
+    "notBackup": "Ce fichier n'est pas une sauvegarde cr10-app.",
+    "importFailed": "Échec de l'import",
+    "confirmErase": "Effacer toute la progression (cartes et journal) ? Vos dates sont conservées.",
+    "erased": "Progression effacée"
+  }
+}

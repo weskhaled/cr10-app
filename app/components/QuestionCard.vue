@@ -7,6 +7,7 @@ import type { QuizItem } from '~/types/study'
 
 const props = defineProps<{ item: QuizItem; n?: number; reveal?: boolean }>()
 
+const { t } = useI18n()
 const KEYS = ['A', 'B', 'C', 'D']
 const order = stableShuffle(props.item.options.map((_, i) => i), props.item.id)
 const picked = ref<number | null>(null)
@@ -33,12 +34,12 @@ function reset() {
 </script>
 
 <template>
-  <article class="rounded-lg border border-default p-3 sm:p-4" lang="fr">
-    <p class="font-medium leading-snug">
+  <article class="rounded-lg border border-default p-3 sm:p-4">
+    <p class="font-medium leading-snug" lang="fr" dir="ltr">
       <span v-if="n" class="me-1 text-muted">{{ n }}.</span>{{ item.q }}
     </p>
 
-    <div class="mt-3 grid gap-1.5">
+    <div class="mt-3 grid gap-1.5" lang="fr" dir="ltr">
       <button
         v-for="(opt, i) in order"
         :key="opt"
@@ -59,21 +60,21 @@ function reset() {
     </div>
 
     <div v-if="!open" class="mt-2 flex items-center gap-2 text-xs text-muted">
-      <span>Tap your answer, or</span>
-      <UButton size="xs" variant="link" class="px-0" @click="shown = true">show the answer</UButton>
+      <span>{{ t('card.tapOr') }}</span>
+      <UButton size="xs" variant="link" class="px-0" @click="shown = true">{{ t('card.show') }}</UButton>
     </div>
 
     <div v-else class="mt-3 space-y-2 text-sm">
       <p v-if="picked !== null" class="flex items-center gap-1.5 font-semibold" :class="isRight ? 'text-success' : 'text-error'">
         <UIcon :name="isRight ? 'i-lucide-circle-check' : 'i-lucide-circle-x'" class="size-4" />
-        {{ isRight ? 'Correct!' : 'Not quite — the right answer is in green.' }}
+        {{ isRight ? t('quiz.correct') : t('card.notQuite') }}
       </p>
-      <p class="leading-relaxed text-muted">{{ item.explain }}</p>
+      <p class="leading-relaxed text-muted" lang="fr" dir="ltr">{{ item.explain }}</p>
       <div class="flex flex-wrap items-center gap-x-4 gap-y-1">
         <ULink v-if="item.ref && !reveal" :to="item.ref" target="_blank" class="inline-flex items-center gap-1 text-xs font-medium text-primary">
-          <UIcon name="i-lucide-book-open" class="size-3.5" /> Official fiche
+          <UIcon name="i-lucide-book-open" class="size-3.5" /> {{ t('check.fiche') }}
         </ULink>
-        <UButton v-if="!reveal" size="xs" variant="link" color="neutral" icon="i-lucide-rotate-ccw" class="px-0" @click="reset">Hide again</UButton>
+        <UButton v-if="!reveal" size="xs" variant="link" color="neutral" icon="i-lucide-rotate-ccw" class="px-0" @click="reset">{{ t('card.hide') }}</UButton>
       </div>
       <slot />
     </div>

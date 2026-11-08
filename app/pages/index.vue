@@ -1,37 +1,33 @@
 <script setup lang="ts">
-import type { Track } from '~/types/study'
+import type { Band, Track } from '~/types/study'
 import type { ExamStatus } from '~/utils/deadline'
 
+const { t } = useI18n()
+const { date } = useLocaleUi()
 const { settings, days, today, deadline, currentStreak, checkStats, lastLevel, plan } = useStudy()
 const { mix } = useMorningMix()
 
 const tracks = computed(() =>
   (['civic', 'french'] as Track[]).map((id) => {
     const exam = deadline.value[id]
-    return { id, label: BANKS[id].label, plan: plan(id), exam, line: examLine(exam) }
+    return { id, label: t(`track.${id}`), plan: plan(id), exam, line: examLine(exam) }
   }),
 )
 
 const PHASES = {
-  prep: { color: 'info', icon: 'i-lucide-calendar-clock', title: 'Getting ready' },
-  filing: { color: 'success', icon: 'i-lucide-mail-check', title: 'ANEF filing window open' },
-  late: { color: 'warning', icon: 'i-lucide-triangle-alert', title: 'Past the usual filing date' },
-  expired: { color: 'error', icon: 'i-lucide-octagon-alert', title: 'Your titre’s expiry date has passed' },
+  prep: { color: 'info', icon: 'i-lucide-calendar-clock' },
+  filing: { color: 'success', icon: 'i-lucide-mail-check' },
+  late: { color: 'warning', icon: 'i-lucide-triangle-alert' },
+  expired: { color: 'error', icon: 'i-lucide-octagon-alert' },
 } as const
 const phase = computed(() => PHASES[deadline.value.phase])
-
 const phaseText = computed(() => {
   const d = deadline.value
-  switch (d.phase) {
-    case 'prep':
-      return `The filing window opens on ${formatDate(d.filingOpens)} and closes on ${formatDate(d.filingCloses)}.`
-    case 'filing':
-      return `Submit on ANEF by ${formatDate(d.filingCloses)} — ${d.daysToFilingClose} days left.`
-    case 'late':
-      return 'File on ANEF as soon as possible and check with your préfecture.'
-    default:
-      return 'Contact your préfecture now.'
-  }
+  return t(`today.phase.${d.phase}.text`, {
+    open: date(d.filingOpens),
+    close: date(d.filingCloses),
+    days: t('common.days', d.daysToFilingClose),
+  })
 })
 
 // full class names, so Tailwind sees them
@@ -44,23 +40,23 @@ const LINE_STYLE = {
 function examLine(exam: ExamStatus): { color: keyof typeof LINE_STYLE; text: string } {
   const d = deadline.value
   if (exam.booked && exam.tooLate)
-    return { color: 'error', text: `Booked for ${formatDate(exam.date)} — results may arrive after the window closes (${formatDate(d.filingCloses)}). Ask the centre for an earlier session.` }
-  if (exam.booked) return { color: 'success', text: `Booked for ${formatDate(exam.date)} — in ${exam.daysLeft} days.` }
-  if (today.value > d.latestBooking)
-    return { color: 'error', text: `Not booked, and the usual booking date (${formatDate(d.latestBooking)}) has passed. Book the earliest session you can.` }
-  return { color: 'warning', text: `Not booked. Book by ${formatDate(d.latestBooking)} for a session on or before ${formatDate(d.latestExam)}.` }
+    return { color: 'error', text: t('today.exam.tooLate', { date: date(exam.date), close: date(d.filingCloses) }) }
+  if (exam.booked) return { color: 'success', text: t('today.exam.booked', { date: date(exam.date), days: t('common.days', exam.daysLeft) }) }
+  if (today.value > d.latestBooking) return { color: 'error', text: t('today.exam.missedBooking', { date: date(d.latestBooking) }) }
+  return { color: 'warning', text: t('today.exam.notBooked', { booking: date(d.latestBooking), latest: date(d.latestExam) }) }
 }
 
-// French level estimate, worst skill first
+// French level estimate
+const bandLabel = (b: Band) => (b === 'pre-A1' ? '<A1' : b)
 const levelSummary = computed(() => {
   const r = lastLevel.value
   if (!r) return null
   const skills = [
-    { label: 'Grammar', band: r.bands.gram },
-    { label: 'Reading', band: r.bands.ce },
-    { label: 'Listening', band: r.bands.co },
-    { label: 'Writing', band: r.self.ee },
-    { label: 'Speaking', band: r.self.eo },
+    { id: 'gram', band: r.bands.gram },
+    { id: 'ce', band: r.bands.ce },
+    { id: 'co', band: r.bands.co },
+    { id: 'ee', band: r.self.ee },
+    { id: 'eo', band: r.self.eo },
   ]
   return { on: r.on, skills, below: skills.filter((s) => gapToTarget(s.band) > 0).length, stale: daysBetween(r.on, today.value) > 14 }
 })
@@ -78,61 +74,60 @@ const history = computed(() =>
 <template>
   <div class="space-y-6">
     <div class="flex flex-wrap items-center gap-3">
-      <h1 class="text-2xl font-bold">Today <span class="font-normal text-muted">· {{ formatDate(today) }}</span></h1>
-      <UBadge v-if="currentStreak" color="warning" variant="subtle" size="lg" icon="i-lucide-flame" :label="`${currentStreak}-day streak`" />
+      <h1 class="text-2xl font-bold">{{ t('today.title') }} <span class="font-normal text-muted">· {{ date(today) }}</span></h1>
+      <UBadge v-if="currentStreak" color="warning" variant="subtle" size="lg" icon="i-lucide-flame" :label="t('today.streak', currentStreak)" />
     </div>
 
     <!-- deadlines -->
     <UCard>
       <template #header>
         <div class="flex items-center justify-between gap-2">
-          <h2 class="font-semibold">Your deadlines</h2>
-          <UButton to="/settings" size="xs" variant="ghost" color="neutral" icon="i-lucide-pencil">Edit dates</UButton>
+          <h2 class="font-semibold">{{ t('today.deadlines') }}</h2>
+          <UButton to="/settings" size="xs" variant="ghost" color="neutral" icon="i-lucide-pencil">{{ t('today.editDates') }}</UButton>
         </div>
       </template>
       <div class="space-y-3">
-        <UAlert :color="phase.color" variant="subtle" :icon="phase.icon" :title="phase.title" :description="phaseText" />
+        <UAlert :color="phase.color" variant="subtle" :icon="phase.icon" :title="t(`today.phase.${deadline.phase}.title`)" :description="phaseText" />
         <p class="text-sm">
-          Titre expires on <b>{{ formatDate(settings.expiry || '2027-03-01') }}</b>
-          <span class="text-muted">({{ deadline.daysToExpiry }} days)</span>.
+          {{ t('today.expiresOn') }} <b>{{ date(settings.expiry || '2027-03-01') }}</b>
+          <span class="text-muted">({{ t('common.days', deadline.daysToExpiry) }})</span>
         </p>
-        <div v-for="t in tracks" :key="t.id" class="flex items-start gap-2 text-sm">
-          <UIcon :name="LINE_STYLE[t.line.color].icon" class="mt-0.5 size-4 shrink-0" :class="LINE_STYLE[t.line.color].cls" />
-          <p><b>{{ t.label }}:</b> {{ t.line.text }}</p>
+        <div v-for="tr in tracks" :key="tr.id" class="flex items-start gap-2 text-sm">
+          <UIcon :name="LINE_STYLE[tr.line.color].icon" class="mt-0.5 size-4 shrink-0" :class="LINE_STYLE[tr.line.color].cls" />
+          <p><b>{{ tr.label }}:</b> {{ tr.line.text }}</p>
         </div>
-        <p class="text-xs text-muted">
-          Typical values: filing 4 → 2 months before expiry, results within ~4 weeks, booking ~3 weeks ahead.
-          Confirm with your préfecture and exam centre.
-        </p>
+        <p class="text-xs text-muted">{{ t('today.deadlinesNote') }}</p>
       </div>
     </UCard>
 
     <!-- study tracks -->
     <div class="grid gap-4 sm:grid-cols-2">
-      <UCard v-for="t in tracks" :key="t.id">
+      <UCard v-for="tr in tracks" :key="tr.id">
         <div class="space-y-3">
           <div class="flex items-center justify-between gap-2">
-            <h2 class="font-semibold">{{ t.label }}</h2>
-            <UBadge v-if="t.plan.reviews.length + t.plan.fresh.length === 0" color="success" variant="subtle" icon="i-lucide-check" label="Done for today" />
+            <h2 class="font-semibold">{{ tr.label }}</h2>
+            <UBadge v-if="tr.plan.reviews.length + tr.plan.fresh.length === 0" color="success" variant="subtle" icon="i-lucide-check" :label="t('today.doneForToday')" />
           </div>
-          <p class="text-sm">
-            <b>{{ t.plan.reviews.length }}</b> to review · <b>{{ t.plan.newLeft }}</b> new left today
-          </p>
+          <p class="text-sm">{{ t('today.queue', { review: tr.plan.reviews.length, fresh: tr.plan.newLeft }) }}</p>
           <div class="space-y-1">
             <div class="flex justify-between text-xs text-muted">
-              <span>Mastered</span><span>{{ t.plan.mastered }} / {{ t.plan.total }}</span>
+              <span>{{ t('today.mastered') }}</span><span dir="ltr">{{ tr.plan.mastered }} / {{ tr.plan.total }}</span>
             </div>
-            <UProgress :model-value="t.plan.mastered" :max="t.plan.total" size="sm" color="success" />
+            <UProgress :model-value="tr.plan.mastered" :max="tr.plan.total" size="sm" color="success" />
             <div class="flex justify-between text-xs text-muted">
-              <span>Seen</span><span>{{ t.plan.seen }} / {{ t.plan.total }}</span>
+              <span>{{ t('today.seen') }}</span><span dir="ltr">{{ tr.plan.seen }} / {{ tr.plan.total }}</span>
             </div>
-            <UProgress :model-value="t.plan.seen" :max="t.plan.total" size="sm" />
+            <UProgress :model-value="tr.plan.seen" :max="tr.plan.total" size="sm" />
           </div>
-          <p class="text-xs text-muted">
-            Pace: {{ t.plan.quota }} new/day to see everything before {{ formatDate(t.exam.date) }}.
-          </p>
-          <UButton :to="`/session/${t.id}`" block :variant="t.plan.reviews.length + t.plan.fresh.length ? 'solid' : 'outline'" trailing-icon="i-lucide-arrow-right">
-            {{ t.plan.reviews.length + t.plan.fresh.length ? 'Start session' : 'Practice more' }}
+          <p class="text-xs text-muted">{{ t('today.pace', { n: tr.plan.quota, date: date(tr.exam.date) }) }}</p>
+          <UButton
+            :to="`/session/${tr.id}`"
+            block
+            :variant="tr.plan.reviews.length + tr.plan.fresh.length ? 'solid' : 'outline'"
+            trailing-icon="i-lucide-arrow-right"
+            :ui="{ trailingIcon: 'rtl:-scale-x-100' }"
+          >
+            {{ tr.plan.reviews.length + tr.plan.fresh.length ? t('today.start') : t('today.practiceMore') }}
           </UButton>
         </div>
       </UCard>
@@ -142,12 +137,10 @@ const history = computed(() =>
     <UCard>
       <div class="flex flex-wrap items-center justify-between gap-3">
         <div>
-          <h2 class="font-semibold">Morning audio</h2>
-          <p class="text-sm text-muted">
-            {{ mix.length }} clips · ≈ {{ totalMinutes(mix) }} min — today's questions to listen to on the way to work.
-          </p>
+          <h2 class="font-semibold">{{ t('today.audioTitle') }}</h2>
+          <p class="text-sm text-muted">{{ t('today.audioText', { clips: mix.length, min: totalMinutes(mix) }) }}</p>
         </div>
-        <UButton to="/listen" icon="i-lucide-headphones">Listen</UButton>
+        <UButton to="/listen" icon="i-lucide-headphones">{{ t('nav.listen') }}</UButton>
       </div>
     </UCard>
 
@@ -155,26 +148,26 @@ const history = computed(() =>
     <UCard>
       <div class="flex flex-wrap items-center justify-between gap-3">
         <div class="space-y-1">
-          <h2 class="font-semibold">French level estimate</h2>
-          <p v-if="!levelSummary" class="text-sm text-muted">Not measured yet — take the 15-minute level check to see where you stand against B1.</p>
+          <h2 class="font-semibold">{{ t('today.levelTitle') }}</h2>
+          <p v-if="!levelSummary" class="text-sm text-muted">{{ t('today.levelNone') }}</p>
           <template v-else>
             <div class="flex flex-wrap gap-1.5">
               <UBadge
                 v-for="s in levelSummary.skills"
-                :key="s.label"
+                :key="s.id"
                 :color="gapToTarget(s.band) ? 'warning' : 'success'"
                 variant="subtle"
-                :label="`${s.label} ${s.band === 'pre-A1' ? '<A1' : s.band}`"
+                :label="`${t(`skill.${s.id}`)} ${bandLabel(s.band)}`"
               />
             </div>
             <p class="text-xs text-muted">
-              {{ formatDate(levelSummary.on) }} · {{ levelSummary.below ? `${levelSummary.below} below B1` : 'B1 or above everywhere' }}
-              <template v-if="levelSummary.stale"> · more than 2 weeks old, retake it</template>
+              {{ date(levelSummary.on) }} · {{ levelSummary.below ? t('today.levelBelow', { n: levelSummary.below }) : t('today.levelAllGood') }}
+              <template v-if="levelSummary.stale"> · {{ t('today.levelStale') }}</template>
             </p>
           </template>
         </div>
         <UButton to="/level" :variant="levelSummary && !levelSummary.stale ? 'outline' : 'solid'" icon="i-lucide-gauge">
-          {{ levelSummary ? 'Retake' : 'Level check' }}
+          {{ levelSummary ? t('common.retake') : t('nav.level') }}
         </UButton>
       </div>
     </UCard>
@@ -183,29 +176,26 @@ const history = computed(() =>
     <UCard>
       <div class="flex flex-wrap items-center justify-between gap-3">
         <div>
-          <h2 class="font-semibold">Official civic questions (CR)</h2>
-          <p class="text-sm text-muted">
-            {{ OFFICIAL.count }} knowledge questions published by the ministry, in your civic sessions.
-            The answers are drafts: check each one against its official fiche.
-          </p>
+          <h2 class="font-semibold">{{ t('today.officialTitle') }}</h2>
+          <p class="text-sm text-muted">{{ t('today.officialText', { n: OFFICIAL.count }) }}</p>
           <p class="mt-1 text-sm">
-            <span class="text-success"><b>{{ checkStats.verified + checkStats.ok }}</b> checked</span> ·
-            <span class="text-warning"><b>{{ checkStats.toCheck }}</b> to check</span>
-            <template v-if="checkStats.flagged"> · <span class="text-error"><b>{{ checkStats.flagged }}</b> flagged</span></template>
+            <span class="text-success">{{ t('check.checked', { n: checkStats.verified + checkStats.ok }) }}</span> ·
+            <span class="text-warning">{{ t('check.toCheck', { n: checkStats.toCheck }) }}</span>
+            <template v-if="checkStats.flagged"> · <span class="text-error">{{ t('check.flagged', { n: checkStats.flagged }) }}</span></template>
           </p>
         </div>
-        <UButton to="/official" variant="outline" icon="i-lucide-graduation-cap">Study them</UButton>
+        <UButton to="/official" variant="outline" icon="i-lucide-graduation-cap">{{ t('today.studyThem') }}</UButton>
       </div>
     </UCard>
 
     <!-- day-by-day log -->
     <div>
-      <h2 class="mb-2 text-sm font-semibold text-muted">Last 14 days</h2>
+      <h2 class="mb-2 text-sm font-semibold text-muted">{{ t('today.last14') }}</h2>
       <div class="flex gap-1">
         <div
           v-for="h in history"
           :key="h.d"
-          :title="`${formatDate(h.d)} — ${h.n} items`"
+          :title="t('today.dayItems', { date: date(h.d), n: h.n })"
           class="h-6 flex-1 rounded-sm"
           :class="h.n === 0 ? 'bg-elevated' : h.n < 10 ? 'bg-primary/40' : h.n < 25 ? 'bg-primary/70' : 'bg-primary'"
         />

@@ -32,7 +32,8 @@ export function daysBetween(from: string, to: string): number {
   return Math.round((toUTC(to) - toUTC(from)) / DAY)
 }
 
+// Latin digits in every language (Arabic included), like French administrative documents
 export function formatDate(iso: string, locale = 'fr-FR'): string {
-  return new Intl.DateTimeFormat(locale, { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })
+  return new Intl.DateTimeFormat(locale, { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC', numberingSystem: 'latn' })
     .format(new Date(toUTC(iso)))
 }

@@ -9,6 +9,7 @@ const param = useRoute().params.track
 if (!isTrack(param)) throw createError({ statusCode: 404, statusMessage: 'Unknown track' })
 const track: Track = param
 
+const { t } = useI18n()
 const { plan, grade, extra, cards, today } = useStudy()
 
 // ?theme=<id>: practise one theme of the official list (from the Official questions page)
@@ -66,12 +67,12 @@ function practiceMissed() {
 <template>
   <div class="space-y-4 pb-24">
     <div class="flex items-center gap-2">
-      <UButton :to="theme ? '/official' : '/'" icon="i-lucide-x" variant="ghost" color="neutral" aria-label="Stop the session" />
-      <h1 class="min-w-0 truncate text-lg font-bold sm:text-xl">{{ theme ? theme.label : BANKS[track].label }}</h1>
+      <UButton :to="theme ? '/official' : '/'" icon="i-lucide-x" variant="ghost" color="neutral" :aria-label="t('session.stop')" />
+      <h1 class="min-w-0 truncate text-lg font-bold sm:text-xl">{{ theme ? theme.label : t(`track.${track}`) }}</h1>
       <div v-if="queue.length" class="ms-auto flex items-center gap-3 text-sm">
         <span class="flex items-center gap-1 text-success"><UIcon name="i-lucide-check" class="size-4" />{{ stats.correct }}</span>
         <span class="flex items-center gap-1 text-error"><UIcon name="i-lucide-x" class="size-4" />{{ stats.wrong }}</span>
-        <span class="text-muted">{{ Math.min(index + 1, queue.length) }} / {{ queue.length }}</span>
+        <span class="text-muted" dir="ltr">{{ Math.min(index + 1, queue.length) }} / {{ queue.length }}</span>
       </div>
     </div>
     <UProgress v-if="queue.length" :model-value="index" :max="queue.length" size="sm" />
@@ -83,30 +84,28 @@ function practiceMissed() {
         <div class="space-y-3 text-center">
           <UIcon :name="graded.size ? 'i-lucide-party-popper' : 'i-lucide-calendar-check'" class="size-10 text-primary" />
           <template v-if="graded.size">
-            <p class="text-xl font-semibold">Session done</p>
+            <p class="text-xl font-semibold">{{ t('session.done') }}</p>
             <p class="text-sm">
-              <span class="font-semibold text-success">{{ stats.correct }} known</span> ·
-              <span class="font-semibold text-error">{{ stats.wrong }} to work on</span>
+              <span class="font-semibold text-success">{{ t('session.known', { n: stats.correct }) }}</span> ·
+              <span class="font-semibold text-error">{{ t('session.toWork', { n: stats.wrong }) }}</span>
             </p>
-            <p class="text-sm text-muted">
-              Known questions come back in a few days, the others tomorrow — spacing them out is what makes them stick.
-            </p>
+            <p class="text-sm text-muted">{{ t('session.spacing') }}</p>
           </template>
-          <p v-else class="text-lg font-semibold">Nothing due right now — you're on track for today.</p>
+          <p v-else class="text-lg font-semibold">{{ t('session.nothingDue') }}</p>
           <div class="flex flex-wrap justify-center gap-2">
-            <UButton v-if="theme" to="/official" icon="i-lucide-list-checks">Back to the questions</UButton>
-            <UButton v-else to="/" icon="i-lucide-sun">Back to Today</UButton>
+            <UButton v-if="theme" to="/official" icon="i-lucide-list-checks">{{ t('session.backToQuestions') }}</UButton>
+            <UButton v-else to="/" icon="i-lucide-sun">{{ t('common.backToToday') }}</UButton>
             <UButton v-if="missed.length" variant="outline" icon="i-lucide-rotate-ccw" @click="practiceMissed">
-              Practice the {{ missed.length }} missed again
+              {{ t('session.practiceMissed', { n: missed.length }) }}
             </UButton>
-            <UButton v-if="moreAvailable" variant="outline" icon="i-lucide-plus" @click="learnMore">{{ theme ? `${THEME_ROUND} more from this theme` : 'Learn 5 more' }}</UButton>
+            <UButton v-if="moreAvailable" variant="outline" icon="i-lucide-plus" @click="learnMore">{{ theme ? t('session.moreTheme', { n: THEME_ROUND }) : t('session.learnMore') }}</UButton>
           </div>
         </div>
       </UCard>
 
       <UCard v-if="missed.length">
-        <template #header><h2 class="font-semibold">To remember</h2></template>
-        <ul class="space-y-4 text-sm" lang="fr">
+        <template #header><h2 class="font-semibold">{{ t('session.toRemember') }}</h2></template>
+        <ul class="space-y-4 text-sm" lang="fr" dir="ltr">
           <li v-for="m in missed" :key="m.id">
             <p class="font-medium">{{ m.q }}</p>
             <p class="mt-1 flex items-start gap-1.5 font-semibold text-success">

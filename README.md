@@ -6,7 +6,12 @@ Successor of [`carte-resident-prep`](https://github.com/weskhaled/carte-resident
 **Live: <https://weskhaled.github.io/cr10-app/>** — deployed by `.github/workflows/deploy.yml` on every push to `main`.
 On a phone: open it in Safari → Share → Add to Home Screen (offline + progress kept).
 
-Nuxt 4 · Nuxt UI 4 (Reka UI + Tailwind 4) · VueUse · client-only, static output, data in `localStorage`.
+Nuxt 4 · Nuxt UI 4 (Reka UI + Tailwind 4) · VueUse · @nuxtjs/i18n · client-only, static output, data in `localStorage`.
+
+Interface in **English, French or Arabic** (right-to-left), picked from the phone's language on first visit and
+switchable in the header or Settings. Texts live in `i18n/locales/{en,fr,ar}.json` (plural rules in
+`i18n/i18n.config.ts`; `tests/i18n.test.ts` checks the three files stay in sync). Exam content — questions,
+propositions, explanations — stays in French and is marked `lang="fr" dir="ltr"`.
 
 ## Run
 

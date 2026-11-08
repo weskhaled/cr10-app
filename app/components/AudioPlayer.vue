@@ -7,6 +7,7 @@ import type { Clip } from '~/utils/audio'
 const props = defineProps<{ clips: Clip[]; src: (id: string) => string }>()
 const emit = defineEmits<{ listened: [clip: Clip] }>()
 
+const { t } = useI18n()
 const RATES = [0.8, 1, 1.2, 1.5]
 const el = useTemplateRef<HTMLAudioElement>('el')
 const index = ref(0)
@@ -21,8 +22,8 @@ function setMeta(clip: Clip) {
   if (!('mediaSession' in navigator)) return
   navigator.mediaSession.metadata = new MediaMetadata({
     title: clip.title,
-    artist: clip.track === 'civic' ? 'Examen civique' : 'Français B1',
-    album: 'Objectif 10 ans — morning mix',
+    artist: t(`track.${clip.track}`),
+    album: t('player.album'),
   })
 }
 
@@ -103,19 +104,19 @@ const fmt = (s: number) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).p
     <UCard v-if="current">
       <div class="space-y-3">
         <div class="flex flex-wrap items-center gap-2 text-xs">
-          <UBadge variant="subtle" :label="current.track === 'civic' ? 'Examen civique' : 'Français B1 · écoute'" />
-          <UBadge v-if="current.draft" color="warning" variant="subtle" label="Draft answer" />
-          <span class="ms-auto text-muted">{{ index + 1 }} / {{ clips.length }} · {{ leftMin }} min left</span>
+          <UBadge variant="subtle" :label="current.track === 'civic' ? t('track.civic') : t('player.listening')" />
+          <UBadge v-if="current.draft" color="warning" variant="subtle" :label="t('quiz.draft')" />
+          <span class="ms-auto text-muted">{{ t('player.position', { i: index + 1, n: clips.length, min: leftMin }) }}</span>
         </div>
-        <p class="min-h-12 text-base font-semibold" lang="fr">{{ current.title }}</p>
+        <p class="min-h-12 text-base font-semibold" lang="fr" dir="ltr">{{ current.title }}</p>
         <UProgress :model-value="time" :max="current.sec || 1" size="sm" />
         <div class="flex justify-between text-xs text-muted">
           <span>{{ fmt(time) }}</span><span>{{ fmt(current.sec) }}</span>
         </div>
         <div class="flex items-center justify-center gap-3">
-          <UButton icon="i-lucide-skip-back" color="neutral" variant="ghost" size="xl" aria-label="Previous" @click="prev" />
-          <UButton :icon="playing ? 'i-lucide-pause' : 'i-lucide-play'" size="xl" class="rounded-full" :aria-label="playing ? 'Pause' : 'Play'" @click="toggle" />
-          <UButton icon="i-lucide-skip-forward" color="neutral" variant="ghost" size="xl" aria-label="Next" @click="next" />
+          <UButton icon="i-lucide-skip-back" color="neutral" variant="ghost" size="xl" :aria-label="t('player.previous')" @click="prev" />
+          <UButton :icon="playing ? 'i-lucide-pause' : 'i-lucide-play'" size="xl" class="rounded-full" :aria-label="playing ? t('player.pause') : t('player.play')" @click="toggle" />
+          <UButton icon="i-lucide-skip-forward" color="neutral" variant="ghost" size="xl" :aria-label="t('player.next')" @click="next" />
         </div>
         <div class="flex items-center justify-center gap-1">
           <UButton
@@ -132,7 +133,7 @@ const fmt = (s: number) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).p
       </div>
     </UCard>
 
-    <ol class="space-y-1 text-sm" lang="fr">
+    <ol class="space-y-1 text-sm" lang="fr" dir="ltr">
       <li v-for="(c, i) in clips" :key="c.id">
         <button
           type="button"

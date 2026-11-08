@@ -3,6 +3,8 @@
    Study: pick a theme, test yourself on each question (tap a proposition or
    "show the answer"), or practise the theme as a scored session.
    Check: go through the drafted answers and mark them against the fiche. */
+const { t } = useI18n()
+const { date } = useLocaleUi()
 const { checks, checkStats, cards } = useStudy()
 
 const OFFICIAL_ITEMS = BANKS.civic.items.filter((i) => i.source === 'official-cr')
@@ -11,15 +13,10 @@ const mode = ref<'study' | 'check'>('study')
 const theme = ref(BANKS.civic.themes[0]!.id)
 const query = ref('')
 const filter = ref<'checkFirst' | 'toCheck' | 'flagged' | 'checked' | 'all'>('checkFirst')
-const FILTERS = [
-  { label: 'Check first', value: 'checkFirst' },
-  { label: 'To check', value: 'toCheck' },
-  { label: 'Flagged', value: 'flagged' },
-  { label: 'Checked / verified', value: 'checked' },
-  { label: 'All', value: 'all' },
-]
+const FILTERS = computed(() =>
+  (['checkFirst', 'toCheck', 'flagged', 'checked', 'all'] as const).map((value) => ({ label: t(`official.filter.${value}`), value })))
 
-const fold = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
+const fold = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
 
 function statusOf(id: string): 'toCheck' | 'flagged' | 'checked' {
   const s = checks.value[id]?.status
@@ -34,16 +31,16 @@ function matches(id: string) {
 
 // your progress per theme (from the study cards)
 const themes = computed(() =>
-  BANKS.civic.themes.map((t) => {
-    const items = OFFICIAL_ITEMS.filter((i) => i.theme === t.id)
+  BANKS.civic.themes.map((th) => {
+    const items = OFFICIAL_ITEMS.filter((i) => i.theme === th.id)
     return {
-      ...t,
+      ...th,
       total: items.length,
       seen: items.filter((i) => cards.value[i.id]).length,
       mastered: items.filter((i) => isMastered(cards.value[i.id])).length,
     }
   }))
-const current = computed(() => themes.value.find((t) => t.id === theme.value)!)
+const current = computed(() => themes.value.find((th) => th.id === theme.value)!)
 
 // study: the selected theme, or every theme while searching; check: by status
 const list = computed(() => {
@@ -59,11 +56,8 @@ const list = computed(() => {
 <template>
   <div class="space-y-5">
     <div>
-      <h1 class="text-2xl font-bold">Official questions (CR)</h1>
-      <p class="mt-1 text-sm text-muted">
-        The {{ OFFICIAL.count }} knowledge questions published by the ministry — 28 of the 40 exam questions come from
-        this list (the 12 situational ones aren't published).
-      </p>
+      <h1 class="text-2xl font-bold">{{ t('official.title') }}</h1>
+      <p class="mt-1 text-sm text-muted">{{ t('official.intro', { n: OFFICIAL.count }) }}</p>
     </div>
 
     <div class="flex gap-1 rounded-lg bg-elevated p-1">
@@ -74,7 +68,7 @@ const list = computed(() => {
         icon="i-lucide-graduation-cap"
         @click="mode = 'study'"
       >
-        Study
+        {{ t('official.study') }}
       </UButton>
       <UButton
         class="flex-1 justify-center"
@@ -83,45 +77,43 @@ const list = computed(() => {
         icon="i-lucide-file-check"
         @click="mode = 'check'"
       >
-        Check answers
+        {{ t('official.check') }}
         <UBadge v-if="checkStats.toCheck + checkStats.flagged" size="sm" color="warning" variant="solid" :label="checkStats.toCheck + checkStats.flagged" />
       </UButton>
     </div>
 
     <!-- ===== Study ===== -->
     <template v-if="mode === 'study'">
-      <div class="flex flex-wrap gap-2" role="tablist" aria-label="Themes">
+      <div class="flex flex-wrap gap-2" role="tablist" :aria-label="t('official.themes')">
         <button
-          v-for="t in themes"
-          :key="t.id"
+          v-for="th in themes"
+          :key="th.id"
           type="button"
           role="tab"
-          :aria-selected="t.id === theme && !query"
+          lang="fr"
+          :aria-selected="th.id === theme && !query"
           class="rounded-full border px-3 py-1.5 text-sm transition"
-          :class="t.id === theme && !query ? 'border-primary bg-primary text-inverted' : 'border-default hover:border-primary/60'"
-          @click="theme = t.id; query = ''"
+          :class="th.id === theme && !query ? 'border-primary bg-primary text-inverted' : 'border-default hover:border-primary/60'"
+          @click="theme = th.id; query = ''"
         >
-          {{ t.label }} <span class="opacity-70">· {{ t.total }}</span>
+          {{ th.label }} <span class="opacity-70">· {{ th.total }}</span>
         </button>
       </div>
 
       <UCard v-if="!query" :ui="{ body: 'p-3 sm:p-4' }">
         <div class="space-y-3">
           <div class="flex items-center justify-between gap-2">
-            <h2 class="font-semibold">{{ current.label }}</h2>
-            <span class="shrink-0 text-xs text-muted">{{ current.seen }} seen · {{ current.mastered }} / {{ current.total }} mastered</span>
+            <h2 class="font-semibold" lang="fr">{{ current.label }}</h2>
+            <span class="shrink-0 text-xs text-muted">{{ t('official.themeProgress', { seen: current.seen, mastered: current.mastered, total: current.total }) }}</span>
           </div>
           <UProgress :model-value="current.mastered" :max="current.total" size="sm" color="success" />
-          <p class="text-xs text-muted">
-            Tap the proposition you think is right to test yourself. To make them stick, practise them as a session:
-            the ones you miss come back until you know them.
-          </p>
-          <UButton :to="`/session/civic?theme=${theme}`" icon="i-lucide-play" block>Practise 10 questions</UButton>
+          <p class="text-xs text-muted">{{ t('official.studyHint') }}</p>
+          <UButton :to="`/session/civic?theme=${theme}`" icon="i-lucide-play" block>{{ t('official.practise') }}</UButton>
         </div>
       </UCard>
 
-      <UInput v-model="query" icon="i-lucide-search" placeholder="Search all questions and answers…" class="w-full" />
-      <p v-if="query" class="text-sm text-muted">{{ list.length }} question{{ list.length > 1 ? 's' : '' }} found in all themes.</p>
+      <UInput v-model="query" icon="i-lucide-search" :placeholder="t('official.search')" class="w-full" />
+      <p v-if="query" class="text-sm text-muted">{{ t('official.found', list.length) }}</p>
 
       <div class="space-y-3">
         <QuestionCard v-for="(item, i) in list" :key="item.id" :item="item" :n="query ? undefined : i + 1" />
@@ -134,22 +126,22 @@ const list = computed(() => {
         color="info"
         variant="subtle"
         icon="i-lucide-info"
-        title="The ministry publishes the questions only"
-        description="The propositions and answers were drafted from the official fiches. Open the fiche, compare, then press “Matches the fiche” or “Something's wrong”. Start with “Check first”: the ones the drafter wasn't sure about."
+        :title="t('official.checkInfoTitle')"
+        :description="t('official.checkInfo')"
       />
       <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm">
-        <span class="text-success"><b>{{ checkStats.verified + checkStats.ok }}</b> checked</span>
-        <span class="text-warning"><b>{{ checkStats.toCheck }}</b> to check</span>
-        <span class="text-error"><b>{{ checkStats.flagged }}</b> flagged</span>
-        <span class="text-muted">of {{ checkStats.drafted }}</span>
+        <span class="text-success">{{ t('check.checked', { n: checkStats.verified + checkStats.ok }) }}</span>
+        <span class="text-warning">{{ t('check.toCheck', { n: checkStats.toCheck }) }}</span>
+        <span class="text-error">{{ t('check.flagged', { n: checkStats.flagged }) }}</span>
+        <span class="text-muted">{{ t('official.of', { n: checkStats.drafted }) }}</span>
       </div>
       <UProgress :model-value="checkStats.verified + checkStats.ok" :max="checkStats.drafted" size="sm" color="success" />
 
       <div class="flex flex-wrap items-center gap-3">
-        <UInput v-model="query" icon="i-lucide-search" placeholder="Search…" class="min-w-48 flex-1" />
+        <UInput v-model="query" icon="i-lucide-search" :placeholder="t('official.searchShort')" class="min-w-48 flex-1" />
         <USelect v-model="filter" :items="FILTERS" class="w-44" />
       </div>
-      <p class="text-sm text-muted">{{ list.length }} question{{ list.length > 1 ? 's' : '' }}</p>
+      <p class="text-sm text-muted">{{ t('official.count', list.length) }}</p>
 
       <div class="space-y-3">
         <QuestionCard v-for="item in list" :key="item.id" :item="item" reveal>
@@ -159,9 +151,9 @@ const list = computed(() => {
     </template>
 
     <p class="text-xs text-muted">
-      Source:
+      {{ t('official.source') }}
       <ULink :to="OFFICIAL.source" target="_blank" class="underline">formation-civique.interieur.gouv.fr</ULink>
-      — {{ OFFICIAL.licence }} — imported {{ formatDate(OFFICIAL.importedAt) }}.
+      — {{ OFFICIAL.licence }} — {{ t('official.imported', { date: date(OFFICIAL.importedAt) }) }}
     </p>
   </div>
 </template>

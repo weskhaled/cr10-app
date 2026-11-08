@@ -22,6 +22,7 @@ const emit = defineEmits<{
   done: [result: { correct: boolean; guessed: boolean }] // practice mode, on Continue
 }>()
 
+const { t } = useI18n()
 const KEYS = ['A', 'B', 'C', 'D']
 const MAX_PLAYS = 2 // like the real TCF
 const DONT_KNOW = -1
@@ -38,11 +39,7 @@ const pickedText = computed(() =>
   picked.value === null || picked.value === DONT_KNOW ? null : props.item.options[order[picked.value]!])
 const isDraft = computed(() => props.item.source === 'official-cr' && !props.item.verified)
 
-const KIND = {
-  new: { label: 'New', color: 'primary' },
-  review: { label: 'Review', color: 'neutral' },
-  again: { label: 'Again', color: 'warning' },
-} as const
+const KIND_COLOR = { new: 'primary', review: 'neutral', again: 'warning' } as const
 
 function pick(i: number) {
   if (answered.value || (i !== DONT_KNOW && (i < 0 || i >= order.length))) return
@@ -110,44 +107,44 @@ onBeforeUnmount(stopSpeech)
     <UCard :ui="{ body: 'p-4 sm:p-6' }">
       <!-- context: kind of card, theme, official / situational, draft status -->
       <div class="mb-3 flex flex-wrap items-center gap-1.5 text-xs">
-        <UBadge v-if="kind" :color="KIND[kind].color" variant="soft" size="sm" :label="KIND[kind].label" />
+        <UBadge v-if="kind" :color="KIND_COLOR[kind]" variant="soft" size="sm" :label="t(`quiz.kind.${kind}`)" />
         <UBadge color="neutral" variant="outline" size="sm" :label="themeLabel(track, item.theme)" class="max-w-full truncate" />
-        <UBadge v-if="item.source === 'official-cr'" color="info" variant="soft" size="sm" icon="i-lucide-landmark" label="Official list" />
-        <UTooltip v-if="item.sit" text="A situation from daily life: choose the behaviour that follows French law and values.">
-          <UBadge color="warning" variant="soft" size="sm" icon="i-lucide-users" label="Mise en situation" />
+        <UBadge v-if="item.source === 'official-cr'" color="info" variant="soft" size="sm" icon="i-lucide-landmark" :label="t('quiz.officialList')" />
+        <UTooltip v-if="item.sit" :text="t('quiz.situationHint')">
+          <UBadge color="warning" variant="soft" size="sm" icon="i-lucide-users" :label="t('quiz.situation')" />
         </UTooltip>
         <UPopover v-if="isDraft && !test">
-          <UButton size="xs" color="warning" variant="ghost" icon="i-lucide-file-pen-line" class="ms-auto">Draft answer</UButton>
+          <UButton size="xs" color="warning" variant="ghost" icon="i-lucide-file-pen-line" class="ms-auto">{{ t('quiz.draft') }}</UButton>
           <template #content>
             <div class="max-w-xs space-y-2 p-3 text-sm">
-              <p>This answer was drafted from the official fiches and hasn't been checked yet. Compare it with the fiche, then tell the app.</p>
+              <p>{{ t('quiz.draftHint') }}</p>
               <AnswerCheckBar :id="item.id" :verified="item.verified" :fiche="item.ref" :note="item.note" />
             </div>
           </template>
         </UPopover>
       </div>
 
-      <p class="text-lg font-semibold leading-snug sm:text-xl" lang="fr">{{ item.q }}</p>
+      <p class="text-lg font-semibold leading-snug sm:text-xl" lang="fr" dir="ltr">{{ item.q }}</p>
 
       <!-- trusted inline SVG from the local bank -->
       <div v-if="item.img" class="mt-4 flex justify-center" v-html="item.img" />
 
-      <blockquote v-if="item.ctx" lang="fr" class="mt-4 whitespace-pre-line rounded-md bg-elevated/60 p-3 text-sm leading-relaxed">
+      <blockquote v-if="item.ctx" lang="fr" dir="ltr" class="mt-4 whitespace-pre-line rounded-md bg-elevated/60 p-3 text-sm leading-relaxed">
         {{ item.ctx }}
       </blockquote>
 
       <div v-if="item.say" class="mt-4 flex flex-wrap items-center gap-3">
         <UButton icon="i-lucide-volume-2" size="lg" :disabled="plays >= MAX_PLAYS" @click="play">
-          Listen · {{ MAX_PLAYS - plays }} left
+          {{ t('quiz.listen', { n: MAX_PLAYS - plays }) }}
         </UButton>
-        <span class="text-xs text-muted">2 plays max, like the real TCF.</span>
+        <span class="text-xs text-muted">{{ t('quiz.listenHint') }}</span>
       </div>
-      <p v-if="item.say && noVoice && !answered" lang="fr" class="mt-3 text-sm italic text-muted">
-        No French voice on this device — read it instead: « {{ item.say }} »
+      <p v-if="item.say && noVoice && !answered" class="mt-3 text-sm italic text-muted">
+        {{ t('quiz.noVoice') }} <span lang="fr" dir="ltr">« {{ item.say }} »</span>
       </p>
 
       <!-- options -->
-      <div class="mt-5 grid gap-2.5" lang="fr" role="radiogroup" :aria-label="item.q">
+      <div class="mt-5 grid gap-2.5" lang="fr" dir="ltr" role="radiogroup" :aria-label="item.q">
         <button
           v-for="(opt, i) in order"
           :key="opt"
@@ -177,29 +174,29 @@ onBeforeUnmount(stopSpeech)
       >
         <p class="flex items-center gap-2 text-base font-semibold" :class="isRight ? 'text-success' : 'text-error'">
           <UIcon :name="isRight ? 'i-lucide-circle-check' : picked === -1 ? 'i-lucide-lightbulb' : 'i-lucide-circle-x'" class="size-5" />
-          {{ isRight ? 'Correct!' : picked === -1 ? "Here's the answer" : 'Not quite' }}
+          {{ isRight ? t('quiz.correct') : picked === -1 ? t('quiz.reveal') : t('quiz.notQuite') }}
         </p>
 
-        <dl v-if="!isRight" class="mt-3 space-y-2 text-sm" lang="fr">
+        <dl v-if="!isRight" class="mt-3 space-y-2 text-sm">
           <div v-if="pickedText">
-            <dt class="text-xs font-medium uppercase tracking-wide text-muted">Your answer</dt>
-            <dd class="text-muted line-through">{{ pickedText }}</dd>
+            <dt class="text-xs font-medium uppercase tracking-wide text-muted">{{ t('quiz.yourAnswer') }}</dt>
+            <dd class="text-muted line-through" lang="fr" dir="ltr">{{ pickedText }}</dd>
           </div>
           <div>
-            <dt class="text-xs font-medium uppercase tracking-wide text-muted">Right answer</dt>
-            <dd class="font-semibold text-highlighted">{{ item.options[0] }}</dd>
+            <dt class="text-xs font-medium uppercase tracking-wide text-muted">{{ t('quiz.rightAnswer') }}</dt>
+            <dd class="font-semibold text-highlighted" lang="fr" dir="ltr">{{ item.options[0] }}</dd>
           </div>
         </dl>
 
-        <div class="mt-3 text-sm leading-relaxed" lang="fr">
-          <span class="text-xs font-medium uppercase tracking-wide text-muted">Why</span>
-          <p class="text-default">{{ item.explain }}</p>
+        <div class="mt-3 text-sm leading-relaxed">
+          <span class="text-xs font-medium uppercase tracking-wide text-muted">{{ t('quiz.why') }}</span>
+          <p class="text-default" lang="fr" dir="ltr">{{ item.explain }}</p>
         </div>
 
-        <p v-if="item.say" lang="fr" class="mt-3 text-sm italic text-muted">Transcript: « {{ item.say }} »</p>
+        <p v-if="item.say" class="mt-3 text-sm italic text-muted">{{ t('quiz.transcript') }} <span lang="fr" dir="ltr">« {{ item.say }} »</span></p>
 
         <ULink v-if="item.ref" :to="item.ref" target="_blank" class="mt-3 inline-flex items-center gap-1 text-sm font-medium text-primary">
-          <UIcon name="i-lucide-book-open" class="size-4" /> Read the official fiche
+          <UIcon name="i-lucide-book-open" class="size-4" /> {{ t('quiz.readFiche') }}
         </ULink>
       </div>
     </UCard>
@@ -210,24 +207,25 @@ onBeforeUnmount(stopSpeech)
         <div class="mx-auto flex max-w-3xl items-center gap-2 px-4 py-3">
           <template v-if="!answered">
             <UButton color="neutral" variant="outline" size="lg" icon="i-lucide-circle-help" @click="pick(DONT_KNOW)">
-              I don't know
+              {{ t('quiz.dontKnow') }}
             </UButton>
             <span class="ms-auto hidden text-xs text-muted sm:inline">
-              <UKbd value="1" />–<UKbd value="4" /> answer · <UKbd value="0" /> don't know
+              <UKbd value="1" />–<UKbd value="4" /> {{ t('quiz.keyAnswer') }} · <UKbd value="0" /> {{ t('quiz.keyDontKnow') }}
             </span>
           </template>
           <template v-else-if="!test">
-            <UTooltip v-if="isRight" text="You'll see it again tomorrow instead of in a few days">
-              <UButton color="neutral" variant="ghost" size="lg" icon="i-lucide-dices" @click="finish(true)">I guessed</UButton>
+            <UTooltip v-if="isRight" :text="t('quiz.guessedHint')">
+              <UButton color="neutral" variant="ghost" size="lg" icon="i-lucide-dices" @click="finish(true)">{{ t('quiz.guessed') }}</UButton>
             </UTooltip>
             <UButton
               size="lg"
               :color="isRight ? 'success' : 'primary'"
               trailing-icon="i-lucide-arrow-right"
+              :ui="{ trailingIcon: 'rtl:-scale-x-100' }"
               class="ms-auto flex-1 justify-center sm:flex-none sm:px-8"
               @click="finish()"
             >
-              Continue
+              {{ t('quiz.continue') }}
             </UButton>
           </template>
         </div>
