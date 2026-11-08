@@ -26,8 +26,8 @@ pnpm audio        # (re)build the morning-audio clips — macOS only, uses the s
 | Path | What |
 |---|---|
 | `app/pages/index.vue` | **Today** — deadlines, today's reviews + new items per track, streak, last 14 days |
-| `app/pages/session/[track].vue` | Study session (`civic` / `french`): due reviews first, then new items; keys 1–4 / A–D, Enter |
-| `app/pages/official.vue` | The official CR knowledge-question list, searchable |
+| `app/pages/session/[track].vue` · `app/components/QuizCard.vue` | Study session (`civic` / `french`): due reviews first, then new items. Tap an answer or **I don't know**; feedback shows your answer vs the right one, why, and the fiche; a bar pinned at the bottom holds **Continue** / **I guessed** (a lucky guess comes back tomorrow). Keys: 1–4 / A–D, 0 = don't know, Enter = continue, G = guessed. Summary lists what to remember |
+| `app/pages/official.vue` · `app/components/QuestionCard.vue` | Official questions. **Study**: pick a theme, each question shows its 4 propositions — tap one to test yourself or show the answer; **Practise 10 questions** runs a scored session on that theme (`/session/civic?theme=…`). **Check answers**: drafted answers with the fiche and the check buttons |
 | `app/pages/level.vue` | **French level check**: grammar, reading, listening placement (A1 → B2, stops at the first failed level) + writing/speaking self-assessment; estimate per skill vs B1 |
 | `app/pages/listen.vue` | **Morning audio**: today's mix (new civic questions, missed ones, French listening, then upcoming) sized to the commute; lock-screen controls; save for offline |
 | `app/pages/settings.vue` | Expiry + exam dates, backup export/import, reset |

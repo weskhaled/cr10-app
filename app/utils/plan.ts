@@ -65,3 +65,31 @@ export function shuffle<T>(list: readonly T[]): T[] {
   }
   return a
 }
+
+/** Shuffle that always gives the same order for the same seed (e.g. an item id),
+    so a list doesn't reshuffle on every render — and the right answer isn't always first. */
+export function stableShuffle<T>(list: readonly T[], seed: string): T[] {
+  let h = 2166136261 // FNV-1a
+  for (let i = 0; i < seed.length; i++) h = Math.imul(h ^ seed.charCodeAt(i), 16777619)
+  const random = () => { // mulberry32
+    h = (h + 0x6d2b79f5) | 0
+    let t = Math.imul(h ^ (h >>> 15), 1 | h)
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296
+  }
+  const a = list.slice()
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(random() * (i + 1))
+    ;[a[i], a[j]] = [a[j]!, a[i]!]
+  }
+  return a
+}
+
+/** Practice one theme: due cards first, then unseen ones, then the weakest of the rest. */
+export function themeQueue(items: QuizItem[], cards: Record<string, CardState>, today: string, size = 10): QuizItem[] {
+  const box = (i: QuizItem) => cards[i.id]?.box ?? 0
+  const due = items.filter((i) => cards[i.id] && isDue(cards[i.id]!, today)).sort((a, b) => box(a) - box(b))
+  const unseen = items.filter((i) => !cards[i.id])
+  const rest = items.filter((i) => cards[i.id] && !isDue(cards[i.id]!, today)).sort((a, b) => box(a) - box(b))
+  return [...due, ...unseen, ...rest].slice(0, size)
+}

@@ -16,7 +16,7 @@ useHead({
 const links = [
   { label: 'Today', to: '/', icon: 'i-lucide-sun' },
   { label: 'Listen', to: '/listen', icon: 'i-lucide-headphones' },
-  { label: 'Official list', to: '/official', icon: 'i-lucide-list-checks' },
+  { label: 'Official questions', to: '/official', icon: 'i-lucide-landmark' },
   { label: 'Level check', to: '/level', icon: 'i-lucide-gauge' },
   { label: 'Settings', to: '/settings', icon: 'i-lucide-settings' },
 ]

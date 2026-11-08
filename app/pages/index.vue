@@ -194,7 +194,7 @@ const history = computed(() =>
             <template v-if="checkStats.flagged"> · <span class="text-error"><b>{{ checkStats.flagged }}</b> flagged</span></template>
           </p>
         </div>
-        <UButton to="/official" variant="outline" icon="i-lucide-list-checks">Review answers</UButton>
+        <UButton to="/official" variant="outline" icon="i-lucide-graduation-cap">Study them</UButton>
       </div>
     </UCard>
 

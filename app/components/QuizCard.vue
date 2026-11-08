@@ -1,30 +1,64 @@
 <script setup lang="ts">
-/* One multiple-choice item: shuffled options, instant feedback,
-   keyboard shortcuts (1–4 / A–D to answer, Enter for next).
-   `test`: no feedback — the parent moves on as soon as an answer is picked.
+/* One multiple-choice item.
+   - Tap an answer (or 1–4 / A–D), or "I don't know" (0 / ?) to see it.
+   - Feedback shows your answer vs the right one, why, and the fiche.
+   - A bar pinned to the bottom of the screen holds the next step, so it is
+     always under the thumb: Continue (Enter), or "I guessed" (G) after a
+     lucky right answer so the item comes back sooner.
+   - `test`: no feedback, the parent gets `answer` right after the pick.
    Re-mount it (`:key`) for each new item. */
 import type { QuizItem, Track } from '~/types/study'
 
 type CardItem = Omit<QuizItem, 'source'> & Partial<Pick<QuizItem, 'source'>>
 
-const props = defineProps<{ item: CardItem; track: Track; test?: boolean }>()
-const emit = defineEmits<{ answer: [correct: boolean]; next: [] }>()
+const props = defineProps<{
+  item: CardItem
+  track: Track
+  test?: boolean
+  kind?: 'new' | 'review' | 'again'
+}>()
+const emit = defineEmits<{
+  answer: [correct: boolean] // test mode
+  done: [result: { correct: boolean; guessed: boolean }] // practice mode, on Continue
+}>()
 
 const KEYS = ['A', 'B', 'C', 'D']
 const MAX_PLAYS = 2 // like the real TCF
+const DONT_KNOW = -1
 
 const order = shuffle(props.item.options.map((_, i) => i)) // order[i] = index in item.options; 0 is correct
-const picked = ref<number | null>(null)
+const picked = ref<number | null>(null) // position in `order`, or DONT_KNOW
 const plays = ref(0)
 const noVoice = ref(false)
+const feedback = useTemplateRef<HTMLElement>('feedback')
 
 const answered = computed(() => picked.value !== null)
-const isRight = computed(() => picked.value !== null && order[picked.value] === 0)
+const isRight = computed(() => picked.value !== null && picked.value !== DONT_KNOW && order[picked.value] === 0)
+const pickedText = computed(() =>
+  picked.value === null || picked.value === DONT_KNOW ? null : props.item.options[order[picked.value]!])
+const isDraft = computed(() => props.item.source === 'official-cr' && !props.item.verified)
+
+const KIND = {
+  new: { label: 'New', color: 'primary' },
+  review: { label: 'Review', color: 'neutral' },
+  again: { label: 'Again', color: 'warning' },
+} as const
 
 function pick(i: number) {
-  if (answered.value || i < 0 || i >= order.length) return
+  if (answered.value || (i !== DONT_KNOW && (i < 0 || i >= order.length))) return
   picked.value = i
-  emit('answer', order[i] === 0)
+  if (props.test) {
+    // short pause so the tap is visible before the next item
+    setTimeout(() => emit('answer', isRight.value), 250)
+    return
+  }
+  // bring the explanation up above the bottom bar
+  nextTick(() => feedback.value?.scrollIntoView({ behavior: 'smooth', block: 'end' }))
+}
+
+function finish(guessed = false) {
+  if (!answered.value || props.test) return
+  emit('done', { correct: isRight.value && !guessed, guessed })
 }
 
 function play() {
@@ -33,78 +67,171 @@ function play() {
   if (!speakFrench(props.item.say)) noVoice.value = true
 }
 
-function optionColor(i: number) {
-  if (!answered.value || props.test) return 'neutral'
-  if (order[i] === 0) return 'success'
-  return i === picked.value ? 'error' : 'neutral'
+/** Option look: neutral before answering, then right = green ✓, your wrong pick = red ✗, others dimmed. */
+function state(i: number): 'idle' | 'picked' | 'right' | 'wrong' | 'dim' {
+  if (!answered.value) return 'idle'
+  if (props.test) return i === picked.value ? 'picked' : 'dim'
+  if (order[i] === 0) return 'right'
+  return i === picked.value ? 'wrong' : 'dim'
+}
+const OPTION = {
+  idle: 'border-default hover:border-primary hover:bg-primary/5 active:scale-[0.99]',
+  picked: 'border-primary bg-primary/10',
+  right: 'border-success bg-success/15',
+  wrong: 'border-error bg-error/15',
+  dim: 'border-default opacity-55',
+}
+const LETTER = {
+  idle: 'border-default text-muted',
+  picked: 'border-primary bg-primary text-inverted',
+  right: 'border-success bg-success text-inverted',
+  wrong: 'border-error bg-error text-inverted',
+  dim: 'border-default text-dimmed',
 }
 
+const typing = (e: KeyboardEvent) => e.metaKey || e.ctrlKey || e.altKey || (e.target as HTMLElement)?.isContentEditable
 onKeyStroke(['1', '2', '3', '4', 'a', 'b', 'c', 'd', 'A', 'B', 'C', 'D'], (e) => {
-  if (e.metaKey || e.ctrlKey || e.altKey) return
+  if (typing(e)) return
   const k = e.key.toLowerCase()
   pick('1234'.includes(k) ? Number(k) - 1 : 'abcd'.indexOf(k))
 })
-onKeyStroke('Enter', () => {
-  if (answered.value && !props.test) emit('next')
+onKeyStroke(['0', '?'], (e) => !typing(e) && pick(DONT_KNOW))
+onKeyStroke(['Enter', ' '], (e) => {
+  if (!answered.value || props.test || typing(e)) return
+  e.preventDefault()
+  finish()
 })
+onKeyStroke(['g', 'G'], (e) => !typing(e) && isRight.value && finish(true))
 onBeforeUnmount(stopSpeech)
 </script>
 
 <template>
-  <UCard>
-    <div class="mb-3 flex flex-wrap items-center gap-2">
-      <UBadge variant="subtle" :label="themeLabel(track, item.theme)" />
-      <UBadge v-if="item.source === 'official-cr'" color="info" variant="subtle" icon="i-lucide-landmark" label="Official list" />
-      <UBadge v-if="item.sit" color="warning" variant="subtle" label="Mise en situation" />
-    </div>
-
-    <p class="mb-4 text-lg font-semibold" lang="fr">{{ item.q }}</p>
-
-    <!-- trusted inline SVG from the local bank -->
-    <div v-if="item.img" class="mb-4 flex justify-center" v-html="item.img" />
-
-    <blockquote v-if="item.ctx" lang="fr" class="mb-4 whitespace-pre-line border-s-4 border-default ps-4 text-sm text-muted">
-      {{ item.ctx }}
-    </blockquote>
-
-    <div v-if="item.say" class="mb-4 flex flex-wrap items-center gap-3">
-      <UButton icon="i-lucide-volume-2" :disabled="plays >= MAX_PLAYS" @click="play">
-        Listen ({{ MAX_PLAYS - plays }} left)
-      </UButton>
-      <span class="text-xs text-muted">2 plays max, like the real TCF.</span>
-    </div>
-    <p v-if="item.say && (noVoice || answered)" lang="fr" class="mb-4 text-sm italic text-muted">
-      <span v-if="noVoice">No French voice available — read the transcript: </span>« {{ item.say }} »
-    </p>
-
-    <div class="grid gap-2" lang="fr">
-      <UButton
-        v-for="(opt, i) in order"
-        :key="opt"
-        block
-        :color="optionColor(i)"
-        :variant="answered && optionColor(i) !== 'neutral' ? 'soft' : 'outline'"
-        class="h-auto justify-start whitespace-normal py-2.5 text-start"
-        @click="pick(i)"
-      >
-        <UKbd :value="KEYS[i]" class="me-2 shrink-0" />
-        {{ item.options[opt] }}
-      </UButton>
-    </div>
-
-    <template v-if="answered && !test">
-      <UAlert
-        class="mt-4"
-        :color="isRight ? 'success' : 'error'"
-        variant="subtle"
-        :icon="isRight ? 'i-lucide-circle-check' : 'i-lucide-circle-x'"
-        :title="isRight ? 'Correct' : `Answer: ${item.options[0]}`"
-        :description="item.explain"
-      />
-      <AnswerCheckBar v-if="item.source === 'official-cr'" :id="item.id" :verified="item.verified" :fiche="item.ref" :note="item.note" class="mt-3" />
-      <div class="mt-4 flex justify-end">
-        <UButton trailing-icon="i-lucide-arrow-right" @click="emit('next')">Next</UButton>
+  <div>
+    <UCard :ui="{ body: 'p-4 sm:p-6' }">
+      <!-- context: kind of card, theme, official / situational, draft status -->
+      <div class="mb-3 flex flex-wrap items-center gap-1.5 text-xs">
+        <UBadge v-if="kind" :color="KIND[kind].color" variant="soft" size="sm" :label="KIND[kind].label" />
+        <UBadge color="neutral" variant="outline" size="sm" :label="themeLabel(track, item.theme)" class="max-w-full truncate" />
+        <UBadge v-if="item.source === 'official-cr'" color="info" variant="soft" size="sm" icon="i-lucide-landmark" label="Official list" />
+        <UTooltip v-if="item.sit" text="A situation from daily life: choose the behaviour that follows French law and values.">
+          <UBadge color="warning" variant="soft" size="sm" icon="i-lucide-users" label="Mise en situation" />
+        </UTooltip>
+        <UPopover v-if="isDraft && !test">
+          <UButton size="xs" color="warning" variant="ghost" icon="i-lucide-file-pen-line" class="ms-auto">Draft answer</UButton>
+          <template #content>
+            <div class="max-w-xs space-y-2 p-3 text-sm">
+              <p>This answer was drafted from the official fiches and hasn't been checked yet. Compare it with the fiche, then tell the app.</p>
+              <AnswerCheckBar :id="item.id" :verified="item.verified" :fiche="item.ref" :note="item.note" />
+            </div>
+          </template>
+        </UPopover>
       </div>
-    </template>
-  </UCard>
+
+      <p class="text-lg font-semibold leading-snug sm:text-xl" lang="fr">{{ item.q }}</p>
+
+      <!-- trusted inline SVG from the local bank -->
+      <div v-if="item.img" class="mt-4 flex justify-center" v-html="item.img" />
+
+      <blockquote v-if="item.ctx" lang="fr" class="mt-4 whitespace-pre-line rounded-md bg-elevated/60 p-3 text-sm leading-relaxed">
+        {{ item.ctx }}
+      </blockquote>
+
+      <div v-if="item.say" class="mt-4 flex flex-wrap items-center gap-3">
+        <UButton icon="i-lucide-volume-2" size="lg" :disabled="plays >= MAX_PLAYS" @click="play">
+          Listen · {{ MAX_PLAYS - plays }} left
+        </UButton>
+        <span class="text-xs text-muted">2 plays max, like the real TCF.</span>
+      </div>
+      <p v-if="item.say && noVoice && !answered" lang="fr" class="mt-3 text-sm italic text-muted">
+        No French voice on this device — read it instead: « {{ item.say }} »
+      </p>
+
+      <!-- options -->
+      <div class="mt-5 grid gap-2.5" lang="fr" role="radiogroup" :aria-label="item.q">
+        <button
+          v-for="(opt, i) in order"
+          :key="opt"
+          type="button"
+          role="radio"
+          :aria-checked="picked === i"
+          :disabled="answered"
+          class="flex min-h-13 w-full items-center gap-3 rounded-lg border-2 px-3 py-2.5 text-start text-base transition disabled:cursor-default"
+          :class="OPTION[state(i)]"
+          @click="pick(i)"
+        >
+          <span class="grid size-7 shrink-0 place-items-center rounded-full border-2 text-xs font-bold" :class="LETTER[state(i)]">
+            <UIcon v-if="state(i) === 'right'" name="i-lucide-check" class="size-4" />
+            <UIcon v-else-if="state(i) === 'wrong'" name="i-lucide-x" class="size-4" />
+            <template v-else>{{ KEYS[i] }}</template>
+          </span>
+          <span class="flex-1">{{ item.options[opt] }}</span>
+        </button>
+      </div>
+
+      <!-- feedback -->
+      <div
+        v-if="answered && !test"
+        ref="feedback"
+        class="mt-5 scroll-mb-28 rounded-lg border-s-4 bg-elevated/50 p-4"
+        :class="isRight ? 'border-success' : 'border-error'"
+      >
+        <p class="flex items-center gap-2 text-base font-semibold" :class="isRight ? 'text-success' : 'text-error'">
+          <UIcon :name="isRight ? 'i-lucide-circle-check' : picked === -1 ? 'i-lucide-lightbulb' : 'i-lucide-circle-x'" class="size-5" />
+          {{ isRight ? 'Correct!' : picked === -1 ? "Here's the answer" : 'Not quite' }}
+        </p>
+
+        <dl v-if="!isRight" class="mt-3 space-y-2 text-sm" lang="fr">
+          <div v-if="pickedText">
+            <dt class="text-xs font-medium uppercase tracking-wide text-muted">Your answer</dt>
+            <dd class="text-muted line-through">{{ pickedText }}</dd>
+          </div>
+          <div>
+            <dt class="text-xs font-medium uppercase tracking-wide text-muted">Right answer</dt>
+            <dd class="font-semibold text-highlighted">{{ item.options[0] }}</dd>
+          </div>
+        </dl>
+
+        <div class="mt-3 text-sm leading-relaxed" lang="fr">
+          <span class="text-xs font-medium uppercase tracking-wide text-muted">Why</span>
+          <p class="text-default">{{ item.explain }}</p>
+        </div>
+
+        <p v-if="item.say" lang="fr" class="mt-3 text-sm italic text-muted">Transcript: « {{ item.say }} »</p>
+
+        <ULink v-if="item.ref" :to="item.ref" target="_blank" class="mt-3 inline-flex items-center gap-1 text-sm font-medium text-primary">
+          <UIcon name="i-lucide-book-open" class="size-4" /> Read the official fiche
+        </ULink>
+      </div>
+    </UCard>
+
+    <!-- next step, pinned under the thumb -->
+    <Teleport to="body">
+      <div class="fixed inset-x-0 bottom-0 z-40 border-t border-default bg-default/95 pb-[env(safe-area-inset-bottom)] backdrop-blur">
+        <div class="mx-auto flex max-w-3xl items-center gap-2 px-4 py-3">
+          <template v-if="!answered">
+            <UButton color="neutral" variant="outline" size="lg" icon="i-lucide-circle-help" @click="pick(DONT_KNOW)">
+              I don't know
+            </UButton>
+            <span class="ms-auto hidden text-xs text-muted sm:inline">
+              <UKbd value="1" />–<UKbd value="4" /> answer · <UKbd value="0" /> don't know
+            </span>
+          </template>
+          <template v-else-if="!test">
+            <UTooltip v-if="isRight" text="You'll see it again tomorrow instead of in a few days">
+              <UButton color="neutral" variant="ghost" size="lg" icon="i-lucide-dices" @click="finish(true)">I guessed</UButton>
+            </UTooltip>
+            <UButton
+              size="lg"
+              :color="isRight ? 'success' : 'primary'"
+              trailing-icon="i-lucide-arrow-right"
+              class="ms-auto flex-1 justify-center sm:flex-none sm:px-8"
+              @click="finish()"
+            >
+              Continue
+            </UButton>
+          </template>
+        </div>
+      </div>
+    </Teleport>
+  </div>
 </template>

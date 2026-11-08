@@ -87,7 +87,7 @@ const bandLabel = (b: Band) => (b === 'pre-A1' ? 'Below A1' : b)
 </script>
 
 <template>
-  <div class="space-y-6">
+  <div class="space-y-6 pb-24">
     <div class="flex items-center gap-2">
       <UButton to="/" icon="i-lucide-arrow-left" variant="ghost" color="neutral" aria-label="Back to Today" />
       <h1 class="text-2xl font-bold">French level check</h1>
